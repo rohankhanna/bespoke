@@ -175,6 +175,18 @@
       "source_repo": "strands-agents/docs",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-java",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Java SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-java",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/v/release/open-telemetry/opentelemetry-java?include_prereleases&style=)](https://github.com/open-telemetry/opentelemetry-java/releases/)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "strands-agents/docs",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-java",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/v/release/open-telemetry/opentelemetry-java?include_prereleases&style=)](https://github.com/open-telemetry/opentelemetry-java/releases/)"
     }
   ],
   "candidate_related_terms": [],
@@ -352,11 +370,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "strands-agents/docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-java"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

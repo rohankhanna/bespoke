@@ -1,7 +1,7 @@
 {
   "component": "ilammy/msvc-dev-cmd@v1",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -62,6 +62,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/windows.yml",
       "source_repo": "wireshark/wireshark"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/static_build.yml",
+      "source_repo": "mamba-org/mamba"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI-windows.yml",
+      "source_repo": "danmar/cppcheck"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mozilla/sccache"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "mozilla/sccache"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-msvc.yml",
+      "source_repo": "ocaml/ocaml"
     }
   ]
 }

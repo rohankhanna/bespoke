@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ansii"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d0c-s4vage/lookatme",
+      "status": "candidate-context",
+      "text": "An interactive, terminal-based markdown presenter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d0c-s4vage/lookatme",
+      "status": "candidate-context",
+      "text": "[![Master Build Status](https://travis-ci.org/d0c-s4vage/lookatme.svg?branch=master)](https://travis-ci.org/d0c-s4vage/lookatme)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d0c-s4vage/lookatme",
+      "status": "candidate",
+      "text": "[![Master Build Status](https://travis-ci.org/d0c-s4vage/lookatme.svg?branch=master)](https://travis-ci.org/d0c-s4vage/lookatme)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ansii",
+  "concept_id": "ansii",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "d0c-s4vage/lookatme"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ansii",
+      "sense_id": "ansii#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

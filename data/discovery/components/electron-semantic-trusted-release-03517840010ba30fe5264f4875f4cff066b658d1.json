@@ -1,0 +1,12 @@
+{
+  "component": "electron/semantic-trusted-release@03517840010ba30fe5264f4875f4cff066b658d1",
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "electron/rebuild"
+    }
+  ]
+}

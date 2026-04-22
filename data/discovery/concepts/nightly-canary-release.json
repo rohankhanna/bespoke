@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Nightly Canary Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crewAIInc/crewAI",
+      "status": "candidate-context",
+      "text": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crewAIInc/crewAI",
+      "status": "candidate-context",
+      "text": "Nightly Canary Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crewAIInc/crewAI",
+      "status": "candidate",
+      "text": "Nightly Canary Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22814,
+      "status": "candidate",
+      "text": "dew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22814,
+      "status": "candidate",
+      "text": "fever"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22594,
+      "status": "candidate",
+      "text": "rat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22441,
+      "status": "candidate",
+      "text": "rush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22419,
+      "status": "candidate",
+      "text": "aurora"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nightly Canary Release",
+  "concept_id": "nightly-canary-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "crewAIInc/crewAI"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly Canary Release",
+      "sense_id": "nightly-canary-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

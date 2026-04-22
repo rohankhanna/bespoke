@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Clean Source Cache"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/electron",
+      "status": "candidate-context",
+      "text": ":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/electron",
+      "status": "candidate-context",
+      "text": "Clean Source Cache"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/electron",
+      "status": "candidate",
+      "text": "Clean Source Cache"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26055,
+      "status": "candidate",
+      "text": "windmill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22570,
+      "status": "candidate",
+      "text": "arsenal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22518,
+      "status": "candidate",
+      "text": "hoard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22215,
+      "status": "candidate",
+      "text": "lode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22136,
+      "status": "candidate",
+      "text": "stock"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Clean Source Cache",
+  "concept_id": "clean-source-cache",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/clean-src-cache.yml",
+      "source_repo": "electron/electron"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Clean Source Cache",
+      "sense_id": "clean-source-cache#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

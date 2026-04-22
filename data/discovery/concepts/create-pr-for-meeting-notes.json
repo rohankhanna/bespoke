@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create PR for meeting notes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/conda-forge.github.io",
+      "status": "candidate-context",
+      "text": "The conda-forge website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/conda-forge.github.io",
+      "status": "candidate-context",
+      "text": "Create PR for meeting notes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/conda-forge.github.io",
+      "status": "candidate",
+      "text": "Create PR for meeting notes"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29858,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29858,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29858,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29823,
+      "status": "candidate",
+      "text": "stunt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26164,
+      "status": "candidate",
+      "text": "four-part harmony"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create PR for meeting notes",
+  "concept_id": "create-pr-for-meeting-notes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/meeting-notes.yml",
+      "source_repo": "conda-forge/conda-forge.github.io"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create PR for meeting notes",
+      "sense_id": "create-pr-for-meeting-notes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

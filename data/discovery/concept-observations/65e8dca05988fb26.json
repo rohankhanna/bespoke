@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Go library and CLIs for working with container registries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "GHCR Authentication test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "GHCR Authentication test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18240,
+      "status": "candidate",
+      "text": "proof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18240,
+      "status": "candidate",
+      "text": "testimony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18240,
+      "status": "candidate",
+      "text": "verification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17220,
+      "status": "candidate",
+      "text": "certification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17220,
+      "status": "candidate",
+      "text": "countersign"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GHCR Authentication test",
+      "sense_id": "ghcr-authentication-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ghcr-authentication-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ghcr-authentication-test",
+  "observation_id": "65e8dca05988fb26",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "GHCR Authentication test",
+  "source_context_snippet": "GHCR Authentication test",
+  "source_file": ".github/workflows/ghcr-auth.yaml",
+  "source_repo": "google/go-containerregistry",
+  "source_repo_description": "Go library and CLIs for working with container registries"
+}

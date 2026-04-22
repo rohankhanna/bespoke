@@ -43,13 +43,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "google/protobuf.dart",
-      "target": "dart-lang/ecosystem",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/benchmark.yaml",
       "source_repo": "google/protobuf.dart",
@@ -134,7 +127,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-20T03:18:29.887949+00:00",
+  "fetched_at": "2026-04-22T05:06:32.747089+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -161,7 +154,6 @@
       "size": 401
     }
   ],
-  "metadata_refreshed_at": "2026-04-21T05:17:56.104487+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -176,13 +168,7 @@
     "topics": [],
     "updated_at": "2026-04-01T22:28:23Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "dart-lang/ecosystem",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "benchmarks",

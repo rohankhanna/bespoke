@@ -37,6 +37,42 @@
       "source_repo": "lima-vm/lima",
       "status": "candidate-context",
       "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/RedStone",
+      "status": "candidate-context",
+      "text": "The RedStone repository includes code for preparing extensive datasets used in training large language models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/RedStone",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spotbugs/sonar-findbugs",
+      "status": "candidate-context",
+      "text": "SpotBugs plugin for SonarQube"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotbugs/sonar-findbugs",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crewAIInc/crewAI",
+      "status": "candidate-context",
+      "text": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crewAIInc/crewAI",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
     }
   ],
   "candidate_glosses": [
@@ -49,6 +85,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "lima-vm/lima",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/RedStone",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotbugs/sonar-findbugs",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crewAIInc/crewAI",
       "status": "candidate",
       "text": "\"CodeQL Advanced\""
     }
@@ -124,11 +178,29 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/codeql.yaml",
       "source_repo": "lima-vm/lima"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/RedStone"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "spotbugs/sonar-findbugs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "crewAIInc/crewAI"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy website on GitHub Pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rsms/inter",
+      "status": "candidate-context",
+      "text": "The Inter font family"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rsms/inter",
+      "status": "candidate-context",
+      "text": "Deploy website on GitHub Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rsms/inter",
+      "status": "candidate",
+      "text": "Deploy website on GitHub Pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25723,
+      "status": "candidate",
+      "text": "php"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25723,
+      "status": "candidate",
+      "text": "wiki"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18615,
+      "status": "candidate",
+      "text": "site"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18600,
+      "status": "candidate",
+      "text": "siting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18595,
+      "status": "candidate",
+      "text": "beeper"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy website on GitHub Pages",
+  "concept_id": "deploy-website-on-github-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "rsms/inter"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy website on GitHub Pages",
+      "sense_id": "deploy-website-on-github-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast and lightweight DNS proxy as ad-blocker for local network with many features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/0xERR0R/blocky/makefile.yml \"Make\")](https://github.com/0xERR0R/blocky/actions/workflows/makefile.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/0xERR0R/blocky/makefile.yml \"Make\")](https://github.com/0xERR0R/blocky/actions/workflows/makefile.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994137,
+      "status": "candidate",
+      "text": "adblocking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994136,
+      "status": "candidate",
+      "text": "blocker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994135,
+      "status": "candidate",
+      "text": "banner ad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994134,
+      "status": "candidate",
+      "text": "soft-block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994133,
+      "status": "candidate",
+      "text": "anonymizer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "adblocker",
+      "sense_id": "adblocker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "adblocker",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "adblocker",
+  "observation_id": "705b9c93e9281bfa",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "adblocker",
+  "source_context_snippet": "[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/0xERR0R/blocky/makefile.yml \"Make\")](https://github.com/0xERR0R/blocky/actions/workflows/makefile.yml)",
+  "source_file": null,
+  "source_repo": "0xERR0R/blocky",
+  "source_repo_description": "Fast and lightweight DNS proxy as ad-blocker for local network with many features"
+}

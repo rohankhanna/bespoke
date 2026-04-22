@@ -1,0 +1,229 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-specific-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-specific-build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-specific-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-specific-build.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-specific-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-platform-build.yaml",
+      "source_repo": "activeviam/jdk4py",
+      "target": "Cross-platform build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-specific-build.yaml",
+      "source_repo": "activeviam/jdk4py",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-specific-build.yaml",
+      "source_repo": "activeviam/jdk4py",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-specific-build.yaml",
+      "source_repo": "activeviam/jdk4py",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/platform-specific-build.yaml",
+      "source_repo": "activeviam/jdk4py",
+      "target": "Platform-specific build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "activeviam/jdk4py",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "activeviam/jdk4py",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "activeviam/jdk4py",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "activeviam/jdk4py",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "activeviam/jdk4py",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "activeviam/jdk4py",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "activeviam/jdk4py",
+      "target": "python-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "activeviam/jdk4py",
+      "target": "runtime",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:57:14.654532+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 953
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1438
+    },
+    {
+      "path": ".github/workflows/cross-platform-build.yaml",
+      "size": 425
+    },
+    {
+      "path": ".github/workflows/platform-specific-build.yaml",
+      "size": 1416
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 1319
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 493
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A JDK shipped in a Python package",
+    "fork": false,
+    "full_name": "activeviam/jdk4py",
+    "html_url": "https://github.com/activeviam/jdk4py",
+    "language": "Python",
+    "pushed_at": "2026-04-16T12:56:09Z",
+    "stargazers_count": 27,
+    "topics": [
+      "java",
+      "jdk",
+      "jre",
+      "jvm",
+      "python-library",
+      "runtime"
+    ],
+    "updated_at": "2026-04-16T12:56:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Cross-platform build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-platform-build.yaml",
+      "term": "Cross-platform build"
+    },
+    {
+      "context_snippet": "Platform-specific build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/platform-specific-build.yaml",
+      "term": "Platform-specific build"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "A JDK shipped in a Python package.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "A JDK shipped in a Python package.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-library"
+    },
+    {
+      "context_snippet": "A JDK shipped in a Python package.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "runtime"
+    }
+  ]
+}

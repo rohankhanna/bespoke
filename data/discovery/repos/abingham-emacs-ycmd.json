@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abingham/emacs-ycmd",
+      "target": "valloric/ycmd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abingham/emacs-ycmd",
+      "target": "valloric/youcompleteme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abingham/emacs-ycmd",
+      "target": "flycheck/flycheck",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:59:03.928500+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10784
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Emacs client for ycmd, the code completion system.",
+    "fork": false,
+    "full_name": "abingham/emacs-ycmd",
+    "html_url": "https://github.com/abingham/emacs-ycmd",
+    "language": "Emacs Lisp",
+    "pushed_at": "2022-01-20T19:04:34Z",
+    "stargazers_count": 383,
+    "topics": [],
+    "updated_at": "2026-04-09T16:59:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flycheck/flycheck",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "valloric/ycmd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "valloric/youcompleteme",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

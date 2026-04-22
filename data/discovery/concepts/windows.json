@@ -214,6 +214,66 @@
       "source_repo": "akavel/rsrc",
       "status": "candidate-context",
       "text": "rsrc - Tool for embedding binary resources in Go programs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dathere/qsv-easy-windows-installer",
+      "status": "candidate-context",
+      "text": "\u26a1 Easy installer for qsv on Windows devices. Simply click the app's Install button and wait a few seconds to get the latest version of qsv installed to your PATH."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dathere/qsv-easy-windows-installer",
+      "status": "candidate-context",
+      "text": "![image](https://github.com/user-attachments/assets/3ccc6cad-04ab-4288-9a41-9afadaa1fcfc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-windowing/winit",
+      "status": "candidate-context",
+      "text": "Window handling library in pure Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-windowing/winit",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/winit.svg)](https://crates.io/crates/winit)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preservim/tagbar",
+      "status": "candidate-context",
+      "text": "Vim plugin that displays tags in a window, ordered by scope"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preservim/tagbar",
+      "status": "candidate-context",
+      "text": "[![Vint](https://github.com/preservim/tagbar/workflows/Vint/badge.svg)](https://github.com/preservim/tagbar/actions?workflow=Vint)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flutter/flutter",
+      "status": "candidate-context",
+      "text": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flutter/flutter",
+      "status": "candidate-context",
+      "text": "<a href=\"https://flutter.dev/\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coreybutler/node-windows",
+      "status": "candidate-context",
+      "text": "Windows support for Node.JS scripts (daemons, eventlog, UAC, etc)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coreybutler/node-windows",
+      "status": "candidate-context",
+      "text": "![NPM version](https://img.shields.io/npm/v/node-windows?label=node-windows&logo=npm&style=for-the-badge)"
     }
   ],
   "candidate_glosses": [
@@ -318,6 +378,36 @@
       "source_repo": "akavel/rsrc",
       "status": "candidate",
       "text": "rsrc - Tool for embedding binary resources in Go programs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dathere/qsv-easy-windows-installer",
+      "status": "candidate",
+      "text": "![image](https://github.com/user-attachments/assets/3ccc6cad-04ab-4288-9a41-9afadaa1fcfc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-windowing/winit",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/winit.svg)](https://crates.io/crates/winit)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preservim/tagbar",
+      "status": "candidate",
+      "text": "[![Vint](https://github.com/preservim/tagbar/workflows/Vint/badge.svg)](https://github.com/preservim/tagbar/actions?workflow=Vint)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flutter/flutter",
+      "status": "candidate",
+      "text": "<a href=\"https://flutter.dev/\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coreybutler/node-windows",
+      "status": "candidate",
+      "text": "![NPM version](https://img.shields.io/npm/v/node-windows?label=node-windows&logo=npm&style=for-the-badge)"
     }
   ],
   "candidate_related_terms": [
@@ -481,11 +571,59 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "akavel/rsrc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "dathere/qsv-easy-windows-installer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "rust-windowing/winit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "rust-lang/rustfmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "flutter/flutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/node-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

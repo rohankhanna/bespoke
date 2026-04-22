@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "derekstavis/plugin-nvm",
+      "target": "creationix/nvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "derekstavis/plugin-nvm",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "derekstavis/plugin-nvm",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "derekstavis/plugin-nvm",
+      "target": "E2E Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "derekstavis/plugin-nvm",
+      "target": "fish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "derekstavis/plugin-nvm",
+      "target": "fish-shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "derekstavis/plugin-nvm",
+      "target": "node-js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "derekstavis/plugin-nvm",
+      "target": "version-manager",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:15:15.916356+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1550
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1632
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Node version manager wrapper for Fish shell",
+    "fork": false,
+    "full_name": "derekstavis/plugin-nvm",
+    "html_url": "https://github.com/derekstavis/plugin-nvm",
+    "language": "Shell",
+    "pushed_at": "2024-07-12T02:04:29Z",
+    "stargazers_count": 235,
+    "topics": [
+      "fish",
+      "fish-shell",
+      "node-js",
+      "nvm",
+      "version-manager"
+    ],
+    "updated_at": "2026-03-03T05:30:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "creationix/nvm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"E2E Test\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "E2E Test"
+    },
+    {
+      "context_snippet": "<img src=\"https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg\" align=\"left\" width=\"144px\" height=\"144px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fish"
+    },
+    {
+      "context_snippet": "<img src=\"https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg\" align=\"left\" width=\"144px\" height=\"144px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fish-shell"
+    },
+    {
+      "context_snippet": "<img src=\"https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg\" align=\"left\" width=\"144px\" height=\"144px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node-js"
+    },
+    {
+      "context_snippet": "<img src=\"https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg\" align=\"left\" width=\"144px\" height=\"144px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "version-manager"
+    }
+  ]
+}

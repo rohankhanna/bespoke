@@ -8,20 +8,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "triton-lang/triton",
-      "target": "llvm/llvm-project",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "triton-lang/triton",
-      "target": "redhat-et/triton-dev-containers",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-macos.yml",
       "source_repo": "triton-lang/triton",
@@ -225,6 +211,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "generated_at": "2026-04-22T04:49:29.633207+00:00",
   "source_repo": "triton-lang/triton"
 }

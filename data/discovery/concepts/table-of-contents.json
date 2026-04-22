@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "table-of-contents"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hukkin/mdformat-toc",
+      "status": "candidate-context",
+      "text": "Mdformat plugin to generate a table of contents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hukkin/mdformat-toc",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/hukkin/mdformat-toc/actions/workflows/tests.yaml/badge.svg?branch=master)](https://github.com/hukkin/mdformat-toc/actions?query=workflow%3ATests+branch%3Amaster+event%3Apush)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ekalinin/github-markdown-toc",
+      "status": "candidate-context",
+      "text": "Easy TOC creation for GitHub README.md"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekalinin/github-markdown-toc",
+      "status": "candidate-context",
+      "text": "gh-md-toc"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hukkin/mdformat-toc",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/hukkin/mdformat-toc/actions/workflows/tests.yaml/badge.svg?branch=master)](https://github.com/hukkin/mdformat-toc/actions?query=workflow%3ATests+branch%3Amaster+event%3Apush)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekalinin/github-markdown-toc",
+      "status": "candidate",
+      "text": "gh-md-toc"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "table-of-contents",
+  "concept_id": "table-of-contents",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "hukkin/mdformat-toc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "ekalinin/github-markdown-toc"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "table-of-contents",
+      "sense_id": "table-of-contents#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

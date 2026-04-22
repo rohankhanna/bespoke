@@ -1,0 +1,480 @@
+{
+  "components": [
+    {
+      "component": "technote-space/toc-generator@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TOC.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "rlespinasse/github-slug-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-binary-release.yml"
+    },
+    {
+      "component": "wangyoucao577/go-release-action@v1.30",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-binary-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "akhilmhdh/contributors-readme-action@v2.3.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reademe-contributors.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "eryajf/awesome-github-profile-readme-chinese",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "eryajf/awesome-chatgpt-answer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "avast/retry-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "bonfy/github-trending",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TOC.yml",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "technote-space/toc-generator@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TOC.yml",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "Automatic Generation TOC",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "rlespinasse/github-slug-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "docker/setup-qemu-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "docker/build-push-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "build docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-binary-release.yml",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-binary-release.yml",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "wangyoucao577/go-release-action@v1.30",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-binary-release.yml",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "Lint Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reademe-contributors.yml",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "akhilmhdh/contributors-readme-action@v2.3.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reademe-contributors.yml",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "Generate a list of contributors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "release-drafter/release-drafter@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "Release Drafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "chatgpt-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "connect-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "dingtalk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "dingtalk-robot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "go-gpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:17:05.694794+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27092
+    },
+    {
+      "path": "Dockerfile",
+      "size": 496
+    },
+    {
+      "path": "go.mod",
+      "size": 3784
+    },
+    {
+      "path": ".github/workflows/TOC.yml",
+      "size": 242
+    },
+    {
+      "path": ".github/workflows/docker-image.yml",
+      "size": 2362
+    },
+    {
+      "path": ".github/workflows/go-binary-release.yml",
+      "size": 787
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 1169
+    },
+    {
+      "path": ".github/workflows/reademe-contributors.yml",
+      "size": 452
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1352
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udf92 \u9489\u9489 & \ud83e\udd16 GPT-3.5 \u8ba9\u4f60\u7684\u5de5\u4f5c\u6548\u7387\u76f4\u63a5\u8d77\u98de \ud83d\ude80 \u79c1\u804a\u7fa4\u804a\u65b9\u5f0f\u3001\u5355\u804a\u4e32\u804a\u6a21\u5f0f\u3001\u89d2\u8272\u626e\u6f14\u3001\u56fe\u7247\u521b\u4f5c \ud83d\ude80",
+    "fork": false,
+    "full_name": "eryajf/chatgpt-dingtalk",
+    "html_url": "https://github.com/eryajf/chatgpt-dingtalk",
+    "language": "Go",
+    "pushed_at": "2026-04-22T01:50:29Z",
+    "stargazers_count": 2115,
+    "topics": [
+      "chatgpt",
+      "chatgpt-api",
+      "connect-ai",
+      "dingtalk",
+      "dingtalk-robot",
+      "go",
+      "go-gpt",
+      "golang",
+      "openai"
+    ],
+    "updated_at": "2026-04-22T01:50:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "avast/retry-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bonfy/github-trending",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eryajf/awesome-chatgpt-answer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eryajf/awesome-github-profile-readme-chinese",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Automatic Generation TOC",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TOC.yml",
+      "term": "Automatic Generation TOC"
+    },
+    {
+      "context_snippet": "build docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "term": "build docker image"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-binary-release.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "Lint Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "Lint Check"
+    },
+    {
+      "context_snippet": "Generate a list of contributors",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reademe-contributors.yml",
+      "term": "Generate a list of contributors"
+    },
+    {
+      "context_snippet": "Release Drafter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release Drafter"
+    },
+    {
+      "context_snippet": "<p align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<p align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt-api"
+    },
+    {
+      "context_snippet": "<p align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "connect-ai"
+    },
+    {
+      "context_snippet": "<p align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dingtalk"
+    },
+    {
+      "context_snippet": "<p align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dingtalk-robot"
+    },
+    {
+      "context_snippet": "<p align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "go-gpt"
+    },
+    {
+      "context_snippet": "<p align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    }
+  ]
+}

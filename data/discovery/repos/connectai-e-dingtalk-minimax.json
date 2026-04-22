@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConnectAI-E/Dingtalk-Minimax",
+      "target": "connect-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConnectAI-E/Dingtalk-Minimax",
+      "target": "dingtalk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConnectAI-E/Dingtalk-Minimax",
+      "target": "dingtalk-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ConnectAI-E/Dingtalk-Minimax",
+      "target": "minimax",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:16:55.299384+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udcb8 \u9489\u9489 \u00d7 MiniMax =  \u4e3a\u60a8\u7684\u51b3\u7b56\u751f\u6210\u6709\u4ef7\u503c\u7684\u89e3\u51b3\u65b9\u6848",
+    "fork": false,
+    "full_name": "ConnectAI-E/Dingtalk-Minimax",
+    "html_url": "https://github.com/ConnectAI-E/Dingtalk-Minimax",
+    "language": null,
+    "pushed_at": "2023-05-31T05:33:01Z",
+    "stargazers_count": 1,
+    "topics": [
+      "connect-ai",
+      "dingtalk",
+      "dingtalk-bot",
+      "minimax"
+    ],
+    "updated_at": "2023-06-16T02:31:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\ud83d\udcb8 \u9489\u9489 \u00d7 MiniMax = \u4e3a\u60a8\u7684\u51b3\u7b56\u751f\u6210\u6709\u4ef7\u503c\u7684\u89e3\u51b3\u65b9\u6848",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "connect-ai"
+    },
+    {
+      "context_snippet": "\ud83d\udcb8 \u9489\u9489 \u00d7 MiniMax = \u4e3a\u60a8\u7684\u51b3\u7b56\u751f\u6210\u6709\u4ef7\u503c\u7684\u89e3\u51b3\u65b9\u6848",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dingtalk"
+    },
+    {
+      "context_snippet": "\ud83d\udcb8 \u9489\u9489 \u00d7 MiniMax = \u4e3a\u60a8\u7684\u51b3\u7b56\u751f\u6210\u6709\u4ef7\u503c\u7684\u89e3\u51b3\u65b9\u6848",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dingtalk-bot"
+    },
+    {
+      "context_snippet": "\ud83d\udcb8 \u9489\u9489 \u00d7 MiniMax = \u4e3a\u60a8\u7684\u51b3\u7b56\u751f\u6210\u6709\u4ef7\u503c\u7684\u89e3\u51b3\u65b9\u6848",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minimax"
+    }
+  ]
+}

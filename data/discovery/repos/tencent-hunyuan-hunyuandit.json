@@ -5,6 +5,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Tencent-Hunyuan/HunyuanDiT",
+      "target": "ttplanetpig/comfyui_ttp_cn_preprocessor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanDiT",
       "target": "comfyanonymous/comfyui",
       "target_type": "repository"
     },
@@ -12,7 +19,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Tencent-Hunyuan/HunyuanDiT",
-      "target": "centaurusalpha/dialoggen",
+      "target": "tencent/tencent.github.io",
       "target_type": "repository"
     },
     {
@@ -21,16 +28,9 @@
       "source_repo": "Tencent-Hunyuan/HunyuanDiT",
       "target": "tencent/hunyuandit",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Tencent-Hunyuan/HunyuanDiT",
-      "target": "apache/arrow",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-22T01:12:19.831162+00:00",
+  "fetched_at": "2026-04-22T05:24:50.019003+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -58,22 +58,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "apache/arrow",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "centaurusalpha/dialoggen",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "comfyanonymous/comfyui",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
       "full_name": "tencent/hunyuandit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/tencent.github.io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ttplanetpig/comfyui_ttp_cn_preprocessor",
       "source_file": "README.md"
     }
   ],

@@ -791,6 +791,144 @@
       "source_repo": "8144225309/superscalar-wallet",
       "status": "candidate-context",
       "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f-dangel/backpack",
+      "status": "candidate-context",
+      "text": "BackPACK - a backpropagation package built on top of PyTorch which efficiently computes quantities other than the gradient."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f-dangel/backpack",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "in-toto/attestation",
+      "status": "candidate-context",
+      "text": "in-toto Attestation Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "in-toto/attestation",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmcv",
+      "status": "candidate-context",
+      "text": "OpenMMLab Computer Vision Foundation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmcv",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-js-contrib",
+      "status": "candidate-context",
+      "text": "OpenTelemetry instrumentation for JavaScript modules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-js-contrib",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/python-pubsublite",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zlib-ng/zlib-ng",
+      "status": "candidate-context",
+      "text": "zlib replacement with optimizations for \"next generation\" systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zlib-ng/zlib-ng",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langbot-app/LangBot",
+      "status": "candidate-context",
+      "text": "Production-grade platform for building agentic IM bots - \u751f\u4ea7\u7ea7\u591a\u5e73\u53f0\u667a\u80fd\u673a\u5668\u4eba\u5f00\u53d1\u5e73\u53f0. \u63d0\u4f9b Agent\u3001\u77e5\u8bc6\u5e93\u7f16\u6392\u3001\u63d2\u4ef6\u7cfb\u7edf / Bots for Discord / Slack / LINE / Telegram / WeChat(\u4f01\u4e1a\u5fae\u4fe1, \u4f01\u5fae\u667a\u80fd\u673a\u5668\u4eba, \u516c\u4f17\u53f7) / \u98de\u4e66 / \u9489\u9489 / QQ / Satori e.g. Integrated with ChatGPT(GPT), DeepSeek, Dify, n8n, Langflow, Coze, Claude, Gemini, MiniMax, Ollama, SiliconFlow, Moonshot, GLM, clawdbot / openclaw"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langbot-app/LangBot",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dolfies/discord.py-self",
+      "status": "candidate-context",
+      "text": "A fork of the popular discord.py for user accounts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dolfies/discord.py-self",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crewAIInc/crewAI",
+      "status": "candidate-context",
+      "text": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crewAIInc/crewAI",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/freeze",
+      "status": "candidate-context",
+      "text": "Generate images of code and terminal output \ud83d\udcf8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/freeze",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/vhs",
+      "status": "candidate-context",
+      "text": "Your CLI home video recorder \ud83d\udcfc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/vhs",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-vm/actions",
+      "status": "candidate-context",
+      "text": "GitHub Actions for the asdf version manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/actions",
+      "status": "candidate-context",
+      "text": "lint"
     }
   ],
   "candidate_glosses": [
@@ -1183,6 +1321,78 @@
       "source_repo": "8144225309/superscalar-wallet",
       "status": "candidate",
       "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f-dangel/backpack",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "in-toto/attestation",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmcv",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-js-contrib",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/python-pubsublite",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zlib-ng/zlib-ng",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langbot-app/LangBot",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dolfies/discord.py-self",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crewAIInc/crewAI",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/freeze",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/vhs",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/actions",
+      "status": "candidate",
+      "text": "lint"
     }
   ],
   "candidate_related_terms": [
@@ -1765,11 +1975,101 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "8144225309/superscalar-wallet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "f-dangel/backpack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "in-toto/attestation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmcv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-telemetry/opentelemetry-js-contrib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "googleapis/python-pubsublite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "zlib-ng/zlib-ng"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "langbot-app/LangBot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "dolfies/discord.py-self"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "crewAIInc/crewAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/freeze"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/vhs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "asdf-vm/actions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/semantic-pr.yaml",
+      "source_repo": "asdf-vm/actions"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

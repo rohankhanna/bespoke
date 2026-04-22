@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "website"
+    "website",
+    "Website"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -33,6 +34,30 @@
       "source_repo": "reactjs/react.dev",
       "status": "candidate-context",
       "text": "This repo contains the source code and documentation powering [react.dev](https://react.dev/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/conda-forge.github.io",
+      "status": "candidate-context",
+      "text": "The conda-forge website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/conda-forge.github.io",
+      "status": "candidate-context",
+      "text": "Website"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babel/website",
+      "status": "candidate-context",
+      "text": ":globe_with_meridians: The Babel documentation website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/website",
+      "status": "candidate-context",
+      "text": "This is the source for the [babeljs.io](https://babeljs.io) website; feel free to suggest changes to our docs!"
     }
   ],
   "candidate_glosses": [
@@ -47,6 +72,18 @@
       "source_repo": "reactjs/react.dev",
       "status": "candidate",
       "text": "This repo contains the source code and documentation powering [react.dev](https://react.dev/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/conda-forge.github.io",
+      "status": "candidate",
+      "text": "Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/website",
+      "status": "candidate",
+      "text": "This is the source for the [babeljs.io](https://babeljs.io) website; feel free to suggest changes to our docs!"
     }
   ],
   "candidate_related_terms": [
@@ -120,11 +157,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "reactjs/react.dev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "conda-forge/conda-forge.github.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "babel/website"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

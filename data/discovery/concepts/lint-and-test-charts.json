@@ -19,12 +19,30 @@
       "source_repo": "helm/charts-repo-actions-demo",
       "status": "candidate-context",
       "text": "Lint and Test Charts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jtblin/kube2iam",
+      "status": "candidate-context",
+      "text": "kube2iam  provides different AWS IAM roles for pods running on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jtblin/kube2iam",
+      "status": "candidate-context",
+      "text": "Lint and Test Charts"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "helm/charts-repo-actions-demo",
+      "status": "candidate",
+      "text": "Lint and Test Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jtblin/kube2iam",
       "status": "candidate",
       "text": "Lint and Test Charts"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": ".github/workflows/lint-test.yaml",
       "source_repo": "helm/charts-repo-actions-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "jtblin/kube2iam"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

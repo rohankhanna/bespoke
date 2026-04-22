@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- Banner Image -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- Banner Image -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026792,
+      "status": "candidate",
+      "text": "respond"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994168,
+      "status": "candidate",
+      "text": "oppose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033910,
+      "status": "candidate",
+      "text": "responding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033608,
+      "status": "candidate",
+      "text": "reply"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033553,
+      "status": "candidate",
+      "text": "response"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "react",
+      "sense_id": "react#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18036,
+      "status": "candidate",
+      "text": "oppose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14043,
+      "status": "candidate",
+      "text": "respond"
+    }
+  ],
+  "concept_id": "react",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "react",
+  "observation_id": "f53ccc2e207effd0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "react",
+  "source_context_snippet": "<!-- Banner Image -->",
+  "source_file": null,
+  "source_repo": "expo/expo",
+  "source_repo_description": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web."
+}

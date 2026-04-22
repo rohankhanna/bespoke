@@ -103,6 +103,30 @@
       "source_repo": "Helicone/helicone",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexpinel/Dot",
+      "status": "candidate-context",
+      "text": "Text-To-Speech, RAG, and LLMs. All local!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpinel/Dot",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leezhuuuuu/Code-Interpreter-Api",
+      "status": "candidate-context",
+      "text": "Committed to being the best code interpreter in the world."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leezhuuuuu/Code-Interpreter-Api",
+      "status": "candidate-context",
+      "text": "[English](https://github.com/leezhuuuuu/Code-Interpreter-Api/blob/main/README_EN.md) | [\u4e2d\u6587](https://github.com/leezhuuuuu/Code-Interpreter-Api/blob/main/README.md)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "Helicone/helicone",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpinel/Dot",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leezhuuuuu/Code-Interpreter-Api",
+      "status": "candidate",
+      "text": "[English](https://github.com/leezhuuuuu/Code-Interpreter-Api/blob/main/README_EN.md) | [\u4e2d\u6587](https://github.com/leezhuuuuu/Code-Interpreter-Api/blob/main/README.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -238,11 +274,29 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": null,
       "source_repo": "Helicone/helicone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "alexpinel/Dot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "leezhuuuuu/Code-Interpreter-Api"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

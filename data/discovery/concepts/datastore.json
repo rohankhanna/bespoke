@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "datastore"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dathere/datapusher-plus",
+      "status": "candidate-context",
+      "text": "Push data into the CKAN Datastore fast & reliably while inferring, calculating & suggesting metadata using Jinja2 Formulas defined in your scheming metadata schema. It pushes real good!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dathere/datapusher-plus",
+      "status": "candidate-context",
+      "text": "[CKAN Service Provider]: https://github.com/ckan/ckan-service-provider"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dathere/datapusher-plus",
+      "status": "candidate",
+      "text": "[CKAN Service Provider]: https://github.com/ckan/ckan-service-provider"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022847,
+      "status": "candidate",
+      "text": "data store"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022846,
+      "status": "candidate",
+      "text": "datastructure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022845,
+      "status": "candidate",
+      "text": "data source"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022844,
+      "status": "candidate",
+      "text": "database"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022843,
+      "status": "candidate",
+      "text": "harddrive"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "datastore",
+  "concept_id": "datastore",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "dathere/datapusher-plus"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "datastore",
+      "sense_id": "datastore#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

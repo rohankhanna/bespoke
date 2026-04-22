@@ -1,0 +1,578 @@
+{
+  "components": [
+    {
+      "component": "@astrojs/markdown-remark",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@astrojs/rss",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@astrojs/starlight",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@lunariajs/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@lunariajs/starlight",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/jsdom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/json-schema",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "astro",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "astro-d2",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "astro-feelback",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "astrojs-service-worker",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsdom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-astro",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rehype-autolink-headings",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sass",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sharp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shiki",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "starlight-blog",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "starlight-links-validator",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "starlight-sidebar-topics",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "tauri-apps/automation/.github/workflows/congrats.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/congrats.yml"
+    },
+    {
+      "component": "actions/labeler@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "runs-on:",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/priority.yml"
+    },
+    {
+      "component": "runs-on:",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/status.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/syncSponsorsData.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/syncSponsorsData.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/syncSponsorsData.yml"
+    },
+    {
+      "component": "tauri-apps/create-pull-request@v3.4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/syncSponsorsData.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "@astrojs/markdown-remark",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "@astrojs/rss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "@astrojs/starlight",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "@lunariajs/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "@lunariajs/starlight",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "@types/jsdom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "@types/json-schema",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "astro",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "astro-d2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "astro-feelback",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "astrojs-service-worker",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "jsdom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "prettier-plugin-astro",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "rehype-autolink-headings",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "sass",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "sharp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "shiki",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "starlight-blog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "starlight-links-validator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "starlight-sidebar-topics",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign.yml",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "Auto Assign",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "pnpm/action-setup@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "Check formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/congrats.yml",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "tauri-apps/automation/.github/workflows/congrats.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/congrats.yml",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "Congrats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "actions/labeler@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/priority.yml",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "runs-on:",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/priority.yml",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "Priority Updater",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/status.yml",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "runs-on:",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/status.yml",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "Status Updater",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/syncSponsorsData.yml",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/syncSponsorsData.yml",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "pnpm/action-setup@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/syncSponsorsData.yml",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/syncSponsorsData.yml",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "tauri-apps/create-pull-request@v3.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/syncSponsorsData.yml",
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "Sync Sponsors Data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tauri-apps/tauri-docs",
+      "target": "tauri",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:10:01.767836+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1784
+    },
+    {
+      "path": "package.json",
+      "size": 2226
+    },
+    {
+      "path": ".github/workflows/assign.yml",
+      "size": 1210
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "size": 488
+    },
+    {
+      "path": ".github/workflows/congrats.yml",
+      "size": 203
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 620
+    },
+    {
+      "path": ".github/workflows/priority.yml",
+      "size": 2209
+    },
+    {
+      "path": ".github/workflows/status.yml",
+      "size": 3940
+    },
+    {
+      "path": ".github/workflows/syncSponsorsData.yml",
+      "size": 1459
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v2",
+    "description": "The source for all Tauri project documentation.",
+    "fork": false,
+    "full_name": "tauri-apps/tauri-docs",
+    "html_url": "https://github.com/tauri-apps/tauri-docs",
+    "language": "MDX",
+    "pushed_at": "2026-04-22T00:18:05Z",
+    "stargazers_count": 1078,
+    "topics": [
+      "documentation",
+      "tauri"
+    ],
+    "updated_at": "2026-04-22T00:18:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Auto Assign'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign.yml",
+      "term": "Auto Assign"
+    },
+    {
+      "context_snippet": "'Check formatting'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "term": "Check formatting"
+    },
+    {
+      "context_snippet": "'Congrats'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/congrats.yml",
+      "term": "Congrats"
+    },
+    {
+      "context_snippet": "'Pull Request Labeler'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "'Priority Updater'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/priority.yml",
+      "term": "Priority Updater"
+    },
+    {
+      "context_snippet": "'Status Updater'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/status.yml",
+      "term": "Status Updater"
+    },
+    {
+      "context_snippet": "'Sync Sponsors Data'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/syncSponsorsData.yml",
+      "term": "Sync Sponsors Data"
+    },
+    {
+      "context_snippet": "![README Banner](https://github.com/tauri-apps/tauri-docs/assets/61861940/ab6fd2f5-07b7-46b2-9125-77cba0064c1b)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "![README Banner](https://github.com/tauri-apps/tauri-docs/assets/61861940/ab6fd2f5-07b7-46b2-9125-77cba0064c1b)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tauri"
+    }
+  ]
+}

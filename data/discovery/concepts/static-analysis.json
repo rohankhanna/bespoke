@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "static-analysis"
+    "static-analysis",
+    "Static Analysis"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -91,6 +94,42 @@
       "source_repo": "google/error-prone",
       "status": "candidate-context",
       "text": "Error Prone is a static analysis tool for Java that catches common programming"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danmar/cppcheck",
+      "status": "candidate-context",
+      "text": "static analysis of C/C++ code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danmar/cppcheck",
+      "status": "candidate-context",
+      "text": "pcre,pfultz2/pcre@8.45 -H sha256:d6f7182602a775a7d500a0cedca6449af0400c6493951513046d17615ed0bf11"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/spotbugs-intellij-plugin",
+      "status": "candidate-context",
+      "text": "The SpotBugs Plugin for IntelliJ IDEA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/spotbugs-intellij-plugin",
+      "status": "candidate-context",
+      "text": "[![team JetBrains project](https://jb.gg/badges/team.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zlib-ng/zlib-ng",
+      "status": "candidate-context",
+      "text": "zlib replacement with optimizations for \"next generation\" systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zlib-ng/zlib-ng",
+      "status": "candidate-context",
+      "text": "Static Analysis"
     }
   ],
   "candidate_glosses": [
@@ -129,9 +168,63 @@
       "source_repo": "google/error-prone",
       "status": "candidate",
       "text": "Error Prone is a static analysis tool for Java that catches common programming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danmar/cppcheck",
+      "status": "candidate",
+      "text": "pcre,pfultz2/pcre@8.45 -H sha256:d6f7182602a775a7d500a0cedca6449af0400c6493951513046d17615ed0bf11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/spotbugs-intellij-plugin",
+      "status": "candidate",
+      "text": "[![team JetBrains project](https://jb.gg/badges/team.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zlib-ng/zlib-ng",
+      "status": "candidate",
+      "text": "Static Analysis"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36042,
+      "status": "candidate",
+      "text": "systems analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36041,
+      "status": "candidate",
+      "text": "analyzation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36040,
+      "status": "candidate",
+      "text": "data analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36039,
+      "status": "candidate",
+      "text": "structured analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36038,
+      "status": "candidate",
+      "text": "analytical review"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "static-analysis",
   "concept_id": "static-analysis",
@@ -190,11 +283,29 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "google/error-prone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "danmar/cppcheck"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/spotbugs-intellij-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/analyze.yml",
+      "source_repo": "zlib-ng/zlib-ng"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

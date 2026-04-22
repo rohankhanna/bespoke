@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Fast Cross-Platform Package Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![mamba header image](docs/assets/mamba_header.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![mamba header image](docs/assets/mamba_header.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "conda",
+      "sense_id": "conda#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "conda",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "conda",
+  "observation_id": "ad0b3e0a78c05eaa",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "conda",
+  "source_context_snippet": "![mamba header image](docs/assets/mamba_header.png)",
+  "source_file": null,
+  "source_repo": "mamba-org/mamba",
+  "source_repo_description": "The Fast Cross-Platform Package Manager"
+}

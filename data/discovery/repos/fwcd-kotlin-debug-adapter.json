@@ -1,0 +1,218 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fwcd/kotlin-debug-adapter",
+      "target": "fwcd/vscode-kotlin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fwcd/kotlin-debug-adapter",
+      "target": "fwcd/kotlin-quick-start",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "fwcd/kotlin-debug-adapter",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "fwcd/kotlin-debug-adapter",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "fwcd/kotlin-debug-adapter",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "fwcd/kotlin-debug-adapter",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "fwcd/kotlin-debug-adapter",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "fwcd/kotlin-debug-adapter",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "fwcd/kotlin-debug-adapter",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "fwcd/kotlin-debug-adapter",
+      "target": "Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fwcd/kotlin-debug-adapter",
+      "target": "debug-adapter-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fwcd/kotlin-debug-adapter",
+      "target": "debugger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fwcd/kotlin-debug-adapter",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fwcd/kotlin-debug-adapter",
+      "target": "vscode-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:14:08.510135+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1409
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 474
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 1023
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Kotlin/JVM debugging for any editor/IDE using the Debug Adapter Protocol",
+    "fork": false,
+    "full_name": "fwcd/kotlin-debug-adapter",
+    "html_url": "https://github.com/fwcd/kotlin-debug-adapter",
+    "language": "Kotlin",
+    "pushed_at": "2024-08-13T16:42:06Z",
+    "stargazers_count": 149,
+    "topics": [
+      "debug-adapter-protocol",
+      "debugger",
+      "kotlin",
+      "vscode-extension"
+    ],
+    "updated_at": "2026-04-10T20:43:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fwcd/kotlin-quick-start",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fwcd/vscode-kotlin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/fwcd/kotlin-debug-adapter)](https://github.com/fwcd/kotlin-debug-adapter/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debug-adapter-protocol"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/fwcd/kotlin-debug-adapter)](https://github.com/fwcd/kotlin-debug-adapter/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugger"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/fwcd/kotlin-debug-adapter)](https://github.com/fwcd/kotlin-debug-adapter/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/github/release/fwcd/kotlin-debug-adapter)](https://github.com/fwcd/kotlin-debug-adapter/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode-extension"
+    }
+  ]
+}

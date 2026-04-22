@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Android Unit Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Android Unit Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22617,
+      "status": "candidate",
+      "text": "cpu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22606,
+      "status": "candidate",
+      "text": "brain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22606,
+      "status": "candidate",
+      "text": "brains"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19838,
+      "status": "candidate",
+      "text": "star"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16384,
+      "status": "candidate",
+      "text": "bot"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Android Unit Tests",
+      "sense_id": "android-unit-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "android-unit-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "android-unit-tests",
+  "observation_id": "ddcc0c6c96b69102",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "Android Unit Tests",
+  "source_context_snippet": "Android Unit Tests",
+  "source_file": ".github/workflows/android-unit-tests.yml",
+  "source_repo": "expo/expo",
+  "source_repo_description": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web."
+}

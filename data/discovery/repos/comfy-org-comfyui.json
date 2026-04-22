@@ -1,0 +1,353 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-node-template.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-ai-co-authors.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-line-endings.yml"
+    },
+    {
+      "component": "comfy-org/comfy-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pullrequest-ci-run.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pullrequest-ci-run.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "badges/shields",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "comfy-org/comfyui_frontend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "comfy-org/comfyui-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "alexisrolland/docker-openssl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-node-template.yml",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api-node-template.yml",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "Append API Node PR template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-ai-co-authors.yml",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-ai-co-authors.yml",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "Check AI Co-Authors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-line-endings.yml",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-line-endings.yml",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "Check for Windows Line Endings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pullrequest-ci-run.yml",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "comfy-org/comfy-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pullrequest-ci-run.yml",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pullrequest-ci-run.yml",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "Pull Request CI Workflow Runs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-stable-all.yml",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "Release Stable All Portable Versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-webhook.yml",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "Release Webhook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "comfy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:24:41.875069+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29118
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2017
+    },
+    {
+      "path": "requirements.txt",
+      "size": 514
+    },
+    {
+      "path": ".github/workflows/api-node-template.yml",
+      "size": 2244
+    },
+    {
+      "path": ".github/workflows/check-ai-co-authors.yml",
+      "size": 485
+    },
+    {
+      "path": ".github/workflows/check-line-endings.yml",
+      "size": 1235
+    },
+    {
+      "path": ".github/workflows/pullrequest-ci-run.yml",
+      "size": 1937
+    },
+    {
+      "path": ".github/workflows/release-stable-all.yml",
+      "size": 1849
+    },
+    {
+      "path": ".github/workflows/release-webhook.yml",
+      "size": 6601
+    },
+    {
+      "path": ".github/workflows/ruff.yml",
+      "size": 973
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+    "fork": false,
+    "full_name": "Comfy-Org/ComfyUI",
+    "html_url": "https://github.com/Comfy-Org/ComfyUI",
+    "language": "Python",
+    "pushed_at": "2026-04-22T05:08:25Z",
+    "stargazers_count": 109561,
+    "topics": [
+      "ai",
+      "comfy",
+      "comfyui",
+      "python",
+      "pytorch",
+      "stable-diffusion"
+    ],
+    "updated_at": "2026-04-22T04:45:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexisrolland/docker-openssl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "badges/shields",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfy-org/comfyui-manager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfy-org/comfyui_frontend",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Append API Node PR template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api-node-template.yml",
+      "term": "Append API Node PR template"
+    },
+    {
+      "context_snippet": "Check AI Co-Authors",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-ai-co-authors.yml",
+      "term": "Check AI Co-Authors"
+    },
+    {
+      "context_snippet": "Check for Windows Line Endings",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-line-endings.yml",
+      "term": "Check for Windows Line Endings"
+    },
+    {
+      "context_snippet": "Pull Request CI Workflow Runs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pullrequest-ci-run.yml",
+      "term": "Pull Request CI Workflow Runs"
+    },
+    {
+      "context_snippet": "\"Release Stable All Portable Versions\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-stable-all.yml",
+      "term": "Release Stable All Portable Versions"
+    },
+    {
+      "context_snippet": "Release Webhook",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-webhook.yml",
+      "term": "Release Webhook"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfy"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    }
+  ]
+}

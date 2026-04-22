@@ -140,6 +140,18 @@
       "source_repo": "coveragepy/coveragepy",
       "status": "candidate-context",
       "text": "\"Coverage\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flutter/flutter",
+      "status": "candidate-context",
+      "text": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flutter/flutter",
+      "status": "candidate-context",
+      "text": "coverage"
     }
   ],
   "candidate_glosses": [
@@ -208,6 +220,12 @@
       "source_repo": "coveragepy/coveragepy",
       "status": "candidate",
       "text": "\"Coverage\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flutter/flutter",
+      "status": "candidate",
+      "text": "coverage"
     }
   ],
   "candidate_related_terms": [
@@ -351,11 +369,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "coveragepy/coveragepy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "flutter/flutter"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

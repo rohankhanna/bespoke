@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Clang build analysis tool using -ftime-trace"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "build_and_test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "build_and_test"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "build-analysis",
+      "sense_id": "build-analysis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-analysis",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-analysis",
+  "observation_id": "176ff3d3b834150c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "build-analysis",
+  "source_context_snippet": "build_and_test",
+  "source_file": null,
+  "source_repo": "aras-p/ClangBuildAnalyzer",
+  "source_repo_description": "Clang build analysis tool using -ftime-trace"
+}

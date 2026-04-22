@@ -1,7 +1,7 @@
 {
   "component": "dessant/lock-threads@7266a7ce5c1df01b1c6db85bf8cd86c737dadbe7",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/issue_pr_lock.yml",
       "source_repo": "containers/podman"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "hashicorp/terraform-provider-random"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "hashicorp/terraform-provider-scaffolding-framework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lock.yaml",
+      "source_repo": "flutter/flutter"
     }
   ]
 }

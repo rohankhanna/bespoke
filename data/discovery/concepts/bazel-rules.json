@@ -19,6 +19,18 @@
       "source_repo": "bazelbuild/rules_apple",
       "status": "candidate-context",
       "text": "This repository contains rules for [Bazel](https://bazel.build) that can be"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/bazel-skylib",
+      "status": "candidate-context",
+      "text": "Common useful functions and rules for Bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel-skylib",
+      "status": "candidate-context",
+      "text": "[![Build status](https://badge.buildkite.com/921dc61e2d3a350ec40efb291914360c0bfa9b6196fa357420.svg?branch=main)](https://buildkite.com/bazel/bazel-skylib)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "bazelbuild/rules_apple",
       "status": "candidate",
       "text": "This repository contains rules for [Bazel](https://bazel.build) that can be"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel-skylib",
+      "status": "candidate",
+      "text": "[![Build status](https://badge.buildkite.com/921dc61e2d3a350ec40efb291914360c0bfa9b6196fa357420.svg?branch=main)](https://buildkite.com/bazel/bazel-skylib)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "bazelbuild/rules_apple"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/bazel-skylib"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,502 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotools-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotools-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotools-openmp.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotools.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotools.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "ilammy/setup-nasm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-win64.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-win64.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-win64.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-win64.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installer-for-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installer-for-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotools-macos.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autotools-macos.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "autotools-macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotools-openmp.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autotools-openmp.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "autotools-openmp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotools.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotools.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autotools.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "autotools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "CIFuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-win64.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "ilammy/setup-nasm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-win64.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "microsoft/setup-msbuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-win64.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-win64.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-win64.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "cmake-win64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installer-for-windows.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/installer-for-windows.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/installer-for-windows.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "Cross build for Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msys2.yml",
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "msys2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "lstm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "ocr-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "tesseract",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tesseract-ocr/tesseract",
+      "target": "tesseract-ocr",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:54:34.829574+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8140
+    },
+    {
+      "path": ".github/workflows/autotools-macos.yml",
+      "size": 7253
+    },
+    {
+      "path": ".github/workflows/autotools-openmp.yml",
+      "size": 2986
+    },
+    {
+      "path": ".github/workflows/autotools.yml",
+      "size": 5338
+    },
+    {
+      "path": ".github/workflows/cifuzz.yml",
+      "size": 848
+    },
+    {
+      "path": ".github/workflows/cmake-win64.yml",
+      "size": 5622
+    },
+    {
+      "path": ".github/workflows/cmake.yml",
+      "size": 6275
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2582
+    },
+    {
+      "path": ".github/workflows/installer-for-windows.yml",
+      "size": 667
+    },
+    {
+      "path": ".github/workflows/msys2.yml",
+      "size": 2474
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tesseract Open Source OCR Engine (main repository)",
+    "fork": false,
+    "full_name": "tesseract-ocr/tesseract",
+    "html_url": "https://github.com/tesseract-ocr/tesseract",
+    "language": "C++",
+    "pushed_at": "2026-04-21T11:29:19Z",
+    "stargazers_count": 73653,
+    "topics": [
+      "hacktoberfest",
+      "lstm",
+      "machine-learning",
+      "ocr",
+      "ocr-engine",
+      "tesseract",
+      "tesseract-ocr"
+    ],
+    "updated_at": "2026-04-22T03:56:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "autotools-macos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autotools-macos.yml",
+      "term": "autotools-macos"
+    },
+    {
+      "context_snippet": "autotools-openmp",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autotools-openmp.yml",
+      "term": "autotools-openmp"
+    },
+    {
+      "context_snippet": "autotools",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autotools.yml",
+      "term": "autotools"
+    },
+    {
+      "context_snippet": "CIFuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "term": "CIFuzz"
+    },
+    {
+      "context_snippet": "cmake-win64",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-win64.yml",
+      "term": "cmake-win64"
+    },
+    {
+      "context_snippet": "cmake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "term": "cmake"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Cross build for Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/installer-for-windows.yml",
+      "term": "Cross build for Windows"
+    },
+    {
+      "context_snippet": "msys2",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msys2.yml",
+      "term": "msys2"
+    },
+    {
+      "context_snippet": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/tesseract-ocr/badge.svg)](https://scan.coverity.com/projects/tesseract-ocr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/tesseract-ocr/badge.svg)](https://scan.coverity.com/projects/tesseract-ocr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lstm"
+    },
+    {
+      "context_snippet": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/tesseract-ocr/badge.svg)](https://scan.coverity.com/projects/tesseract-ocr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/tesseract-ocr/badge.svg)](https://scan.coverity.com/projects/tesseract-ocr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocr-engine"
+    },
+    {
+      "context_snippet": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/tesseract-ocr/badge.svg)](https://scan.coverity.com/projects/tesseract-ocr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tesseract"
+    },
+    {
+      "context_snippet": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/tesseract-ocr/badge.svg)](https://scan.coverity.com/projects/tesseract-ocr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tesseract-ocr"
+    }
+  ]
+}

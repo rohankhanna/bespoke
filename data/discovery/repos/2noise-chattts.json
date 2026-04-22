@@ -1,0 +1,539 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checksum.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checksum.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checksum.yml"
+    },
+    {
+      "component": "actions/stale@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-issue.yml"
+    },
+    {
+      "component": "actions/github-script@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-format.yml"
+    },
+    {
+      "component": "superbrothers/close-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-format.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-format.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-format.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-format.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-format.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-format.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unitest.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unitest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-pypi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2noise/ChatTTS",
+      "target": "codeboarding/generatedonboardings",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2noise/ChatTTS",
+      "target": "coqui-ai/tts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2noise/ChatTTS",
+      "target": "fishaudio/fish-speech",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2noise/ChatTTS",
+      "target": "gemelo-ai/vocos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checksum.yml",
+      "source_repo": "2noise/ChatTTS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checksum.yml",
+      "source_repo": "2noise/ChatTTS",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checksum.yml",
+      "source_repo": "2noise/ChatTTS",
+      "target": "peter-evans/create-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checksum.yml",
+      "source_repo": "2noise/ChatTTS",
+      "target": "Calculate and Sync SHA256",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-issue.yml",
+      "source_repo": "2noise/ChatTTS",
+      "target": "actions/stale@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-issue.yml",
+      "source_repo": "2noise/ChatTTS",
+      "target": "Close Inactive Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-format.yml",
+      "source_repo": "2noise/ChatTTS",
+      "target": "actions/github-script@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-format.yml",
+      "source_repo": "2noise/ChatTTS",
+      "target": "superbrothers/close-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-format.yml",
+      "source_repo": "2noise/ChatTTS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-format.yml",
+      "source_repo": "2noise/ChatTTS",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-format.yml",
+      "source_repo": "2noise/ChatTTS",
+      "target": "Check Pull Request Format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-format.yml",
+      "source_repo": "2noise/ChatTTS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-format.yml",
+      "source_repo": "2noise/ChatTTS",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-format.yml",
+      "source_repo": "2noise/ChatTTS",
+      "target": "peter-evans/create-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-format.yml",
+      "source_repo": "2noise/ChatTTS",
+      "target": "Standardize Code Format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unitest.yml",
+      "source_repo": "2noise/ChatTTS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unitest.yml",
+      "source_repo": "2noise/ChatTTS",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unitest.yml",
+      "source_repo": "2noise/ChatTTS",
+      "target": "Unit Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-pypi.yml",
+      "source_repo": "2noise/ChatTTS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-pypi.yml",
+      "source_repo": "2noise/ChatTTS",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-pypi.yml",
+      "source_repo": "2noise/ChatTTS",
+      "target": "Upload to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2noise/ChatTTS",
+      "target": "chat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2noise/ChatTTS",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2noise/ChatTTS",
+      "target": "chattts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2noise/ChatTTS",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2noise/ChatTTS",
+      "target": "chinese-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2noise/ChatTTS",
+      "target": "english",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2noise/ChatTTS",
+      "target": "english-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2noise/ChatTTS",
+      "target": "llm-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2noise/ChatTTS",
+      "target": "natural-language-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2noise/ChatTTS",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2noise/ChatTTS",
+      "target": "torch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2noise/ChatTTS",
+      "target": "torchaudio",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:23:33.535876+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11441
+    },
+    {
+      "path": "requirements.txt",
+      "size": 270
+    },
+    {
+      "path": ".github/workflows/checksum.yml",
+      "size": 1446
+    },
+    {
+      "path": ".github/workflows/close-issue.yml",
+      "size": 741
+    },
+    {
+      "path": ".github/workflows/pull-format.yml",
+      "size": 2730
+    },
+    {
+      "path": ".github/workflows/push-format.yml",
+      "size": 1647
+    },
+    {
+      "path": ".github/workflows/unitest.yml",
+      "size": 1069
+    },
+    {
+      "path": ".github/workflows/upload-pypi.yml",
+      "size": 856
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A generative speech model for daily dialogue.",
+    "fork": false,
+    "full_name": "2noise/ChatTTS",
+    "html_url": "https://github.com/2noise/ChatTTS",
+    "language": "Python",
+    "pushed_at": "2026-04-10T16:33:48Z",
+    "stargazers_count": 39136,
+    "topics": [
+      "agent",
+      "chat",
+      "chatgpt",
+      "chattts",
+      "chinese",
+      "chinese-language",
+      "english",
+      "english-language",
+      "gpt",
+      "llm",
+      "llm-agent",
+      "natural-language-inference",
+      "python",
+      "text-to-speech",
+      "torch",
+      "torchaudio",
+      "tts"
+    ],
+    "updated_at": "2026-04-22T05:19:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codeboarding/generatedonboardings",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coqui-ai/tts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fishaudio/fish-speech",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gemelo-ai/vocos",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Calculate and Sync SHA256",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checksum.yml",
+      "term": "Calculate and Sync SHA256"
+    },
+    {
+      "context_snippet": "Close Inactive Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-issue.yml",
+      "term": "Close Inactive Issues"
+    },
+    {
+      "context_snippet": "Check Pull Request Format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-format.yml",
+      "term": "Check Pull Request Format"
+    },
+    {
+      "context_snippet": "Standardize Code Format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-format.yml",
+      "term": "Standardize Code Format"
+    },
+    {
+      "context_snippet": "Unit Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unitest.yml",
+      "term": "Unit Test"
+    },
+    {
+      "context_snippet": "Upload to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-pypi.yml",
+      "term": "Upload to PyPI"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chat"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chattts"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-language"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "english"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "english-language"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-agent"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-inference"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torch"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torchaudio"
+    }
+  ]
+}

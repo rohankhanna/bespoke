@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Code samples for using Python on Google Cloud Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository is the complete sample code for the [Python Getting Started on Google Cloud Platform](https://cloud.google.com/python/docs/) tutorials. Please refer to the tutorials for instructions on configuring, running, and deploying these samples."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository is the complete sample code for the [Python Getting Started on Google Cloud Platform](https://cloud.google.com/python/docs/) tutorials. Please refer to the tutorials for instructions on configuring, running, and deploying these samples."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024866,
+      "status": "candidate",
+      "text": "try out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9979586,
+      "status": "candidate",
+      "text": "try"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9893720,
+      "status": "candidate",
+      "text": "taste"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51427,
+      "status": "candidate",
+      "text": "sample distribution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "analyses"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "samples",
+      "sense_id": "samples#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "samples",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "samples",
+  "observation_id": "93253be0fb98e2ae",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "samples",
+  "source_context_snippet": "This repository is the complete sample code for the [Python Getting Started on Google Cloud Platform](https://cloud.google.com/python/docs/) tutorials. Please refer to the tutorials for instructions on configuring, running, and deploying these samples.",
+  "source_file": null,
+  "source_repo": "GoogleCloudPlatform/getting-started-python",
+  "source_repo_description": "Code samples for using Python on Google Cloud Platform"
+}

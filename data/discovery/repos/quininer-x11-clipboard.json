@@ -1,0 +1,80 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "quininer/x11-clipboard",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quininer/x11-clipboard",
+      "target": "clipboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quininer/x11-clipboard",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:26:43.742380+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 678
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 409
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 378
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[maintenance mode] x11 clipboard support for Rust",
+    "fork": false,
+    "full_name": "quininer/x11-clipboard",
+    "html_url": "https://github.com/quininer/x11-clipboard",
+    "language": "Rust",
+    "pushed_at": "2026-04-14T14:17:34Z",
+    "stargazers_count": 51,
+    "topics": [
+      "clipboard",
+      "rust",
+      "x11"
+    ],
+    "updated_at": "2026-04-14T14:18:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![CI](https://github.com/quininer/x11-clipboard/actions/workflows/ci.yml/badge.svg)](https://github.com/quininer/x11-clipboard/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clipboard"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/quininer/x11-clipboard/actions/workflows/ci.yml/badge.svg)](https://github.com/quininer/x11-clipboard/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

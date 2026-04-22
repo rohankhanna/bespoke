@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Committed to being the best code interpreter in the world."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[English](https://github.com/leezhuuuuu/Code-Interpreter-Api/blob/main/README_EN.md) | [\u4e2d\u6587](https://github.com/leezhuuuuu/Code-Interpreter-Api/blob/main/README.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[English](https://github.com/leezhuuuuu/Code-Interpreter-Api/blob/main/README_EN.md) | [\u4e2d\u6587](https://github.com/leezhuuuuu/Code-Interpreter-Api/blob/main/README.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10044833,
+      "status": "candidate",
+      "text": "pecker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10044783,
+      "status": "candidate",
+      "text": "shaft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10033851,
+      "status": "candidate",
+      "text": "prick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10032790,
+      "status": "candidate",
+      "text": "joyride"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9995507,
+      "status": "candidate",
+      "text": "puppet"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tools",
+      "sense_id": "tools#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tools",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tools",
+  "observation_id": "8dd9ca4cea17db9c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "tools",
+  "source_context_snippet": "[English](https://github.com/leezhuuuuu/Code-Interpreter-Api/blob/main/README_EN.md) | [\u4e2d\u6587](https://github.com/leezhuuuuu/Code-Interpreter-Api/blob/main/README.md)",
+  "source_file": null,
+  "source_repo": "leezhuuuuu/Code-Interpreter-Api",
+  "source_repo_description": "Committed to being the best code interpreter in the world."
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Integrate AWS IAM with Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Docker Repository on Quay](https://quay.io/repository/uswitch/kiam/status \"Docker Repository on Quay\")](https://quay.io/repository/uswitch/kiam)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Docker Repository on Quay](https://quay.io/repository/uswitch/kiam/status \"Docker Repository on Quay\")](https://quay.io/repository/uswitch/kiam)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aws-iam",
+      "sense_id": "aws-iam#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "aws-iam",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "aws-iam",
+  "observation_id": "0145c05705ba056d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "aws-iam",
+  "source_context_snippet": "[![Docker Repository on Quay](https://quay.io/repository/uswitch/kiam/status \"Docker Repository on Quay\")](https://quay.io/repository/uswitch/kiam)",
+  "source_file": null,
+  "source_repo": "uswitch/kiam",
+  "source_repo_description": "Integrate AWS IAM with Kubernetes"
+}

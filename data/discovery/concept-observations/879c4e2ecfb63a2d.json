@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Push data into the CKAN Datastore fast & reliably while inferring, calculating & suggesting metadata using Jinja2 Formulas defined in your scheming metadata schema. It pushes real good!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[CKAN Service Provider]: https://github.com/ckan/ckan-service-provider"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[CKAN Service Provider]: https://github.com/ckan/ckan-service-provider"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10008342,
+      "status": "candidate",
+      "text": "mdcta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10008341,
+      "status": "candidate",
+      "text": "dac."
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10008340,
+      "status": "candidate",
+      "text": "aadc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10008339,
+      "status": "candidate",
+      "text": "nacd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10008338,
+      "status": "candidate",
+      "text": "cicad"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dcat",
+      "sense_id": "dcat#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dcat",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dcat",
+  "observation_id": "879c4e2ecfb63a2d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "dcat",
+  "source_context_snippet": "[CKAN Service Provider]: https://github.com/ckan/ckan-service-provider",
+  "source_file": null,
+  "source_repo": "dathere/datapusher-plus",
+  "source_repo_description": "Push data into the CKAN Datastore fast & reliably while inferring, calculating & suggesting metadata using Jinja2 Formulas defined in your scheming metadata schema. It pushes real good!"
+}

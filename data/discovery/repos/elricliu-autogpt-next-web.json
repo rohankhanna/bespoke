@@ -391,13 +391,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ElricLiu/AutoGPT-Next-Web",
-      "target": "dogtiti/autogpt-next-web",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ElricLiu/AutoGPT-Next-Web",
       "target": "connectai-e/awesome-one-click-deployment",
       "target_type": "repository"
     },
@@ -1018,7 +1011,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T11:32:25.575617+00:00",
+  "fetched_at": "2026-04-22T05:16:50.514075+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1070,11 +1063,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "connectai-e/awesome-one-click-deployment",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "dogtiti/autogpt-next-web",
       "source_file": "README.md"
     }
   ],

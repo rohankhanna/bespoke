@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Find Similar Issues with AI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/machinelearning",
+      "status": "candidate-context",
+      "text": "ML.NET is an open source and cross-platform machine learning framework for .NET."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/machinelearning",
+      "status": "candidate-context",
+      "text": "\"Find Similar Issues with AI\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/machinelearning",
+      "status": "candidate",
+      "text": "\"Find Similar Issues with AI\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32305,
+      "status": "candidate",
+      "text": "list"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26140,
+      "status": "candidate",
+      "text": "dig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22540,
+      "status": "candidate",
+      "text": "metarule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22504,
+      "status": "candidate",
+      "text": "complex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22131,
+      "status": "candidate",
+      "text": "interval"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Find Similar Issues with AI",
+  "concept_id": "find-similar-issues-with-ai",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/find-similar-issues.yml",
+      "source_repo": "dotnet/machinelearning"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Find Similar Issues with AI",
+      "sense_id": "find-similar-issues-with-ai#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

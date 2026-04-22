@@ -19,12 +19,24 @@
       "source_repo": "casper-hansen/AutoAWQ",
       "status": "candidate-context",
       "text": "Build AutoAWQ Wheels with CUDA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casper-hansen/AutoAWQ_kernels",
+      "status": "candidate-context",
+      "text": "Build AutoAWQ Wheels with CUDA"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "casper-hansen/AutoAWQ",
+      "status": "candidate",
+      "text": "Build AutoAWQ Wheels with CUDA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casper-hansen/AutoAWQ_kernels",
       "status": "candidate",
       "text": "Build AutoAWQ Wheels with CUDA"
     }
@@ -76,11 +88,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/build.yaml",
       "source_repo": "casper-hansen/AutoAWQ"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "casper-hansen/AutoAWQ_kernels"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

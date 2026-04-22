@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Lock Threads"
+    "Lock Threads",
+    "Lock threads"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -79,6 +80,54 @@
       "source_repo": "vercel/next.js",
       "status": "candidate-context",
       "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/terraform-provider-random",
+      "status": "candidate-context",
+      "text": "Utility provider that supports the use of randomness within Terraform configurations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-random",
+      "status": "candidate-context",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/terraform-provider-scaffolding-framework",
+      "status": "candidate-context",
+      "text": "Quick start repository for creating a Terraform provider using terraform-plugin-framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-scaffolding-framework",
+      "status": "candidate-context",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flutter/flutter",
+      "status": "candidate-context",
+      "text": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flutter/flutter",
+      "status": "candidate-context",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JakeChampion/fetch",
+      "status": "candidate-context",
+      "text": "A window.fetch JavaScript polyfill."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JakeChampion/fetch",
+      "status": "candidate-context",
+      "text": "'Lock threads'"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +166,30 @@
       "source_repo": "vercel/next.js",
       "status": "candidate",
       "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-random",
+      "status": "candidate",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-scaffolding-framework",
+      "status": "candidate",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flutter/flutter",
+      "status": "candidate",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JakeChampion/fetch",
+      "status": "candidate",
+      "text": "'Lock threads'"
     }
   ],
   "candidate_related_terms": [
@@ -202,11 +275,35 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/issue_lock.yml",
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "hashicorp/terraform-provider-random"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "hashicorp/terraform-provider-scaffolding-framework"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/lock.yaml",
+      "source_repo": "flutter/flutter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "JakeChampion/fetch"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

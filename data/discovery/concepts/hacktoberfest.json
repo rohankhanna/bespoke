@@ -589,6 +589,150 @@
       "source_repo": "dexidp/dex",
       "status": "candidate-context",
       "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dexidp/dex/ci.yaml?style=flat-square&branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "status": "candidate-context",
+      "text": "Prometheus Operator creates/configures/manages Prometheus clusters atop Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/prometheus-operator/prometheus-operator/actions/workflows/checks.yaml/badge.svg)](https://github.com/prometheus-operator/prometheus-operator/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "callstack/react-native-builder-bob",
+      "status": "candidate-context",
+      "text": "Simple set of CLIs to scaffold and build React Native libraries for different targets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "callstack/react-native-builder-bob",
+      "status": "candidate-context",
+      "text": "<a href=\"https://www.callstack.com/open-source?utm_campaign=generic&utm_source=github&utm_medium=referral&utm_content=react-native-builder-bob\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tesseract-ocr/tesseract",
+      "status": "candidate-context",
+      "text": "Tesseract Open Source OCR Engine (main repository)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tesseract-ocr/tesseract",
+      "status": "candidate-context",
+      "text": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/tesseract-ocr/badge.svg)](https://scan.coverity.com/projects/tesseract-ocr)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bshuster-repo/logrus-logstash-hook",
+      "status": "candidate-context",
+      "text": ":information_source: Logstash hook for logrus"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bshuster-repo/logrus-logstash-hook",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/bshuster-repo/logrus-logstash-hook.svg?branch=master)](https://travis-ci.org/bshuster-repo/logrus-logstash-hook)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rbenv/ruby-build",
+      "status": "candidate-context",
+      "text": "A tool to download, compile, and install Ruby on Unix-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rbenv/ruby-build",
+      "status": "candidate-context",
+      "text": "ruby-build is a command-line tool that simplifies installation of any Ruby version from source on Unix-like systems."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "void-linux/xbps",
+      "status": "candidate-context",
+      "text": "The X Binary Package System (XBPS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "void-linux/xbps",
+      "status": "candidate-context",
+      "text": "[![Packaging status](https://repology.org/badge/vertical-allrepos/xbps.svg)](https://repology.org/project/xbps/versions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oras-project/oras",
+      "status": "candidate-context",
+      "text": "OCI registry client - managing content like artifacts, images, packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oras-project/oras",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/oras-project/oras/actions/workflows/build.yml/badge.svg?event=push)](https://github.com/oras-project/oras/actions/workflows/build.yml?query=workflow%3Abuild+event%3Apush)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DefinitelyTyped/DefinitelyTyped",
+      "status": "candidate-context",
+      "text": "The repository for high quality TypeScript type definitions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DefinitelyTyped/DefinitelyTyped",
+      "status": "candidate-context",
+      "text": "> The repository for _high quality_ TypeScript type definitions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebAssembly/binaryen",
+      "status": "candidate-context",
+      "text": "Optimizer and compiler/toolchain library for WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/binaryen",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gitui-org/gitui",
+      "status": "candidate-context",
+      "text": "Blazing \ud83d\udca5 fast terminal-ui for git written in rust \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitui-org/gitui",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mason-org/mason-registry",
+      "status": "candidate-context",
+      "text": "Core registry for mason.nvim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mason-org/mason-registry",
+      "status": "candidate-context",
+      "text": "![Linux](https://img.shields.io/badge/Linux-%23.svg?style=flat-square&logo=linux&color=FCC624&logoColor=black)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dolfies/discord.py-self",
+      "status": "candidate-context",
+      "text": "A fork of the popular discord.py for user accounts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dolfies/discord.py-self",
+      "status": "candidate-context",
+      "text": "discord.py-self"
     }
   ],
   "candidate_glosses": [
@@ -879,6 +1023,78 @@
       "source_repo": "dexidp/dex",
       "status": "candidate",
       "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dexidp/dex/ci.yaml?style=flat-square&branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/prometheus-operator/prometheus-operator/actions/workflows/checks.yaml/badge.svg)](https://github.com/prometheus-operator/prometheus-operator/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "callstack/react-native-builder-bob",
+      "status": "candidate",
+      "text": "<a href=\"https://www.callstack.com/open-source?utm_campaign=generic&utm_source=github&utm_medium=referral&utm_content=react-native-builder-bob\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tesseract-ocr/tesseract",
+      "status": "candidate",
+      "text": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/tesseract-ocr/badge.svg)](https://scan.coverity.com/projects/tesseract-ocr)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bshuster-repo/logrus-logstash-hook",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/bshuster-repo/logrus-logstash-hook.svg?branch=master)](https://travis-ci.org/bshuster-repo/logrus-logstash-hook)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rbenv/ruby-build",
+      "status": "candidate",
+      "text": "ruby-build is a command-line tool that simplifies installation of any Ruby version from source on Unix-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "void-linux/xbps",
+      "status": "candidate",
+      "text": "[![Packaging status](https://repology.org/badge/vertical-allrepos/xbps.svg)](https://repology.org/project/xbps/versions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oras-project/oras",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/oras-project/oras/actions/workflows/build.yml/badge.svg?event=push)](https://github.com/oras-project/oras/actions/workflows/build.yml?query=workflow%3Abuild+event%3Apush)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DefinitelyTyped/DefinitelyTyped",
+      "status": "candidate",
+      "text": "> The repository for _high quality_ TypeScript type definitions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/binaryen",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitui-org/gitui",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mason-org/mason-registry",
+      "status": "candidate",
+      "text": "![Linux](https://img.shields.io/badge/Linux-%23.svg?style=flat-square&logo=linux&color=FCC624&logoColor=black)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dolfies/discord.py-self",
+      "status": "candidate",
+      "text": "discord.py-self"
     }
   ],
   "candidate_related_terms": [],
@@ -1210,11 +1426,95 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "dexidp/dex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "prometheus-operator/prometheus-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "tesseract-ocr/tesseract"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "bshuster-repo/logrus-logstash-hook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "rbenv/ruby-build"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "void-linux/xbps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "oras-project/oras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "DefinitelyTyped/DefinitelyTyped"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "WebAssembly/binaryen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "gitui-org/gitui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "mason-org/mason-registry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "dolfies/discord.py-self"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

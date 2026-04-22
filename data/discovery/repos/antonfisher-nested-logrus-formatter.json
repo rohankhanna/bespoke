@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonfisher/nested-logrus-formatter",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonfisher/nested-logrus-formatter",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonfisher/nested-logrus-formatter",
+      "target": "logging",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:57:42.130020+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2226
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Formatter for https://github.com/sirupsen/logrus",
+    "fork": false,
+    "full_name": "antonfisher/nested-logrus-formatter",
+    "html_url": "https://github.com/antonfisher/nested-logrus-formatter",
+    "language": "Go",
+    "pushed_at": "2022-10-13T11:12:56Z",
+    "stargazers_count": 168,
+    "topics": [
+      "formatter",
+      "golang",
+      "logging"
+    ],
+    "updated_at": "2025-12-22T03:46:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/antonfisher/nested-logrus-formatter.svg?branch=master)](https://travis-ci.org/antonfisher/nested-logrus-formatter)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/antonfisher/nested-logrus-formatter.svg?branch=master)](https://travis-ci.org/antonfisher/nested-logrus-formatter)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/antonfisher/nested-logrus-formatter.svg?branch=master)](https://travis-ci.org/antonfisher/nested-logrus-formatter)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logging"
+    }
+  ]
+}

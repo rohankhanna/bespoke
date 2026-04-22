@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf92 \u9489\u9489 & \ud83e\udd16 GPT-3.5 \u8ba9\u4f60\u7684\u5de5\u4f5c\u6548\u7387\u76f4\u63a5\u8d77\u98de \ud83d\ude80 \u79c1\u804a\u7fa4\u804a\u65b9\u5f0f\u3001\u5355\u804a\u4e32\u804a\u6a21\u5f0f\u3001\u89d2\u8272\u626e\u6f14\u3001\u56fe\u7247\u521b\u4f5c \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Lint Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Lint Check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14113,
+      "status": "candidate",
+      "text": "screen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13673,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13673,
+      "status": "candidate",
+      "text": "bits"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13134,
+      "status": "candidate",
+      "text": "fluff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13092,
+      "status": "candidate",
+      "text": "brush"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint Check",
+      "sense_id": "lint-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lint-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lint-check",
+  "observation_id": "6fd9a0409a27c988",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "Lint Check",
+  "source_context_snippet": "Lint Check",
+  "source_file": ".github/workflows/lint.yaml",
+  "source_repo": "eryajf/chatgpt-dingtalk",
+  "source_repo_description": "\ud83c\udf92 \u9489\u9489 & \ud83e\udd16 GPT-3.5 \u8ba9\u4f60\u7684\u5de5\u4f5c\u6548\u7387\u76f4\u63a5\u8d77\u98de \ud83d\ude80 \u79c1\u804a\u7fa4\u804a\u65b9\u5f0f\u3001\u5355\u804a\u4e32\u804a\u6a21\u5f0f\u3001\u89d2\u8272\u626e\u6f14\u3001\u56fe\u7247\u521b\u4f5c \ud83d\ude80"
+}

@@ -1,0 +1,12 @@
+{
+  "component": "dependabot/fetch-metadata@08eff52bf64351f401fb50d4972fa95b9f2c2d1b",
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "bentoml/OpenLLM"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "components": [
+    {
+      "component": "tim-actions/wip-check@1c2a1ca6c110026b3e2297bb2ef39e1747b5a755",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR-wip-checks.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bvt.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bvt.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bvt.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bvt.yaml"
+    },
+    {
+      "component": "tim-actions/get-pr-commits@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-message-check.yaml"
+    },
+    {
+      "component": "tim-actions/dco@2fd0504dc0d27b33f542867c300c60840c6dcb20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-message-check.yaml"
+    },
+    {
+      "component": "tim-actions/commit-body-check@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-message-check.yaml"
+    },
+    {
+      "component": "tim-actions/commit-message-checker-with-regex@v0.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-message-check.yaml"
+    },
+    {
+      "component": "tim-actions/commit-message-checker-with-regex@v0.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-message-check.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR-wip-checks.yaml",
+      "source_repo": "kata-containers/cgroups-rs",
+      "target": "tim-actions/wip-check@1c2a1ca6c110026b3e2297bb2ef39e1747b5a755",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PR-wip-checks.yaml",
+      "source_repo": "kata-containers/cgroups-rs",
+      "target": "Pull request WIP checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bvt.yaml",
+      "source_repo": "kata-containers/cgroups-rs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bvt.yaml",
+      "source_repo": "kata-containers/cgroups-rs",
+      "target": "BVT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-message-check.yaml",
+      "source_repo": "kata-containers/cgroups-rs",
+      "target": "tim-actions/get-pr-commits@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-message-check.yaml",
+      "source_repo": "kata-containers/cgroups-rs",
+      "target": "tim-actions/dco@2fd0504dc0d27b33f542867c300c60840c6dcb20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-message-check.yaml",
+      "source_repo": "kata-containers/cgroups-rs",
+      "target": "tim-actions/commit-body-check@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-message-check.yaml",
+      "source_repo": "kata-containers/cgroups-rs",
+      "target": "tim-actions/commit-message-checker-with-regex@v0.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-message-check.yaml",
+      "source_repo": "kata-containers/cgroups-rs",
+      "target": "Commit Message Check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:06:26.762150+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1742
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 976
+    },
+    {
+      "path": ".github/workflows/PR-wip-checks.yaml",
+      "size": 480
+    },
+    {
+      "path": ".github/workflows/bvt.yaml",
+      "size": 1027
+    },
+    {
+      "path": ".github/workflows/commit-message-check.yaml",
+      "size": 1634
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Native Rust library for managing control groups under Linux",
+    "fork": true,
+    "full_name": "kata-containers/cgroups-rs",
+    "html_url": "https://github.com/kata-containers/cgroups-rs",
+    "language": "Rust",
+    "pushed_at": "2026-02-03T06:38:00Z",
+    "stargazers_count": 144,
+    "topics": [],
+    "updated_at": "2026-03-22T10:18:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Pull request WIP checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PR-wip-checks.yaml",
+      "term": "Pull request WIP checks"
+    },
+    {
+      "context_snippet": "BVT",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bvt.yaml",
+      "term": "BVT"
+    },
+    {
+      "context_snippet": "Commit Message Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-message-check.yaml",
+      "term": "Commit Message Check"
+    }
+  ]
+}

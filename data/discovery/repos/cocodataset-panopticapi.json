@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T04:55:32.251890+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2235
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "COCO 2018 Panoptic Segmentation Task API (Beta version)",
+    "fork": false,
+    "full_name": "cocodataset/panopticapi",
+    "html_url": "https://github.com/cocodataset/panopticapi",
+    "language": "Python",
+    "pushed_at": "2023-06-09T09:14:02Z",
+    "stargazers_count": 458,
+    "topics": [],
+    "updated_at": "2026-04-17T10:17:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

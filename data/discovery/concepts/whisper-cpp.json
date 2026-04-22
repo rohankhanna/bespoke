@@ -31,6 +31,18 @@
       "source_repo": "absadiki/pywhispercpp",
       "status": "candidate-context",
       "text": "Python bindings for [whisper.cpp](https://github.com/ggerganov/whisper.cpp) with a simple Pythonic API on top of it."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexpinel/Dot",
+      "status": "candidate-context",
+      "text": "Text-To-Speech, RAG, and LLMs. All local!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpinel/Dot",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "absadiki/pywhispercpp",
       "status": "candidate",
       "text": "Python bindings for [whisper.cpp](https://github.com/ggerganov/whisper.cpp) with a simple Pythonic API on top of it."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpinel/Dot",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "absadiki/pywhispercpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "alexpinel/Dot"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "tim-actions/wip-check@1c2a1ca6c110026b3e2297bb2ef39e1747b5a755",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR-wip-checks.yaml"
+    },
+    {
+      "component": "tim-actions/get-pr-commits@ed97a21c3f83c3417e67a4733ea76887293a2c8f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco-check.yaml"
+    },
+    {
+      "component": "tim-actions/dco@2fd0504dc0d27b33f542867c300c60840c6dcb20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco-check.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "streetsidesoftware/cspell-action@9cd41bb518a24fefdafd9880cbab8f0ceba04d28",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kata-containers/community",
+      "target": "clearcontainers/runtime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kata-containers/community",
+      "target": "hyperhq/runv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR-wip-checks.yaml",
+      "source_repo": "kata-containers/community",
+      "target": "tim-actions/wip-check@1c2a1ca6c110026b3e2297bb2ef39e1747b5a755",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PR-wip-checks.yaml",
+      "source_repo": "kata-containers/community",
+      "target": "Pull request WIP checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco-check.yaml",
+      "source_repo": "kata-containers/community",
+      "target": "tim-actions/get-pr-commits@ed97a21c3f83c3417e67a4733ea76887293a2c8f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco-check.yaml",
+      "source_repo": "kata-containers/community",
+      "target": "tim-actions/dco@2fd0504dc0d27b33f542867c300c60840c6dcb20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco-check.yaml",
+      "source_repo": "kata-containers/community",
+      "target": "DCO check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "kata-containers/community",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "kata-containers/community",
+      "target": "streetsidesoftware/cspell-action@9cd41bb518a24fefdafd9880cbab8f0ceba04d28",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:06:19.680460+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11270
+    },
+    {
+      "path": ".github/workflows/PR-wip-checks.yaml",
+      "size": 479
+    },
+    {
+      "path": ".github/workflows/dco-check.yaml",
+      "size": 533
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 574
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "kata-containers/community",
+    "html_url": "https://github.com/kata-containers/community",
+    "language": "Python",
+    "pushed_at": "2026-04-16T14:25:51Z",
+    "stargazers_count": 224,
+    "topics": [],
+    "updated_at": "2026-04-16T15:04:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clearcontainers/runtime",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hyperhq/runv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pull request WIP checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PR-wip-checks.yaml",
+      "term": "Pull request WIP checks"
+    },
+    {
+      "context_snippet": "DCO check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco-check.yaml",
+      "term": "DCO check"
+    }
+  ]
+}

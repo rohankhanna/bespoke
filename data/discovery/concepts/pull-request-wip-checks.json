@@ -19,12 +19,42 @@
       "source_repo": "kata-containers/kata-containers",
       "status": "candidate-context",
       "text": "Pull request WIP checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kata-containers/community",
+      "status": "candidate-context",
+      "text": "Pull request WIP checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kata-containers/cgroups-rs",
+      "status": "candidate-context",
+      "text": "Native Rust library for managing control groups under Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kata-containers/cgroups-rs",
+      "status": "candidate-context",
+      "text": "Pull request WIP checks"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "kata-containers/kata-containers",
+      "status": "candidate",
+      "text": "Pull request WIP checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kata-containers/community",
+      "status": "candidate",
+      "text": "Pull request WIP checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kata-containers/cgroups-rs",
       "status": "candidate",
       "text": "Pull request WIP checks"
     }
@@ -76,11 +106,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/PR-wip-checks.yaml",
       "source_repo": "kata-containers/kata-containers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/PR-wip-checks.yaml",
+      "source_repo": "kata-containers/community"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/PR-wip-checks.yaml",
+      "source_repo": "kata-containers/cgroups-rs"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

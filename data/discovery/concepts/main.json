@@ -55,6 +55,18 @@
       "source_repo": "pyodide/pytest-pyodide",
       "status": "candidate-context",
       "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "remarkjs/remark",
+      "status": "candidate-context",
+      "text": "markdown processor powered by plugins part of the @unifiedjs collective"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remarkjs/remark",
+      "status": "candidate-context",
+      "text": "main"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pyodide/pytest-pyodide",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remarkjs/remark",
       "status": "candidate",
       "text": "main"
     }
@@ -196,11 +214,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/testall.yaml",
       "source_repo": "pyodide/pytest-pyodide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "remarkjs/remark"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

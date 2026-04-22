@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babel/notes",
+      "target": "babel/rfcs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babel/notes",
+      "target": "babel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babel/notes",
+      "target": "meeting-notes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:11:27.514202+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 918
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u266c Notes from the @Babel Team (discuss in PRs)",
+    "fork": false,
+    "full_name": "babel/notes",
+    "html_url": "https://github.com/babel/notes",
+    "language": null,
+    "pushed_at": "2022-10-18T15:21:13Z",
+    "stargazers_count": 123,
+    "topics": [
+      "babel",
+      "meeting-notes"
+    ],
+    "updated_at": "2026-02-25T23:58:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babel/rfcs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Please check out our [team page](https://babeljs.io/team)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babel"
+    },
+    {
+      "context_snippet": "> Please check out our [team page](https://babeljs.io/team)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meeting-notes"
+    }
+  ]
+}

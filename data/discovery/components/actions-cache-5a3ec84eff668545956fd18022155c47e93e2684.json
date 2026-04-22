@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/esy.yml",
       "source_repo": "grain-lang/binaryen.ml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-templates.yml",
+      "source_repo": "callstack/react-native-builder-bob"
     }
   ]
 }

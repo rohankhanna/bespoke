@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T05:04:49.049745+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1878
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "google/tcmalloc",
+    "html_url": "https://github.com/google/tcmalloc",
+    "language": "C++",
+    "pushed_at": "2026-04-21T17:04:28Z",
+    "stargazers_count": 5209,
+    "topics": [],
+    "updated_at": "2026-04-21T23:32:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Add to Ecosystem WG Project"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/rebuild",
+      "status": "candidate-context",
+      "text": "Package to rebuild native Node.js modules against the currently installed Electron version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/rebuild",
+      "status": "candidate-context",
+      "text": "Add to Ecosystem WG Project"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/rebuild",
+      "status": "candidate",
+      "text": "Add to Ecosystem WG Project"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22486,
+      "status": "candidate",
+      "text": "succession"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21496,
+      "status": "candidate",
+      "text": "blowout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21496,
+      "status": "candidate",
+      "text": "swamp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21052,
+      "status": "candidate",
+      "text": "input"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21007,
+      "status": "candidate",
+      "text": "frame"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Add to Ecosystem WG Project",
+  "concept_id": "add-to-ecosystem-wg-project",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "electron/rebuild"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add to Ecosystem WG Project",
+      "sense_id": "add-to-ecosystem-wg-project#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

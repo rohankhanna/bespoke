@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alacritty/vtebench",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alacritty/vtebench",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alacritty/vtebench",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:26:41.347127+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2170
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 407
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Generate benchmarks for terminal emulators",
+    "fork": false,
+    "full_name": "alacritty/vtebench",
+    "html_url": "https://github.com/alacritty/vtebench",
+    "language": "Rust",
+    "pushed_at": "2025-01-09T07:23:53Z",
+    "stargazers_count": 392,
+    "topics": [
+      "benchmark",
+      "rust",
+      "terminal",
+      "vte"
+    ],
+    "updated_at": "2026-04-19T02:42:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A tool for benchmarking terminal emulator PTY read performance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "A tool for benchmarking terminal emulator PTY read performance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "A tool for benchmarking terminal emulator PTY read performance.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

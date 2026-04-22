@@ -19,6 +19,18 @@
       "source_repo": "OpenAPITools/openapi-generator",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">OpenAPI Generator</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenAPITools/openapi-generator-cli",
+      "status": "candidate-context",
+      "text": "A node package wrapper for https://github.com/OpenAPITools/openapi-generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenAPITools/openapi-generator-cli",
+      "status": "candidate-context",
+      "text": "[![Join the Slack chat room](https://img.shields.io/badge/Slack-Join%20the%20chat%20room-orange)](https://join.slack.com/t/openapi-generator/shared_invite/zt-12jxxd7p2-XUeQM~4pzsU9x~eGLQqX2g)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "OpenAPITools/openapi-generator",
       "status": "candidate",
       "text": "<h1 align=\"center\">OpenAPI Generator</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenAPITools/openapi-generator-cli",
+      "status": "candidate",
+      "text": "[![Join the Slack chat room](https://img.shields.io/badge/Slack-Join%20the%20chat%20room-orange)](https://join.slack.com/t/openapi-generator/shared_invite/zt-12jxxd7p2-XUeQM~4pzsU9x~eGLQqX2g)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "OpenAPITools/openapi-generator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "OpenAPITools/openapi-generator-cli"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

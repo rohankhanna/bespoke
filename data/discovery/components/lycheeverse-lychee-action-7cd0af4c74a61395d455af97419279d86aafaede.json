@@ -1,0 +1,12 @@
+{
+  "component": "lycheeverse/lychee-action@7cd0af4c74a61395d455af97419279d86aafaede",
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "conda-forge/conda-forge.github.io"
+    }
+  ]
+}

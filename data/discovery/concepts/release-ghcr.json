@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "release-ghcr"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oras-project/oras",
+      "status": "candidate-context",
+      "text": "OCI registry client - managing content like artifacts, images, packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oras-project/oras",
+      "status": "candidate-context",
+      "text": "release-ghcr"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oras-project/oras",
+      "status": "candidate",
+      "text": "release-ghcr"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "release-ghcr",
+  "concept_id": "release-ghcr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release-ghcr.yml",
+      "source_repo": "oras-project/oras"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "release-ghcr",
+      "sense_id": "release-ghcr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

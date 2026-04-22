@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "code-review"
+    "code-review",
+    "Code Review"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +34,18 @@
       "source_repo": "agent-sh/audit-project",
       "status": "candidate-context",
       "text": "Multi-agent iterative code review that loops until zero issues remain."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "expo/expo",
+      "status": "candidate-context",
+      "text": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expo/expo",
+      "status": "candidate-context",
+      "text": "Code Review"
     }
   ],
   "candidate_glosses": [
@@ -39,9 +54,51 @@
       "source_repo": "agent-sh/audit-project",
       "status": "candidate",
       "text": "Multi-agent iterative code review that loops until zero issues remain."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expo/expo",
+      "status": "candidate",
+      "text": "Code Review"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10035758,
+      "status": "candidate",
+      "text": "coding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10035757,
+      "status": "candidate",
+      "text": "code smell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10035756,
+      "status": "candidate",
+      "text": "computer programming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10035755,
+      "status": "candidate",
+      "text": "code coverage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10035754,
+      "status": "candidate",
+      "text": "code face"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "code-review",
   "concept_id": "code-review",
@@ -64,11 +121,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "agent-sh/audit-project"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/code-review.yml",
+      "source_repo": "expo/expo"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

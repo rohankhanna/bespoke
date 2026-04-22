@@ -19,6 +19,18 @@
       "source_repo": "ChainSafe/lodestar",
       "status": "candidate-context",
       "text": "<p align=\"center\"><a href=\"https://chainsafe.github.io/lodestar\"><img width=\"500\" title=\"Lodestar\" src='assets/lodestar_icon_text_black_stroke.png' /></a></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/beacon-APIs",
+      "status": "candidate-context",
+      "text": "Collection of RESTful APIs provided by Ethereum Beacon nodes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/beacon-APIs",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/ethereum/beacon-APIs/workflows/CI/badge.svg)](https://github.com/ethereum/beacon-APIs/actions/workflows/main.yml?query=branch%3Amaster)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ChainSafe/lodestar",
       "status": "candidate",
       "text": "<p align=\"center\"><a href=\"https://chainsafe.github.io/lodestar\"><img width=\"500\" title=\"Lodestar\" src='assets/lodestar_icon_text_black_stroke.png' /></a></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/beacon-APIs",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/ethereum/beacon-APIs/workflows/CI/badge.svg)](https://github.com/ethereum/beacon-APIs/actions/workflows/main.yml?query=branch%3Amaster)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "ChainSafe/lodestar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "ethereum/beacon-APIs"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

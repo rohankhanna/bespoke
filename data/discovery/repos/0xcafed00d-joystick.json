@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T04:59:42.742822+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1111
+    },
+    {
+      "path": "go.mod",
+      "size": 205
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go Joystick API",
+    "fork": false,
+    "full_name": "0xcafed00d/joystick",
+    "html_url": "https://github.com/0xcafed00d/joystick",
+    "language": "Go",
+    "pushed_at": "2025-10-13T13:43:46Z",
+    "stargazers_count": 75,
+    "topics": [],
+    "updated_at": "2026-01-31T21:33:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/scorecards.yml",
       "source_repo": "docker/compose"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "facebook/zstd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "notaryproject/notation"
     }
   ],
   "term": "Scorecards supply-chain security"

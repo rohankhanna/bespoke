@@ -12,18 +12,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "googleapis/gapic-generator",
-      "target": "googleapis/googleapis",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "googleapis/gapic-generator",
       "target": "google/protobuf",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-21T11:29:48.082643+00:00",
+  "fetched_at": "2026-04-22T05:06:51.736601+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -53,11 +46,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "googleapis/artman",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "googleapis/googleapis",
       "source_file": "README.md"
     }
   ],

@@ -85,6 +85,18 @@
       "source_repo": "asdf-vm/asdf",
       "status": "candidate-context",
       "text": "[![Lint](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml) [![Tests](https://github.com/asdf-vm/asdf/actions/workflows/tests.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/tests.y\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rbenv/ruby-build",
+      "status": "candidate-context",
+      "text": "A tool to download, compile, and install Ruby on Unix-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rbenv/ruby-build",
+      "status": "candidate-context",
+      "text": "ruby-build is a command-line tool that simplifies installation of any Ruby version from source on Unix-like systems."
     }
   ],
   "candidate_glosses": [
@@ -123,6 +135,12 @@
       "source_repo": "asdf-vm/asdf",
       "status": "candidate",
       "text": "[![Lint](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/lint.yml) [![Tests](https://github.com/asdf-vm/asdf/actions/workflows/tests.yml/badge.svg)](https://github.com/asdf-vm/asdf/actions/workflows/tests.y\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rbenv/ruby-build",
+      "status": "candidate",
+      "text": "ruby-build is a command-line tool that simplifies installation of any Ruby version from source on Unix-like systems."
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +262,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "asdf-vm/asdf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "rbenv/ruby-build"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

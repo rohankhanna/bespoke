@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Daily Repo Stats to gh-pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/ROLL",
+      "status": "candidate-context",
+      "text": "An Efficient and User-Friendly Scaling Library for Reinforcement Learning with Large Language Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/ROLL",
+      "status": "candidate-context",
+      "text": "Daily Repo Stats to gh-pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/ROLL",
+      "status": "candidate",
+      "text": "Daily Repo Stats to gh-pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22832,
+      "status": "candidate",
+      "text": "sleep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22832,
+      "status": "candidate",
+      "text": "slumber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22832,
+      "status": "candidate",
+      "text": "slumbering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22709,
+      "status": "candidate",
+      "text": "smooth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22709,
+      "status": "candidate",
+      "text": "smoothed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Daily Repo Stats to gh-pages",
+  "concept_id": "daily-repo-stats-to-gh-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/daily-stats.yml",
+      "source_repo": "alibaba/ROLL"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Daily Repo Stats to gh-pages",
+      "sense_id": "daily-repo-stats-to-gh-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

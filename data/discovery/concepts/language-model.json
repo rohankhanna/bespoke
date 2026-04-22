@@ -31,6 +31,66 @@
       "source_repo": "EleutherAI/lm-evaluation-harness",
       "status": "candidate-context",
       "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10256836.svg)](https://doi.org/10.5281/zenodo.10256836)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/LMOps",
+      "status": "candidate-context",
+      "text": "General technology for enabling AI capabilities w/ LLMs and MLLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/LMOps",
+      "status": "candidate-context",
+      "text": "<!--# LMOps: Enabling AI w/ LLMs-->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EleutherAI/gpt-neox",
+      "status": "candidate-context",
+      "text": "An implementation of model parallel autoregressive transformers on GPUs, based on the Megatron and DeepSpeed libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EleutherAI/gpt-neox",
+      "status": "candidate-context",
+      "text": "[![GitHub issues](https://img.shields.io/github/issues/EleutherAI/gpt-neox)](https://github.com/EleutherAI/gpt-neox/issues)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scasella/nanochat-mlx",
+      "status": "candidate-context",
+      "text": "Train your own ChatGPT on Apple Silicon \u2014 MLX port of nanochat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scasella/nanochat-mlx",
+      "status": "candidate-context",
+      "text": "Train your own ChatGPT on Apple Silicon. Minimal MLX port of [Karpathy's nanochat](https://github.com/karpathy/nanochat)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlfoundations/open_clip",
+      "status": "candidate-context",
+      "text": "An open source implementation of CLIP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlfoundations/open_clip",
+      "status": "candidate-context",
+      "text": "[[Paper]](https://arxiv.org/abs/2212.07143) [[Citations]](#citing) [[Clip Colab]](https://colab.research.google.com/github/mlfoundations/open_clip/blob/master/docs/Interacting_with_open_clip.ipynb) [[Coca Colab]](https://colab.research.google.com/github/mlfoundations/open_clip/b\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/LoRA",
+      "status": "candidate-context",
+      "text": "Code for loralib, an implementation of \"LoRA: Low-Rank Adaptation of Large Language Models\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/LoRA",
+      "status": "candidate-context",
+      "text": "This repo contains the source code of the Python package `loralib` and several examples of how to integrate it with PyTorch models, such as those in Hugging Face."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +105,36 @@
       "source_repo": "EleutherAI/lm-evaluation-harness",
       "status": "candidate",
       "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10256836.svg)](https://doi.org/10.5281/zenodo.10256836)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/LMOps",
+      "status": "candidate",
+      "text": "<!--# LMOps: Enabling AI w/ LLMs-->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EleutherAI/gpt-neox",
+      "status": "candidate",
+      "text": "[![GitHub issues](https://img.shields.io/github/issues/EleutherAI/gpt-neox)](https://github.com/EleutherAI/gpt-neox/issues)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scasella/nanochat-mlx",
+      "status": "candidate",
+      "text": "Train your own ChatGPT on Apple Silicon. Minimal MLX port of [Karpathy's nanochat](https://github.com/karpathy/nanochat)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlfoundations/open_clip",
+      "status": "candidate",
+      "text": "[[Paper]](https://arxiv.org/abs/2212.07143) [[Citations]](#citing) [[Clip Colab]](https://colab.research.google.com/github/mlfoundations/open_clip/blob/master/docs/Interacting_with_open_clip.ipynb) [[Coca Colab]](https://colab.research.google.com/github/mlfoundations/open_clip/b\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/LoRA",
+      "status": "candidate",
+      "text": "This repo contains the source code of the Python package `loralib` and several examples of how to integrate it with PyTorch models, such as those in Hugging Face."
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +160,41 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "EleutherAI/lm-evaluation-harness"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/LMOps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "EleutherAI/gpt-neox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "scasella/nanochat-mlx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "mlfoundations/open_clip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/LoRA"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

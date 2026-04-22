@@ -1,0 +1,207 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_scripts.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_scripts.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_scripts.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_scripts.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_scripts.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_scripts.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_scripts.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/force_update.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/force_update.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/force_update.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_api_token.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_api_token.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_stubs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_stubs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_stubs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_scripts.yml",
+      "source_repo": "typeshed-internal/stub_uploader",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_scripts.yml",
+      "source_repo": "typeshed-internal/stub_uploader",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_scripts.yml",
+      "source_repo": "typeshed-internal/stub_uploader",
+      "target": "Check scripts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/force_update.yml",
+      "source_repo": "typeshed-internal/stub_uploader",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/force_update.yml",
+      "source_repo": "typeshed-internal/stub_uploader",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_api_token.yml",
+      "source_repo": "typeshed-internal/stub_uploader",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_api_token.yml",
+      "source_repo": "typeshed-internal/stub_uploader",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_api_token.yml",
+      "source_repo": "typeshed-internal/stub_uploader",
+      "target": "Test PyPI API token",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_stubs.yml",
+      "source_repo": "typeshed-internal/stub_uploader",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_stubs.yml",
+      "source_repo": "typeshed-internal/stub_uploader",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:58:54.031714+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4854
+    },
+    {
+      "path": "requirements.txt",
+      "size": 163
+    },
+    {
+      "path": ".github/workflows/check_scripts.yml",
+      "size": 1356
+    },
+    {
+      "path": ".github/workflows/force_update.yml",
+      "size": 1434
+    },
+    {
+      "path": ".github/workflows/test_api_token.yml",
+      "size": 906
+    },
+    {
+      "path": ".github/workflows/update_stubs.yml",
+      "size": 1822
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scripts and actions to auto-upload typeshed stubs to PyPI",
+    "fork": false,
+    "full_name": "typeshed-internal/stub_uploader",
+    "html_url": "https://github.com/typeshed-internal/stub_uploader",
+    "language": "Python",
+    "pushed_at": "2026-04-22T04:36:34Z",
+    "stargazers_count": 37,
+    "topics": [],
+    "updated_at": "2026-04-22T04:36:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check scripts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_scripts.yml",
+      "term": "Check scripts"
+    },
+    {
+      "context_snippet": "Test PyPI API token",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_api_token.yml",
+      "term": "Test PyPI API token"
+    }
+  ]
+}

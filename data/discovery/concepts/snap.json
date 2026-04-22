@@ -19,12 +19,30 @@
       "source_repo": "ghostty-org/ghostty",
       "status": "candidate-context",
       "text": "Snap"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/sccache",
+      "status": "candidate-context",
+      "text": "Sccache is a ccache-like tool. It is used as a compiler wrapper and avoids compilation when possible. Sccache has the capability to utilize caching in remote storage environments, including various cloud storage options, or alternatively, in local storage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/sccache",
+      "status": "candidate-context",
+      "text": "Snap"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "ghostty-org/ghostty",
+      "status": "candidate",
+      "text": "Snap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/sccache",
       "status": "candidate",
       "text": "Snap"
     }
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/snap.yml",
       "source_repo": "ghostty-org/ghostty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/snap.yml",
+      "source_repo": "mozilla/sccache"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

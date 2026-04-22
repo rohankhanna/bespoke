@@ -19,12 +19,48 @@
       "source_repo": "bnosac/audio.whisper",
       "status": "candidate-context",
       "text": "R-CMD-check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bnosac/audio.vadsilero",
+      "status": "candidate-context",
+      "text": "Voice Activity Detection in R using the \"Silero\" model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnosac/audio.vadsilero",
+      "status": "candidate-context",
+      "text": "R-CMD-check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bnosac/audio.vadwebrtc",
+      "status": "candidate-context",
+      "text": "Voice Activity Detection in R using the \"webrtc\" toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnosac/audio.vadwebrtc",
+      "status": "candidate-context",
+      "text": "R-CMD-check"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "bnosac/audio.whisper",
+      "status": "candidate",
+      "text": "R-CMD-check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnosac/audio.vadsilero",
+      "status": "candidate",
+      "text": "R-CMD-check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnosac/audio.vadwebrtc",
       "status": "candidate",
       "text": "R-CMD-check"
     }
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/R-CMD-check.yml",
       "source_repo": "bnosac/audio.whisper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/R-CMD-check.yml",
+      "source_repo": "bnosac/audio.vadsilero"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/R-CMD-check.yml",
+      "source_repo": "bnosac/audio.vadwebrtc"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

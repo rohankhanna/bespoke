@@ -19,6 +19,18 @@
       "source_repo": "fwcd/kotlin-language-server",
       "status": "candidate-context",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fwcd/atom-ide-kotlin",
+      "status": "candidate-context",
+      "text": "Intelligent Kotlin support for Atom"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fwcd/atom-ide-kotlin",
+      "status": "candidate-context",
+      "text": "[![Version](https://img.shields.io/apm/v/ide-kotlin)](https://atom.io/packages/ide-kotlin)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "fwcd/kotlin-language-server",
       "status": "candidate",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fwcd/atom-ide-kotlin",
+      "status": "candidate",
+      "text": "[![Version](https://img.shields.io/apm/v/ide-kotlin)](https://atom.io/packages/ide-kotlin)"
     }
   ],
   "candidate_related_terms": [
@@ -105,11 +123,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "fwcd/kotlin-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "fwcd/atom-ide-kotlin"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

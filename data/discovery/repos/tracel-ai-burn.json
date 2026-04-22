@@ -390,20 +390,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "tracel-ai/burn",
-      "target": "tracel-ai/cubecl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "tracel-ai/burn",
-      "target": "tracel-ai/cubek",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/combine-dependabot-prs.yml",
       "source_repo": "tracel-ai/burn",
@@ -712,7 +698,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T01:06:17.229504+00:00",
+  "fetched_at": "2026-04-22T05:05:23.104036+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -764,8 +750,8 @@
     "full_name": "tracel-ai/burn",
     "html_url": "https://github.com/tracel-ai/burn",
     "language": "Rust",
-    "pushed_at": "2026-04-21T21:03:03Z",
-    "stargazers_count": 14914,
+    "pushed_at": "2026-04-22T03:41:19Z",
+    "stargazers_count": 14915,
     "topics": [
       "autodiff",
       "cross-platform",
@@ -786,23 +772,13 @@
       "wasm",
       "webgpu"
     ],
-    "updated_at": "2026-04-21T19:36:06Z"
+    "updated_at": "2026-04-22T05:02:36Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "ratatui-org/ratatui",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tracel-ai/cubecl",
-      "source_file": "Cargo.toml"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tracel-ai/cubek",
-      "source_file": "Cargo.toml"
     }
   ],
   "terms": [

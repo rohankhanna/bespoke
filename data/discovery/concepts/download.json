@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "download"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itinance/react-native-fs",
+      "status": "candidate-context",
+      "text": "Native filesystem access for react-native"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itinance/react-native-fs",
+      "status": "candidate-context",
+      "text": "Native filesystem access for react-native"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itinance/react-native-fs",
+      "status": "candidate",
+      "text": "Native filesystem access for react-native"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050279,
+      "status": "candidate",
+      "text": "uploaded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050215,
+      "status": "candidate",
+      "text": "uploading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050182,
+      "status": "candidate",
+      "text": "upload"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042463,
+      "status": "candidate",
+      "text": "downlink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020819,
+      "status": "candidate",
+      "text": "softcopy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "download",
+  "concept_id": "download",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "itinance/react-native-fs"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "download",
+      "sense_id": "download#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

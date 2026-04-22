@@ -1,0 +1,210 @@
+{
+  "components": [
+    {
+      "component": "mig4/setup-bats@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerimage.yml"
+    },
+    {
+      "component": "docker/build-push-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerimage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ekalinin/github-markdown-toc",
+      "target": "ekalinin/github-markdown-toc.go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ekalinin/github-markdown-toc",
+      "target": "basherpm/basher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ekalinin/github-markdown-toc",
+      "target": "ekalinin/envirius",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ekalinin/github-markdown-toc",
+      "target": "aminb/rust-for-c",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ekalinin/github-markdown-toc",
+      "target": "mig4/setup-bats@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ekalinin/github-markdown-toc",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerimage.yml",
+      "source_repo": "ekalinin/github-markdown-toc",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerimage.yml",
+      "source_repo": "ekalinin/github-markdown-toc",
+      "target": "docker/build-push-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerimage.yml",
+      "source_repo": "ekalinin/github-markdown-toc",
+      "target": "Publish Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ekalinin/github-markdown-toc",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ekalinin/github-markdown-toc",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ekalinin/github-markdown-toc",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ekalinin/github-markdown-toc",
+      "target": "table-of-contents",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:04:39.181792+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12681
+    },
+    {
+      "path": "Dockerfile",
+      "size": 170
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 601
+    },
+    {
+      "path": ".github/workflows/dockerimage.yml",
+      "size": 501
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easy TOC creation for GitHub README.md",
+    "fork": false,
+    "full_name": "ekalinin/github-markdown-toc",
+    "html_url": "https://github.com/ekalinin/github-markdown-toc",
+    "language": "Shell",
+    "pushed_at": "2024-10-12T19:30:59Z",
+    "stargazers_count": 3290,
+    "topics": [
+      "github",
+      "markdown",
+      "shell",
+      "table-of-contents",
+      "toc"
+    ],
+    "updated_at": "2026-04-21T23:33:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aminb/rust-for-c",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "basherpm/basher",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ekalinin/envirius",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ekalinin/github-markdown-toc.go",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerimage.yml",
+      "term": "Publish Docker image"
+    },
+    {
+      "context_snippet": "gh-md-toc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "gh-md-toc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "gh-md-toc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "gh-md-toc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "table-of-contents"
+    }
+  ]
+}

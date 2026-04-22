@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mushroomcat9998/PaddleOCR",
+      "target": "paddlepaddle/paddleocr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mushroomcat9998/PaddleOCR",
+      "target": "paddlepaddle/paddleslim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:18:03.334650+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13596
+    },
+    {
+      "path": "requirements.txt",
+      "size": 128
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Custom repo for training Japanese OCR",
+    "fork": false,
+    "full_name": "Mushroomcat9998/PaddleOCR",
+    "html_url": "https://github.com/Mushroomcat9998/PaddleOCR",
+    "language": "Python",
+    "pushed_at": "2021-06-08T05:02:21Z",
+    "stargazers_count": 32,
+    "topics": [],
+    "updated_at": "2026-03-11T23:31:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paddlepaddle/paddleocr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paddlepaddle/paddleslim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

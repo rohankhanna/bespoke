@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "mlcommons/cla-bot@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "mlcommons/training",
+      "target": "mlcommons/cla-bot@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "mlcommons/training",
+      "target": "cla-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlcommons/training",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlcommons/training",
+      "target": "machine-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:03:55.372000+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10353
+    },
+    {
+      "path": ".github/workflows/cla.yml",
+      "size": 1930
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Reference implementations of MLPerf\u00ae training benchmarks",
+    "fork": false,
+    "full_name": "mlcommons/training",
+    "html_url": "https://github.com/mlcommons/training",
+    "language": "Python",
+    "pushed_at": "2026-04-16T16:22:21Z",
+    "stargazers_count": 1755,
+    "topics": [
+      "benchmark",
+      "machine-learning"
+    ],
+    "updated_at": "2026-04-19T02:55:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"cla-bot\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "term": "cla-bot"
+    },
+    {
+      "context_snippet": "This is a repository of reference implementations for the MLPerf training benchmarks. These implementations are valid as starting points for benchmark implementations but are not fully optimized and are not intended to be used for \"real\" performance measurements of software fram\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "This is a repository of reference implementations for the MLPerf training benchmarks. These implementations are valid as starting points for benchmark implementations but are not fully optimized and are not intended to be used for \"real\" performance measurements of software fram\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Internal Docker Images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "voxel51/fiftyone",
+      "status": "candidate-context",
+      "text": "Refine high-quality datasets and visual AI models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voxel51/fiftyone",
+      "status": "candidate-context",
+      "text": "Build Internal Docker Images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voxel51/fiftyone",
+      "status": "candidate",
+      "text": "Build Internal Docker Images"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33289,
+      "status": "candidate",
+      "text": "ultrasonography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17521,
+      "status": "candidate",
+      "text": "seaman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16936,
+      "status": "candidate",
+      "text": "building"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16905,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16896,
+      "status": "candidate",
+      "text": "frame"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Internal Docker Images",
+  "concept_id": "build-internal-docker-images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/build-docker-internal.yml",
+      "source_repo": "voxel51/fiftyone"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Internal Docker Images",
+      "sense_id": "build-internal-docker-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

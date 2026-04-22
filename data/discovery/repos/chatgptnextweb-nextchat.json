@@ -481,7 +481,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ChatGPTNextWeb/NextChat",
-      "target": "chatgptnextweb/nextchat-ios",
+      "target": "josstorer/rwkv-runner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChatGPTNextWeb/NextChat",
+      "target": "go-skynet/localai",
       "target_type": "repository"
     },
     {
@@ -496,13 +503,6 @@
       "source_file": "README.md",
       "source_repo": "ChatGPTNextWeb/NextChat",
       "target": "chatgptnextweb/chatgpt-next-web",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ChatGPTNextWeb/NextChat",
-      "target": "chatgptnextweb/nextchat-awesome-plugins",
       "target_type": "repository"
     },
     {
@@ -1318,7 +1318,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T01:11:12.760532+00:00",
+  "fetched_at": "2026-04-22T05:17:31.723852+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1371,7 +1371,7 @@
     "html_url": "https://github.com/ChatGPTNextWeb/NextChat",
     "language": "TypeScript",
     "pushed_at": "2025-12-02T17:05:02Z",
-    "stargazers_count": 87761,
+    "stargazers_count": 87759,
     "topics": [
       "calclaude",
       "chatgpt",
@@ -1393,7 +1393,7 @@
       "vercel",
       "webui"
     ],
-    "updated_at": "2026-04-22T01:03:22Z"
+    "updated_at": "2026-04-22T04:31:48Z"
   },
   "repo_links": [
     {
@@ -1403,17 +1403,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "chatgptnextweb/nextchat-awesome-plugins",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "chatgptnextweb/nextchat-ios",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "f/awesome-chatgpt-prompts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-skynet/localai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "josstorer/rwkv-runner",
       "source_file": "README.md"
     }
   ],

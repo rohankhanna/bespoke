@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T05:08:33.256367+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10033
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 4640
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An implementation of Tor, in Rust. [NOT Official, Mirrors Only, NO PR here] ",
+    "fork": true,
+    "full_name": "eigenwallet/arti",
+    "html_url": "https://github.com/eigenwallet/arti",
+    "language": "Rust",
+    "pushed_at": "2026-04-12T23:22:34Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-10-23T20:27:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

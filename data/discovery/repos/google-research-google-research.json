@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/google-research",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/google-research",
+      "target": "research",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:19:01.664496+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1007
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Google Research",
+    "fork": false,
+    "full_name": "google-research/google-research",
+    "html_url": "https://github.com/google-research/google-research",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-21T21:37:26Z",
+    "stargazers_count": 37770,
+    "topics": [
+      "ai",
+      "machine-learning",
+      "research"
+    ],
+    "updated_at": "2026-04-22T03:39:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains code released by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "This repository contains code released by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research"
+    }
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "cargo-bins/cargo-binstall@v1.10.22",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "crazy-max/ghaction-github-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@1.90.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge.yaml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yaml"
+    },
+    {
+      "component": "houseabsolute/actions-rust-cross@a448c4b13769d56b63b035024fef8577e1d81915",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yaml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@e2a63377780a8bacc68dcac9b0979ee20ad5a791",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "houseabsolute/actions-rust-cross@a448c4b13769d56b63b035024fef8577e1d81915",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@e2a63377780a8bacc68dcac9b0979ee20ad5a791",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@1.90.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mfontanini/presenterm",
+      "target": "trishume/syntect",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mfontanini/presenterm",
+      "target": "pwnwriter/ptn11",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mfontanini/presenterm",
+      "target": "vaishnav-sabari-girish/rust_bangalore_oct_2025",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mfontanini/presenterm",
+      "target": "vaishnav-sabari-girish/rust_bangalore_december_2025",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "mfontanini/presenterm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "mfontanini/presenterm",
+      "target": "cargo-bins/cargo-binstall@v1.10.22",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "mfontanini/presenterm",
+      "target": "crazy-max/ghaction-github-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "mfontanini/presenterm",
+      "target": "Deploy docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge.yaml",
+      "source_repo": "mfontanini/presenterm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge.yaml",
+      "source_repo": "mfontanini/presenterm",
+      "target": "dtolnay/rust-toolchain@1.90.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge.yaml",
+      "source_repo": "mfontanini/presenterm",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge.yaml",
+      "source_repo": "mfontanini/presenterm",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge.yaml",
+      "source_repo": "mfontanini/presenterm",
+      "target": "DeterminateSystems/nix-installer-action@v17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge.yaml",
+      "source_repo": "mfontanini/presenterm",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge.yaml",
+      "source_repo": "mfontanini/presenterm",
+      "target": "Merge checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "mfontanini/presenterm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "mfontanini/presenterm",
+      "target": "houseabsolute/actions-rust-cross@a448c4b13769d56b63b035024fef8577e1d81915",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "mfontanini/presenterm",
+      "target": "svenstaro/upload-release-action@e2a63377780a8bacc68dcac9b0979ee20ad5a791",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "mfontanini/presenterm",
+      "target": "Nightly build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mfontanini/presenterm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mfontanini/presenterm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mfontanini/presenterm",
+      "target": "houseabsolute/actions-rust-cross@a448c4b13769d56b63b035024fef8577e1d81915",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mfontanini/presenterm",
+      "target": "svenstaro/upload-release-action@e2a63377780a8bacc68dcac9b0979ee20ad5a791",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mfontanini/presenterm",
+      "target": "dtolnay/rust-toolchain@1.90.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mfontanini/presenterm",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mfontanini/presenterm",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mfontanini/presenterm",
+      "target": "markdown-slides",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mfontanini/presenterm",
+      "target": "presentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mfontanini/presenterm",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mfontanini/presenterm",
+      "target": "slides",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mfontanini/presenterm",
+      "target": "slideshow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mfontanini/presenterm",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:26:58.233873+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7097
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1652
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 741
+    },
+    {
+      "path": ".github/workflows/merge.yaml",
+      "size": 2204
+    },
+    {
+      "path": ".github/workflows/nightly.yaml",
+      "size": 4266
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 4062
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A markdown terminal slideshow tool",
+    "fork": false,
+    "full_name": "mfontanini/presenterm",
+    "html_url": "https://github.com/mfontanini/presenterm",
+    "language": "Rust",
+    "pushed_at": "2026-04-20T03:52:13Z",
+    "stargazers_count": 8269,
+    "topics": [
+      "cli",
+      "markdown",
+      "markdown-slides",
+      "presentation",
+      "rust",
+      "slides",
+      "slideshow",
+      "terminal"
+    ],
+    "updated_at": "2026-04-22T03:00:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pwnwriter/ptn11",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "trishume/syntect",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vaishnav-sabari-girish/rust_bangalore_december_2025",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vaishnav-sabari-girish/rust_bangalore_oct_2025",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "term": "Deploy docs"
+    },
+    {
+      "context_snippet": "Merge checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge.yaml",
+      "term": "Merge checks"
+    },
+    {
+      "context_snippet": "Nightly build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yaml",
+      "term": "Nightly build"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "presenterm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "presenterm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown-slides"
+    },
+    {
+      "context_snippet": "presenterm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "presentation"
+    },
+    {
+      "context_snippet": "presenterm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "presenterm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slides"
+    },
+    {
+      "context_snippet": "presenterm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slideshow"
+    },
+    {
+      "context_snippet": "presenterm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

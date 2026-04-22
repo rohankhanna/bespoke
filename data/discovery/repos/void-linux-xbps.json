@@ -1,0 +1,241 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity-scan.yml"
+    },
+    {
+      "component": "classabbyamp/treeless-checkout-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yaml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yaml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "void-linux/xbps",
+      "target": "jmmv/kyua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "void-linux/xbps",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "void-linux/xbps",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "void-linux/xbps",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "void-linux/xbps",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "void-linux/xbps",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "void-linux/xbps",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity-scan.yml",
+      "source_repo": "void-linux/xbps",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity-scan.yml",
+      "source_repo": "void-linux/xbps",
+      "target": "coverity-scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yaml",
+      "source_repo": "void-linux/xbps",
+      "target": "classabbyamp/treeless-checkout-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yaml",
+      "source_repo": "void-linux/xbps",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yaml",
+      "source_repo": "void-linux/xbps",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doxygen.yaml",
+      "source_repo": "void-linux/xbps",
+      "target": "Deploy Doxygen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "void-linux/xbps",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "void-linux/xbps",
+      "target": "voidlinux",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:00:14.725703+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15445
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1788
+    },
+    {
+      "path": ".github/workflows/codeql.yaml",
+      "size": 1328
+    },
+    {
+      "path": ".github/workflows/coverity-scan.yml",
+      "size": 1636
+    },
+    {
+      "path": ".github/workflows/doxygen.yaml",
+      "size": 1169
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The X Binary Package System (XBPS)",
+    "fork": false,
+    "full_name": "void-linux/xbps",
+    "html_url": "https://github.com/void-linux/xbps",
+    "language": "C",
+    "pushed_at": "2026-03-15T19:32:07Z",
+    "stargazers_count": 1053,
+    "topics": [
+      "hacktoberfest",
+      "voidlinux"
+    ],
+    "updated_at": "2026-04-22T04:32:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jmmv/kyua",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yaml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "coverity-scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity-scan.yml",
+      "term": "coverity-scan"
+    },
+    {
+      "context_snippet": "Deploy Doxygen",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doxygen.yaml",
+      "term": "Deploy Doxygen"
+    },
+    {
+      "context_snippet": "[![Packaging status](https://repology.org/badge/vertical-allrepos/xbps.svg)](https://repology.org/project/xbps/versions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Packaging status](https://repology.org/badge/vertical-allrepos/xbps.svg)](https://repology.org/project/xbps/versions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voidlinux"
+    }
+  ]
+}

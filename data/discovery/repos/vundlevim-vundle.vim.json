@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VundleVim/Vundle.vim",
+      "target": "bundler/bundler",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:10:58.166985+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6545
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vundle, the plug-in manager for Vim",
+    "fork": false,
+    "full_name": "VundleVim/Vundle.vim",
+    "html_url": "https://github.com/VundleVim/Vundle.vim",
+    "language": "Vim Script",
+    "pushed_at": "2024-07-30T05:53:03Z",
+    "stargazers_count": 23970,
+    "topics": [],
+    "updated_at": "2026-04-21T20:20:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bundler/bundler",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -19,6 +19,30 @@
       "source_repo": "vicgalle/stable-diffusion-aesthetic-gradients",
       "status": "candidate-context",
       "text": "This is the codebase for the article [Personalizing Text-to-Image Generation via Aesthetic Gradients](https://arxiv.org/abs/2209.12330):"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "diff-usion/Awesome-Diffusion-Models",
+      "status": "candidate-context",
+      "text": " A collection of resources and papers on Diffusion Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diff-usion/Awesome-Diffusion-Models",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/hee9joon/Awesome-Diffusion-Models)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuChengTHU/dpm-solver",
+      "status": "candidate-context",
+      "text": "Official code for \"DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps\" (Neurips 2022 Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuChengTHU/dpm-solver",
+      "status": "candidate-context",
+      "text": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/LuChengTHU/dpmsolver_sdm)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "vicgalle/stable-diffusion-aesthetic-gradients",
       "status": "candidate",
       "text": "This is the codebase for the article [Personalizing Text-to-Image Generation via Aesthetic Gradients](https://arxiv.org/abs/2209.12330):"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diff-usion/Awesome-Diffusion-Models",
+      "status": "candidate",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/hee9joon/Awesome-Diffusion-Models)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuChengTHU/dpm-solver",
+      "status": "candidate",
+      "text": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/LuChengTHU/dpmsolver_sdm)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "vicgalle/stable-diffusion-aesthetic-gradients"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "diff-usion/Awesome-Diffusion-Models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "LuChengTHU/dpm-solver"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

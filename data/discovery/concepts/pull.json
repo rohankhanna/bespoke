@@ -55,6 +55,18 @@
       "source_repo": "libp2p/js-libp2p-example-connection-encryption",
       "status": "candidate-context",
       "text": "pull"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libp2p/js-libp2p-example-auto-tls",
+      "status": "candidate-context",
+      "text": "How to get a TLS certificate automatically"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/js-libp2p-example-auto-tls",
+      "status": "candidate-context",
+      "text": "pull"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "libp2p/js-libp2p-example-connection-encryption",
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/js-libp2p-example-auto-tls",
       "status": "candidate",
       "text": "pull"
     }
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/sync.yml",
       "source_repo": "libp2p/js-libp2p-example-connection-encryption"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "libp2p/js-libp2p-example-auto-tls"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

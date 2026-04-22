@@ -43,6 +43,18 @@
       "source_repo": "container-storage-interface/spec",
       "status": "candidate-context",
       "text": "![CSI Logo](logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oras-project/oras",
+      "status": "candidate-context",
+      "text": "OCI registry client - managing content like artifacts, images, packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oras-project/oras",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/oras-project/oras/actions/workflows/build.yml/badge.svg?event=push)](https://github.com/oras-project/oras/actions/workflows/build.yml?query=workflow%3Abuild+event%3Apush)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "container-storage-interface/spec",
       "status": "candidate",
       "text": "![CSI Logo](logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oras-project/oras",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/oras-project/oras/actions/workflows/build.yml/badge.svg?event=push)](https://github.com/oras-project/oras/actions/workflows/build.yml?query=workflow%3Abuild+event%3Apush)"
     }
   ],
   "candidate_related_terms": [
@@ -166,11 +184,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "container-storage-interface/spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "oras-project/oras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "coaidev/blob-service"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

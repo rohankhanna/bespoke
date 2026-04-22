@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "kube2iam  provides different AWS IAM roles for pods running on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/Tv5Xa331HXLx98iuW72Ug4/Po3PqWxjiikmpntHfiZoXW/tree/master.svg?style=shield&circle-token=d0a793bd02cdcccff259a236dde26e6cc749d35d)](https://app.circleci.com/pipelines/circleci/Tv5Xa331HXLx98iuW72Ug4/Po3PqWxjiikmpntHfi\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/Tv5Xa331HXLx98iuW72Ug4/Po3PqWxjiikmpntHfiZoXW/tree/master.svg?style=shield&circle-token=d0a793bd02cdcccff259a236dde26e6cc749d35d)](https://app.circleci.com/pipelines/circleci/Tv5Xa331HXLx98iuW72Ug4/Po3PqWxjiikmpntHfi\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023447,
+      "status": "candidate",
+      "text": "kube"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023446,
+      "status": "candidate",
+      "text": "openshift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023445,
+      "status": "candidate",
+      "text": "chromium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023444,
+      "status": "candidate",
+      "text": "kernel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023443,
+      "status": "candidate",
+      "text": "linux"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kubernetes",
+      "sense_id": "kubernetes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "kubernetes",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kubernetes",
+  "observation_id": "f76d5e9e89114e8b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "kubernetes",
+  "source_context_snippet": "[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/Tv5Xa331HXLx98iuW72Ug4/Po3PqWxjiikmpntHfiZoXW/tree/master.svg?style=shield&circle-token=d0a793bd02cdcccff259a236dde26e6cc749d35d)](https://app.circleci.com/pipelines/circleci/Tv5Xa331HXLx98iuW72Ug4/Po3PqWxjiikmpntHfi\u2026",
+  "source_file": null,
+  "source_repo": "jtblin/kube2iam",
+  "source_repo_description": "kube2iam  provides different AWS IAM roles for pods running on Kubernetes"
+}

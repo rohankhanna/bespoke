@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ermongroup/ddim",
+      "target": "hojonathanho/diffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ermongroup/ddim",
+      "target": "pesser/pytorch_diffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ermongroup/ddim",
+      "target": "ermongroup/ncsnv2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:19:32.185262+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4781
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Denoising Diffusion Implicit Models",
+    "fork": false,
+    "full_name": "ermongroup/ddim",
+    "html_url": "https://github.com/ermongroup/ddim",
+    "language": "Python",
+    "pushed_at": "2024-07-26T09:07:25Z",
+    "stargazers_count": 1815,
+    "topics": [],
+    "updated_at": "2026-04-20T09:31:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ermongroup/ncsnv2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hojonathanho/diffusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pesser/pytorch_diffusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

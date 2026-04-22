@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lerocha/chinook-database",
+      "target": "lerocha/netflixdb",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:54:41.437300+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3183
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Sample database for SQL Server, Oracle, MySQL, PostgreSQL, SQLite, DB2",
+    "fork": false,
+    "full_name": "lerocha/chinook-database",
+    "html_url": "https://github.com/lerocha/chinook-database",
+    "language": "TSQL",
+    "pushed_at": "2025-10-05T23:25:42Z",
+    "stargazers_count": 2494,
+    "topics": [],
+    "updated_at": "2026-04-20T08:27:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lerocha/netflixdb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

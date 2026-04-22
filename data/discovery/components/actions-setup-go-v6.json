@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@v6",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -417,6 +417,91 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/apidiff-pr.yml",
       "source_repo": "elastic/go-elasticsearch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-bin.yml",
+      "source_repo": "0xERR0R/blocky"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "0xERR0R/blocky"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "google/go-containerregistry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump-deps.yaml",
+      "source_repo": "google/go-containerregistry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "google/go-containerregistry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ecr-auth.yaml",
+      "source_repo": "google/go-containerregistry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ghcr-auth.yaml",
+      "source_repo": "google/go-containerregistry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml",
+      "source_repo": "googleapis/go-genproto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "ethereum/execution-apis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-deploy.yaml",
+      "source_repo": "ethereum/execution-apis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "ethereum/execution-apis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vectorlint.yml",
+      "source_repo": "C2SP/wycheproof"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd-badger.yml",
+      "source_repo": "dgraph-io/badger"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-badger-bank-tests-nightly.yml",
+      "source_repo": "dgraph-io/badger"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-badger-bank-tests.yml",
+      "source_repo": "dgraph-io/badger"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-badger-tests.yml",
+      "source_repo": "dgraph-io/badger"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-tests.yml",
+      "source_repo": "dgraph-io/badger"
     }
   ]
 }

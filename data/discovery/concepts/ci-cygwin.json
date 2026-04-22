@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "CI-cygwin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danmar/cppcheck",
+      "status": "candidate-context",
+      "text": "static analysis of C/C++ code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danmar/cppcheck",
+      "status": "candidate-context",
+      "text": "CI-cygwin"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danmar/cppcheck",
+      "status": "candidate",
+      "text": "CI-cygwin"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "CI-cygwin",
+  "concept_id": "ci-cygwin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/CI-cygwin.yml",
+      "source_repo": "danmar/cppcheck"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI-cygwin",
+      "sense_id": "ci-cygwin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

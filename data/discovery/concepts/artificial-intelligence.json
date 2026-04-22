@@ -55,6 +55,66 @@
       "source_repo": "microsoft/semantic-kernel",
       "status": "candidate-context",
       "text": "**Build intelligent AI agents and multi-agent systems with this enterprise-ready orchestration framework**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "voxel51/fiftyone",
+      "status": "candidate-context",
+      "text": "Refine high-quality datasets and visual AI models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voxel51/fiftyone",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dualverse-ai/station",
+      "status": "candidate-context",
+      "text": "The Station, an open-world multi-agent environment that models a miniature scientific ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dualverse-ai/station",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/denoising-diffusion-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of Denoising Diffusion Probabilistic Model in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/denoising-diffusion-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./images/denoising-diffusion.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "diff-usion/Awesome-Diffusion-Models",
+      "status": "candidate-context",
+      "text": " A collection of resources and papers on Diffusion Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diff-usion/Awesome-Diffusion-Models",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/hee9joon/Awesome-Diffusion-Models)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/memory-efficient-attention-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of a memory efficient multi-head attention as proposed in the paper, \"Self-attention Does Not Need O(n\u00b2) Memory\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/memory-efficient-attention-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of a memory efficient multi-head attention as proposed in the paper, <a href=\"https://arxiv.org/abs/2112.05682\">Self-attention Does Not Need O(n\u00b2) Memory</a>. In addition, the module will take care of masking, causal masking, as well as cross attention."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +141,36 @@
       "source_repo": "microsoft/semantic-kernel",
       "status": "candidate",
       "text": "**Build intelligent AI agents and multi-agent systems with this enterprise-ready orchestration framework**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voxel51/fiftyone",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dualverse-ai/station",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/denoising-diffusion-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./images/denoising-diffusion.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diff-usion/Awesome-Diffusion-Models",
+      "status": "candidate",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/hee9joon/Awesome-Diffusion-Models)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/memory-efficient-attention-pytorch",
+      "status": "candidate",
+      "text": "Implementation of a memory efficient multi-head attention as proposed in the paper, <a href=\"https://arxiv.org/abs/2112.05682\">Self-attention Does Not Need O(n\u00b2) Memory</a>. In addition, the module will take care of masking, causal masking, as well as cross attention."
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +208,47 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "microsoft/semantic-kernel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "voxel51/fiftyone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "dualverse-ai/station"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/denoising-diffusion-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "diff-usion/Awesome-Diffusion-Models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/memory-efficient-attention-pytorch"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

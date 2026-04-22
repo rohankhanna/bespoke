@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check Template Bare Minimum Diffs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check Template Bare Minimum Diffs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33910,
+      "status": "candidate",
+      "text": "least"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33435,
+      "status": "candidate",
+      "text": "margin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29838,
+      "status": "candidate",
+      "text": "gauge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29169,
+      "status": "candidate",
+      "text": "normal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29169,
+      "status": "candidate",
+      "text": "ocellus"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Template Bare Minimum Diffs",
+      "sense_id": "check-template-bare-minimum-diffs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-template-bare-minimum-diffs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-template-bare-minimum-diffs",
+  "observation_id": "2357b2f82bffa9bd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "Check Template Bare Minimum Diffs",
+  "source_context_snippet": "Check Template Bare Minimum Diffs",
+  "source_file": ".github/workflows/bare-diffs.yml",
+  "source_repo": "expo/expo",
+  "source_repo_description": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web."
+}

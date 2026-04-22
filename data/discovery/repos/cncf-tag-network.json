@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cncf/tag-network",
+      "target": "cncf/wg-networking",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:56:50.385650+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10889
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "\ud83c\udf10 CNCF Network TAG",
+    "fork": false,
+    "full_name": "cncf/tag-network",
+    "html_url": "https://github.com/cncf/tag-network",
+    "language": null,
+    "pushed_at": "2024-09-06T16:13:58Z",
+    "stargazers_count": 73,
+    "topics": [],
+    "updated_at": "2026-02-28T08:26:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cncf/wg-networking",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

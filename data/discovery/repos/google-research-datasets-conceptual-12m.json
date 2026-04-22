@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research-datasets/conceptual-12m",
+      "target": "google-research-datasets/conceptual-captions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research-datasets/conceptual-12m",
+      "target": "multimodal-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research-datasets/conceptual-12m",
+      "target": "pre-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research-datasets/conceptual-12m",
+      "target": "vision-and-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:19:16.501070+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3102
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Conceptual 12M is a dataset containing (image-URL, caption) pairs collected for vision-and-language pre-training.",
+    "fork": false,
+    "full_name": "google-research-datasets/conceptual-12m",
+    "html_url": "https://github.com/google-research-datasets/conceptual-12m",
+    "language": null,
+    "pushed_at": "2025-07-14T06:27:09Z",
+    "stargazers_count": 421,
+    "topics": [
+      "multimodal-dataset",
+      "pre-training",
+      "vision-and-language"
+    ],
+    "updated_at": "2026-04-18T19:53:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research-datasets/conceptual-captions",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-dataset"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pre-training"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-and-language"
+    }
+  ]
+}

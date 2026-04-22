@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "local"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexpinel/Dot",
+      "status": "candidate-context",
+      "text": "Text-To-Speech, RAG, and LLMs. All local!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpinel/Dot",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpinel/Dot",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033652,
+      "status": "candidate",
+      "text": "localized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026135,
+      "status": "candidate",
+      "text": "community"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025628,
+      "status": "candidate",
+      "text": "native"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024474,
+      "status": "candidate",
+      "text": "district"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023549,
+      "status": "candidate",
+      "text": "homegrown"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34059,
+      "status": "candidate",
+      "text": "community"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10053,
+      "status": "candidate",
+      "text": "topical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7049,
+      "status": "candidate",
+      "text": "native"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4032,
+      "status": "candidate",
+      "text": "localized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4022,
+      "status": "candidate",
+      "text": "homegrown"
+    }
+  ],
+  "canonical_name": "local",
+  "concept_id": "local",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "alexpinel/Dot"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "local",
+      "sense_id": "local#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

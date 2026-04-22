@@ -48,7 +48,7 @@
   "normalized_form": "autotag",
   "observation_id": "4a4f1c829c97d897",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
   "observed_text": "Autotag",
   "source_context_snippet": "Autotag",
   "source_file": ".github/workflows/autotag.yml",

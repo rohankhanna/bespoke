@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "SpellCheck"
+    "SpellCheck",
+    "Spellcheck"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,42 @@
       "source_repo": "meta-llama/llama-cookbook",
       "status": "candidate-context",
       "text": "SpellCheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/beacon-APIs",
+      "status": "candidate-context",
+      "text": "Collection of RESTful APIs provided by Ethereum Beacon nodes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/beacon-APIs",
+      "status": "candidate-context",
+      "text": "Spellcheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/builder-specs",
+      "status": "candidate-context",
+      "text": "Specification for the external block builders."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/builder-specs",
+      "status": "candidate-context",
+      "text": "Spellcheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/execution-apis",
+      "status": "candidate-context",
+      "text": "Collection of APIs provided by Ethereum execution layer clients "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/execution-apis",
+      "status": "candidate-context",
+      "text": "Spellcheck"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +64,24 @@
       "source_repo": "meta-llama/llama-cookbook",
       "status": "candidate",
       "text": "SpellCheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/beacon-APIs",
+      "status": "candidate",
+      "text": "Spellcheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/builder-specs",
+      "status": "candidate",
+      "text": "Spellcheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/execution-apis",
+      "status": "candidate",
+      "text": "Spellcheck"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +131,29 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": ".github/workflows/spellcheck.yml",
       "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "ethereum/beacon-APIs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/spellcheck.yaml",
+      "source_repo": "ethereum/builder-specs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/spellcheck.yaml",
+      "source_repo": "ethereum/execution-apis"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

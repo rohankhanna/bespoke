@@ -79,6 +79,42 @@
       "source_repo": "python-trio/trio",
       "status": "candidate-context",
       "text": ".. image:: https://img.shields.io/badge/chat-join%20now-blue.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RekGRpth/pg_task",
+      "status": "candidate-context",
+      "text": "pg_task - job scheduler for PostgreSQL, Greenplum and Greengage: asynchronous background execution of SQL commands at user-defined time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RekGRpth/pg_task",
+      "status": "candidate-context",
+      "text": "PostgreSQL, Greenplum and Greengage job scheduler `pg_task` allows to execute any sql command at any specific time at background asynchronously"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/supertape",
+      "status": "candidate-context",
+      "text": "\ud83d\udcfc  Simplest high speed testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/supertape",
+      "status": "candidate-context",
+      "text": "[NPMURL]: https://npmjs.org/package/supertape \"npm\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gitui-org/gitui",
+      "status": "candidate-context",
+      "text": "Blazing \ud83d\udca5 fast terminal-ui for git written in rust \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitui-org/gitui",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "python-trio/trio",
       "status": "candidate",
       "text": ".. image:: https://img.shields.io/badge/chat-join%20now-blue.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RekGRpth/pg_task",
+      "status": "candidate",
+      "text": "PostgreSQL, Greenplum and Greengage job scheduler `pg_task` allows to execute any sql command at any specific time at background asynchronously"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/supertape",
+      "status": "candidate",
+      "text": "[NPMURL]: https://npmjs.org/package/supertape \"npm\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitui-org/gitui",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +250,29 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "python-trio/trio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "RekGRpth/pg_task"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "coderaiser/supertape"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "gitui-org/gitui"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

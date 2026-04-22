@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2699\ufe0f Load project-local settings (like .vscode/settings.json) into Neovim 0.11+ native LSP settings easily."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update Schemas"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update Schemas"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14129,
+      "status": "candidate",
+      "text": "acquaint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14129,
+      "status": "candidate",
+      "text": "advised"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14129,
+      "status": "candidate",
+      "text": "agenda"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14129,
+      "status": "candidate",
+      "text": "aut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14129,
+      "status": "candidate",
+      "text": "aware"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Schemas",
+      "sense_id": "update-schemas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-schemas",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-schemas",
+  "observation_id": "ad7be13e901ff08f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "Update Schemas",
+  "source_context_snippet": "Update Schemas",
+  "source_file": ".github/workflows/update-schemas.yml",
+  "source_repo": "mrjones2014/codesettings.nvim",
+  "source_repo_description": "\u2699\ufe0f Load project-local settings (like .vscode/settings.json) into Neovim 0.11+ native LSP settings easily."
+}

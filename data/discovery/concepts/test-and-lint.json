@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Test and Lint"
+    "Test and Lint",
+    "Test and lint"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -55,6 +56,18 @@
       "source_repo": "strands-agents/tools",
       "status": "candidate-context",
       "text": "Test and Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python/typing",
+      "status": "candidate-context",
+      "text": "Python static typing home. Hosts the documentation and a user help forum."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/typing",
+      "status": "candidate-context",
+      "text": "Test and lint"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +94,12 @@
       "source_repo": "strands-agents/tools",
       "status": "candidate",
       "text": "Test and Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/typing",
+      "status": "candidate",
+      "text": "Test and lint"
     }
   ],
   "candidate_related_terms": [
@@ -166,11 +185,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "joshsymonds/cc-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "python/typing"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR-wip-checks.yaml",
+      "source_repo": "kata-containers/cgroups-rs",
+      "target": "tim-actions/wip-check@1c2a1ca6c110026b3e2297bb2ef39e1747b5a755",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PR-wip-checks.yaml",
+      "source_repo": "kata-containers/cgroups-rs",
+      "target": "Pull request WIP checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bvt.yaml",
+      "source_repo": "kata-containers/cgroups-rs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bvt.yaml",
+      "source_repo": "kata-containers/cgroups-rs",
+      "target": "BVT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-message-check.yaml",
+      "source_repo": "kata-containers/cgroups-rs",
+      "target": "tim-actions/get-pr-commits@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-message-check.yaml",
+      "source_repo": "kata-containers/cgroups-rs",
+      "target": "tim-actions/dco@2fd0504dc0d27b33f542867c300c60840c6dcb20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-message-check.yaml",
+      "source_repo": "kata-containers/cgroups-rs",
+      "target": "tim-actions/commit-body-check@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-message-check.yaml",
+      "source_repo": "kata-containers/cgroups-rs",
+      "target": "tim-actions/commit-message-checker-with-regex@v0.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-message-check.yaml",
+      "source_repo": "kata-containers/cgroups-rs",
+      "target": "Commit Message Check",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T04:49:29.633207+00:00",
+  "source_repo": "kata-containers/cgroups-rs"
+}

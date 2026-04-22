@@ -1,0 +1,12 @@
+{
+  "component": "tim-actions/get-pr-commits@ed97a21c3f83c3417e67a4733ea76887293a2c8f",
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dco-check.yaml",
+      "source_repo": "kata-containers/community"
+    }
+  ]
+}

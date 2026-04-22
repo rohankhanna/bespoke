@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Container Build Preview"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vmware-labs/wasm-workers-server",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Develop and run serverless applications on WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmware-labs/wasm-workers-server",
+      "status": "candidate-context",
+      "text": "Container Build Preview"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmware-labs/wasm-workers-server",
+      "status": "candidate",
+      "text": "Container Build Preview"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26480,
+      "status": "candidate",
+      "text": "escape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26080,
+      "status": "candidate",
+      "text": "escaped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26080,
+      "status": "candidate",
+      "text": "safety valve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26016,
+      "status": "candidate",
+      "text": "escape cock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26016,
+      "status": "candidate",
+      "text": "escape valve"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Container Build Preview",
+  "concept_id": "container-build-preview",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/container-preview.yml",
+      "source_repo": "vmware-labs/wasm-workers-server"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Container Build Preview",
+      "sense_id": "container-build-preview#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

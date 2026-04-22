@@ -224,6 +224,30 @@
       "source_repo": "spf13/viper",
       "status": "candidate-context",
       "text": "\"Close stale issues\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/containers-roadmap",
+      "status": "candidate-context",
+      "text": "This is the public roadmap for AWS container services (ECS, ECR, Fargate, and EKS). "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/containers-roadmap",
+      "status": "candidate-context",
+      "text": "\"Close stale issues\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libp2p/js-libp2p-example-auto-tls",
+      "status": "candidate-context",
+      "text": "How to get a TLS certificate automatically"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/js-libp2p-example-auto-tls",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
     }
   ],
   "candidate_glosses": [
@@ -334,6 +358,18 @@
       "source_repo": "spf13/viper",
       "status": "candidate",
       "text": "\"Close stale issues\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/containers-roadmap",
+      "status": "candidate",
+      "text": "\"Close stale issues\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/js-libp2p-example-auto-tls",
+      "status": "candidate",
+      "text": "Close Stale Issues"
     }
   ],
   "candidate_related_terms": [
@@ -491,11 +527,23 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": ".github/workflows/stale.yaml",
       "source_repo": "spf13/viper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "aws/containers-roadmap"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "libp2p/js-libp2p-example-auto-tls"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

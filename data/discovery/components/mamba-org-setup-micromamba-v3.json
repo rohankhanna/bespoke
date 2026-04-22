@@ -1,0 +1,22 @@
+{
+  "component": "mamba-org/setup-micromamba@v3",
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "mamba-org/mamba"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linters.yml",
+      "source_repo": "mamba-org/mamba"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/static_build.yml",
+      "source_repo": "mamba-org/mamba"
+    }
+  ]
+}

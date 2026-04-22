@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/docker-image.yml",
       "source_repo": "modelscope/modelscope"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bnosac/images"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-docker-image.yml",
+      "source_repo": "langbot-app/LangBot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "eryajf/chatgpt-dingtalk"
     }
   ],
   "term": "Build Docker image"

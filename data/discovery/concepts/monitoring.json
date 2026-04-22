@@ -55,6 +55,18 @@
       "source_repo": "Helicone/helicone",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "status": "candidate-context",
+      "text": "Prometheus Operator creates/configures/manages Prometheus clusters atop Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/prometheus-operator/prometheus-operator/actions/workflows/checks.yaml/badge.svg)](https://github.com/prometheus-operator/prometheus-operator/actions)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "Helicone/helicone",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/prometheus-operator/prometheus-operator/actions/workflows/checks.yaml/badge.svg)](https://github.com/prometheus-operator/prometheus-operator/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": null,
       "source_repo": "Helicone/helicone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "prometheus-operator/prometheus-operator"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "ConnectAI-E/DingTalk-Claude",
       "status": "candidate-context",
       "text": "\u26f3\ufe0f \u9489\u9489 \u00d7 Claude = \u65e0\u60e7\u89c4\u6a21\u7684AI\u52a9\u624b"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ConnectAI-E/Dingtalk-Minimax",
+      "status": "candidate-context",
+      "text": "\ud83d\udcb8 \u9489\u9489 \u00d7 MiniMax =  \u4e3a\u60a8\u7684\u51b3\u7b56\u751f\u6210\u6709\u4ef7\u503c\u7684\u89e3\u51b3\u65b9\u6848"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ConnectAI-E/Dingtalk-Minimax",
+      "status": "candidate-context",
+      "text": "\ud83d\udcb8 \u9489\u9489 \u00d7 MiniMax = \u4e3a\u60a8\u7684\u51b3\u7b56\u751f\u6210\u6709\u4ef7\u503c\u7684\u89e3\u51b3\u65b9\u6848"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ConnectAI-E/DingTalk-Claude",
       "status": "candidate",
       "text": "\u26f3\ufe0f \u9489\u9489 \u00d7 Claude = \u65e0\u60e7\u89c4\u6a21\u7684AI\u52a9\u624b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ConnectAI-E/Dingtalk-Minimax",
+      "status": "candidate",
+      "text": "\ud83d\udcb8 \u9489\u9489 \u00d7 MiniMax = \u4e3a\u60a8\u7684\u51b3\u7b56\u751f\u6210\u6709\u4ef7\u503c\u7684\u89e3\u51b3\u65b9\u6848"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "ConnectAI-E/DingTalk-Claude"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "ConnectAI-E/Dingtalk-Minimax"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

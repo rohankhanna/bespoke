@@ -1,0 +1,285 @@
+{
+  "components": [
+    {
+      "component": "rapidsai/shared-action-workflows/.github/workflows/conda-python-build.yaml@branch-23.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "rapidsai/shared-action-workflows/.github/workflows/conda-upload-packages.yaml@branch-23.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "rapidsai/shared-action-workflows/.github/workflows/custom-job.yaml@branch-23.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/labeler@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "docker://takanabe/github-actions-automate-projects:v0.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new-issues-to-triage-projects.yml"
+    },
+    {
+      "component": "docker://takanabe/github-actions-automate-projects:v0.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new-issues-to-triage-projects.yml"
+    },
+    {
+      "component": "docker://takanabe/github-actions-automate-projects:v0.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new-issues-to-triage-projects.yml"
+    },
+    {
+      "component": "rapidsai/shared-action-workflows/.github/workflows/pr-builder.yaml@branch-23.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-action-workflows/.github/workflows/checks.yaml@branch-23.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-action-workflows/.github/workflows/conda-python-build.yaml@branch-23.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-action-workflows/.github/workflows/conda-python-tests.yaml@branch-23.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-action-workflows/.github/workflows/custom-job.yaml@branch-23.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-action-workflows/.github/workflows/custom-job.yaml@branch-23.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "rapidsai/shared-action-workflows/.github/workflows/conda-python-tests.yaml@branch-23.10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rapidsai/cusignal",
+      "target": "nvidia/matx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rapidsai/cusignal",
+      "target": "pothosware/soapysdr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rapidsai/cusignal",
+      "target": "roger-/pyrtlsdr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rapidsai/cusignal",
+      "target": "rapidsai/benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/cusignal",
+      "target": "rapidsai/shared-action-workflows/.github/workflows/conda-python-build.yaml@branch-23.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/cusignal",
+      "target": "rapidsai/shared-action-workflows/.github/workflows/conda-upload-packages.yaml@branch-23.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/cusignal",
+      "target": "rapidsai/shared-action-workflows/.github/workflows/custom-job.yaml@branch-23.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/cusignal",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "rapidsai/cusignal",
+      "target": "actions/labeler@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "rapidsai/cusignal",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new-issues-to-triage-projects.yml",
+      "source_repo": "rapidsai/cusignal",
+      "target": "docker://takanabe/github-actions-automate-projects:v0.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/cusignal",
+      "target": "rapidsai/shared-action-workflows/.github/workflows/pr-builder.yaml@branch-23.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/cusignal",
+      "target": "rapidsai/shared-action-workflows/.github/workflows/checks.yaml@branch-23.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/cusignal",
+      "target": "rapidsai/shared-action-workflows/.github/workflows/conda-python-build.yaml@branch-23.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/cusignal",
+      "target": "rapidsai/shared-action-workflows/.github/workflows/conda-python-tests.yaml@branch-23.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "rapidsai/cusignal",
+      "target": "rapidsai/shared-action-workflows/.github/workflows/custom-job.yaml@branch-23.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "rapidsai/cusignal",
+      "target": "rapidsai/shared-action-workflows/.github/workflows/conda-python-tests.yaml@branch-23.10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "rapidsai/cusignal",
+      "target": "test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:04:53.437460+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21800
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 1645
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 205
+    },
+    {
+      "path": ".github/workflows/new-issues-to-triage-projects.yml",
+      "size": 1598
+    },
+    {
+      "path": ".github/workflows/pr.yaml",
+      "size": 1811
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 560
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "branch-23.10",
+    "description": "cuSignal - RAPIDS Signal Processing Library",
+    "fork": false,
+    "full_name": "rapidsai/cusignal",
+    "html_url": "https://github.com/rapidsai/cusignal",
+    "language": "Python",
+    "pushed_at": "2023-09-21T18:53:21Z",
+    "stargazers_count": 746,
+    "topics": [],
+    "updated_at": "2026-04-12T12:58:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/matx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pothosware/soapysdr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rapidsai/benchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "roger-/pyrtlsdr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "\"Pull Request Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "test"
+    }
+  ]
+}

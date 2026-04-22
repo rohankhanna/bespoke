@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Regression Tests"
+    "Regression Tests",
+    "Regression tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "gastownhall/beads",
       "status": "candidate-context",
       "text": "Regression Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "slothy-optimizer/slothy",
+      "status": "candidate-context",
+      "text": "Assembly super-optimization via constraint solving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slothy-optimizer/slothy",
+      "status": "candidate-context",
+      "text": "Regression tests"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "gastownhall/beads",
       "status": "candidate",
       "text": "Regression Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slothy-optimizer/slothy",
+      "status": "candidate",
+      "text": "Regression tests"
     }
   ],
   "candidate_related_terms": [
@@ -94,11 +113,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/regression.yml",
       "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/test_basic.yaml",
+      "source_repo": "slothy-optimizer/slothy"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

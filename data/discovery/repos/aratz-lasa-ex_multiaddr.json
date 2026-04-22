@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aratz-lasa/ex_multiaddr",
+      "target": "elixir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aratz-lasa/ex_multiaddr",
+      "target": "ipfs-multiaddr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aratz-lasa/ex_multiaddr",
+      "target": "multiaddr",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:08:17.755610+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2203
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "IPFS multiaddr implementation in Elixir",
+    "fork": false,
+    "full_name": "aratz-lasa/ex_multiaddr",
+    "html_url": "https://github.com/aratz-lasa/ex_multiaddr",
+    "language": "Elixir",
+    "pushed_at": "2022-05-07T11:04:21Z",
+    "stargazers_count": 7,
+    "topics": [
+      "elixir",
+      "ipfs-multiaddr",
+      "multiaddr",
+      "p2p"
+    ],
+    "updated_at": "2025-08-25T23:37:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[IPFS multiaddr](https://multiformats.io/multiaddr/) implementation in Elixir",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir"
+    },
+    {
+      "context_snippet": "[IPFS multiaddr](https://multiformats.io/multiaddr/) implementation in Elixir",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipfs-multiaddr"
+    },
+    {
+      "context_snippet": "[IPFS multiaddr](https://multiformats.io/multiaddr/) implementation in Elixir",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiaddr"
+    }
+  ]
+}

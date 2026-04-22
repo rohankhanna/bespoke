@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Build Template"
+    "Build Template",
+    "Build template"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "ratatui/templates",
       "status": "candidate-context",
       "text": "Build Template"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "callstack/react-native-builder-bob",
+      "status": "candidate-context",
+      "text": "Simple set of CLIs to scaffold and build React Native libraries for different targets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "callstack/react-native-builder-bob",
+      "status": "candidate-context",
+      "text": "Build template"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "ratatui/templates",
       "status": "candidate",
       "text": "Build Template"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "callstack/react-native-builder-bob",
+      "status": "candidate",
+      "text": "Build template"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ratatui/templates"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/build-templates.yml",
+      "source_repo": "callstack/react-native-builder-bob"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

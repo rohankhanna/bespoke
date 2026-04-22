@@ -19,6 +19,18 @@
       "source_repo": "dandavison/delta",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/supertape",
+      "status": "candidate-context",
+      "text": "\ud83d\udcfc  Simplest high speed testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/supertape",
+      "status": "candidate-context",
+      "text": "[NPMURL]: https://npmjs.org/package/supertape \"npm\""
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "dandavison/delta",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/supertape",
+      "status": "candidate",
+      "text": "[NPMURL]: https://npmjs.org/package/supertape \"npm\""
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +100,17 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": null,
       "source_repo": "dandavison/delta"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "coderaiser/supertape"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

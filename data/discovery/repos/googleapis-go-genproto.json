@@ -1,0 +1,144 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/go-genproto",
+      "target": "google/protobuf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml",
+      "source_repo": "googleapis/go-genproto",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml",
+      "source_repo": "googleapis/go-genproto",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml",
+      "source_repo": "googleapis/go-genproto",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml",
+      "source_repo": "googleapis/go-genproto",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml",
+      "source_repo": "googleapis/go-genproto",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apidiff.yaml",
+      "source_repo": "googleapis/go-genproto",
+      "target": "apidiff",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:06:37.505307+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1654
+    },
+    {
+      "path": "go.mod",
+      "size": 5173
+    },
+    {
+      "path": ".github/workflows/apidiff.yaml",
+      "size": 3249
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generated code for Google Cloud client libraries.",
+    "fork": false,
+    "full_name": "googleapis/go-genproto",
+    "html_url": "https://github.com/googleapis/go-genproto",
+    "language": "Go",
+    "pushed_at": "2026-04-20T18:46:27Z",
+    "stargazers_count": 619,
+    "topics": [],
+    "updated_at": "2026-04-20T18:46:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/protobuf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "apidiff",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apidiff.yaml",
+      "term": "apidiff"
+    }
+  ]
+}

@@ -19,6 +19,18 @@
       "source_repo": "cloudflare/skills",
       "status": "candidate-context",
       "text": "A collection of [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) for building on Cloudflare, Workers, the Agents SDK, and the wider Cloudflare Developer Platform."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vmware-labs/wasm-workers-server",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Develop and run serverless applications on WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmware-labs/wasm-workers-server",
+      "status": "candidate-context",
+      "text": "<br/>"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +39,51 @@
       "source_repo": "cloudflare/skills",
       "status": "candidate",
       "text": "A collection of [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) for building on Cloudflare, Workers, the Agents SDK, and the wider Cloudflare Developer Platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmware-labs/wasm-workers-server",
+      "status": "candidate",
+      "text": "<br/>"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027433,
+      "status": "candidate",
+      "text": "doer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10025679,
+      "status": "candidate",
+      "text": "proletarian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024720,
+      "status": "candidate",
+      "text": "prole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020950,
+      "status": "candidate",
+      "text": "actor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "accidents"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "workers",
   "concept_id": "workers",
@@ -40,12 +94,20 @@
       "observed_at": "2026-04-18T13:50:38.061794+00:00",
       "source_file": null,
       "source_repo": "cloudflare/skills"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "vmware-labs/wasm-workers-server"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

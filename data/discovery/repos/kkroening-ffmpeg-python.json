@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kkroening/ffmpeg-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kkroening/ffmpeg-python",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:53:12.998895+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12178
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 229
+    },
+    {
+      "path": "requirements.txt",
+      "size": 723
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1239
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python bindings for FFmpeg - with complex filtering support",
+    "fork": false,
+    "full_name": "kkroening/ffmpeg-python",
+    "html_url": "https://github.com/kkroening/ffmpeg-python",
+    "language": "Python",
+    "pushed_at": "2024-08-04T00:07:08Z",
+    "stargazers_count": 10992,
+    "topics": [],
+    "updated_at": "2026-04-21T18:04:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Close inactive issues"
+    "Close inactive issues",
+    "Close Inactive Issues"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -67,6 +68,30 @@
       "source_repo": "cargo-generate/cargo-generate",
       "status": "candidate-context",
       "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/PaddleOCR",
+      "status": "candidate-context",
+      "text": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleOCR",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2noise/ChatTTS",
+      "status": "candidate-context",
+      "text": "A generative speech model for daily dialogue."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2noise/ChatTTS",
+      "status": "candidate-context",
+      "text": "Close Inactive Issues"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +124,18 @@
       "source_repo": "cargo-generate/cargo-generate",
       "status": "candidate",
       "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleOCR",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2noise/ChatTTS",
+      "status": "candidate",
+      "text": "Close Inactive Issues"
     }
   ],
   "candidate_related_terms": [
@@ -178,11 +215,23 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": ".github/workflows/close-inactive-issues.yml",
       "source_repo": "cargo-generate/cargo-generate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/close_inactive_issues.yaml",
+      "source_repo": "PaddlePaddle/PaddleOCR"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/close-issue.yml",
+      "source_repo": "2noise/ChatTTS"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

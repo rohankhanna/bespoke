@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\"\u7d50\u5df4\"\u4e2d\u6587\u5206\u8a5e\uff1a\u505a\u6700\u597d\u7684 PHP \u4e2d\u6587\u5206\u8a5e\u3001\u4e2d\u6587\u65b7\u8a5e\u7d44\u4ef6\u3002 / \"Jieba\" (Chinese for \"to stutter\") Chinese text segmentation: built to be the best PHP Chinese word segmentation module."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Made with Love](https://img.shields.io/badge/made%20with-%e2%9d%a4-ff69b4.svg)](http://www.fukuball.com)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Made with Love](https://img.shields.io/badge/made%20with-%e2%9d%a4-ff69b4.svg)](http://www.fukuball.com)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chinese-text-segmentation",
+      "sense_id": "chinese-text-segmentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chinese-text-segmentation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chinese-text-segmentation",
+  "observation_id": "ecd56d349435811b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "chinese-text-segmentation",
+  "source_context_snippet": "[![Made with Love](https://img.shields.io/badge/made%20with-%e2%9d%a4-ff69b4.svg)](http://www.fukuball.com)",
+  "source_file": null,
+  "source_repo": "fukuball/jieba-php",
+  "source_repo_description": "\"\u7d50\u5df4\"\u4e2d\u6587\u5206\u8a5e\uff1a\u505a\u6700\u597d\u7684 PHP \u4e2d\u6587\u5206\u8a5e\u3001\u4e2d\u6587\u65b7\u8a5e\u7d44\u4ef6\u3002 / \"Jieba\" (Chinese for \"to stutter\") Chinese text segmentation: built to be the best PHP Chinese word segmentation module."
+}

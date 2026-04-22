@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "mybigday/llama.node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-release-artifacts.yaml",
+      "source_repo": "langbot-app/LangBot"
+    }
+  ],
+  "term": "Build release artifacts"
+}

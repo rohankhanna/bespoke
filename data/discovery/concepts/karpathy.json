@@ -31,6 +31,18 @@
       "source_repo": "lucasastorian/llmwiki",
       "status": "candidate-context",
       "text": "[![Live Demo](https://img.shields.io/badge/demo-llmwiki.app-blue)](https://llmwiki.app)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scasella/nanochat-mlx",
+      "status": "candidate-context",
+      "text": "Train your own ChatGPT on Apple Silicon \u2014 MLX port of nanochat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scasella/nanochat-mlx",
+      "status": "candidate-context",
+      "text": "Train your own ChatGPT on Apple Silicon. Minimal MLX port of [Karpathy's nanochat](https://github.com/karpathy/nanochat)."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "lucasastorian/llmwiki",
       "status": "candidate",
       "text": "[![Live Demo](https://img.shields.io/badge/demo-llmwiki.app-blue)](https://llmwiki.app)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scasella/nanochat-mlx",
+      "status": "candidate",
+      "text": "Train your own ChatGPT on Apple Silicon. Minimal MLX port of [Karpathy's nanochat](https://github.com/karpathy/nanochat)."
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +88,17 @@
       "observed_at": "2026-04-18T18:30:26.389736+00:00",
       "source_file": null,
       "source_repo": "lucasastorian/llmwiki"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "scasella/nanochat-mlx"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

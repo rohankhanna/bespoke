@@ -79,6 +79,30 @@
       "source_repo": "huggingface/diffusers",
       "status": "candidate-context",
       "text": "Build documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/accelerate",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 A simple way to launch, train, and use PyTorch models on almost any device and distributed configuration, automatic mixed precision (including fp8), and easy-to-configure FSDP and DeepSpeed support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/accelerate",
+      "status": "candidate-context",
+      "text": "Build documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/peft",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/peft",
+      "status": "candidate-context",
+      "text": "Build documentation"
     }
   ],
   "candidate_glosses": [
@@ -115,6 +139,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "huggingface/diffusers",
+      "status": "candidate",
+      "text": "Build documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/accelerate",
+      "status": "candidate",
+      "text": "Build documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/peft",
       "status": "candidate",
       "text": "Build documentation"
     }
@@ -196,11 +232,29 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/build_documentation.yml",
       "source_repo": "huggingface/diffusers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/accelerate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/peft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "safetensors/safetensors"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

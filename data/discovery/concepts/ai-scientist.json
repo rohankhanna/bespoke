@@ -19,6 +19,18 @@
       "source_repo": "K-Dense-AI/scientific-agent-skills",
       "status": "candidate-context",
       "text": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dualverse-ai/station",
+      "status": "candidate-context",
+      "text": "The Station, an open-world multi-agent environment that models a miniature scientific ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dualverse-ai/station",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "K-Dense-AI/scientific-agent-skills",
       "status": "candidate",
       "text": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dualverse-ai/station",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,12 +58,20 @@
       "observed_at": "2026-04-18T13:50:38.061794+00:00",
       "source_file": null,
       "source_repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "dualverse-ai/station"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

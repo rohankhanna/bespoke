@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "boilerplate"
+    "boilerplate",
+    "Boilerplate"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "python-attrs/attrs",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/go-containerregistry",
+      "status": "candidate-context",
+      "text": "Go library and CLIs for working with container registries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/go-containerregistry",
+      "status": "candidate-context",
+      "text": "Boilerplate"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "python-attrs/attrs",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/go-containerregistry",
+      "status": "candidate",
+      "text": "Boilerplate"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +97,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "python-attrs/attrs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/boilerplate.yaml",
+      "source_repo": "google/go-containerregistry"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

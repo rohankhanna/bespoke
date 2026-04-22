@@ -124,6 +124,24 @@
       "source_repo": "crate-ci/imperative",
       "status": "candidate-context",
       "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "status": "candidate-context",
+      "text": "Development containers for triton and triton-cpu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentica-project/rllm",
+      "status": "candidate-context",
+      "text": "Pre-commit"
     }
   ],
   "candidate_glosses": [
@@ -180,6 +198,18 @@
       "source_repo": "crate-ci/imperative",
       "status": "candidate",
       "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentica-project/rllm",
+      "status": "candidate",
+      "text": "Pre-commit"
     }
   ],
   "candidate_related_terms": [],
@@ -277,11 +307,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/precommit.yml",
       "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "redhat-et/triton-dev-containers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "agentica-project/rllm"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

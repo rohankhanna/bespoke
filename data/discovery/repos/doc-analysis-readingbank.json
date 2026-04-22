@@ -1,0 +1,88 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "doc-analysis/ReadingBank",
+      "target": "document-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "doc-analysis/ReadingBank",
+      "target": "document-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "doc-analysis/ReadingBank",
+      "target": "document-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "doc-analysis/ReadingBank",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:54:06.562243+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5751
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ReadingBank: A Benchmark Dataset for Reading Order Detection",
+    "fork": false,
+    "full_name": "doc-analysis/ReadingBank",
+    "html_url": "https://github.com/doc-analysis/ReadingBank",
+    "language": null,
+    "pushed_at": "2024-08-26T18:47:30Z",
+    "stargazers_count": 116,
+    "topics": [
+      "document-ai",
+      "document-intelligence",
+      "document-understanding",
+      "natural-language-processing",
+      "nlp",
+      "ocr"
+    ],
+    "updated_at": "2026-04-09T10:33:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "ReadingBank is a benchmark dataset for reading order detection built with weak supervision from WORD documents, which contains 500K document images with a wide range of document types as well as the corresponding reading order information.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "document-ai"
+    },
+    {
+      "context_snippet": "ReadingBank is a benchmark dataset for reading order detection built with weak supervision from WORD documents, which contains 500K document images with a wide range of document types as well as the corresponding reading order information.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "document-intelligence"
+    },
+    {
+      "context_snippet": "ReadingBank is a benchmark dataset for reading order detection built with weak supervision from WORD documents, which contains 500K document images with a wide range of document types as well as the corresponding reading order information.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "document-understanding"
+    },
+    {
+      "context_snippet": "ReadingBank is a benchmark dataset for reading order detection built with weak supervision from WORD documents, which contains 500K document images with a wide range of document types as well as the corresponding reading order information.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    }
+  ]
+}

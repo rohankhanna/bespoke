@@ -108,14 +108,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "coreybutler/nvm-windows",
-      "target": "coreybutler/nvm",
+      "target": "creationix/nvm",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "coreybutler/nvm-windows",
-      "target": "coreybutler/node-windows",
+      "target": "coreybutler/nvm",
       "target_type": "repository"
     },
     {
@@ -329,7 +329,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T01:10:17.577881+00:00",
+  "fetched_at": "2026-04-22T05:15:05.696149+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -366,7 +366,7 @@
     "html_url": "https://github.com/coreybutler/nvm-windows",
     "language": "Go",
     "pushed_at": "2026-04-17T17:58:18Z",
-    "stargazers_count": 46037,
+    "stargazers_count": 46039,
     "topics": [
       "go",
       "management",
@@ -380,14 +380,9 @@
       "versioning",
       "windows"
     ],
-    "updated_at": "2026-04-21T15:20:56Z"
+    "updated_at": "2026-04-22T04:38:13Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "coreybutler/node-windows",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "coreybutler/nodedistro",
@@ -401,6 +396,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "coreybutler/staticassets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "creationix/nvm",
       "source_file": "README.md"
     }
   ],

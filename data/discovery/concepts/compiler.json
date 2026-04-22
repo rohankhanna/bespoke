@@ -67,6 +67,30 @@
       "source_repo": "vercel/next.js",
       "status": "candidate-context",
       "text": "[workspace] resolver = \"2\" members = [ \"scripts/send-trace-to-jaeger\", \"crates/next-napi-bindings\", \"crates/wasm\", \"crates/next-api\", \"crates/next-build-test\", \"crates/next-build\", \"crates/next-code-frame\", \"crates/next-core\", \"crates/next-custom-transforms\", \"crates/next-taskle\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ccache/ccache",
+      "status": "candidate-context",
+      "text": "ccache \u2013 a fast compiler cache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ccache/ccache",
+      "status": "candidate-context",
+      "text": "Ccache \u2013 a fast compiler cache"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml/ocaml",
+      "status": "candidate-context",
+      "text": "The core OCaml system: compilers, runtime system, base libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/ocaml",
+      "status": "candidate-context",
+      "text": "Cross compilers"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "vercel/next.js",
       "status": "candidate",
       "text": "[workspace] resolver = \"2\" members = [ \"scripts/send-trace-to-jaeger\", \"crates/next-napi-bindings\", \"crates/wasm\", \"crates/next-api\", \"crates/next-build-test\", \"crates/next-build\", \"crates/next-code-frame\", \"crates/next-core\", \"crates/next-custom-transforms\", \"crates/next-taskle\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ccache/ccache",
+      "status": "candidate",
+      "text": "Ccache \u2013 a fast compiler cache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/ocaml",
+      "status": "candidate",
+      "text": "Cross compilers"
     }
   ],
   "candidate_related_terms": [
@@ -193,11 +229,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "ccache/ccache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "ocaml/ocaml"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

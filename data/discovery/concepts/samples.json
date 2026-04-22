@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "samples"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/getting-started-python",
+      "status": "candidate-context",
+      "text": "Code samples for using Python on Google Cloud Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/getting-started-python",
+      "status": "candidate-context",
+      "text": "This repository is the complete sample code for the [Python Getting Started on Google Cloud Platform](https://cloud.google.com/python/docs/) tutorials. Please refer to the tutorials for instructions on configuring, running, and deploying these samples."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/getting-started-python",
+      "status": "candidate",
+      "text": "This repository is the complete sample code for the [Python Getting Started on Google Cloud Platform](https://cloud.google.com/python/docs/) tutorials. Please refer to the tutorials for instructions on configuring, running, and deploying these samples."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024866,
+      "status": "candidate",
+      "text": "try out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9979586,
+      "status": "candidate",
+      "text": "try"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9893720,
+      "status": "candidate",
+      "text": "taste"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51427,
+      "status": "candidate",
+      "text": "sample distribution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "analyses"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "samples",
+  "concept_id": "samples",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/getting-started-python"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "samples",
+      "sense_id": "samples#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

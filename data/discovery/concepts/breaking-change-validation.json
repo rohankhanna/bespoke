@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Breaking Change Validation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typescript-eslint/typescript-eslint",
+      "status": "candidate-context",
+      "text": ":sparkles: Monorepo for all the tooling which enables ESLint to support TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typescript-eslint/typescript-eslint",
+      "status": "candidate-context",
+      "text": "Breaking Change Validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typescript-eslint/typescript-eslint",
+      "status": "candidate",
+      "text": "Breaking Change Validation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24137,
+      "status": "candidate",
+      "text": "commit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24137,
+      "status": "candidate",
+      "text": "proof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22891,
+      "status": "candidate",
+      "text": "crack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22868,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22868,
+      "status": "candidate",
+      "text": "bankrupt"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Breaking Change Validation",
+  "concept_id": "breaking-change-validation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/breaking-change-validation.yml",
+      "source_repo": "typescript-eslint/typescript-eslint"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Breaking Change Validation",
+      "sense_id": "breaking-change-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

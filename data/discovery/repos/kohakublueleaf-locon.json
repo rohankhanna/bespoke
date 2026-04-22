@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KohakuBlueleaf/LoCon",
+      "target": "kohakublueleaf/lycoris",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:24:23.632968+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 283
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LoRA for convolution layer",
+    "fork": false,
+    "full_name": "KohakuBlueleaf/LoCon",
+    "html_url": "https://github.com/KohakuBlueleaf/LoCon",
+    "language": null,
+    "pushed_at": "2023-03-09T05:21:12Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2026-04-14T15:34:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kohakublueleaf/lycoris",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

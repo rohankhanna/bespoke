@@ -1,0 +1,12 @@
+{
+  "component": "miniscruff/changie-action@5036dffa79ffc007110dc7f75eca7ef72780e147",
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "hashicorp/terraform"
+    }
+  ]
+}

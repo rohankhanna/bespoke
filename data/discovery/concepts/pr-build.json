@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "PR build"
+    "PR build",
+    "PR Build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "rust-lang/crater",
       "status": "candidate-context",
       "text": "PR build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vcpkg-tool",
+      "status": "candidate-context",
+      "text": "Components of microsoft/vcpkg's binary."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vcpkg-tool",
+      "status": "candidate-context",
+      "text": "PR Build"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "rust-lang/crater",
       "status": "candidate",
       "text": "PR build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vcpkg-tool",
+      "status": "candidate",
+      "text": "PR Build"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "rust-lang/crater"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "microsoft/vcpkg-tool"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

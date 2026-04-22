@@ -1,0 +1,732 @@
+{
+  "components": [
+    {
+      "component": "pytorch/pytorch/.github/workflows/_runner-determinator.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-linux.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/actions/setup-ssh@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-linux.yml"
+    },
+    {
+      "component": "pytorch/pytorch/.github/actions/setup-linux@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-linux.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/actions/pull-docker-image@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@50769540e7f4bd5e21e526ee35c689e35e0d6874",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-linux.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/actions/teardown-linux@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-linux.yml"
+    },
+    {
+      "component": "pytorch/pytorch/.github/workflows/_runner-determinator.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-windows.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/actions/setup-ssh@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-windows.yml"
+    },
+    {
+      "component": "pytorch/pytorch/.github/actions/checkout-pytorch@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-windows.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@50769540e7f4bd5e21e526ee35c689e35e0d6874",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-windows.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/actions/setup-ssh@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml"
+    },
+    {
+      "component": "pytorch/pytorch/.github/actions/checkout-pytorch@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml"
+    },
+    {
+      "component": "pytorch/pytorch/.github/actions/setup-linux@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@ececac1a45f3b08a01d2dd070d28d111c5fe6722",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/actions/calculate-docker-image@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/actions/pull-docker-image@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@50769540e7f4bd5e21e526ee35c689e35e0d6874",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/actions/teardown-linux@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/actions/setup-ssh@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml"
+    },
+    {
+      "component": "pytorch/pytorch/.github/actions/checkout-pytorch@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml"
+    },
+    {
+      "component": "pytorch/pytorch/.github/actions/setup-linux@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml"
+    },
+    {
+      "component": "actions/download-artifact@65a9edc5881444af0b9093a5e628f2fe47ea3b2e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/actions/setup-nvidia@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@ececac1a45f3b08a01d2dd070d28d111c5fe6722",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/actions/calculate-docker-image@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/actions/pull-docker-image@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/actions/teardown-linux@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload-flash-attention-wheel.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@ececac1a45f3b08a01d2dd070d28d111c5fe6722",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload-flash-attention-wheel.yml"
+    },
+    {
+      "component": "actions/download-artifact@65a9edc5881444af0b9093a5e628f2fe47ea3b2e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload-flash-attention-wheel.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload-flash-attention-wheel.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@ececac1a45f3b08a01d2dd070d28d111c5fe6722",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload-flash-attention-wheel.yml"
+    },
+    {
+      "component": "actions/download-artifact@65a9edc5881444af0b9093a5e628f2fe47ea3b2e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload-flash-attention-wheel.yml"
+    },
+    {
+      "component": "pytorch/pytorch/.github/actions/checkout-pytorch@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@ececac1a45f3b08a01d2dd070d28d111c5fe6722",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@ececac1a45f3b08a01d2dd070d28d111c5fe6722",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload.yml"
+    },
+    {
+      "component": "actions/download-artifact@65a9edc5881444af0b9093a5e628f2fe47ea3b2e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/pytorch",
+      "target": "hips/autograd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/pytorch",
+      "target": "oneapi-src/onednn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/pytorch",
+      "target": "pytorch/examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/pytorch",
+      "target": "hughperkins/pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "pytorch/pytorch/.github/workflows/_runner-determinator.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "pytorch/test-infra/.github/actions/setup-ssh@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "pytorch/pytorch/.github/actions/setup-linux@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "pytorch/test-infra/.github/actions/pull-docker-image@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "actions/upload-artifact@50769540e7f4bd5e21e526ee35c689e35e0d6874",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "pytorch/test-infra/.github/actions/teardown-linux@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "Build Flash Attention 3 wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-windows.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "pytorch/pytorch/.github/workflows/_runner-determinator.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-windows.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "pytorch/test-infra/.github/actions/setup-ssh@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-windows.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "pytorch/pytorch/.github/actions/checkout-pytorch@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-windows.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-windows.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "actions/upload-artifact@50769540e7f4bd5e21e526ee35c689e35e0d6874",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-windows.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "Build Flash Attention 3 wheels (Windows)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "pytorch/test-infra/.github/actions/setup-ssh@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "pytorch/pytorch/.github/actions/checkout-pytorch@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "pytorch/pytorch/.github/actions/setup-linux@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "aws-actions/configure-aws-credentials@ececac1a45f3b08a01d2dd070d28d111c5fe6722",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "pytorch/test-infra/.github/actions/calculate-docker-image@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "pytorch/test-infra/.github/actions/pull-docker-image@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "actions/upload-artifact@50769540e7f4bd5e21e526ee35c689e35e0d6874",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "pytorch/test-infra/.github/actions/teardown-linux@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_binary-build-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "linux-binary-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "pytorch/test-infra/.github/actions/setup-ssh@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "pytorch/pytorch/.github/actions/checkout-pytorch@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "pytorch/pytorch/.github/actions/setup-linux@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "actions/download-artifact@65a9edc5881444af0b9093a5e628f2fe47ea3b2e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "pytorch/test-infra/.github/actions/setup-nvidia@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "aws-actions/configure-aws-credentials@ececac1a45f3b08a01d2dd070d28d111c5fe6722",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "pytorch/test-infra/.github/actions/calculate-docker-image@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "pytorch/test-infra/.github/actions/pull-docker-image@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "pytorch/test-infra/.github/actions/teardown-linux@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_binary-test-linux.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "linux-binary-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload-flash-attention-wheel.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload-flash-attention-wheel.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "aws-actions/configure-aws-credentials@ececac1a45f3b08a01d2dd070d28d111c5fe6722",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload-flash-attention-wheel.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "actions/download-artifact@65a9edc5881444af0b9093a5e628f2fe47ea3b2e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_binary-upload-flash-attention-wheel.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "Upload Flash Attention 3 wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "pytorch/pytorch/.github/actions/checkout-pytorch@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "aws-actions/configure-aws-credentials@ececac1a45f3b08a01d2dd070d28d111c5fe6722",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_binary-upload.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "actions/download-artifact@65a9edc5881444af0b9093a5e628f2fe47ea3b2e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_binary-upload.yml",
+      "source_repo": "pytorch/pytorch",
+      "target": "upload",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/pytorch",
+      "target": "autograd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/pytorch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/pytorch",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/pytorch",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/pytorch",
+      "target": "numpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/pytorch",
+      "target": "tensor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:23:11.384683+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29363
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4883
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 10751
+    },
+    {
+      "path": "requirements.txt",
+      "size": 362
+    },
+    {
+      "path": ".github/workflows/_binary-build-flash-attention-wheel-linux.yml",
+      "size": 5534
+    },
+    {
+      "path": ".github/workflows/_binary-build-flash-attention-wheel-windows.yml",
+      "size": 5639
+    },
+    {
+      "path": ".github/workflows/_binary-build-linux.yml",
+      "size": 12124
+    },
+    {
+      "path": ".github/workflows/_binary-test-linux.yml",
+      "size": 9221
+    },
+    {
+      "path": ".github/workflows/_binary-upload-flash-attention-wheel.yml",
+      "size": 4075
+    },
+    {
+      "path": ".github/workflows/_binary-upload.yml",
+      "size": 6042
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+    "fork": false,
+    "full_name": "pytorch/pytorch",
+    "html_url": "https://github.com/pytorch/pytorch",
+    "language": "Python",
+    "pushed_at": "2026-04-22T05:20:14Z",
+    "stargazers_count": 99331,
+    "topics": [
+      "autograd",
+      "deep-learning",
+      "gpu",
+      "machine-learning",
+      "neural-network",
+      "numpy",
+      "python",
+      "tensor"
+    ],
+    "updated_at": "2026-04-22T05:18:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hips/autograd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hughperkins/pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oneapi-src/onednn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/examples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Flash Attention 3 wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-linux.yml",
+      "term": "Build Flash Attention 3 wheels"
+    },
+    {
+      "context_snippet": "Build Flash Attention 3 wheels (Windows)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-windows.yml",
+      "term": "Build Flash Attention 3 wheels (Windows)"
+    },
+    {
+      "context_snippet": "linux-binary-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_binary-build-linux.yml",
+      "term": "linux-binary-build"
+    },
+    {
+      "context_snippet": "linux-binary-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_binary-test-linux.yml",
+      "term": "linux-binary-test"
+    },
+    {
+      "context_snippet": "Upload Flash Attention 3 wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_binary-upload-flash-attention-wheel.yml",
+      "term": "Upload Flash Attention 3 wheels"
+    },
+    {
+      "context_snippet": "upload",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_binary-upload.yml",
+      "term": "upload"
+    },
+    {
+      "context_snippet": "![PyTorch Logo](https://github.com/pytorch/pytorch/raw/main/docs/source/_static/img/pytorch-logo-dark.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autograd"
+    },
+    {
+      "context_snippet": "![PyTorch Logo](https://github.com/pytorch/pytorch/raw/main/docs/source/_static/img/pytorch-logo-dark.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![PyTorch Logo](https://github.com/pytorch/pytorch/raw/main/docs/source/_static/img/pytorch-logo-dark.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "![PyTorch Logo](https://github.com/pytorch/pytorch/raw/main/docs/source/_static/img/pytorch-logo-dark.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "![PyTorch Logo](https://github.com/pytorch/pytorch/raw/main/docs/source/_static/img/pytorch-logo-dark.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numpy"
+    },
+    {
+      "context_snippet": "![PyTorch Logo](https://github.com/pytorch/pytorch/raw/main/docs/source/_static/img/pytorch-logo-dark.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensor"
+    }
+  ]
+}

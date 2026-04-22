@@ -19,6 +19,18 @@
       "source_repo": "developit/unfetch",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JakeChampion/fetch",
+      "status": "candidate-context",
+      "text": "A window.fetch JavaScript polyfill."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JakeChampion/fetch",
+      "status": "candidate-context",
+      "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/JakeChampion/fetch/badge)](https://securityscorecards.dev/viewer/?uri=github.com/JakeChampion/fetch)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "developit/unfetch",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JakeChampion/fetch",
+      "status": "candidate",
+      "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/JakeChampion/fetch/badge)](https://securityscorecards.dev/viewer/?uri=github.com/JakeChampion/fetch)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "developit/unfetch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "JakeChampion/fetch"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,203 @@
+{
+  "components": [
+    {
+      "component": "tracel-ai/github-actions/setup-rust@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/check-typos@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/setup-rust@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/setup-rust@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/setup-linux@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tracel-ai/cubek",
+      "target": "tracel-ai/github-actions/setup-rust@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tracel-ai/cubek",
+      "target": "tracel-ai/github-actions/check-typos@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tracel-ai/cubek",
+      "target": "tracel-ai/github-actions/setup-linux@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tracel-ai/cubek",
+      "target": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tracel-ai/cubek",
+      "target": "publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tracel-ai/cubek",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tracel-ai/cubek",
+      "target": "rocm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tracel-ai/cubek",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:05:11.069461+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4393
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2100
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3906
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 4420
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CubeK: high-performance multi-platform kernels in CubeCL",
+    "fork": false,
+    "full_name": "tracel-ai/cubek",
+    "html_url": "https://github.com/tracel-ai/cubek",
+    "language": "Rust",
+    "pushed_at": "2026-04-21T20:47:52Z",
+    "stargazers_count": 72,
+    "topics": [
+      "cuda",
+      "gpu",
+      "hpc",
+      "rocm",
+      "vulkan"
+    ],
+    "updated_at": "2026-04-22T03:41:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "publish"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocm"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    }
+  ]
+}

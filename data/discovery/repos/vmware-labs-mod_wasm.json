@@ -1,0 +1,102 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-wasm_runtime.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vmware-labs/mod_wasm",
+      "target": "tiran/cpython-wasm-test",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-wasm_runtime.yml",
+      "source_repo": "vmware-labs/mod_wasm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vmware-labs/mod_wasm",
+      "target": "apache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vmware-labs/mod_wasm",
+      "target": "wasm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vmware-labs/mod_wasm",
+      "target": "webassembly",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:02:03.667856+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8816
+    },
+    {
+      "path": ".github/workflows/test-wasm_runtime.yml",
+      "size": 523
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "mod_wasm is an extension module for the Apache HTTP Server (httpd) that enables the usage of WebAssembly (Wasm). This module allows the execution of certain tasks in the backend in a very efficient and secure way.",
+    "fork": false,
+    "full_name": "vmware-labs/mod_wasm",
+    "html_url": "https://github.com/vmware-labs/mod_wasm",
+    "language": "Rust",
+    "pushed_at": "2024-05-31T09:08:23Z",
+    "stargazers_count": 112,
+    "topics": [
+      "apache",
+      "wasm",
+      "webassembly"
+    ],
+    "updated_at": "2025-12-31T16:22:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tiran/cpython-wasm-test",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache"
+    },
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    },
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webassembly"
+    }
+  ]
+}

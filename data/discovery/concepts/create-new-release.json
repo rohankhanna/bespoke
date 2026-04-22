@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create new Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d0c-s4vage/lookatme",
+      "status": "candidate-context",
+      "text": "An interactive, terminal-based markdown presenter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d0c-s4vage/lookatme",
+      "status": "candidate-context",
+      "text": "Create new Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d0c-s4vage/lookatme",
+      "status": "candidate",
+      "text": "Create new Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35060,
+      "status": "candidate",
+      "text": "invent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34951,
+      "status": "candidate",
+      "text": "port"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34951,
+      "status": "candidate",
+      "text": "ports"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34673,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34673,
+      "status": "candidate",
+      "text": "remaster"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create new Release",
+  "concept_id": "create-new-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/new_release.yml",
+      "source_repo": "d0c-s4vage/lookatme"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create new Release",
+      "sense_id": "create-new-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -19,12 +19,30 @@
       "source_repo": "axolotl-ai-cloud/axolotl",
       "status": "candidate-context",
       "text": "Pre-commit auto-update"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "status": "candidate-context",
+      "text": "Development containers for triton and triton-cpu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "status": "candidate-context",
+      "text": "Pre-commit auto-update"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "axolotl-ai-cloud/axolotl",
+      "status": "candidate",
+      "text": "Pre-commit auto-update"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-et/triton-dev-containers",
       "status": "candidate",
       "text": "Pre-commit auto-update"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-19T01:08:57.644140+00:00",
       "source_file": ".github/workflows/precommit-autoupdate.yml",
       "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "source_repo": "redhat-et/triton-dev-containers"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

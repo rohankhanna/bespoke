@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "Hygiene"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml/ocaml",
+      "status": "candidate-context",
+      "text": "The core OCaml system: compilers, runtime system, base libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/ocaml",
+      "status": "candidate-context",
+      "text": "Hygiene"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml/ocaml",
+      "status": "candidate",
+      "text": "Hygiene"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994774,
+      "status": "candidate",
+      "text": "hygienics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29994741,
+      "status": "candidate",
+      "text": "sanitary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29994564,
+      "status": "candidate",
+      "text": "sanitation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29994285,
+      "status": "candidate",
+      "text": "cleanliness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29992431,
+      "status": "candidate",
+      "text": "cleansing"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1021,
+      "status": "candidate",
+      "text": "hygienics"
+    }
+  ],
+  "canonical_name": "Hygiene",
+  "concept_id": "hygiene",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/hygiene.yml",
+      "source_repo": "ocaml/ocaml"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Hygiene",
+      "sense_id": "hygiene#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

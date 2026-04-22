@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "grid"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "76creates/stickers",
+      "status": "candidate-context",
+      "text": "Building blocks for charmbracelet/lipgloss \ud83d\udc7e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "76creates/stickers",
+      "status": "candidate-context",
+      "text": "Is a collection of TUI elements, FlexBox and Table at the moment, its build for [bubbletea](https://github.com/charmbracelet/bubbletea) using [lipgloss](https://github.com/charmbracelet/lipgloss)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "76creates/stickers",
+      "status": "candidate",
+      "text": "Is a collection of TUI elements, FlexBox and Table at the moment, its build for [bubbletea](https://github.com/charmbracelet/bubbletea) using [lipgloss](https://github.com/charmbracelet/lipgloss)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39710294,
+      "status": "candidate",
+      "text": "gridiron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29839480,
+      "status": "candidate",
+      "text": "control grid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29839480,
+      "status": "candidate",
+      "text": "power grid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29839480,
+      "status": "candidate",
+      "text": "power system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29839480,
+      "status": "candidate",
+      "text": "reference grid"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5039,
+      "status": "candidate",
+      "text": "gridiron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16,
+      "status": "candidate",
+      "text": "power grid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "control grid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8,
+      "status": "candidate",
+      "text": "reference grid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "power system"
+    }
+  ],
+  "canonical_name": "grid",
+  "concept_id": "grid",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "76creates/stickers"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "grid",
+      "sense_id": "grid#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

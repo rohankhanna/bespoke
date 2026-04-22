@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "Homebrew/actions/setup-homebrew@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FiloSottile/homebrew-musl-cross",
+      "target": "richfelker/musl-cross-make",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "FiloSottile/homebrew-musl-cross",
+      "target": "Homebrew/actions/setup-homebrew@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "FiloSottile/homebrew-musl-cross",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "FiloSottile/homebrew-musl-cross",
+      "target": "brew test-bot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:07:36.966268+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1914
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 778
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Homebrew Formula for static-friendly musl-based GCC macOS-to-Linux cross-compilers",
+    "fork": false,
+    "full_name": "FiloSottile/homebrew-musl-cross",
+    "html_url": "https://github.com/FiloSottile/homebrew-musl-cross",
+    "language": "Ruby",
+    "pushed_at": "2026-01-14T15:56:17Z",
+    "stargazers_count": 658,
+    "topics": [],
+    "updated_at": "2026-04-16T23:06:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "richfelker/musl-cross-make",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "brew test-bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "brew test-bot"
+    }
+  ]
+}

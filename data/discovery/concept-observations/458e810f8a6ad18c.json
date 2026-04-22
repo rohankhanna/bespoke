@@ -84,7 +84,7 @@
   "normalized_form": "diff-check",
   "observation_id": "458e810f8a6ad18c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
   "observed_text": "Diff Check",
   "source_context_snippet": "Diff Check",
   "source_file": ".github/workflows/check_diff.yml",

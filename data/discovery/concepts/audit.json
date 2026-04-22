@@ -92,6 +92,18 @@
       "source_repo": "tauri-apps/muda",
       "status": "candidate-context",
       "text": "audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tauri-apps/create-tauri-app",
+      "status": "candidate-context",
+      "text": "Rapidly scaffold out a new tauri app project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/create-tauri-app",
+      "status": "candidate-context",
+      "text": "audit"
     }
   ],
   "candidate_glosses": [
@@ -134,6 +146,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "tauri-apps/muda",
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/create-tauri-app",
       "status": "candidate",
       "text": "audit"
     }
@@ -267,11 +285,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "tauri-apps/muda"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "tauri-apps/create-tauri-app"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

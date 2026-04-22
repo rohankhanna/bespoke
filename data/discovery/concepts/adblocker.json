@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "adblocker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xERR0R/blocky",
+      "status": "candidate-context",
+      "text": "Fast and lightweight DNS proxy as ad-blocker for local network with many features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xERR0R/blocky",
+      "status": "candidate-context",
+      "text": "[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/0xERR0R/blocky/makefile.yml \"Make\")](https://github.com/0xERR0R/blocky/actions/workflows/makefile.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xERR0R/blocky",
+      "status": "candidate",
+      "text": "[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/0xERR0R/blocky/makefile.yml \"Make\")](https://github.com/0xERR0R/blocky/actions/workflows/makefile.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994137,
+      "status": "candidate",
+      "text": "adblocking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994136,
+      "status": "candidate",
+      "text": "blocker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994135,
+      "status": "candidate",
+      "text": "banner ad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994134,
+      "status": "candidate",
+      "text": "soft-block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994133,
+      "status": "candidate",
+      "text": "anonymizer"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "adblocker",
+  "concept_id": "adblocker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "0xERR0R/blocky"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "adblocker",
+      "sense_id": "adblocker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

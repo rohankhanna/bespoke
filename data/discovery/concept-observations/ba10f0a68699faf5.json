@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Rust Monero library published on crates.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/monero-rs/monero-rs/ci.yml?branch=main)](https://github.com/monero-rs/monero-rs/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/monero-rs/monero-rs/ci.yml?branch=main)](https://github.com/monero-rs/monero-rs/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29777601,
+      "status": "candidate",
+      "text": "depository library"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29777601,
+      "status": "candidate",
+      "text": "program library"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29777600,
+      "status": "candidate",
+      "text": "librarianship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29777596,
+      "status": "candidate",
+      "text": "librarian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29776874,
+      "status": "candidate",
+      "text": "bookstore"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "library",
+      "sense_id": "library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2012,
+      "status": "candidate",
+      "text": "depository library"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "program library"
+    }
+  ],
+  "concept_id": "library",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "library",
+  "observation_id": "ba10f0a68699faf5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "library",
+  "source_context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/monero-rs/monero-rs/ci.yml?branch=main)](https://github.com/monero-rs/monero-rs/actions/workflows/ci.yml)",
+  "source_file": null,
+  "source_repo": "monero-rs/monero-rs",
+  "source_repo_description": "The Rust Monero library published on crates.io"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "discord-py"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dolfies/discord.py-self",
+      "status": "candidate-context",
+      "text": "A fork of the popular discord.py for user accounts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dolfies/discord.py-self",
+      "status": "candidate-context",
+      "text": "discord.py-self"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dolfies/discord.py-self",
+      "status": "candidate",
+      "text": "discord.py-self"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "discord-py",
+  "concept_id": "discord-py",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "dolfies/discord.py-self"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "discord-py",
+      "sense_id": "discord-py#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

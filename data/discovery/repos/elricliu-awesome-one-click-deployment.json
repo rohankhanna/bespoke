@@ -5,21 +5,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ElricLiu/Awesome-One-Click-Deployment",
-      "target": "dogtiti/autogpt-next-web",
+      "target": "fuergaosi233/wechat-chatgpt",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ElricLiu/Awesome-One-Click-Deployment",
-      "target": "babaohuang/geminiprochat",
+      "target": "gaizhenbiao/chuanhuchatgpt",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ElricLiu/Awesome-One-Click-Deployment",
-      "target": "anse-app/chatgpt-demo",
+      "target": "genome21/langflow",
       "target_type": "repository"
     },
     {
@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T01:10:51.863674+00:00",
+  "fetched_at": "2026-04-22T05:16:47.350300+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -71,22 +71,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "anse-app/chatgpt-demo",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "babaohuang/geminiprochat",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "connectai-e/awesome-one-click-deployment",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "dogtiti/autogpt-next-web",
+      "full_name": "fuergaosi233/wechat-chatgpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gaizhenbiao/chuanhuchatgpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "genome21/langflow",
       "source_file": "README.md"
     }
   ],

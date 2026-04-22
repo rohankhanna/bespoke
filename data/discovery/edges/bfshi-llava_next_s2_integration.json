@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bfshi/LLaVA_NeXT_S2_Integration",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bfshi/LLaVA_NeXT_S2_Integration",
+      "target": "facebookresearch/xformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bfshi/LLaVA_NeXT_S2_Integration",
+      "target": "idea-research/grounded-segment-anything",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bfshi/LLaVA_NeXT_S2_Integration",
+      "target": "idea-research/groundingdino",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-22T04:49:29.633207+00:00",
+  "source_repo": "bfshi/LLaVA_NeXT_S2_Integration"
+}

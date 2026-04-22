@@ -31,6 +31,18 @@
       "source_repo": "babaohuang/GeminiProChat",
       "status": "candidate-context",
       "text": "Lint CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anse-app/anse",
+      "status": "candidate-context",
+      "text": "Supercharged experience for multiple models such as ChatGPT, DALL-E and Stable Diffusion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anse-app/anse",
+      "status": "candidate-context",
+      "text": "Lint CI"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "babaohuang/GeminiProChat",
+      "status": "candidate",
+      "text": "Lint CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anse-app/anse",
       "status": "candidate",
       "text": "Lint CI"
     }
@@ -100,11 +118,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "babaohuang/GeminiProChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "anse-app/anse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "anse-app/chatgpt-demo"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

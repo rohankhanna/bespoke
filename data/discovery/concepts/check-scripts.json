@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check scripts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typeshed-internal/stub_uploader",
+      "status": "candidate-context",
+      "text": "Scripts and actions to auto-upload typeshed stubs to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typeshed-internal/stub_uploader",
+      "status": "candidate-context",
+      "text": "Check scripts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typeshed-internal/stub_uploader",
+      "status": "candidate",
+      "text": "Check scripts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16224,
+      "status": "candidate",
+      "text": "determinative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16224,
+      "status": "candidate",
+      "text": "killer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15984,
+      "status": "candidate",
+      "text": "dialog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15984,
+      "status": "candidate",
+      "text": "erg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15984,
+      "status": "candidate",
+      "text": "kana"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check scripts",
+  "concept_id": "check-scripts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/check_scripts.yml",
+      "source_repo": "typeshed-internal/stub_uploader"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check scripts",
+      "sense_id": "check-scripts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

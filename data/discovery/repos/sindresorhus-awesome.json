@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "sindresorhus/awesome",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/awesome",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/awesome",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/awesome",
+      "target": "lists",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/awesome",
+      "target": "resources",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/awesome",
+      "target": "unicorns",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:17:54.650209+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 272
+    },
+    {
+      "path": ".github/workflows/repo_linter.sh",
+      "size": 583
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\ude0e Awesome lists about all kinds of interesting topics",
+    "fork": false,
+    "full_name": "sindresorhus/awesome",
+    "html_url": "https://github.com/sindresorhus/awesome",
+    "language": null,
+    "pushed_at": "2026-04-19T17:04:38Z",
+    "stargazers_count": 457731,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "lists",
+      "resources",
+      "unicorns"
+    ],
+    "updated_at": "2026-04-22T05:17:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "on: pull_request: branches: [main] paths: - 'readme.md' jobs: lint: runs-on: ubuntu-latest steps: - uses: actions/checkout@v6 with: fetch-depth: 0 - name: awesome-lint run: ./.github/workflows/repo_linter.sh",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "on: pull_request: branches: [main] paths: - 'readme.md' jobs: lint: runs-on: ubuntu-latest steps: - uses: actions/checkout@v6 with: fetch-depth: 0 - name: awesome-lint run: ./.github/workflows/repo_linter.sh",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "on: pull_request: branches: [main] paths: - 'readme.md' jobs: lint: runs-on: ubuntu-latest steps: - uses: actions/checkout@v6 with: fetch-depth: 0 - name: awesome-lint run: ./.github/workflows/repo_linter.sh",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lists"
+    },
+    {
+      "context_snippet": "on: pull_request: branches: [main] paths: - 'readme.md' jobs: lint: runs-on: ubuntu-latest steps: - uses: actions/checkout@v6 with: fetch-depth: 0 - name: awesome-lint run: ./.github/workflows/repo_linter.sh",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resources"
+    },
+    {
+      "context_snippet": "on: pull_request: branches: [main] paths: - 'readme.md' jobs: lint: runs-on: ubuntu-latest steps: - uses: actions/checkout@v6 with: fetch-depth: 0 - name: awesome-lint run: ./.github/workflows/repo_linter.sh",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unicorns"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Homebrew and Linuxbrew toolchains"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mamba-org/mamba",
+      "status": "candidate-context",
+      "text": "The Fast Cross-Platform Package Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamba-org/mamba",
+      "status": "candidate-context",
+      "text": "Homebrew and Linuxbrew toolchains"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamba-org/mamba",
+      "status": "candidate",
+      "text": "Homebrew and Linuxbrew toolchains"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "ale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5060,
+      "status": "candidate",
+      "text": "aided"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5060,
+      "status": "candidate",
+      "text": "automotive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5060,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5060,
+      "status": "candidate",
+      "text": "classy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Homebrew and Linuxbrew toolchains",
+  "concept_id": "homebrew-and-linuxbrew-toolchains",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/brew.yml",
+      "source_repo": "mamba-org/mamba"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Homebrew and Linuxbrew toolchains",
+      "sense_id": "homebrew-and-linuxbrew-toolchains#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

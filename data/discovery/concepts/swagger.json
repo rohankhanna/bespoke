@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "swagger"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/beacon-APIs",
+      "status": "candidate-context",
+      "text": "Collection of RESTful APIs provided by Ethereum Beacon nodes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/beacon-APIs",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/ethereum/beacon-APIs/workflows/CI/badge.svg)](https://github.com/ethereum/beacon-APIs/actions/workflows/main.yml?query=branch%3Amaster)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/beacon-APIs",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/ethereum/beacon-APIs/workflows/CI/badge.svg)](https://github.com/ethereum/beacon-APIs/actions/workflows/main.yml?query=branch%3Amaster)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019942,
+      "status": "candidate",
+      "text": "strut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018034,
+      "status": "candidate",
+      "text": "bluster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011494,
+      "status": "candidate",
+      "text": "stylish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008647,
+      "status": "candidate",
+      "text": "fashionable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006805,
+      "status": "candidate",
+      "text": "browbeat"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32034,
+      "status": "candidate",
+      "text": "bluster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24039,
+      "status": "candidate",
+      "text": "ruffle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22048,
+      "status": "candidate",
+      "text": "strut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22031,
+      "status": "candidate",
+      "text": "swash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19042,
+      "status": "candidate",
+      "text": "bully"
+    }
+  ],
+  "canonical_name": "swagger",
+  "concept_id": "swagger",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "ethereum/beacon-APIs"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "swagger",
+      "sense_id": "swagger#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

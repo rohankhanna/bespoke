@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "changjiashuai/kotlin-multiaddr",
+      "target": "multiformats/multiformats",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "changjiashuai/kotlin-multiaddr",
+      "target": "richardlitt/standard-readme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "changjiashuai/kotlin-multiaddr",
+      "target": "ipfs/community",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-22T04:49:29.633207+00:00",
+  "source_repo": "changjiashuai/kotlin-multiaddr"
+}

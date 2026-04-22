@@ -1,0 +1,17 @@
+{
+  "component": "houseabsolute/actions-rust-cross@a448c4b13769d56b63b035024fef8577e1d81915",
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "mfontanini/presenterm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mfontanini/presenterm"
+    }
+  ]
+}

@@ -331,6 +331,78 @@
       "source_repo": "helm/charts-repo-actions-demo",
       "status": "candidate-context",
       "text": "[![](https://github.com/helm/charts-repo-actions-demo/workflows/Release%20Charts/badge.svg?branch=main)](https://github.com/helm/charts-repo-actions-demo/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/containers-roadmap",
+      "status": "candidate-context",
+      "text": "This is the public roadmap for AWS container services (ECS, ECR, Fargate, and EKS). "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/containers-roadmap",
+      "status": "candidate-context",
+      "text": "This is the public roadmap for AWS container services (ECS, ECR, Fargate, and EKS)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jtblin/kube2iam",
+      "status": "candidate-context",
+      "text": "kube2iam  provides different AWS IAM roles for pods running on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jtblin/kube2iam",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/Tv5Xa331HXLx98iuW72Ug4/Po3PqWxjiikmpntHfiZoXW/tree/master.svg?style=shield&circle-token=d0a793bd02cdcccff259a236dde26e6cc749d35d)](https://app.circleci.com/pipelines/circleci/Tv5Xa331HXLx98iuW72Ug4/Po3PqWxjiikmpntHfi\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus-community/helm-charts",
+      "status": "candidate-context",
+      "text": "Prometheus community Helm charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-community/helm-charts",
+      "status": "candidate-context",
+      "text": "[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/prometheus-community)](https://artifacthub.io/packages/search?org=prometheus&cncf=true) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/li\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "status": "candidate-context",
+      "text": "Prometheus Operator creates/configures/manages Prometheus clusters atop Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/prometheus-operator/prometheus-operator/actions/workflows/checks.yaml/badge.svg)](https://github.com/prometheus-operator/prometheus-operator/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uswitch/kiam",
+      "status": "candidate-context",
+      "text": "Integrate AWS IAM with Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uswitch/kiam",
+      "status": "candidate-context",
+      "text": "[![Docker Repository on Quay](https://quay.io/repository/uswitch/kiam/status \"Docker Repository on Quay\")](https://quay.io/repository/uswitch/kiam)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "notaryproject/notation",
+      "status": "candidate-context",
+      "text": "A CLI tool to sign and verify artifacts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notation",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/notaryproject/notation)](https://goreportcard.com/report/github.com/notaryproject/notation)"
     }
   ],
   "candidate_glosses": [
@@ -495,6 +567,42 @@
       "source_repo": "helm/charts-repo-actions-demo",
       "status": "candidate",
       "text": "[![](https://github.com/helm/charts-repo-actions-demo/workflows/Release%20Charts/badge.svg?branch=main)](https://github.com/helm/charts-repo-actions-demo/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/containers-roadmap",
+      "status": "candidate",
+      "text": "This is the public roadmap for AWS container services (ECS, ECR, Fargate, and EKS)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jtblin/kube2iam",
+      "status": "candidate",
+      "text": "[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/Tv5Xa331HXLx98iuW72Ug4/Po3PqWxjiikmpntHfiZoXW/tree/master.svg?style=shield&circle-token=d0a793bd02cdcccff259a236dde26e6cc749d35d)](https://app.circleci.com/pipelines/circleci/Tv5Xa331HXLx98iuW72Ug4/Po3PqWxjiikmpntHfi\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-community/helm-charts",
+      "status": "candidate",
+      "text": "[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/prometheus-community)](https://artifacthub.io/packages/search?org=prometheus&cncf=true) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/li\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/prometheus-operator/prometheus-operator/actions/workflows/checks.yaml/badge.svg)](https://github.com/prometheus-operator/prometheus-operator/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uswitch/kiam",
+      "status": "candidate",
+      "text": "[![Docker Repository on Quay](https://quay.io/repository/uswitch/kiam/status \"Docker Repository on Quay\")](https://quay.io/repository/uswitch/kiam)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notation",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/notaryproject/notation)](https://goreportcard.com/report/github.com/notaryproject/notation)"
     }
   ],
   "candidate_related_terms": [
@@ -736,11 +844,53 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": null,
       "source_repo": "helm/charts-repo-actions-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "aws/containers-roadmap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "jtblin/kube2iam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "prometheus-community/helm-charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "prometheus-operator/prometheus-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "uswitch/kiam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "notaryproject/notation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

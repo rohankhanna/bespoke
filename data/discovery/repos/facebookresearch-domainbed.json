@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/DomainBed",
+      "target": "p-lambda/wilds",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:55:24.796863+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9532
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "DomainBed is a suite to test domain generalization algorithms",
+    "fork": false,
+    "full_name": "facebookresearch/DomainBed",
+    "html_url": "https://github.com/facebookresearch/DomainBed",
+    "language": "Python",
+    "pushed_at": "2025-12-16T17:09:28Z",
+    "stargazers_count": 1619,
+    "topics": [],
+    "updated_at": "2026-04-21T03:37:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "p-lambda/wilds",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

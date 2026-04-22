@@ -31,6 +31,18 @@
       "source_repo": "charmbracelet/harmonica",
       "status": "candidate-context",
       "text": "Harmonica"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bevyengine/bevy",
+      "status": "candidate-context",
+      "text": "A refreshingly simple data-driven game engine built in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bevyengine/bevy",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/license-MIT%2FApache-blue.svg)](https://github.com/bevyengine/bevy#license)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "charmbracelet/harmonica",
       "status": "candidate",
       "text": "Harmonica"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bevyengine/bevy",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/license-MIT%2FApache-blue.svg)](https://github.com/bevyengine/bevy#license)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "charmbracelet/harmonica"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "bevyengine/bevy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

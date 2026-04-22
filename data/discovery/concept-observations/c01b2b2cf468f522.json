@@ -79,7 +79,7 @@
   "normalized_form": "gemini-invoke",
   "observation_id": "c01b2b2cf468f522",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
   "observed_text": "Gemini Invoke",
   "source_context_snippet": "'Gemini Invoke'",
   "source_file": ".github/workflows/gemini-invoke.yml",

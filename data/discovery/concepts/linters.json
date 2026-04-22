@@ -46,6 +46,18 @@
       "source_repo": "vim-syntastic/syntastic",
       "status": "candidate-context",
       "text": "Syntax checking hacks for vim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mamba-org/mamba",
+      "status": "candidate-context",
+      "text": "The Fast Cross-Platform Package Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamba-org/mamba",
+      "status": "candidate-context",
+      "text": "Linters"
     }
   ],
   "candidate_glosses": [
@@ -66,6 +78,12 @@
       "source_repo": "vim-syntastic/syntastic",
       "status": "candidate",
       "text": "Syntax checking hacks for vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamba-org/mamba",
+      "status": "candidate",
+      "text": "Linters"
     }
   ],
   "candidate_related_terms": [
@@ -127,11 +145,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "vim-syntastic/syntastic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/linters.yml",
+      "source_repo": "mamba-org/mamba"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -92,6 +92,18 @@
       "source_repo": "golangci/golangci-lint",
       "status": "candidate-context",
       "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgentR1/Agent-R1",
+      "status": "candidate-context",
+      "text": "Agent-R1: Training Powerful LLM Agents with End-to-End Reinforcement Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgentR1/Agent-R1",
+      "status": "candidate-context",
+      "text": "Deploy Documentation"
     }
   ],
   "candidate_glosses": [
@@ -134,6 +146,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "golangci/golangci-lint",
+      "status": "candidate",
+      "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgentR1/Agent-R1",
       "status": "candidate",
       "text": "Deploy Documentation"
     }
@@ -245,11 +263,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/deploy-documentation.yml",
       "source_repo": "golangci/golangci-lint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "AgentR1/Agent-R1"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Git Cache"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/electron",
+      "status": "candidate-context",
+      "text": ":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/electron",
+      "status": "candidate-context",
+      "text": "Build Git Cache"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/electron",
+      "status": "candidate",
+      "text": "Build Git Cache"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19822,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19760,
+      "status": "candidate",
+      "text": "cecum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19760,
+      "status": "candidate",
+      "text": "gatehouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19434,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19312,
+      "status": "candidate",
+      "text": "bringing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Git Cache",
+  "concept_id": "build-git-cache",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/build-git-cache.yml",
+      "source_repo": "electron/electron"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Git Cache",
+      "sense_id": "build-git-cache#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

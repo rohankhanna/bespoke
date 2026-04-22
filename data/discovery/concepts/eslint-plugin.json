@@ -19,6 +19,18 @@
       "source_repo": "coderaiser/putout",
       "status": "candidate-context",
       "text": "[NPMURL]: https://npmjs.org/package/putout \"npm\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typescript-eslint/typescript-eslint",
+      "status": "candidate-context",
+      "text": ":sparkles: Monorepo for all the tooling which enables ESLint to support TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typescript-eslint/typescript-eslint",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">typescript-eslint</h1>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "coderaiser/putout",
       "status": "candidate",
       "text": "[NPMURL]: https://npmjs.org/package/putout \"npm\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typescript-eslint/typescript-eslint",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">typescript-eslint</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "coderaiser/putout"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "typescript-eslint/typescript-eslint"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

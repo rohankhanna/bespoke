@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A massively spiffy yet delicately unobtrusive compression library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "contribs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "contribs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014735,
+      "status": "candidate",
+      "text": "contrib."
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014734,
+      "status": "candidate",
+      "text": "conc."
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014733,
+      "status": "candidate",
+      "text": "cons."
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014732,
+      "status": "candidate",
+      "text": "collab."
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014731,
+      "status": "candidate",
+      "text": "contr"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "contribs",
+      "sense_id": "contribs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "contribs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "contribs",
+  "observation_id": "4dab6edfabc51404",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "contribs",
+  "source_context_snippet": "contribs",
+  "source_file": ".github/workflows/contribs.yml",
+  "source_repo": "madler/zlib",
+  "source_repo_description": "A massively spiffy yet delicately unobtrusive compression library."
+}

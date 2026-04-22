@@ -115,6 +115,30 @@
       "source_repo": "cncf/k8s-conformance",
       "status": "candidate-context",
       "text": "[Eligible vendors](https://github.com/cncf/k8s-conformance/blob/master/faq.md#what-is-the-cost-of-certification) are invited to submit conformance testing results for review and certification by the CNCF."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cncf/tag-app-delivery",
+      "status": "candidate-context",
+      "text": "\ud83d\udce8\ud83d\ude9aCNCF App Delivery TAG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/tag-app-delivery",
+      "status": "candidate-context",
+      "text": "TAG App Delivery focuses on enabling projects and initiatives related to"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "notaryproject/notation",
+      "status": "candidate-context",
+      "text": "A CLI tool to sign and verify artifacts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notation",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/notaryproject/notation)](https://goreportcard.com/report/github.com/notaryproject/notation)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "cncf/k8s-conformance",
       "status": "candidate",
       "text": "[Eligible vendors](https://github.com/cncf/k8s-conformance/blob/master/faq.md#what-is-the-cost-of-certification) are invited to submit conformance testing results for review and certification by the CNCF."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/tag-app-delivery",
+      "status": "candidate",
+      "text": "TAG App Delivery focuses on enabling projects and initiatives related to"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notation",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/notaryproject/notation)](https://goreportcard.com/report/github.com/notaryproject/notation)"
     }
   ],
   "candidate_related_terms": [
@@ -274,11 +310,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "cncf/k8s-conformance"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "cncf/tag-app-delivery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "notaryproject/notation"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

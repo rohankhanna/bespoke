@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -36,6 +36,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/issue_lock.yml",
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "hashicorp/terraform-provider-random"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "hashicorp/terraform-provider-scaffolding-framework"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lock.yaml",
+      "source_repo": "flutter/flutter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "JakeChampion/fetch"
     }
   ],
   "term": "Lock Threads"

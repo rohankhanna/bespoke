@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "contribs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "madler/zlib",
+      "status": "candidate-context",
+      "text": "A massively spiffy yet delicately unobtrusive compression library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "madler/zlib",
+      "status": "candidate-context",
+      "text": "contribs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "madler/zlib",
+      "status": "candidate",
+      "text": "contribs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014735,
+      "status": "candidate",
+      "text": "contrib."
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014734,
+      "status": "candidate",
+      "text": "conc."
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014733,
+      "status": "candidate",
+      "text": "cons."
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014732,
+      "status": "candidate",
+      "text": "collab."
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014731,
+      "status": "candidate",
+      "text": "contr"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "contribs",
+  "concept_id": "contribs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/contribs.yml",
+      "source_repo": "madler/zlib"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "contribs",
+      "sense_id": "contribs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

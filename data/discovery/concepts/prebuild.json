@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "prebuild"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prebuild/prebuild",
+      "status": "candidate-context",
+      "text": "Deprecated. A command line tool for easily doing prebuilds for multiple version of node on a specific platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prebuild/prebuild",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prebuild/prebuild-install",
+      "status": "candidate-context",
+      "text": "Deprecated. Minimal install client for prebuilds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prebuild/prebuild-install",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prebuild/prebuild",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prebuild/prebuild-install",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019443,
+      "status": "candidate",
+      "text": "pro-build"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019442,
+      "status": "candidate",
+      "text": "precompile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019441,
+      "status": "candidate",
+      "text": "preprepare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019440,
+      "status": "candidate",
+      "text": "preconstruct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019439,
+      "status": "candidate",
+      "text": "preinstall"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "prebuild",
+  "concept_id": "prebuild",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "prebuild/prebuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "prebuild/prebuild-install"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "prebuild",
+      "sense_id": "prebuild#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

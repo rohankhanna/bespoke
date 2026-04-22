@@ -19,12 +19,30 @@
       "source_repo": "openssl/openssl",
       "status": "candidate-context",
       "text": "GitHub CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker-library/postgres",
+      "status": "candidate-context",
+      "text": "Docker Official Image packaging for Postgres"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/postgres",
+      "status": "candidate-context",
+      "text": "GitHub CI"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "openssl/openssl",
+      "status": "candidate",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/postgres",
       "status": "candidate",
       "text": "GitHub CI"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "openssl/openssl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-library/postgres"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

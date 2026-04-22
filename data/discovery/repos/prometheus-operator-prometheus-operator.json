@@ -1,0 +1,372 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml"
+    },
+    {
+      "component": "dependabot/fetch-metadata@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge-dependabot.yaml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changed-files.yaml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-feature-gated.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-feature-gated.yaml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-prometheus-v2.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "target": "prometheus-operator/kube-prometheus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "target": "prometheus/prometheus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "target": "Lint GitHub action workflows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge-dependabot.yaml",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "target": "dependabot/fetch-metadata@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge-dependabot.yaml",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "target": "Dependabot auto-merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changed-files.yaml",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changed-files.yaml",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "target": "changed-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "target": "actions/setup-go@v6.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "target": "checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-feature-gated.yaml",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-feature-gated.yaml",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "target": "actions/upload-artifact@v7.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-feature-gated.yaml",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "target": "e2e-feature-gated",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-prometheus-v2.yaml",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-prometheus-v2.yaml",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "target": "e2e-prometheus-v2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "target": "prometheus",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:51:02.312865+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9930
+    },
+    {
+      "path": "Dockerfile",
+      "size": 989
+    },
+    {
+      "path": "go.mod",
+      "size": 7847
+    },
+    {
+      "path": ".github/workflows/actionlint.yml",
+      "size": 587
+    },
+    {
+      "path": ".github/workflows/automerge-dependabot.yaml",
+      "size": 810
+    },
+    {
+      "path": ".github/workflows/changed-files.yaml",
+      "size": 843
+    },
+    {
+      "path": ".github/workflows/checks.yaml",
+      "size": 3152
+    },
+    {
+      "path": ".github/workflows/cspell.json",
+      "size": 7239
+    },
+    {
+      "path": ".github/workflows/e2e-feature-gated.yaml",
+      "size": 1145
+    },
+    {
+      "path": ".github/workflows/e2e-prometheus-v2.yaml",
+      "size": 1746
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Prometheus Operator creates/configures/manages Prometheus clusters atop Kubernetes",
+    "fork": false,
+    "full_name": "prometheus-operator/prometheus-operator",
+    "html_url": "https://github.com/prometheus-operator/prometheus-operator",
+    "language": "Go",
+    "pushed_at": "2026-04-21T12:42:51Z",
+    "stargazers_count": 9901,
+    "topics": [
+      "hacktoberfest",
+      "kubernetes",
+      "monitoring",
+      "prometheus"
+    ],
+    "updated_at": "2026-04-21T22:09:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prometheus-operator/kube-prometheus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prometheus/prometheus",
+      "source_file": "go.mod"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint GitHub action workflows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yml",
+      "term": "Lint GitHub action workflows"
+    },
+    {
+      "context_snippet": "Dependabot auto-merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automerge-dependabot.yaml",
+      "term": "Dependabot auto-merge"
+    },
+    {
+      "context_snippet": "changed-files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changed-files.yaml",
+      "term": "changed-files"
+    },
+    {
+      "context_snippet": "checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yaml",
+      "term": "checks"
+    },
+    {
+      "context_snippet": "e2e-feature-gated",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-feature-gated.yaml",
+      "term": "e2e-feature-gated"
+    },
+    {
+      "context_snippet": "e2e-prometheus-v2",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-prometheus-v2.yaml",
+      "term": "e2e-prometheus-v2"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/prometheus-operator/prometheus-operator/actions/workflows/checks.yaml/badge.svg)](https://github.com/prometheus-operator/prometheus-operator/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/prometheus-operator/prometheus-operator/actions/workflows/checks.yaml/badge.svg)](https://github.com/prometheus-operator/prometheus-operator/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/prometheus-operator/prometheus-operator/actions/workflows/checks.yaml/badge.svg)](https://github.com/prometheus-operator/prometheus-operator/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitoring"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/prometheus-operator/prometheus-operator/actions/workflows/checks.yaml/badge.svg)](https://github.com/prometheus-operator/prometheus-operator/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prometheus"
+    }
+  ]
+}

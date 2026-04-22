@@ -1,0 +1,257 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "helm/chart-testing-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "azure/setup-helm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install-chart.yaml"
+    },
+    {
+      "component": "helm/kind-action@v1.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install-chart.yaml"
+    },
+    {
+      "component": "helm/chart-testing-action@v2.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install-chart.yaml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-charts.yaml"
+    },
+    {
+      "component": "helm/chart-testing-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-charts.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-docs.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtblin/kube2iam",
+      "target": "aws/amazon-vpc-cni-k8s",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtblin/kube2iam",
+      "target": "cloudnativelabs/kube-router",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtblin/kube2iam",
+      "target": "awslabs/aws-service-operator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jtblin/kube2iam",
+      "target": "kubernetes/minikube",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "jtblin/kube2iam",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "jtblin/kube2iam",
+      "target": "helm/chart-testing-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "jtblin/kube2iam",
+      "target": "azure/setup-helm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "jtblin/kube2iam",
+      "target": "Lint and Test Charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install-chart.yaml",
+      "source_repo": "jtblin/kube2iam",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install-chart.yaml",
+      "source_repo": "jtblin/kube2iam",
+      "target": "helm/kind-action@v1.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install-chart.yaml",
+      "source_repo": "jtblin/kube2iam",
+      "target": "helm/chart-testing-action@v2.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-charts.yaml",
+      "source_repo": "jtblin/kube2iam",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-charts.yaml",
+      "source_repo": "jtblin/kube2iam",
+      "target": "helm/chart-testing-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-docs.yaml",
+      "source_repo": "jtblin/kube2iam",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jtblin/kube2iam",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:50:50.181965+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26715
+    },
+    {
+      "path": "Dockerfile",
+      "size": 343
+    },
+    {
+      "path": "go.mod",
+      "size": 1734
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 819
+    },
+    {
+      "path": ".github/workflows/ct.yaml",
+      "size": 73
+    },
+    {
+      "path": ".github/workflows/helm-docs.sh",
+      "size": 378
+    },
+    {
+      "path": ".github/workflows/install-chart.yaml",
+      "size": 751
+    },
+    {
+      "path": ".github/workflows/kubeval.sh",
+      "size": 782
+    },
+    {
+      "path": ".github/workflows/lint-charts.yaml",
+      "size": 247
+    },
+    {
+      "path": ".github/workflows/lint-docs.yaml",
+      "size": 176
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "kube2iam  provides different AWS IAM roles for pods running on Kubernetes",
+    "fork": false,
+    "full_name": "jtblin/kube2iam",
+    "html_url": "https://github.com/jtblin/kube2iam",
+    "language": "Go",
+    "pushed_at": "2026-02-03T08:24:53Z",
+    "stargazers_count": 2036,
+    "topics": [
+      "aws",
+      "kubernetes"
+    ],
+    "updated_at": "2026-04-09T10:32:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/amazon-vpc-cni-k8s",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "awslabs/aws-service-operator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudnativelabs/kube-router",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes/minikube",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint and Test Charts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "Lint and Test Charts"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/Tv5Xa331HXLx98iuW72Ug4/Po3PqWxjiikmpntHfiZoXW/tree/master.svg?style=shield&circle-token=d0a793bd02cdcccff259a236dde26e6cc749d35d)](https://app.circleci.com/pipelines/circleci/Tv5Xa331HXLx98iuW72Ug4/Po3PqWxjiikmpntHfi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    }
+  ]
+}

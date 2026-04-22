@@ -31,6 +31,18 @@
       "source_repo": "airbnb/binaryalert",
       "status": "candidate-context",
       "text": "BinaryAlert: Serverless, Real-Time & Retroactive Malware Detection"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vmware-labs/wasm-workers-server",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Develop and run serverless applications on WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmware-labs/wasm-workers-server",
+      "status": "candidate-context",
+      "text": "<br/>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "airbnb/binaryalert",
       "status": "candidate",
       "text": "BinaryAlert: Serverless, Real-Time & Retroactive Malware Detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmware-labs/wasm-workers-server",
+      "status": "candidate",
+      "text": "<br/>"
     }
   ],
   "candidate_related_terms": [
@@ -106,11 +124,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "airbnb/binaryalert"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "vmware-labs/wasm-workers-server"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

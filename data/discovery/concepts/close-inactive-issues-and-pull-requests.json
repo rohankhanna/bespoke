@@ -19,12 +19,30 @@
       "source_repo": "rubocop/rubocop",
       "status": "candidate-context",
       "text": "Close inactive issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bbatsov/prelude",
+      "status": "candidate-context",
+      "text": "Prelude is an enhanced Emacs 29.1+ distribution that should make your experience with Emacs both more pleasant and more powerful."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bbatsov/prelude",
+      "status": "candidate-context",
+      "text": "Close inactive issues and pull requests"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "rubocop/rubocop",
+      "status": "candidate",
+      "text": "Close inactive issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bbatsov/prelude",
       "status": "candidate",
       "text": "Close inactive issues and pull requests"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "rubocop/rubocop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "bbatsov/prelude"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

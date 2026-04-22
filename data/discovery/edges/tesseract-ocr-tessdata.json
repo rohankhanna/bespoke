@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tesseract-ocr/tessdata",
+      "target": "tesseract-ocr/langdata",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tesseract-ocr/tessdata",
+      "target": "tesseract-ocr/tessdata_best",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tesseract-ocr/tessdata",
+      "target": "tesseract-ocr/tessdata_fast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tesseract-ocr/tessdata",
+      "target": "tesseract-ocr/tesseract",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tesseract-ocr/tessdata",
+      "target": "tesseract",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T04:49:29.633207+00:00",
+  "source_repo": "tesseract-ocr/tessdata"
+}

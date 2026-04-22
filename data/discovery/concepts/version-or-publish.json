@@ -19,12 +19,30 @@
       "source_repo": "tauri-apps/cargo-mobile2",
       "status": "candidate-context",
       "text": "version or publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tauri-apps/create-tauri-app",
+      "status": "candidate-context",
+      "text": "Rapidly scaffold out a new tauri app project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/create-tauri-app",
+      "status": "candidate-context",
+      "text": "version or publish"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "tauri-apps/cargo-mobile2",
+      "status": "candidate",
+      "text": "version or publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/create-tauri-app",
       "status": "candidate",
       "text": "version or publish"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/covector-version-or-publish.yml",
       "source_repo": "tauri-apps/cargo-mobile2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/covector-version-or-publish.yml",
+      "source_repo": "tauri-apps/create-tauri-app"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agentica-project/verl-pipeline",
+      "target": "eric-haibin-lin/verl-community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agentica-project/verl-pipeline",
+      "target": "agentica-project/deepscaler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agentica-project/verl-pipeline",
+      "target": "agent-rl/research",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agentica-project/verl-pipeline",
+      "target": "dolbyuuu/deepenlighten",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:04:26.215892+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12496
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2606
+    },
+    {
+      "path": "requirements.txt",
+      "size": 396
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Async pipelined version of Verl",
+    "fork": false,
+    "full_name": "agentica-project/verl-pipeline",
+    "html_url": "https://github.com/agentica-project/verl-pipeline",
+    "language": "Python",
+    "pushed_at": "2025-04-08T16:05:06Z",
+    "stargazers_count": 125,
+    "topics": [],
+    "updated_at": "2026-04-05T10:37:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agent-rl/research",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agentica-project/deepscaler",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dolbyuuu/deepenlighten",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eric-haibin-lin/verl-community",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

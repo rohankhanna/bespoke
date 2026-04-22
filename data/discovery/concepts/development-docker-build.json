@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Development docker build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xERR0R/blocky",
+      "status": "candidate-context",
+      "text": "Fast and lightweight DNS proxy as ad-blocker for local network with many features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xERR0R/blocky",
+      "status": "candidate-context",
+      "text": "Development docker build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xERR0R/blocky",
+      "status": "candidate",
+      "text": "Development docker build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26084,
+      "status": "candidate",
+      "text": "ectomorphic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18570,
+      "status": "candidate",
+      "text": "blacksmith"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18418,
+      "status": "candidate",
+      "text": "bricklayer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15066,
+      "status": "candidate",
+      "text": "ark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11004,
+      "status": "candidate",
+      "text": "longshoreman"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Development docker build",
+  "concept_id": "development-docker-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/development-docker.yml",
+      "source_repo": "0xERR0R/blocky"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Development docker build",
+      "sense_id": "development-docker-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

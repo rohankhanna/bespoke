@@ -1,12 +1,22 @@
 {
   "component": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "rust-lang/cc-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cmake-tests.yml",
+      "source_repo": "facebook/zstd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-windows.yml",
+      "source_repo": "pytorch/pytorch"
     }
   ]
 }

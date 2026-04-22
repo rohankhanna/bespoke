@@ -1,0 +1,12 @@
+{
+  "component": "akhilmhdh/contributors-readme-action@v2.3.6",
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reademe-contributors.yml",
+      "source_repo": "eryajf/chatgpt-dingtalk"
+    }
+  ]
+}

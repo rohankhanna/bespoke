@@ -19,12 +19,30 @@
       "source_repo": "harfbuzz/harfbuzz",
       "status": "candidate-context",
       "text": "coverity-scan"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "void-linux/xbps",
+      "status": "candidate-context",
+      "text": "The X Binary Package System (XBPS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "void-linux/xbps",
+      "status": "candidate-context",
+      "text": "coverity-scan"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "harfbuzz/harfbuzz",
+      "status": "candidate",
+      "text": "coverity-scan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "void-linux/xbps",
       "status": "candidate",
       "text": "coverity-scan"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": ".github/workflows/coverity-scan.yml",
       "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/coverity-scan.yml",
+      "source_repo": "void-linux/xbps"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

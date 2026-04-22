@@ -112,6 +112,30 @@
       "source_repo": "restify/node-restify",
       "status": "candidate-context",
       "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lewis6991/pckr.nvim",
+      "status": "candidate-context",
+      "text": "Spiritual successor of https://github.com/wbthomason/packer.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/pckr.nvim",
+      "status": "candidate-context",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JakeChampion/fetch",
+      "status": "candidate-context",
+      "text": "A window.fetch JavaScript polyfill."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JakeChampion/fetch",
+      "status": "candidate-context",
+      "text": "release-please"
     }
   ],
   "candidate_glosses": [
@@ -166,6 +190,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "restify/node-restify",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/pckr.nvim",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JakeChampion/fetch",
       "status": "candidate",
       "text": "release-please"
     }
@@ -283,11 +319,29 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "restify/node-restify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "eslint/js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "lewis6991/pckr.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JakeChampion/fetch"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

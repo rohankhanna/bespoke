@@ -1,0 +1,233 @@
+{
+  "components": [
+    {
+      "component": "atom-languageclient",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "extract-zip",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semver",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "request",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fwcd/atom-ide-kotlin",
+      "target": "atom-languageclient",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fwcd/atom-ide-kotlin",
+      "target": "extract-zip",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fwcd/atom-ide-kotlin",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fwcd/atom-ide-kotlin",
+      "target": "request",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "fwcd/atom-ide-kotlin",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "fwcd/atom-ide-kotlin",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "fwcd/atom-ide-kotlin",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "fwcd/atom-ide-kotlin",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "fwcd/atom-ide-kotlin",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "fwcd/atom-ide-kotlin",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "fwcd/atom-ide-kotlin",
+      "target": "Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fwcd/atom-ide-kotlin",
+      "target": "atom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fwcd/atom-ide-kotlin",
+      "target": "atom-ide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fwcd/atom-ide-kotlin",
+      "target": "atom-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fwcd/atom-ide-kotlin",
+      "target": "kotlin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:14:03.946537+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1085
+    },
+    {
+      "path": "package.json",
+      "size": 2035
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 250
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 920
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Intelligent Kotlin support for Atom",
+    "fork": false,
+    "full_name": "fwcd/atom-ide-kotlin",
+    "html_url": "https://github.com/fwcd/atom-ide-kotlin",
+    "language": "JavaScript",
+    "pushed_at": "2022-03-22T01:44:44Z",
+    "stargazers_count": 8,
+    "topics": [
+      "atom",
+      "atom-ide",
+      "atom-package",
+      "kotlin"
+    ],
+    "updated_at": "2024-04-13T13:25:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/apm/v/ide-kotlin)](https://atom.io/packages/ide-kotlin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atom"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/apm/v/ide-kotlin)](https://atom.io/packages/ide-kotlin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atom-ide"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/apm/v/ide-kotlin)](https://atom.io/packages/ide-kotlin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atom-package"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/apm/v/ide-kotlin)](https://atom.io/packages/ide-kotlin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    }
+  ]
+}

@@ -115,6 +115,30 @@
       "source_repo": "charmbracelet/charm",
       "status": "candidate-context",
       "text": "dependabot-sync"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/freeze",
+      "status": "candidate-context",
+      "text": "Generate images of code and terminal output \ud83d\udcf8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/freeze",
+      "status": "candidate-context",
+      "text": "dependabot-sync"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/vhs",
+      "status": "candidate-context",
+      "text": "Your CLI home video recorder \ud83d\udcfc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/vhs",
+      "status": "candidate-context",
+      "text": "dependabot-sync"
     }
   ],
   "candidate_glosses": [
@@ -169,6 +193,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "charmbracelet/charm",
+      "status": "candidate",
+      "text": "dependabot-sync"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/freeze",
+      "status": "candidate",
+      "text": "dependabot-sync"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/vhs",
       "status": "candidate",
       "text": "dependabot-sync"
     }
@@ -244,11 +280,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/dependabot-sync.yml",
       "source_repo": "charmbracelet/charm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "source_repo": "charmbracelet/freeze"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "source_repo": "charmbracelet/vhs"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

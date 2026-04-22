@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -21,6 +21,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "libgit2/libgit2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ml-explore/mlx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "mfontanini/presenterm"
     }
   ],
   "term": "Nightly build"

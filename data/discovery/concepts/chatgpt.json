@@ -169,6 +169,66 @@
       "source_repo": "microsoft/genaiscript",
       "status": "candidate-context",
       "text": "![A yellow square with the word \"gen\" in lowercase black letters above the uppercase black letters \"AI.\"](./docs/public/images/favicon.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BAAI-DCAI/Bunny",
+      "status": "candidate-context",
+      "text": "A family of lightweight multimodal models. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BAAI-DCAI/Bunny",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scasella/nanochat-mlx",
+      "status": "candidate-context",
+      "text": "Train your own ChatGPT on Apple Silicon \u2014 MLX port of nanochat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scasella/nanochat-mlx",
+      "status": "candidate-context",
+      "text": "Train your own ChatGPT on Apple Silicon. Minimal MLX port of [Karpathy's nanochat](https://github.com/karpathy/nanochat)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "status": "candidate-context",
+      "text": "\ud83c\udf92 \u9489\u9489 & \ud83e\udd16 GPT-3.5 \u8ba9\u4f60\u7684\u5de5\u4f5c\u6548\u7387\u76f4\u63a5\u8d77\u98de \ud83d\ude80 \u79c1\u804a\u7fa4\u804a\u65b9\u5f0f\u3001\u5355\u804a\u4e32\u804a\u6a21\u5f0f\u3001\u89d2\u8272\u626e\u6f14\u3001\u56fe\u7247\u521b\u4f5c \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "status": "candidate-context",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anse-app/anse",
+      "status": "candidate-context",
+      "text": "Supercharged experience for multiple models such as ChatGPT, DALL-E and Stable Diffusion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anse-app/anse",
+      "status": "candidate-context",
+      "text": "![Banner](https://user-images.githubusercontent.com/1998168/235366625-e615e68d-592c-4f18-9c9f-1e5cd1778557.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2noise/ChatTTS",
+      "status": "candidate-context",
+      "text": "A generative speech model for daily dialogue."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2noise/ChatTTS",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -249,6 +309,36 @@
       "source_repo": "microsoft/genaiscript",
       "status": "candidate",
       "text": "![A yellow square with the word \"gen\" in lowercase black letters above the uppercase black letters \"AI.\"](./docs/public/images/favicon.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BAAI-DCAI/Bunny",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scasella/nanochat-mlx",
+      "status": "candidate",
+      "text": "Train your own ChatGPT on Apple Silicon. Minimal MLX port of [Karpathy's nanochat](https://github.com/karpathy/nanochat)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "status": "candidate",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anse-app/anse",
+      "status": "candidate",
+      "text": "![Banner](https://user-images.githubusercontent.com/1998168/235366625-e615e68d-592c-4f18-9c9f-1e5cd1778557.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2noise/ChatTTS",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -436,11 +526,77 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "microsoft/genaiscript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "BAAI-DCAI/Bunny"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "scasella/nanochat-mlx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "ElricLiu/Awesome-One-Click-Deployment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "eryajf/chatgpt-dingtalk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "anse-app/anse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "2noise/ChatTTS"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

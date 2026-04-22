@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T05:05:49.838883+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3215
+    },
+    {
+      "path": "requirements.txt",
+      "size": 19
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "zzowenzz/COCO_Tiny",
+    "html_url": "https://github.com/zzowenzz/COCO_Tiny",
+    "language": "Python",
+    "pushed_at": "2024-05-02T05:23:59Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-05-02T05:24:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

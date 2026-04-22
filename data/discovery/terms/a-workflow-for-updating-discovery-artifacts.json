@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "googleapis/google-api-python-client"
+    }
+  ],
+  "term": "A workflow for updating discovery artifacts"
+}

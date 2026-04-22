@@ -1,0 +1,200 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vectorlint.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vectorlint.yml"
+    },
+    {
+      "component": "geomys/sandboxed-step@v1.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vectorlint.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vectorlint.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vectorlint.yml"
+    },
+    {
+      "component": "geomys/sandboxed-step@v1.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vectorlint.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vectorlint.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vectorlint.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vectorlint.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vectorlint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "C2SP/wycheproof",
+      "target": "aws/aws-lc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "C2SP/wycheproof",
+      "target": "apple/swift-crypto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "C2SP/wycheproof",
+      "target": "cpu/wycheproof",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "C2SP/wycheproof",
+      "target": "bleichenbacher-daniel/rooterberg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vectorlint.yml",
+      "source_repo": "C2SP/wycheproof",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vectorlint.yml",
+      "source_repo": "C2SP/wycheproof",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vectorlint.yml",
+      "source_repo": "C2SP/wycheproof",
+      "target": "geomys/sandboxed-step@v1.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vectorlint.yml",
+      "source_repo": "C2SP/wycheproof",
+      "target": "Vector Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "C2SP/wycheproof",
+      "target": "crypto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "C2SP/wycheproof",
+      "target": "cryptography",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:24:57.755901+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8139
+    },
+    {
+      "path": "go.mod",
+      "size": 512
+    },
+    {
+      "path": ".github/workflows/vectorlint.yml",
+      "size": 2140
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Project Wycheproof tests crypto libraries against known attacks.",
+    "fork": false,
+    "full_name": "C2SP/wycheproof",
+    "html_url": "https://github.com/C2SP/wycheproof",
+    "language": "Go",
+    "pushed_at": "2026-04-21T20:46:52Z",
+    "stargazers_count": 3026,
+    "topics": [
+      "crypto",
+      "cryptography"
+    ],
+    "updated_at": "2026-04-22T02:37:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift-crypto",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/aws-lc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bleichenbacher-daniel/rooterberg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cpu/wycheproof",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Vector Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vectorlint.yml",
+      "term": "Vector Lint"
+    },
+    {
+      "context_snippet": "Project Wycheproof is a [community managed](https://github.com/C2SP) repository",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crypto"
+    },
+    {
+      "context_snippet": "Project Wycheproof is a [community managed](https://github.com/C2SP) repository",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    }
+  ]
+}

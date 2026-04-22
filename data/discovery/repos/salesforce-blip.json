@@ -1,0 +1,181 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "salesforce/BLIP",
+      "target": "facebookresearch/fairscale",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "salesforce/BLIP",
+      "target": "dmlc/decord",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "salesforce/BLIP",
+      "target": "salesforce/albef",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "salesforce/BLIP",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/BLIP",
+      "target": "image-captioning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/BLIP",
+      "target": "image-text-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/BLIP",
+      "target": "vision-and-language-pre-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/BLIP",
+      "target": "vision-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/BLIP",
+      "target": "vision-language-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/BLIP",
+      "target": "visual-question-answering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/BLIP",
+      "target": "visual-reasoning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:24:30.069560+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9693
+    },
+    {
+      "path": "requirements.txt",
+      "size": 65
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "PyTorch code for BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation  ",
+    "fork": false,
+    "full_name": "salesforce/BLIP",
+    "html_url": "https://github.com/salesforce/BLIP",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-03-03T12:43:12Z",
+    "stargazers_count": 5698,
+    "topics": [
+      "image-captioning",
+      "image-text-retrieval",
+      "vision-and-language-pre-training",
+      "vision-language",
+      "vision-language-transformer",
+      "visual-question-answering",
+      "visual-reasoning"
+    ],
+    "updated_at": "2026-04-22T03:10:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmlc/decord",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/fairscale",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "salesforce/albef",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"BLIP.gif\" width=\"700\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-captioning"
+    },
+    {
+      "context_snippet": "<img src=\"BLIP.gif\" width=\"700\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-text-retrieval"
+    },
+    {
+      "context_snippet": "<img src=\"BLIP.gif\" width=\"700\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-and-language-pre-training"
+    },
+    {
+      "context_snippet": "<img src=\"BLIP.gif\" width=\"700\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language"
+    },
+    {
+      "context_snippet": "<img src=\"BLIP.gif\" width=\"700\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language-transformer"
+    },
+    {
+      "context_snippet": "<img src=\"BLIP.gif\" width=\"700\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-question-answering"
+    },
+    {
+      "context_snippet": "<img src=\"BLIP.gif\" width=\"700\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-reasoning"
+    }
+  ]
+}

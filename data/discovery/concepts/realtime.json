@@ -19,6 +19,18 @@
       "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
       "status": "candidate-context",
       "text": "[English](./README_EN.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a](./README_RU.md) | [Fran\u00e7ais](./README_FR.md) | [\ud55c\uad6d\uc5b4](./README_KR.md) | [Ti\u1ebfng Vi\u1ec7t](./README_VN.md) | [T\u00fcrk\u00e7e](./README_TR.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/instant-ngp",
+      "status": "candidate-context",
+      "text": "Instant neural graphics primitives: lightning fast NeRF and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/instant-ngp",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/assets_readme/fox.gif\" height=\"342\"/> <img src=\"docs/assets_readme/robot5.gif\" height=\"342\"/>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
       "status": "candidate",
       "text": "[English](./README_EN.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a](./README_RU.md) | [Fran\u00e7ais](./README_FR.md) | [\ud55c\uad6d\uc5b4](./README_KR.md) | [Ti\u1ebfng Vi\u1ec7t](./README_VN.md) | [T\u00fcrk\u00e7e](./README_TR.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/instant-ngp",
+      "status": "candidate",
+      "text": "<img src=\"docs/assets_readme/fox.gif\" height=\"342\"/> <img src=\"docs/assets_readme/robot5.gif\" height=\"342\"/>"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "Dooy/chatgpt-web-midjourney-proxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/instant-ngp"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

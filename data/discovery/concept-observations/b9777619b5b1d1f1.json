@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tensors and Dynamic neural networks in Python with strong GPU acceleration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Flash Attention 3 wheels (Windows)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Flash Attention 3 wheels (Windows)"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27493,
+      "status": "candidate",
+      "text": "shove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27493,
+      "status": "candidate",
+      "text": "shoving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27412,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27388,
+      "status": "candidate",
+      "text": "tongue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27354,
+      "status": "candidate",
+      "text": "run"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Flash Attention 3 wheels (Windows)",
+      "sense_id": "build-flash-attention-3-wheels-windows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-flash-attention-3-wheels-windows",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-flash-attention-3-wheels-windows",
+  "observation_id": "b9777619b5b1d1f1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "Build Flash Attention 3 wheels (Windows)",
+  "source_context_snippet": "Build Flash Attention 3 wheels (Windows)",
+  "source_file": ".github/workflows/_binary-build-flash-attention-wheel-windows.yml",
+  "source_repo": "pytorch/pytorch",
+  "source_repo_description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration"
+}

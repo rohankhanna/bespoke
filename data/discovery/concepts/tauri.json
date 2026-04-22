@@ -43,6 +43,30 @@
       "source_repo": "ChatGPTNextWeb/NextChat",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dathere/qsv-easy-windows-installer",
+      "status": "candidate-context",
+      "text": "\u26a1 Easy installer for qsv on Windows devices. Simply click the app's Install button and wait a few seconds to get the latest version of qsv installed to your PATH."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dathere/qsv-easy-windows-installer",
+      "status": "candidate-context",
+      "text": "![image](https://github.com/user-attachments/assets/3ccc6cad-04ab-4288-9a41-9afadaa1fcfc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tauri-apps/tauri-docs",
+      "status": "candidate-context",
+      "text": "The source for all Tauri project documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/tauri-docs",
+      "status": "candidate-context",
+      "text": "![README Banner](https://github.com/tauri-apps/tauri-docs/assets/61861940/ab6fd2f5-07b7-46b2-9125-77cba0064c1b)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "ChatGPTNextWeb/NextChat",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dathere/qsv-easy-windows-installer",
+      "status": "candidate",
+      "text": "![image](https://github.com/user-attachments/assets/3ccc6cad-04ab-4288-9a41-9afadaa1fcfc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/tauri-docs",
+      "status": "candidate",
+      "text": "![README Banner](https://github.com/tauri-apps/tauri-docs/assets/61861940/ab6fd2f5-07b7-46b2-9125-77cba0064c1b)"
     }
   ],
   "candidate_related_terms": [
@@ -142,11 +178,29 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "dathere/qsv-easy-windows-installer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "tauri-apps/tauri-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

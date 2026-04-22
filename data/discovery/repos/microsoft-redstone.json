@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/RedStone",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/RedStone",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/RedStone",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/RedStone",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:54:15.870542+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9805
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 4294
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The RedStone repository includes code for preparing extensive datasets used in training large language models.",
+    "fork": false,
+    "full_name": "microsoft/RedStone",
+    "html_url": "https://github.com/microsoft/RedStone",
+    "language": "Python",
+    "pushed_at": "2026-04-21T22:01:41Z",
+    "stargazers_count": 160,
+    "topics": [],
+    "updated_at": "2026-04-02T08:12:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL Advanced\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL Advanced"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T05:19:30.609727+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15597
+    },
+    {
+      "path": "requirements.txt",
+      "size": 228
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": null,
+    "fork": false,
+    "full_name": "deep-floyd/IF",
+    "html_url": "https://github.com/deep-floyd/IF",
+    "language": "Python",
+    "pushed_at": "2024-04-14T05:26:35Z",
+    "stargazers_count": 7830,
+    "topics": [],
+    "updated_at": "2026-04-22T00:31:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

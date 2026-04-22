@@ -1,0 +1,628 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-amd64.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-amd64.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-amd64.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-amd64.yml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-amd64.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-arm64.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-arm64.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-arm64.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-arm64.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-arm64.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-arm64.yml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-arm64.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@releases/v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "songquanpeng/personal-assistant",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "songquanpeng/blog",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "songquanpeng/daily-report",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "songquanpeng/gin-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-amd64.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-amd64.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-amd64.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-amd64.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "docker/build-push-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image-amd64.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "Publish Docker image (amd64)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-arm64.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-arm64.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-arm64.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-arm64.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-arm64.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-arm64.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "docker/build-push-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image-arm64.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "Publish Docker image (arm64)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "JamesIves/github-pages-deploy-action@releases/v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-pages.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "Build GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-release.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "Linux Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-release.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "macOS Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-release.yml",
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "Windows Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "bark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "dingtalk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "discord",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "email",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "feishu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "lark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "message-pusher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "telegram",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "websocket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "songquanpeng/message-pusher",
+      "target": "wechat",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:16:34.967196+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20016
+    },
+    {
+      "path": "Dockerfile",
+      "size": 696
+    },
+    {
+      "path": "go.mod",
+      "size": 2346
+    },
+    {
+      "path": ".github/workflows/docker-image-amd64.yml",
+      "size": 1378
+    },
+    {
+      "path": ".github/workflows/docker-image-arm64.yml",
+      "size": 1572
+    },
+    {
+      "path": ".github/workflows/github-pages.yml",
+      "size": 1067
+    },
+    {
+      "path": ".github/workflows/linux-release.yml",
+      "size": 1495
+    },
+    {
+      "path": ".github/workflows/macos-release.yml",
+      "size": 1087
+    },
+    {
+      "path": ".github/workflows/windows-release.yml",
+      "size": 1137
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u642d\u5efa\u4e13\u5c5e\u4e8e\u4f60\u7684\u6d88\u606f\u63a8\u9001\u670d\u52a1\uff0c\u652f\u6301\u591a\u79cd\u6d88\u606f\u63a8\u9001\u65b9\u5f0f\uff0c\u652f\u6301 Markdown\uff0c\u57fa\u4e8e Golang \u4ec5\u5355\u53ef\u6267\u884c\u6587\u4ef6\uff0c\u5f00\u7bb1\u5373\u7528",
+    "fork": false,
+    "full_name": "songquanpeng/message-pusher",
+    "html_url": "https://github.com/songquanpeng/message-pusher",
+    "language": "JavaScript",
+    "pushed_at": "2025-11-22T04:22:53Z",
+    "stargazers_count": 3841,
+    "topics": [
+      "bark",
+      "dingtalk",
+      "discord",
+      "email",
+      "feishu",
+      "lark",
+      "message-pusher",
+      "telegram",
+      "websocket",
+      "wechat"
+    ],
+    "updated_at": "2026-04-22T01:02:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "songquanpeng/blog",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "songquanpeng/daily-report",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "songquanpeng/gin-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "songquanpeng/personal-assistant",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish Docker image (amd64)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image-amd64.yml",
+      "term": "Publish Docker image (amd64)"
+    },
+    {
+      "context_snippet": "Publish Docker image (arm64)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image-arm64.yml",
+      "term": "Publish Docker image (arm64)"
+    },
+    {
+      "context_snippet": "Build GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-pages.yml",
+      "term": "Build GitHub Pages"
+    },
+    {
+      "context_snippet": "Linux Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-release.yml",
+      "term": "Linux Release"
+    },
+    {
+      "context_snippet": "macOS Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-release.yml",
+      "term": "macOS Release"
+    },
+    {
+      "context_snippet": "Windows Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-release.yml",
+      "term": "Windows Release"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bark"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dingtalk"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "discord"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "email"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feishu"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lark"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "message-pusher"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "telegram"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wechat"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -36,6 +36,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "Azure/azure-sdk-for-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "ROCm/iris"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/machinelearning"
     }
   ],
   "term": "Copilot Setup Steps"

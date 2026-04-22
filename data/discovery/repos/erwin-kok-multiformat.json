@@ -1,0 +1,151 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erwin-kok/multiformat",
+      "target": "multiformats/multibase",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erwin-kok/multiformat",
+      "target": "multiformats/multicodec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erwin-kok/multiformat",
+      "target": "multiformats/multihash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erwin-kok/multiformat",
+      "target": "multiformats/cid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "erwin-kok/multiformat",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "erwin-kok/multiformat",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erwin-kok/multiformat",
+      "target": "ipfs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erwin-kok/multiformat",
+      "target": "libp2p",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erwin-kok/multiformat",
+      "target": "multiformat",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:08:24.393051+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5544
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 424
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Protocol implementation of https://multiformats.io/",
+    "fork": false,
+    "full_name": "erwin-kok/multiformat",
+    "html_url": "https://github.com/erwin-kok/multiformat",
+    "language": "Kotlin",
+    "pushed_at": "2026-01-17T09:39:25Z",
+    "stargazers_count": 2,
+    "topics": [
+      "ipfs",
+      "libp2p",
+      "multiformat",
+      "p2p"
+    ],
+    "updated_at": "2026-01-17T09:39:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "multiformats/cid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "multiformats/multibase",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "multiformats/multicodec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "multiformats/multihash",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Self-describing values for Future-proofing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipfs"
+    },
+    {
+      "context_snippet": "Self-describing values for Future-proofing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libp2p"
+    },
+    {
+      "context_snippet": "Self-describing values for Future-proofing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiformat"
+    }
+  ]
+}

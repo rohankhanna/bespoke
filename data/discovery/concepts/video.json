@@ -19,6 +19,18 @@
       "source_repo": "liballeg/allegro5",
       "status": "candidate-context",
       "text": "Welcome to Allegro!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/vhs",
+      "status": "candidate-context",
+      "text": "Your CLI home video recorder \ud83d\udcfc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/vhs",
+      "status": "candidate-context",
+      "text": "<p>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "liballeg/allegro5",
       "status": "candidate",
       "text": "Welcome to Allegro!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/vhs",
+      "status": "candidate",
+      "text": "<p>"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "liballeg/allegro5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "charmbracelet/vhs"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

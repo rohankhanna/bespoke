@@ -19,6 +19,18 @@
       "source_repo": "hukkin/mdformat",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hukkin/mdformat-toc",
+      "status": "candidate-context",
+      "text": "Mdformat plugin to generate a table of contents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hukkin/mdformat-toc",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/hukkin/mdformat-toc/actions/workflows/tests.yaml/badge.svg?branch=master)](https://github.com/hukkin/mdformat-toc/actions?query=workflow%3ATests+branch%3Amaster+event%3Apush)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "hukkin/mdformat",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hukkin/mdformat-toc",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/hukkin/mdformat-toc/actions/workflows/tests.yaml/badge.svg?branch=master)](https://github.com/hukkin/mdformat-toc/actions?query=workflow%3ATests+branch%3Amaster+event%3Apush)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "hukkin/mdformat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "hukkin/mdformat-toc"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component": "@modelcontextprotocol/sdk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "androidStern-personal/openclaw-mcp-adapter",
+      "target": "androidstern/openclaw-mcp-adapter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "androidStern-personal/openclaw-mcp-adapter",
+      "target": "androidstern/openclaw-mcp-adapter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "androidStern-personal/openclaw-mcp-adapter",
+      "target": "@modelcontextprotocol/sdk",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:49:45.940024+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3711
+    },
+    {
+      "path": "package.json",
+      "size": 683
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OpenClaw plugin that exposes MCP server tools as native agent tools",
+    "fork": false,
+    "full_name": "androidStern-personal/openclaw-mcp-adapter",
+    "html_url": "https://github.com/androidStern-personal/openclaw-mcp-adapter",
+    "language": "TypeScript",
+    "pushed_at": "2026-02-03T02:27:35Z",
+    "stargazers_count": 38,
+    "topics": [],
+    "updated_at": "2026-04-21T15:25:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "androidstern/openclaw-mcp-adapter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "androidstern/openclaw-mcp-adapter",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": []
+}

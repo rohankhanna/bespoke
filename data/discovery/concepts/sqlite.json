@@ -211,6 +211,18 @@
       "source_repo": "simonw/sqlite-utils",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/sqlite-utils.svg)](https://pypi.org/project/sqlite-utils/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sql-js/react-sqljs-demo",
+      "status": "candidate-context",
+      "text": "A demonstration showing how to use sql.js with create-react-app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sql-js/react-sqljs-demo",
+      "status": "candidate-context",
+      "text": "This is a template repository demonstrating the use of sql.js with create-react-app."
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "simonw/sqlite-utils",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/sqlite-utils.svg)](https://pypi.org/project/sqlite-utils/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sql-js/react-sqljs-demo",
+      "status": "candidate",
+      "text": "This is a template repository demonstrating the use of sql.js with create-react-app."
     }
   ],
   "candidate_related_terms": [
@@ -484,11 +502,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "simonw/sqlite-utils"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "sql-js/react-sqljs-demo"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

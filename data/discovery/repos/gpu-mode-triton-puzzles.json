@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gpu-mode/Triton-Puzzles",
+      "target": "deep-learning-profiling-tools/triton-viz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gpu-mode/Triton-Puzzles",
+      "target": "openai/triton",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gpu-mode/Triton-Puzzles",
+      "target": "srush/autodiff-puzzles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gpu-mode/Triton-Puzzles",
+      "target": "srush/gptworld",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gpu-mode/Triton-Puzzles",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gpu-mode/Triton-Puzzles",
+      "target": "puzzle",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:02:33.212493+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1857
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Puzzles for learning Triton",
+    "fork": false,
+    "full_name": "gpu-mode/Triton-Puzzles",
+    "html_url": "https://github.com/gpu-mode/Triton-Puzzles",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-01T04:01:16Z",
+    "stargazers_count": 2390,
+    "topics": [
+      "machine-learning",
+      "puzzle"
+    ],
+    "updated_at": "2026-04-22T01:51:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deep-learning-profiling-tools/triton-viz",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/triton",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "srush/autodiff-puzzles",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "srush/gptworld",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "w/ [Tejas Ramesh](https://tejas3070.github.io/) and [Keren Zhou](https://www.jokeren.tech/) based on [Triton-Viz](https://github.com/Deep-Learning-Profiling-Tools/triton-viz)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "w/ [Tejas Ramesh](https://tejas3070.github.io/) and [Keren Zhou](https://www.jokeren.tech/) based on [Triton-Viz](https://github.com/Deep-Learning-Profiling-Tools/triton-viz)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "puzzle"
+    }
+  ]
+}

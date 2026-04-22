@@ -19,6 +19,30 @@
       "source_repo": "nvm-sh/nvm",
       "status": "candidate-context",
       "text": "<a href=\"https://github.com/nvm-sh/logos\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mybigday/llama.node",
+      "status": "candidate-context",
+      "text": "Node.js binding of llama.cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mybigday/llama.node",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/mybigday/llama.node/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/mybigday/llama.node/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "derekstavis/plugin-nvm",
+      "status": "candidate-context",
+      "text": "Node version manager wrapper for Fish shell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "derekstavis/plugin-nvm",
+      "status": "candidate-context",
+      "text": "<img src=\"https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg\" align=\"left\" width=\"144px\" height=\"144px\"/>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "nvm-sh/nvm",
       "status": "candidate",
       "text": "<a href=\"https://github.com/nvm-sh/logos\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mybigday/llama.node",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/mybigday/llama.node/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/mybigday/llama.node/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "derekstavis/plugin-nvm",
+      "status": "candidate",
+      "text": "<img src=\"https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg\" align=\"left\" width=\"144px\" height=\"144px\"/>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "mybigday/llama.node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "derekstavis/plugin-nvm"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

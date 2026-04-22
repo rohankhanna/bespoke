@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apex/log",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apex/log",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apex/log",
+      "target": "apex-logs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apex/log",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apex/log",
+      "target": "logger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apex/log",
+      "target": "logging",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:57:44.814196+00:00",
+  "fetched_files": [
+    {
+      "path": "go.mod",
+      "size": 1254
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 458
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Structured logging package for Go.",
+    "fork": false,
+    "full_name": "apex/log",
+    "html_url": "https://github.com/apex/log",
+    "language": "Go",
+    "pushed_at": "2023-11-03T18:30:34Z",
+    "stargazers_count": 1373,
+    "topics": [
+      "apex-logs",
+      "golang",
+      "logger",
+      "logging"
+    ],
+    "updated_at": "2026-04-21T09:39:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "module github.com/apex/log go 1.13 require ( github.com/apex/logs v1.0.0 github.com/aphistic/golf v0.0.0-20180712155816-02c07f170c5a github.com/aphistic/sweet v0.2.0 // indirect github.com/aws/aws-sdk-go v1.20.6 github.com/aybabtme/rgbterm v0.0.0-20170906152045-cc83f3b3ce59 gith\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apex-logs"
+    },
+    {
+      "context_snippet": "module github.com/apex/log go 1.13 require ( github.com/apex/logs v1.0.0 github.com/aphistic/golf v0.0.0-20180712155816-02c07f170c5a github.com/aphistic/sweet v0.2.0 // indirect github.com/aws/aws-sdk-go v1.20.6 github.com/aybabtme/rgbterm v0.0.0-20170906152045-cc83f3b3ce59 gith\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "module github.com/apex/log go 1.13 require ( github.com/apex/logs v1.0.0 github.com/aphistic/golf v0.0.0-20180712155816-02c07f170c5a github.com/aphistic/sweet v0.2.0 // indirect github.com/aws/aws-sdk-go v1.20.6 github.com/aybabtme/rgbterm v0.0.0-20170906152045-cc83f3b3ce59 gith\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logger"
+    },
+    {
+      "context_snippet": "module github.com/apex/log go 1.13 require ( github.com/apex/logs v1.0.0 github.com/aphistic/golf v0.0.0-20180712155816-02c07f170c5a github.com/aphistic/sweet v0.2.0 // indirect github.com/aws/aws-sdk-go v1.20.6 github.com/aybabtme/rgbterm v0.0.0-20170906152045-cc83f3b3ce59 gith\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logging"
+    }
+  ]
+}

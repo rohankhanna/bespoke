@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Append API Node PR template"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "status": "candidate-context",
+      "text": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "status": "candidate-context",
+      "text": "Append API Node PR template"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "status": "candidate",
+      "text": "Append API Node PR template"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38662,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26967,
+      "status": "candidate",
+      "text": "splice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26967,
+      "status": "candidate",
+      "text": "splicing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26612,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26606,
+      "status": "candidate",
+      "text": "tag"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Append API Node PR template",
+  "concept_id": "append-api-node-pr-template",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/api-node-template.yml",
+      "source_repo": "Comfy-Org/ComfyUI"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Append API Node PR template",
+      "sense_id": "append-api-node-pr-template#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

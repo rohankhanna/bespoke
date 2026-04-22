@@ -19,6 +19,30 @@
       "source_repo": "maaslalani/slides",
       "status": "candidate-context",
       "text": "Slides in your terminal."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d0c-s4vage/lookatme",
+      "status": "candidate-context",
+      "text": "An interactive, terminal-based markdown presenter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d0c-s4vage/lookatme",
+      "status": "candidate-context",
+      "text": "[![Master Build Status](https://travis-ci.org/d0c-s4vage/lookatme.svg?branch=master)](https://travis-ci.org/d0c-s4vage/lookatme)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfontanini/presenterm",
+      "status": "candidate-context",
+      "text": "A markdown terminal slideshow tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfontanini/presenterm",
+      "status": "candidate-context",
+      "text": "presenterm"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "maaslalani/slides",
       "status": "candidate",
       "text": "Slides in your terminal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d0c-s4vage/lookatme",
+      "status": "candidate",
+      "text": "[![Master Build Status](https://travis-ci.org/d0c-s4vage/lookatme.svg?branch=master)](https://travis-ci.org/d0c-s4vage/lookatme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfontanini/presenterm",
+      "status": "candidate",
+      "text": "presenterm"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "maaslalani/slides"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "d0c-s4vage/lookatme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "mfontanini/presenterm"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "dev-short-tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/zstd",
+      "status": "candidate-context",
+      "text": "Zstandard - Fast real-time compression algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/zstd",
+      "status": "candidate-context",
+      "text": "dev-short-tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/zstd",
+      "status": "candidate",
+      "text": "dev-short-tests"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "dev-short-tests",
+  "concept_id": "dev-short-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/dev-short-tests.yml",
+      "source_repo": "facebook/zstd"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "dev-short-tests",
+      "sense_id": "dev-short-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

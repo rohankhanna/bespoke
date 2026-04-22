@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BlinkDL/modded-nanogpt-rwkv",
+      "target": "karpathy/llm.c",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BlinkDL/modded-nanogpt-rwkv",
+      "target": "nikhilvyas/modded-nanogpt-soap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BlinkDL/modded-nanogpt-rwkv",
+      "target": "kellerjordan/muon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BlinkDL/modded-nanogpt-rwkv",
+      "target": "kellerjordan/cifar10-airbench",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:09:10.598281+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16782
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1095
+    },
+    {
+      "path": "requirements.txt",
+      "size": 33
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RWKV-7: Surpassing GPT",
+    "fork": true,
+    "full_name": "BlinkDL/modded-nanogpt-rwkv",
+    "html_url": "https://github.com/BlinkDL/modded-nanogpt-rwkv",
+    "language": "Python",
+    "pushed_at": "2024-11-17T19:08:27Z",
+    "stargazers_count": 104,
+    "topics": [],
+    "updated_at": "2026-02-02T02:46:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "karpathy/llm.c",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kellerjordan/cifar10-airbench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kellerjordan/muon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nikhilvyas/modded-nanogpt-soap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

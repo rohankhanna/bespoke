@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -56,6 +56,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "google/error-prone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "danmar/cppcheck"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/spotbugs-intellij-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/analyze.yml",
+      "source_repo": "zlib-ng/zlib-ng"
     }
   ],
   "term": "Static Analysis"

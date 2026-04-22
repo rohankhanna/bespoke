@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T05:10:41.220251+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3158
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Emacs minor mode which allows to dynamically select cargo command",
+    "fork": false,
+    "full_name": "ayrat555/cargo-mode",
+    "html_url": "https://github.com/ayrat555/cargo-mode",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-01-14T08:40:34Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2026-04-07T00:59:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

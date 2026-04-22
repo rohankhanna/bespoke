@@ -31,6 +31,30 @@
       "source_repo": "docker/compose",
       "status": "candidate-context",
       "text": "Scorecards supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/zstd",
+      "status": "candidate-context",
+      "text": "Zstandard - Fast real-time compression algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/zstd",
+      "status": "candidate-context",
+      "text": "Scorecards supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "notaryproject/notation",
+      "status": "candidate-context",
+      "text": "A CLI tool to sign and verify artifacts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notation",
+      "status": "candidate-context",
+      "text": "Scorecards supply-chain security"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "docker/compose",
+      "status": "candidate",
+      "text": "Scorecards supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/zstd",
+      "status": "candidate",
+      "text": "Scorecards supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notation",
       "status": "candidate",
       "text": "Scorecards supply-chain security"
     }
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/scorecards.yml",
       "source_repo": "docker/compose"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "facebook/zstd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "notaryproject/notation"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

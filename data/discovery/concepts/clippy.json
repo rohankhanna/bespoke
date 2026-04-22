@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Clippy"
+    "Clippy",
+    "clippy"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "Kampfkarren/full-moon",
       "status": "candidate-context",
       "text": "Clippy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tauri-apps/create-tauri-app",
+      "status": "candidate-context",
+      "text": "Rapidly scaffold out a new tauri app project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/create-tauri-app",
+      "status": "candidate-context",
+      "text": "clippy"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "Kampfkarren/full-moon",
       "status": "candidate",
       "text": "Clippy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/create-tauri-app",
+      "status": "candidate",
+      "text": "clippy"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +59,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": ".github/workflows/clippy.yml",
       "source_repo": "Kampfkarren/full-moon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "tauri-apps/create-tauri-app"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

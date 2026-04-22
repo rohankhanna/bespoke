@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-secure-code/safety-dance",
+      "target": "anderejd/cargo-geiger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-secure-code/safety-dance",
+      "target": "rustsec/advisory-db",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-secure-code/safety-dance",
+      "target": "frommi/miniz_oxide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-secure-code/safety-dance",
+      "target": "facebook/folly",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:08:44.787354+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8638
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Auditing crates for unsafe code which can be safely replaced",
+    "fork": false,
+    "full_name": "rust-secure-code/safety-dance",
+    "html_url": "https://github.com/rust-secure-code/safety-dance",
+    "language": null,
+    "pushed_at": "2022-03-25T17:24:27Z",
+    "stargazers_count": 570,
+    "topics": [],
+    "updated_at": "2026-04-08T04:58:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anderejd/cargo-geiger",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebook/folly",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "frommi/miniz_oxide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rustsec/advisory-db",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

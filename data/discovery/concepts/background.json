@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "background"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RekGRpth/pg_task",
+      "status": "candidate-context",
+      "text": "pg_task - job scheduler for PostgreSQL, Greenplum and Greengage: asynchronous background execution of SQL commands at user-defined time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RekGRpth/pg_task",
+      "status": "candidate-context",
+      "text": "PostgreSQL, Greenplum and Greengage job scheduler `pg_task` allows to execute any sql command at any specific time at background asynchronously"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coreybutler/node-windows",
+      "status": "candidate-context",
+      "text": "Windows support for Node.JS scripts (daemons, eventlog, UAC, etc)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coreybutler/node-windows",
+      "status": "candidate-context",
+      "text": "![NPM version](https://img.shields.io/npm/v/node-windows?label=node-windows&logo=npm&style=for-the-badge)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RekGRpth/pg_task",
+      "status": "candidate",
+      "text": "PostgreSQL, Greenplum and Greengage job scheduler `pg_task` allows to execute any sql command at any specific time at background asynchronously"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coreybutler/node-windows",
+      "status": "candidate",
+      "text": "![NPM version](https://img.shields.io/npm/v/node-windows?label=node-windows&logo=npm&style=for-the-badge)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020841,
+      "status": "candidate",
+      "text": "play down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985124,
+      "status": "candidate",
+      "text": "scope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938656,
+      "status": "candidate",
+      "text": "setting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39905571,
+      "status": "candidate",
+      "text": "backdrop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39904985,
+      "status": "candidate",
+      "text": "backcloth"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31065,
+      "status": "candidate",
+      "text": "scope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23074,
+      "status": "candidate",
+      "text": "ground"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9050,
+      "status": "candidate",
+      "text": "setting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7029,
+      "status": "candidate",
+      "text": "backdrop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2032,
+      "status": "candidate",
+      "text": "desktop"
+    }
+  ],
+  "canonical_name": "background",
+  "concept_id": "background",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "RekGRpth/pg_task"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/node-windows"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "background",
+      "sense_id": "background#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

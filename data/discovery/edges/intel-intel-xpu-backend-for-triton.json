@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "target": "srush/triton-puzzles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update-translator-cid.yml",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update-translator-cid.yml",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-update-translator-cid.yml",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "target": "Automate update Translator cid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit-check.yml",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit-check.yml",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit-check.yml",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bandit-check.yml",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "target": "Bandit Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-benchmarks-wheel.yml",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-benchmarks-wheel.yml",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-benchmarks-wheel.yml",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-benchmarks-wheel.yml",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "target": "Build benchmarks wheel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "target": "Build MacOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-gpu.yml",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "target": "Build and test GPU",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-reusable.yml",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-reusable.yml",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-reusable.yml",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-reusable.yml",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "target": "re-actors/alls-green@05ac9388f0aebcb5727afa17fcccfecd6f8ec5fe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-reusable.yml",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "target": "Build and test reusable workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-spirv.yml",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "target": "Build and test SPIR-V backend",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T04:49:29.633207+00:00",
+  "source_repo": "intel/intel-xpu-backend-for-triton"
+}

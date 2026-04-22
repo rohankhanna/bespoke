@@ -31,6 +31,18 @@
       "source_repo": "ggreer/the_silver_searcher",
       "status": "candidate-context",
       "text": "A code searching tool similar to `ack`, with a focus on speed."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gitui-org/gitui",
+      "status": "candidate-context",
+      "text": "Blazing \ud83d\udca5 fast terminal-ui for git written in rust \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitui-org/gitui",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "ggreer/the_silver_searcher",
       "status": "candidate",
       "text": "A code searching tool similar to `ack`, with a focus on speed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitui-org/gitui",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "ggreer/the_silver_searcher"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "gitui-org/gitui"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

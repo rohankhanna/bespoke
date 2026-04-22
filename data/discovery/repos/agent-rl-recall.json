@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Agent-RL/ReCall",
+      "target": "ruc-nlpir/flashrag",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Agent-RL/ReCall",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Agent-RL/ReCall",
+      "target": "fastapi/fastapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Agent-RL/ReCall",
+      "target": "function-calling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Agent-RL/ReCall",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Agent-RL/ReCall",
+      "target": "tool-use",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:04:14.547056+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10936
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ReSearch: Learning to Reason with Search for LLMs via Reinforcement Learning & ReCall: Learning to Reason with Tool Call for LLMs via Reinforcement Learning",
+    "fork": false,
+    "full_name": "Agent-RL/ReCall",
+    "html_url": "https://github.com/Agent-RL/ReCall",
+    "language": "Python",
+    "pushed_at": "2025-05-16T10:31:58Z",
+    "stargazers_count": 1377,
+    "topics": [
+      "agent",
+      "function-calling",
+      "llm",
+      "reinforcement-learning",
+      "tool-use"
+    ],
+    "updated_at": "2026-04-21T18:17:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fastapi/fastapi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruc-nlpir/flashrag",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "function-calling"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool-use"
+    }
+  ]
+}

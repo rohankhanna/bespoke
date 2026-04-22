@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T05:18:50.423294+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 590
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CLIP+MLP Aesthetic Score Predictor",
+    "fork": false,
+    "full_name": "christophschuhmann/improved-aesthetic-predictor",
+    "html_url": "https://github.com/christophschuhmann/improved-aesthetic-predictor",
+    "language": "Python",
+    "pushed_at": "2024-07-01T11:58:57Z",
+    "stargazers_count": 1281,
+    "topics": [],
+    "updated_at": "2026-04-21T08:59:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

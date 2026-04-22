@@ -155,6 +155,18 @@
       "source_repo": "8144225309/lightning",
       "status": "candidate-context",
       "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlfoundations/open_clip",
+      "status": "candidate-context",
+      "text": "An open source implementation of CLIP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlfoundations/open_clip",
+      "status": "candidate-context",
+      "text": "Continuous integration"
     }
   ],
   "candidate_glosses": [
@@ -223,6 +235,12 @@
       "source_repo": "8144225309/lightning",
       "status": "candidate",
       "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlfoundations/open_clip",
+      "status": "candidate",
+      "text": "Continuous integration"
     }
   ],
   "candidate_related_terms": [
@@ -350,11 +368,23 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "8144225309/lightning"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ratatui/ratatui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mlfoundations/open_clip"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

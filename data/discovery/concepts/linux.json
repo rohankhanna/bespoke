@@ -238,6 +238,42 @@
       "source_repo": "containers/toolbox",
       "status": "candidate-context",
       "text": "![README](data/gfx/README.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gloxec/CrossC2",
+      "status": "candidate-context",
+      "text": "generate CobaltStrike's cross-platform payload"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gloxec/CrossC2",
+      "status": "candidate-context",
+      "text": "![ Linux ](https://img.shields.io/badge/platform-Linux-green)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "krallin/tini",
+      "status": "candidate-context",
+      "text": "A tiny but valid `init` for containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krallin/tini",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preservim/tagbar",
+      "status": "candidate-context",
+      "text": "Vim plugin that displays tags in a window, ordered by scope"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preservim/tagbar",
+      "status": "candidate-context",
+      "text": "[![Vint](https://github.com/preservim/tagbar/workflows/Vint/badge.svg)](https://github.com/preservim/tagbar/actions?workflow=Vint)"
     }
   ],
   "candidate_glosses": [
@@ -354,6 +390,24 @@
       "source_repo": "containers/toolbox",
       "status": "candidate",
       "text": "![README](data/gfx/README.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gloxec/CrossC2",
+      "status": "candidate",
+      "text": "![ Linux ](https://img.shields.io/badge/platform-Linux-green)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krallin/tini",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preservim/tagbar",
+      "status": "candidate",
+      "text": "[![Vint](https://github.com/preservim/tagbar/workflows/Vint/badge.svg)](https://github.com/preservim/tagbar/actions?workflow=Vint)"
     }
   ],
   "candidate_related_terms": [
@@ -535,11 +589,41 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "containers/toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "gloxec/CrossC2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "krallin/tini"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "rust-lang/rustfmt"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

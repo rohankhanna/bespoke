@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check AI Co-Authors"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "status": "candidate-context",
+      "text": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "status": "candidate-context",
+      "text": "Check AI Co-Authors"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "status": "candidate",
+      "text": "Check AI Co-Authors"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15660,
+      "status": "candidate",
+      "text": "ais"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14837,
+      "status": "candidate",
+      "text": "list"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14717,
+      "status": "candidate",
+      "text": "bot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14717,
+      "status": "candidate",
+      "text": "complex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14717,
+      "status": "candidate",
+      "text": "interval"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check AI Co-Authors",
+  "concept_id": "check-ai-co-authors",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/check-ai-co-authors.yml",
+      "source_repo": "Comfy-Org/ComfyUI"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check AI Co-Authors",
+      "sense_id": "check-ai-co-authors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

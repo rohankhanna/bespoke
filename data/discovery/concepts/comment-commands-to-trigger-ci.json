@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Comment Commands to Trigger CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pandas-dev/pandas-stubs",
+      "status": "candidate-context",
+      "text": "Public type stubs for pandas"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pandas-dev/pandas-stubs",
+      "status": "candidate-context",
+      "text": "Comment Commands to Trigger CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pandas-dev/pandas-stubs",
+      "status": "candidate",
+      "text": "Comment Commands to Trigger CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17560,
+      "status": "candidate",
+      "text": "affirmative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17004,
+      "status": "candidate",
+      "text": "instruction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16877,
+      "status": "candidate",
+      "text": "action"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16877,
+      "status": "candidate",
+      "text": "agitate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16877,
+      "status": "candidate",
+      "text": "anabolism"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Comment Commands to Trigger CI",
+  "concept_id": "comment-commands-to-trigger-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/comment_commands.yml",
+      "source_repo": "pandas-dev/pandas-stubs"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Comment Commands to Trigger CI",
+      "sense_id": "comment-commands-to-trigger-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

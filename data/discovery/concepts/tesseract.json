@@ -1,0 +1,110 @@
+{
+  "aliases": [
+    "tesseract"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tesseract-ocr/tessdata",
+      "status": "candidate-context",
+      "text": "Trained models with fast variant of the \"best\" LSTM models + legacy models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tesseract-ocr/tessdata",
+      "status": "candidate-context",
+      "text": "tessdata"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tesseract-ocr/tesseract",
+      "status": "candidate-context",
+      "text": "Tesseract Open Source OCR Engine (main repository)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tesseract-ocr/tesseract",
+      "status": "candidate-context",
+      "text": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/tesseract-ocr/badge.svg)](https://scan.coverity.com/projects/tesseract-ocr)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tesseract-ocr/tessdata",
+      "status": "candidate",
+      "text": "tessdata"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tesseract-ocr/tesseract",
+      "status": "candidate",
+      "text": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/tesseract-ocr/badge.svg)](https://scan.coverity.com/projects/tesseract-ocr)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024060,
+      "status": "candidate",
+      "text": "hypertorus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024059,
+      "status": "candidate",
+      "text": "octeract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024058,
+      "status": "candidate",
+      "text": "hypercube"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "tesseract",
+  "concept_id": "tesseract",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "tesseract-ocr/tessdata"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "tesseract-ocr/tesseract"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tesseract",
+      "sense_id": "tesseract#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

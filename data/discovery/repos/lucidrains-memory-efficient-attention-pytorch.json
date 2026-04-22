@@ -1,0 +1,168 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lucidrains/memory-efficient-attention-pytorch",
+      "target": "hazyresearch/flash-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "lucidrains/memory-efficient-attention-pytorch",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "lucidrains/memory-efficient-attention-pytorch",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lucidrains/memory-efficient-attention-pytorch",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lucidrains/memory-efficient-attention-pytorch",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lucidrains/memory-efficient-attention-pytorch",
+      "target": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/memory-efficient-attention-pytorch",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/memory-efficient-attention-pytorch",
+      "target": "attention-mechanism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/memory-efficient-attention-pytorch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/memory-efficient-attention-pytorch",
+      "target": "memory-efficient",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:24:25.313591+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3660
+    },
+    {
+      "path": ".github/workflows/python-package.yml",
+      "size": 879
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1064
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of a memory efficient multi-head attention as proposed in the paper, \"Self-attention Does Not Need O(n\u00b2) Memory\"",
+    "fork": false,
+    "full_name": "lucidrains/memory-efficient-attention-pytorch",
+    "html_url": "https://github.com/lucidrains/memory-efficient-attention-pytorch",
+    "language": "Python",
+    "pushed_at": "2023-07-18T14:24:24Z",
+    "stargazers_count": 390,
+    "topics": [
+      "artificial-intelligence",
+      "attention-mechanism",
+      "deep-learning",
+      "memory-efficient"
+    ],
+    "updated_at": "2026-04-18T20:32:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazyresearch/flash-attention",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Implementation of a memory efficient multi-head attention as proposed in the paper, <a href=\"https://arxiv.org/abs/2112.05682\">Self-attention Does Not Need O(n\u00b2) Memory</a>. In addition, the module will take care of masking, causal masking, as well as cross attention.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "Implementation of a memory efficient multi-head attention as proposed in the paper, <a href=\"https://arxiv.org/abs/2112.05682\">Self-attention Does Not Need O(n\u00b2) Memory</a>. In addition, the module will take care of masking, causal masking, as well as cross attention.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-mechanism"
+    },
+    {
+      "context_snippet": "Implementation of a memory efficient multi-head attention as proposed in the paper, <a href=\"https://arxiv.org/abs/2112.05682\">Self-attention Does Not Need O(n\u00b2) Memory</a>. In addition, the module will take care of masking, causal masking, as well as cross attention.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Implementation of a memory efficient multi-head attention as proposed in the paper, <a href=\"https://arxiv.org/abs/2112.05682\">Self-attention Does Not Need O(n\u00b2) Memory</a>. In addition, the module will take care of masking, causal masking, as well as cross attention.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory-efficient"
+    }
+  ]
+}

@@ -31,7 +31,7 @@
       "source_file": ".github/workflows/diff_shades.yml"
     },
     {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/diff_shades.yml"
     },
@@ -51,7 +51,7 @@
       "source_file": ".github/workflows/diff_shades.yml"
     },
     {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/diff_shades.yml"
     },
@@ -71,12 +71,12 @@
       "source_file": ".github/workflows/diff_shades.yml"
     },
     {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/diff_shades.yml"
     },
     {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/diff_shades.yml"
     },
@@ -126,7 +126,7 @@
       "source_file": ".github/workflows/docker.yml"
     },
     {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml"
     },
@@ -171,7 +171,7 @@
       "source_file": ".github/workflows/fuzz.yml"
     },
     {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/fuzz.yml"
     },
@@ -197,13 +197,6 @@
     }
   ],
   "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "psf/black",
-      "target": "ichard26/diff-shades",
-      "target_type": "repository"
-    },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/changelog.yml",
@@ -243,7 +236,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/diff_shades.yml",
       "source_repo": "psf/black",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -334,7 +327,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "psf/black",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -390,7 +383,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/fuzz.yml",
       "source_repo": "psf/black",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -492,7 +485,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-19T17:37:33.837671+00:00",
+  "fetched_at": "2026-04-22T04:56:54.271550+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -544,8 +537,8 @@
     "full_name": "psf/black",
     "html_url": "https://github.com/psf/black",
     "language": "Python",
-    "pushed_at": "2026-04-17T06:33:09Z",
-    "stargazers_count": 41474,
+    "pushed_at": "2026-04-20T20:43:48Z",
+    "stargazers_count": 41477,
     "topics": [
       "autopep8",
       "code",
@@ -557,15 +550,9 @@
       "python",
       "yapf"
     ],
-    "updated_at": "2026-04-19T16:37:00Z"
+    "updated_at": "2026-04-22T01:44:01Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ichard26/diff-shades",
-      "source_file": "pyproject.toml"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "changelog",

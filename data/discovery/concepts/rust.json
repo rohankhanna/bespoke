@@ -1060,6 +1060,192 @@
       "source_repo": "cargo-generate/cargo-generate",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "01mf02/jaq",
+      "status": "candidate-context",
+      "text": "A jq clone focussed on correctness, speed, and simplicity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "01mf02/jaq",
+      "status": "candidate-context",
+      "text": "![Build status](https://github.com/01mf02/jaq/actions/workflows/check.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dathere/qsv-easy-windows-installer",
+      "status": "candidate-context",
+      "text": "\u26a1 Easy installer for qsv on Windows devices. Simply click the app's Install button and wait a few seconds to get the latest version of qsv installed to your PATH."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dathere/qsv-easy-windows-installer",
+      "status": "candidate-context",
+      "text": "![image](https://github.com/user-attachments/assets/3ccc6cad-04ab-4288-9a41-9afadaa1fcfc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vmware-labs/wasm-workers-server",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Develop and run serverless applications on WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmware-labs/wasm-workers-server",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmware-labs/wasm-workers-server",
+      "status": "candidate-context",
+      "text": "<br/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tracel-ai/cubecl",
+      "status": "candidate-context",
+      "text": "Multi-platform high-performance compute language extension for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tracel-ai/cubecl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "monero-rs/monero-rs",
+      "status": "candidate-context",
+      "text": "The Rust Monero library published on crates.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "monero-rs/monero-rs",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/monero-rs/monero-rs/ci.yml?branch=main)](https://github.com/monero-rs/monero-rs/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bevyengine/bevy",
+      "status": "candidate-context",
+      "text": "A refreshingly simple data-driven game engine built in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bevyengine/bevy",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/license-MIT%2FApache-blue.svg)](https://github.com/bevyengine/bevy#license)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gfx-rs/wgpu-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings to wgpu native library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/wgpu-rs",
+      "status": "candidate-context",
+      "text": "Project is now moved to `wgpu` folder at https://github.com/gfx-rs/wgpu"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-windowing/winit",
+      "status": "candidate-context",
+      "text": "Window handling library in pure Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-windowing/winit",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/winit.svg)](https://crates.io/crates/winit)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GREsau/schemars",
+      "status": "candidate-context",
+      "text": "Generate JSON Schema documents from Rust code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GREsau/schemars",
+      "status": "candidate-context",
+      "text": "[![CI Build](https://img.shields.io/github/actions/workflow/status/GREsau/schemars/ci.yml?branch=master&logo=GitHub)](https://github.com/GREsau/schemars/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gitui-org/gitui",
+      "status": "candidate-context",
+      "text": "Blazing \ud83d\udca5 fast terminal-ui for git written in rust \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitui-org/gitui",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Canop/bacon",
+      "status": "candidate-context",
+      "text": "background code checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Canop/bacon",
+      "status": "candidate-context",
+      "text": "![bacon][logo]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gfx-rs/gfx",
+      "status": "candidate-context",
+      "text": "[maintenance mode] A low-overhead Vulkan-like GPU API for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/gfx",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alacritty/vtebench",
+      "status": "candidate-context",
+      "text": "Generate benchmarks for terminal emulators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alacritty/vtebench",
+      "status": "candidate-context",
+      "text": "A tool for benchmarking terminal emulator PTY read performance."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quininer/x11-clipboard",
+      "status": "candidate-context",
+      "text": "[maintenance mode] x11 clipboard support for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quininer/x11-clipboard",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/quininer/x11-clipboard/actions/workflows/ci.yml/badge.svg)](https://github.com/quininer/x11-clipboard/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfontanini/presenterm",
+      "status": "candidate-context",
+      "text": "A markdown terminal slideshow tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfontanini/presenterm",
+      "status": "candidate-context",
+      "text": "presenterm"
     }
   ],
   "candidate_glosses": [
@@ -1602,6 +1788,102 @@
       "source_repo": "cargo-generate/cargo-generate",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "01mf02/jaq",
+      "status": "candidate",
+      "text": "![Build status](https://github.com/01mf02/jaq/actions/workflows/check.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dathere/qsv-easy-windows-installer",
+      "status": "candidate",
+      "text": "![image](https://github.com/user-attachments/assets/3ccc6cad-04ab-4288-9a41-9afadaa1fcfc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmware-labs/wasm-workers-server",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmware-labs/wasm-workers-server",
+      "status": "candidate",
+      "text": "<br/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tracel-ai/cubecl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "monero-rs/monero-rs",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/monero-rs/monero-rs/ci.yml?branch=main)](https://github.com/monero-rs/monero-rs/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bevyengine/bevy",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/license-MIT%2FApache-blue.svg)](https://github.com/bevyengine/bevy#license)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/wgpu-rs",
+      "status": "candidate",
+      "text": "Project is now moved to `wgpu` folder at https://github.com/gfx-rs/wgpu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-windowing/winit",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/winit.svg)](https://crates.io/crates/winit)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GREsau/schemars",
+      "status": "candidate",
+      "text": "[![CI Build](https://img.shields.io/github/actions/workflow/status/GREsau/schemars/ci.yml?branch=master&logo=GitHub)](https://github.com/GREsau/schemars/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gitui-org/gitui",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Canop/bacon",
+      "status": "candidate",
+      "text": "![bacon][logo]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/gfx",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alacritty/vtebench",
+      "status": "candidate",
+      "text": "A tool for benchmarking terminal emulator PTY read performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quininer/x11-clipboard",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/quininer/x11-clipboard/actions/workflows/ci.yml/badge.svg)](https://github.com/quininer/x11-clipboard/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfontanini/presenterm",
+      "status": "candidate",
+      "text": "presenterm"
     }
   ],
   "candidate_related_terms": [
@@ -2395,11 +2677,143 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": null,
       "source_repo": "cargo-generate/cargo-generate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "01mf02/jaq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "dathere/qsv-easy-windows-installer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "vmware-labs/wasm-workers-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "vmware-labs/wasm-workers-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "ratatui/ratatui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "tracel-ai/cubecl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "monero-rs/monero-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "bevyengine/bevy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "gfx-rs/wgpu-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "rust-windowing/winit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "GREsau/schemars"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rustfmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "gitui-org/gitui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "Canop/bacon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "gfx-rs/gfx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "alacritty/vtebench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "quininer/x11-clipboard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "mfontanini/presenterm"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

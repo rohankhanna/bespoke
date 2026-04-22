@@ -273,6 +273,18 @@
       "source_repo": "opencontainers/tob",
       "status": "candidate-context",
       "text": "The TOB is responsible for managing conflicts, violations of procedures or guidelines and any cross-project or high-level issues that cannot be resolved in the TDC for OCI Projects. The TOB shall also be responsible for adding, removing or reorganizing OCI Projects."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/containers-roadmap",
+      "status": "candidate-context",
+      "text": "This is the public roadmap for AWS container services (ECS, ECR, Fargate, and EKS). "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/containers-roadmap",
+      "status": "candidate-context",
+      "text": "This is the public roadmap for AWS container services (ECS, ECR, Fargate, and EKS)."
     }
   ],
   "candidate_glosses": [
@@ -407,6 +419,12 @@
       "source_repo": "opencontainers/tob",
       "status": "candidate",
       "text": "The TOB is responsible for managing conflicts, violations of procedures or guidelines and any cross-project or high-level issues that cannot be resolved in the TDC for OCI Projects. The TOB shall also be responsible for adding, removing or reorganizing OCI Projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/containers-roadmap",
+      "status": "candidate",
+      "text": "This is the public roadmap for AWS container services (ECS, ECR, Fargate, and EKS)."
     }
   ],
   "candidate_related_terms": [
@@ -594,11 +612,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "opencontainers/tob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "aws/containers-roadmap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

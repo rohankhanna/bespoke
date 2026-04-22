@@ -1,0 +1,12 @@
+{
+  "component": "skx/github-action-publish-binaries@b9ca5643b2f1d7371a6cba7f35333f1461bbc703",
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-release-artifacts.yml",
+      "source_repo": "facebook/zstd"
+    }
+  ]
+}

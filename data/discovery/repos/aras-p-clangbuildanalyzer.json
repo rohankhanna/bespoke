@@ -1,0 +1,103 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "aras-p/ClangBuildAnalyzer",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "aras-p/ClangBuildAnalyzer",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aras-p/ClangBuildAnalyzer",
+      "target": "build-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aras-p/ClangBuildAnalyzer",
+      "target": "clang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:02:50.865763+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2200
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Clang build analysis tool using -ftime-trace",
+    "fork": false,
+    "full_name": "aras-p/ClangBuildAnalyzer",
+    "html_url": "https://github.com/aras-p/ClangBuildAnalyzer",
+    "language": "C++",
+    "pushed_at": "2025-03-21T04:55:04Z",
+    "stargazers_count": 1230,
+    "topics": [
+      "build-analysis",
+      "clang"
+    ],
+    "updated_at": "2026-04-21T15:25:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build_and_test",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-analysis"
+    },
+    {
+      "context_snippet": "build_and_test",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clang"
+    }
+  ]
+}

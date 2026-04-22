@@ -1,0 +1,73 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "stlukey/whispercpp.py",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "stlukey/whispercpp.py",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "stlukey/whispercpp.py",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:53:14.712783+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 516
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 69
+    },
+    {
+      "path": ".github/workflows/build_wheels.yml",
+      "size": 1041
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python bindings for whisper.cpp",
+    "fork": false,
+    "full_name": "stlukey/whispercpp.py",
+    "html_url": "https://github.com/stlukey/whispercpp.py",
+    "language": "Python",
+    "pushed_at": "2024-06-01T13:35:14Z",
+    "stargazers_count": 250,
+    "topics": [],
+    "updated_at": "2026-03-23T09:47:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

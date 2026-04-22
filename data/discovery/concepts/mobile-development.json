@@ -19,6 +19,18 @@
       "source_repo": "ipfs-shipyard/gomobile-ipfs",
       "status": "candidate-context",
       "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flutter/flutter",
+      "status": "candidate-context",
+      "text": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flutter/flutter",
+      "status": "candidate-context",
+      "text": "<a href=\"https://flutter.dev/\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ipfs-shipyard/gomobile-ipfs",
       "status": "candidate",
       "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flutter/flutter",
+      "status": "candidate",
+      "text": "<a href=\"https://flutter.dev/\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "ipfs-shipyard/gomobile-ipfs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "flutter/flutter"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

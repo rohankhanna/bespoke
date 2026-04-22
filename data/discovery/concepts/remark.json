@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Remark"
+    "Remark",
+    "remark"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "rust-lang/rust-clippy",
       "status": "candidate-context",
       "text": "Remark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "remarkjs/remark",
+      "status": "candidate-context",
+      "text": "markdown processor powered by plugins part of the @unifiedjs collective"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remarkjs/remark",
+      "status": "candidate-context",
+      "text": "remark"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "rust-lang/rust-clippy",
       "status": "candidate",
       "text": "Remark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remarkjs/remark",
+      "status": "candidate",
+      "text": "remark"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +133,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/remark.yml",
       "source_repo": "rust-lang/rust-clippy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "remarkjs/remark"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

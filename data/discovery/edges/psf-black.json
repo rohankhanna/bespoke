@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "psf/black",
-      "target": "ichard26/diff-shades",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/changelog.yml",
       "source_repo": "psf/black",
@@ -46,7 +39,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/diff_shades.yml",
       "source_repo": "psf/black",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -137,7 +130,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "psf/black",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -193,7 +186,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/fuzz.yml",
       "source_repo": "psf/black",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -295,6 +288,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-19T17:36:09.281008+00:00",
+  "generated_at": "2026-04-22T04:49:29.633207+00:00",
   "source_repo": "psf/black"
 }

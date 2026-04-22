@@ -19,6 +19,30 @@
       "source_repo": "ray-project/ray",
       "status": "candidate-context",
       "text": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Agent-RL/ReCall",
+      "status": "candidate-context",
+      "text": "ReSearch: Learning to Reason with Search for LLMs via Reinforcement Learning & ReCall: Learning to Reason with Tool Call for LLMs via Reinforcement Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Agent-RL/ReCall",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alibaba-Quark/SSP",
+      "status": "candidate-context",
+      "text": "Search Self-Play: Pushing the Frontier of Agent Capability without Supervision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alibaba-Quark/SSP",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Search Self-Play: Pushing the Frontier of Agent Capability without Supervision </h1>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "ray-project/ray",
       "status": "candidate",
       "text": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Agent-RL/ReCall",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alibaba-Quark/SSP",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Search Self-Play: Pushing the Frontier of Agent Capability without Supervision </h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +82,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "ray-project/ray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "Agent-RL/ReCall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "Alibaba-Quark/SSP"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

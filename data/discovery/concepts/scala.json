@@ -19,6 +19,30 @@
       "source_repo": "apache/spark",
       "status": "candidate-context",
       "text": "Spark is a unified analytics engine for large-scale data processing. It provides"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "com-lihaoyi/cask",
+      "status": "candidate-context",
+      "text": "Cask: a Scala HTTP micro-framework. Cask makes it easy to set up a website, backend server, or REST API using Scala"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "com-lihaoyi/cask",
+      "status": "candidate-context",
+      "text": "ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "finagle/finch",
+      "status": "candidate-context",
+      "text": "Scala combinator library for building Finagle HTTP services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "finagle/finch",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "apache/spark",
       "status": "candidate",
       "text": "Spark is a unified analytics engine for large-scale data processing. It provides"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "com-lihaoyi/cask",
+      "status": "candidate",
+      "text": "ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "finagle/finch",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "apache/spark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "com-lihaoyi/cask"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "finagle/finch"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

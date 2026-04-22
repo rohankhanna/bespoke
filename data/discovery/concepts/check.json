@@ -6,7 +6,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -80,6 +82,30 @@
       "source_repo": "cross-rs/cross",
       "status": "candidate-context",
       "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preservim/tagbar",
+      "status": "candidate-context",
+      "text": "Vim plugin that displays tags in a window, ordered by scope"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preservim/tagbar",
+      "status": "candidate-context",
+      "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Canop/bacon",
+      "status": "candidate-context",
+      "text": "background code checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Canop/bacon",
+      "status": "candidate-context",
+      "text": "![bacon][logo]"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +144,18 @@
       "source_repo": "cross-rs/cross",
       "status": "candidate",
       "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preservim/tagbar",
+      "status": "candidate",
+      "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Canop/bacon",
+      "status": "candidate",
+      "text": "![bacon][logo]"
     }
   ],
   "candidate_related_terms": [
@@ -233,11 +271,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/weekly.yml",
       "source_repo": "cross-rs/cross"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "Canop/bacon"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

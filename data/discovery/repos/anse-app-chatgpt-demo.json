@@ -206,13 +206,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "anse-app/chatgpt-demo",
-      "target": "anse-app/anse",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "anse-app/chatgpt-demo",
       "target": "ddiu8081/chatgpt-demo",
       "target_type": "repository"
     },
@@ -567,7 +560,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T01:11:03.437817+00:00",
+  "fetched_at": "2026-04-22T05:17:21.882363+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -622,11 +615,6 @@
     "updated_at": "2026-04-22T01:03:22Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "anse-app/anse",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "ddiu8081/chatgpt-demo",

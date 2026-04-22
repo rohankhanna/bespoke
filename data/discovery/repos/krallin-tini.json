@@ -1,0 +1,116 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "krallin/tini",
+      "target": "krallin/tini-images",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "krallin/tini",
+      "target": "nfnty/pkgbuilds",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "krallin/tini",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "krallin/tini",
+      "target": "init",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "krallin/tini",
+      "target": "init-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "krallin/tini",
+      "target": "linux",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:07:53.246195+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10458
+    },
+    {
+      "path": "Dockerfile",
+      "size": 404
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A tiny but valid `init` for containers",
+    "fork": false,
+    "full_name": "krallin/tini",
+    "html_url": "https://github.com/krallin/tini",
+    "language": "C",
+    "pushed_at": "2025-05-08T14:42:27Z",
+    "stargazers_count": 11050,
+    "topics": [
+      "c",
+      "docker",
+      "init",
+      "init-system",
+      "linux"
+    ],
+    "updated_at": "2026-04-21T15:15:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "krallin/tini-images",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nfnty/pkgbuilds",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "init"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "init-system"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    }
+  ]
+}

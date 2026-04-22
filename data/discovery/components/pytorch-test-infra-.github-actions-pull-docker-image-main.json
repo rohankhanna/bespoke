@@ -1,0 +1,22 @@
+{
+  "component": "pytorch/test-infra/.github/actions/pull-docker-image@main",
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-flash-attention-wheel-linux.yml",
+      "source_repo": "pytorch/pytorch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_binary-build-linux.yml",
+      "source_repo": "pytorch/pytorch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_binary-test-linux.yml",
+      "source_repo": "pytorch/pytorch"
+    }
+  ]
+}

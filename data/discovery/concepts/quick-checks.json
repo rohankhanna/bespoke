@@ -19,12 +19,30 @@
       "source_repo": "opentofu/opentofu",
       "status": "candidate-context",
       "text": "Quick Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/terraform",
+      "status": "candidate-context",
+      "text": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform",
+      "status": "candidate-context",
+      "text": "Quick Checks"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "opentofu/opentofu",
+      "status": "candidate",
+      "text": "Quick Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform",
       "status": "candidate",
       "text": "Quick Checks"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "opentofu/opentofu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "hashicorp/terraform"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

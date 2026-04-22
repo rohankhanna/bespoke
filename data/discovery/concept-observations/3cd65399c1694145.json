@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AKQuant is a high-performance quantitative research and trading framework built on Rust and Python! \u5f00\u6e90\u91cf\u5316\u56de\u6d4b\u6846\u67b6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024213,
+      "status": "candidate",
+      "text": "retest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024212,
+      "status": "candidate",
+      "text": "backtrack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024211,
+      "status": "candidate",
+      "text": "retrocalculate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024210,
+      "status": "candidate",
+      "text": "backreact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024209,
+      "status": "candidate",
+      "text": "back-engineer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "backtest",
+      "sense_id": "backtest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "backtest",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "backtest",
+  "observation_id": "3cd65399c1694145",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "backtest",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "akfamily/akquant",
+  "source_repo_description": "AKQuant is a high-performance quantitative research and trading framework built on Rust and Python! \u5f00\u6e90\u91cf\u5316\u56de\u6d4b\u6846\u67b6"
+}

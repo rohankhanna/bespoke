@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Add Tests for PR Changes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/machinelearning",
+      "status": "candidate-context",
+      "text": "ML.NET is an open source and cross-platform machine learning framework for .NET."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/machinelearning",
+      "status": "candidate-context",
+      "text": "\"Add Tests for PR Changes\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/machinelearning",
+      "status": "candidate",
+      "text": "\"Add Tests for PR Changes\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28894,
+      "status": "candidate",
+      "text": "stunt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19362,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19362,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19362,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19147,
+      "status": "candidate",
+      "text": "summarize"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Add Tests for PR Changes",
+  "concept_id": "add-tests-for-pr-changes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/add-tests.lock.yml",
+      "source_repo": "dotnet/machinelearning"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add Tests for PR Changes",
+      "sense_id": "add-tests-for-pr-changes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

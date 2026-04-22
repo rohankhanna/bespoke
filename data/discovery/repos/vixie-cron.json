@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T04:51:48.626492+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2406
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vixie Cron, an open source implementation of POSIX Cron, later imported into BSD and Linux",
+    "fork": false,
+    "full_name": "vixie/cron",
+    "html_url": "https://github.com/vixie/cron",
+    "language": "C",
+    "pushed_at": "2024-08-19T15:09:24Z",
+    "stargazers_count": 137,
+    "topics": [],
+    "updated_at": "2026-02-26T03:14:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eigenwallet/dfx-swiss-rs",
+      "target": "eigenwallet/wallet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:08:35.241063+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 845
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 403
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Rust SDK for the DFX.swiss API",
+    "fork": false,
+    "full_name": "eigenwallet/dfx-swiss-rs",
+    "html_url": "https://github.com/eigenwallet/dfx-swiss-rs",
+    "language": "Rust",
+    "pushed_at": "2025-10-25T14:04:15Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-10-25T14:04:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eigenwallet/wallet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

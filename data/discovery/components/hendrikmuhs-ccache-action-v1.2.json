@@ -1,0 +1,22 @@
+{
+  "component": "hendrikmuhs/ccache-action@v1.2",
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI-mingw.yml",
+      "source_repo": "danmar/cppcheck"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI-unixish-docker.yml",
+      "source_repo": "danmar/cppcheck"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI-unixish.yml",
+      "source_repo": "danmar/cppcheck"
+    }
+  ]
+}

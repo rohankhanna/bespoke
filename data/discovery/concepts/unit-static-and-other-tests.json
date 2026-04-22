@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Unit, Static and other Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karpathy/llm.c",
+      "status": "candidate-context",
+      "text": "LLM training in simple, raw C/CUDA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karpathy/llm.c",
+      "status": "candidate-context",
+      "text": "Unit, Static and other Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karpathy/llm.c",
+      "status": "candidate",
+      "text": "Unit, Static and other Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39301,
+      "status": "candidate",
+      "text": "subscription"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36456,
+      "status": "candidate",
+      "text": "rudder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34256,
+      "status": "candidate",
+      "text": "benchmark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34078,
+      "status": "candidate",
+      "text": "cell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34063,
+      "status": "candidate",
+      "text": "intensive"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Unit, Static and other Tests",
+  "concept_id": "unit-static-and-other-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/ci_tests.yml",
+      "source_repo": "karpathy/llm.c"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Unit, Static and other Tests",
+      "sense_id": "unit-static-and-other-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

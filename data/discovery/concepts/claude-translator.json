@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Claude Translator"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CherryHQ/cherry-studio",
+      "status": "candidate-context",
+      "text": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CherryHQ/cherry-studio",
+      "status": "candidate-context",
+      "text": "Claude Translator"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CherryHQ/cherry-studio",
+      "status": "candidate",
+      "text": "Claude Translator"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10455,
+      "status": "candidate",
+      "text": "moonlight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10381,
+      "status": "candidate",
+      "text": "alain-fournier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10381,
+      "status": "candidate",
+      "text": "dancer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10381,
+      "status": "candidate",
+      "text": "sade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10381,
+      "status": "candidate",
+      "text": "step"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Claude Translator",
+  "concept_id": "claude-translator",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/claude-translator.yml",
+      "source_repo": "CherryHQ/cherry-studio"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude Translator",
+      "sense_id": "claude-translator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

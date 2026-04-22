@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Mamba"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mamba-org/mamba",
+      "status": "candidate-context",
+      "text": "The Fast Cross-Platform Package Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamba-org/mamba",
+      "status": "candidate-context",
+      "text": "Mamba"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamba-org/mamba",
+      "status": "candidate",
+      "text": "Mamba"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10036922,
+      "status": "candidate",
+      "text": "dendraspis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10036922,
+      "status": "candidate",
+      "text": "dendroaspis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10036922,
+      "status": "candidate",
+      "text": "genus dendraspis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10036922,
+      "status": "candidate",
+      "text": "genus dendroaspis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10036921,
+      "status": "candidate",
+      "text": "black mamba"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Mamba",
+  "concept_id": "mamba",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mamba-org/mamba"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mamba",
+      "sense_id": "mamba#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

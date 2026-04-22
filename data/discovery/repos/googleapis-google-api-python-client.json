@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-api-python-client",
+      "target": "googleads/google-ads-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-api-python-client",
+      "target": "firebase/firebase-admin-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-api-python-client",
+      "target": "httplib2/httplib2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-api-python-client",
+      "target": "sigmavirus24/uritemplate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "googleapis/google-api-python-client",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "googleapis/google-api-python-client",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "googleapis/google-api-python-client",
+      "target": "A workflow for updating discovery artifacts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:06:55.221574+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5405
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 3591
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udc0d The official Python client library for Google's discovery based APIs.",
+    "fork": false,
+    "full_name": "googleapis/google-api-python-client",
+    "html_url": "https://github.com/googleapis/google-api-python-client",
+    "language": "Python",
+    "pushed_at": "2026-04-21T08:05:24Z",
+    "stargazers_count": 8790,
+    "topics": [],
+    "updated_at": "2026-04-22T00:35:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "firebase/firebase-admin-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleads/google-ads-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "httplib2/httplib2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sigmavirus24/uritemplate",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A workflow for updating discovery artifacts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "A workflow for updating discovery artifacts"
+    }
+  ]
+}

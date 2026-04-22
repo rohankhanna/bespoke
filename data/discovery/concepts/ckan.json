@@ -19,6 +19,18 @@
       "source_repo": "dathere/qsv",
       "status": "candidate-context",
       "text": "[![Linux build status](https://github.com/dathere/qsv/actions/workflows/rust.yml/badge.svg)](https://github.com/dathere/qsv/actions/workflows/rust.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dathere/datapusher-plus",
+      "status": "candidate-context",
+      "text": "Push data into the CKAN Datastore fast & reliably while inferring, calculating & suggesting metadata using Jinja2 Formulas defined in your scheming metadata schema. It pushes real good!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dathere/datapusher-plus",
+      "status": "candidate-context",
+      "text": "[CKAN Service Provider]: https://github.com/ckan/ckan-service-provider"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "dathere/qsv",
       "status": "candidate",
       "text": "[![Linux build status](https://github.com/dathere/qsv/actions/workflows/rust.yml/badge.svg)](https://github.com/dathere/qsv/actions/workflows/rust.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dathere/datapusher-plus",
+      "status": "candidate",
+      "text": "[CKAN Service Provider]: https://github.com/ckan/ckan-service-provider"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "dathere/qsv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "dathere/datapusher-plus"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

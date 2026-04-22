@@ -718,6 +718,186 @@
       "source_repo": "jestjs/jest",
       "status": "candidate-context",
       "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/rebuild",
+      "status": "candidate-context",
+      "text": "Package to rebuild native Node.js modules against the currently installed Electron version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/rebuild",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prebuild/prebuild-install",
+      "status": "candidate-context",
+      "text": "Deprecated. Minimal install client for prebuilds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prebuild/prebuild-install",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f-dangel/backpack",
+      "status": "candidate-context",
+      "text": "BackPACK - a backpropagation package built on top of PyTorch which efficiently computes quantities other than the gradient."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f-dangel/backpack",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "activeviam/jdk4py",
+      "status": "candidate-context",
+      "text": "A JDK shipped in a Python package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "activeviam/jdk4py",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pandas-dev/pandas-stubs",
+      "status": "candidate-context",
+      "text": "Public type stubs for pandas"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pandas-dev/pandas-stubs",
+      "status": "candidate-context",
+      "text": "\"Test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rbenv/ruby-build",
+      "status": "candidate-context",
+      "text": "A tool to download, compile, and install Ruby on Unix-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rbenv/ruby-build",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/terraform-provider-random",
+      "status": "candidate-context",
+      "text": "Utility provider that supports the use of randomness within Terraform configurations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-random",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/cusignal",
+      "status": "candidate-context",
+      "text": "cuSignal - RAPIDS Signal Processing Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cusignal",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/execution-apis",
+      "status": "candidate-context",
+      "text": "Collection of APIs provided by Ethereum execution layer clients "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/execution-apis",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mattn/webapi-vim",
+      "status": "candidate-context",
+      "text": "vim interface to Web API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/webapi-vim",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/supertape",
+      "status": "candidate-context",
+      "text": "\ud83d\udcfc  Simplest high speed testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/supertape",
+      "status": "candidate-context",
+      "text": "[NPMURL]: https://npmjs.org/package/supertape \"npm\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dolfies/discord.py-self",
+      "status": "candidate-context",
+      "text": "A fork of the popular discord.py for user accounts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dolfies/discord.py-self",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rurban/smhasher",
+      "status": "candidate-context",
+      "text": "Hash function quality and speed tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rurban/smhasher",
+      "status": "candidate-context",
+      "text": "SMhasher"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/auditwheel",
+      "status": "candidate-context",
+      "text": "Auditing and relabeling cross-distribution Linux wheels."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/auditwheel",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-vm/actions",
+      "status": "candidate-context",
+      "text": "GitHub Actions for the asdf version manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/actions",
+      "status": "candidate-context",
+      "text": "test"
     }
   ],
   "candidate_glosses": [
@@ -1074,6 +1254,96 @@
       "source_repo": "jestjs/jest",
       "status": "candidate",
       "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/rebuild",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prebuild/prebuild-install",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f-dangel/backpack",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "activeviam/jdk4py",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pandas-dev/pandas-stubs",
+      "status": "candidate",
+      "text": "\"Test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rbenv/ruby-build",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-random",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cusignal",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/execution-apis",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/webapi-vim",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/supertape",
+      "status": "candidate",
+      "text": "[NPMURL]: https://npmjs.org/package/supertape \"npm\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dolfies/discord.py-self",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rurban/smhasher",
+      "status": "candidate",
+      "text": "SMhasher"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/auditwheel",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/actions",
+      "status": "candidate",
+      "text": "test"
     }
   ],
   "candidate_related_terms": [
@@ -1567,11 +1837,107 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/test-nightly.yml",
       "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "prebuild/prebuild-install"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "f-dangel/backpack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "activeviam/jdk4py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pandas-dev/pandas-stubs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rbenv/ruby-build"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hashicorp/terraform-provider-random"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "rapidsai/cusignal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dukesoferl/re2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "ethereum/execution-apis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mattn/webapi-vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "coderaiser/supertape"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dolfies/discord.py-self"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "rurban/smhasher"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pypa/auditwheel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "asdf-vm/actions"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

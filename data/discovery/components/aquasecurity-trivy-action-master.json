@@ -1,7 +1,7 @@
 {
   "component": "aquasecurity/trivy-action@master",
   "first_seen_at": "2026-04-18T04:38:51.315908+00:00",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-publish.yml",
       "source_repo": "ruvnet/agentic-flow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/development-docker.yml",
+      "source_repo": "0xERR0R/blocky"
     }
   ]
 }

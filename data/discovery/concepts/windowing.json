@@ -19,6 +19,18 @@
       "source_repo": "tauri-apps/muda",
       "status": "candidate-context",
       "text": "Menu Utilities library for Desktop Applications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-windowing/winit",
+      "status": "candidate-context",
+      "text": "Window handling library in pure Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-windowing/winit",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/winit.svg)](https://crates.io/crates/winit)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "tauri-apps/muda",
       "status": "candidate",
       "text": "Menu Utilities library for Desktop Applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-windowing/winit",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/winit.svg)](https://crates.io/crates/winit)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "tauri-apps/muda"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "rust-windowing/winit"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

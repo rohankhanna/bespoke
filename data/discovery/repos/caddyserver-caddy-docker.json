@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "caddyserver/caddy-docker",
+      "target": "docker-library/docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "caddyserver/caddy-docker",
+      "target": "docker-library/official-images",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "caddyserver/caddy-docker",
+      "target": "caddyserver/caddy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "caddyserver/caddy-docker",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "caddyserver/caddy-docker",
+      "target": "Docker Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:07:42.474132+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1863
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 3523
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Source for the official Caddy v2 Docker Image",
+    "fork": false,
+    "full_name": "caddyserver/caddy-docker",
+    "html_url": "https://github.com/caddyserver/caddy-docker",
+    "language": "Dockerfile",
+    "pushed_at": "2026-03-06T02:52:20Z",
+    "stargazers_count": 551,
+    "topics": [],
+    "updated_at": "2026-04-11T06:19:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "caddyserver/caddy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker-library/docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker-library/official-images",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docker Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Docker Build"
+    }
+  ]
+}

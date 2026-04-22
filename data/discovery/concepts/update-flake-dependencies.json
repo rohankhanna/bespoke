@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update flake dependencies"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f Load project-local settings (like .vscode/settings.json) into Neovim 0.11+ native LSP settings easily."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "status": "candidate-context",
+      "text": "Update flake dependencies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "status": "candidate",
+      "text": "Update flake dependencies"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18073,
+      "status": "candidate",
+      "text": "qubit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17949,
+      "status": "candidate",
+      "text": "amp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17949,
+      "status": "candidate",
+      "text": "ampere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17949,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17949,
+      "status": "candidate",
+      "text": "bits"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update flake dependencies",
+  "concept_id": "update-flake-dependencies",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/update-flake.yml",
+      "source_repo": "mrjones2014/codesettings.nvim"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update flake dependencies",
+      "sense_id": "update-flake-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

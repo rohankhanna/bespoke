@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "fintech"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "waditu/tushare",
+      "status": "candidate-context",
+      "text": "TuShare is a utility for crawling historical data of China stocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "waditu/tushare",
+      "status": "candidate-context",
+      "text": "TuShare"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "waditu/tushare",
+      "status": "candidate",
+      "text": "TuShare"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19964728,
+      "status": "candidate",
+      "text": "technofinance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19964727,
+      "status": "candidate",
+      "text": "foodtech"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19964726,
+      "status": "candidate",
+      "text": "femtech"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19964725,
+      "status": "candidate",
+      "text": "fintwit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19964724,
+      "status": "candidate",
+      "text": "financialization"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "fintech",
+  "concept_id": "fintech",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "waditu/tushare"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fintech",
+      "sense_id": "fintech#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

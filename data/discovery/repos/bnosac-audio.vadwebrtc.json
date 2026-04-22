@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yml"
+    },
+    {
+      "component": "r-lib/actions/setup-pandoc@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yml"
+    },
+    {
+      "component": "r-lib/actions/check-r-package@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bnosac/audio.vadwebrtc",
+      "target": "athospd/wavesurfer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yml",
+      "source_repo": "bnosac/audio.vadwebrtc",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yml",
+      "source_repo": "bnosac/audio.vadwebrtc",
+      "target": "r-lib/actions/setup-pandoc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yml",
+      "source_repo": "bnosac/audio.vadwebrtc",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yml",
+      "source_repo": "bnosac/audio.vadwebrtc",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yml",
+      "source_repo": "bnosac/audio.vadwebrtc",
+      "target": "r-lib/actions/check-r-package@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/R-CMD-check.yml",
+      "source_repo": "bnosac/audio.vadwebrtc",
+      "target": "R-CMD-check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:53:21.246002+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3542
+    },
+    {
+      "path": ".github/workflows/R-CMD-check.yml",
+      "size": 1465
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Voice Activity Detection in R using the \"webrtc\" toolkit",
+    "fork": false,
+    "full_name": "bnosac/audio.vadwebrtc",
+    "html_url": "https://github.com/bnosac/audio.vadwebrtc",
+    "language": "C",
+    "pushed_at": "2024-05-06T13:22:29Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-09-19T10:06:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "athospd/wavesurfer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "R-CMD-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/R-CMD-check.yml",
+      "term": "R-CMD-check"
+    }
+  ]
+}

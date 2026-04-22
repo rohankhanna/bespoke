@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "Link"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zlib-ng/zlib-ng",
+      "status": "candidate-context",
+      "text": "zlib replacement with optimizations for \"next generation\" systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zlib-ng/zlib-ng",
+      "status": "candidate-context",
+      "text": "Link"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zlib-ng/zlib-ng",
+      "status": "candidate",
+      "text": "Link"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003308,
+      "status": "candidate",
+      "text": "linkup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003278,
+      "status": "candidate",
+      "text": "connection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003257,
+      "status": "candidate",
+      "text": "nexus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003238,
+      "status": "candidate",
+      "text": "connexion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002907,
+      "status": "candidate",
+      "text": "connectedness"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 56043,
+      "status": "candidate",
+      "text": "liaison"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34057,
+      "status": "candidate",
+      "text": "nexus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33053,
+      "status": "candidate",
+      "text": "connection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20064,
+      "status": "candidate",
+      "text": "yoke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19045,
+      "status": "candidate",
+      "text": "connect"
+    }
+  ],
+  "canonical_name": "Link",
+  "concept_id": "link",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/link.yml",
+      "source_repo": "zlib-ng/zlib-ng"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Link",
+      "sense_id": "link#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

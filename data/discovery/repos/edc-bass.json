@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "edc/bass",
+      "target": "fish-shell/fish-shell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "edc/bass",
+      "target": "oh-my-fish/oh-my-fish",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "edc/bass",
+      "target": "jorgebucaran/fisher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "edc/bass",
+      "target": "creationix/nvm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:15:21.593230+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2884
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Make Bash utilities usable in Fish shell",
+    "fork": false,
+    "full_name": "edc/bass",
+    "html_url": "https://github.com/edc/bass",
+    "language": "Python",
+    "pushed_at": "2023-12-16T23:50:52Z",
+    "stargazers_count": 2441,
+    "topics": [],
+    "updated_at": "2026-04-19T22:25:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "creationix/nvm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fish-shell/fish-shell",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jorgebucaran/fisher",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oh-my-fish/oh-my-fish",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

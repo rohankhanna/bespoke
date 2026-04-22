@@ -84,7 +84,7 @@
   "normalized_form": "benchmark-tests-langchain",
   "observation_id": "b283fd64e13b4e96",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
   "observed_text": "Benchmark Tests (LangChain)",
   "source_context_snippet": "Benchmark Tests (LangChain)",
   "source_file": ".github/workflows/benchmark-tests.yml",

@@ -1,12 +1,17 @@
 {
   "component": "snapcore/action-build@3bdaa03e1ba6bf59a65f84a751d943d549a54e79",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/snap.yml",
       "source_repo": "ghostty-org/ghostty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-snap.yml",
+      "source_repo": "oras-project/oras"
     }
   ]
 }

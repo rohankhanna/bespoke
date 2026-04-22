@@ -1,0 +1,12 @@
+{
+  "component": "gradio-app/github/actions/find-pr@main",
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-changeset.yml",
+      "source_repo": "gradio-app/gradio"
+    }
+  ]
+}

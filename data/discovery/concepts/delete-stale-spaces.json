@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Delete Stale Spaces"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gradio-app/gradio",
+      "status": "candidate-context",
+      "text": "Build and share delightful machine learning apps, all in Python. \ud83c\udf1f Star to support our work!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gradio-app/gradio",
+      "status": "candidate-context",
+      "text": "Delete Stale Spaces"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gradio-app/gradio",
+      "status": "candidate",
+      "text": "Delete Stale Spaces"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17897,
+      "status": "candidate",
+      "text": "raze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17775,
+      "status": "candidate",
+      "text": "arch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17775,
+      "status": "candidate",
+      "text": "biot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17775,
+      "status": "candidate",
+      "text": "boot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17775,
+      "status": "candidate",
+      "text": "facet"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Delete Stale Spaces",
+  "concept_id": "delete-stale-spaces",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/delete-stale-spaces.yml",
+      "source_repo": "gradio-app/gradio"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Delete Stale Spaces",
+      "sense_id": "delete-stale-spaces#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

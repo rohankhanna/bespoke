@@ -1,0 +1,477 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-image-arm.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-image-arm.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-image-arm.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-image-arm.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-image-arm.yml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-image-arm.yml"
+    },
+    {
+      "component": "actions/delete-package-versions@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-image-arm.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-image.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-image.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-image.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-image.yml"
+    },
+    {
+      "component": "actions/delete-package-versions@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-image.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "zhayujie/cow-skill-hub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "zhayujie/bot-on-anything",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "minimalfuture/agentmesh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "zhayujie/chatgpt-on-wechat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-image-arm.yml",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-image-arm.yml",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "docker/setup-qemu-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-image-arm.yml",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-image-arm.yml",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-image-arm.yml",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-image-arm.yml",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "docker/build-push-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-image-arm.yml",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "actions/delete-package-versions@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-image-arm.yml",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "Create and publish a Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-image.yml",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-image.yml",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-image.yml",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-image.yml",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "docker/build-push-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-image.yml",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "actions/delete-package-versions@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-image.yml",
+      "source_repo": "zhayujie/CowAgent",
+      "target": "Create and publish a Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent",
+      "target": "chatgpt-on-wechat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent",
+      "target": "deepseek",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent",
+      "target": "dingtalk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent",
+      "target": "feishu-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent",
+      "target": "kimi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent",
+      "target": "linkai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent",
+      "target": "multi-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent",
+      "target": "openclaw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent",
+      "target": "qwen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent",
+      "target": "skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent",
+      "target": "wechat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent",
+      "target": "weixin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:18:37.302347+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27361
+    },
+    {
+      "path": "Dockerfile",
+      "size": 77
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 368
+    },
+    {
+      "path": "requirements.txt",
+      "size": 392
+    },
+    {
+      "path": ".github/workflows/deploy-image-arm.yml",
+      "size": 2302
+    },
+    {
+      "path": ".github/workflows/deploy-image.yml",
+      "size": 2282
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CowAgent (chatgpt-on-wechat) \u662f\u57fa\u4e8e\u5927\u6a21\u578b\u7684\u8d85\u7ea7AI\u52a9\u7406\uff0c\u80fd\u4e3b\u52a8\u601d\u8003\u548c\u4efb\u52a1\u89c4\u5212\u3001\u8bbf\u95ee\u64cd\u4f5c\u7cfb\u7edf\u548c\u5916\u90e8\u8d44\u6e90\u3001\u521b\u9020\u548c\u6267\u884cSkills\u3001\u901a\u8fc7\u957f\u671f\u8bb0\u5fc6\u548c\u77e5\u8bc6\u5e93\u4e0d\u65ad\u6210\u957f\uff0c\u6bd4OpenClaw\u66f4\u8f7b\u91cf\u548c\u4fbf\u6377\u3002\u540c\u65f6\u652f\u6301\u5fae\u4fe1\u3001\u98de\u4e66\u3001\u9489\u9489\u3001\u4f01\u5fae\u3001QQ\u3001\u516c\u4f17\u53f7\u3001\u7f51\u9875\u7b49\u63a5\u5165\uff0c\u53ef\u9009\u62e9OpenAI/Claude/Gemini/DeepSeek/ Qwen/GLM/Kimi/LinkAI\uff0c\u80fd\u5904\u7406\u6587\u672c\u3001\u8bed\u97f3\u3001\u56fe\u7247\u548c\u6587\u4ef6\uff0c\u53ef\u5feb\u901f\u642d\u5efa\u4e2a\u4ebaAI\u52a9\u7406\u548c\u4f01\u4e1a\u6570\u5b57\u5458\u5de5\u3002",
+    "fork": false,
+    "full_name": "zhayujie/CowAgent",
+    "html_url": "https://github.com/zhayujie/CowAgent",
+    "language": "Python",
+    "pushed_at": "2026-04-22T04:02:10Z",
+    "stargazers_count": 43608,
+    "topics": [
+      "ai",
+      "ai-agent",
+      "chatgpt-on-wechat",
+      "claude",
+      "deepseek",
+      "dingtalk",
+      "feishu-bot",
+      "gemini",
+      "kimi",
+      "linkai",
+      "llm",
+      "mcp",
+      "multi-agent",
+      "openai",
+      "openclaw",
+      "python3",
+      "qwen",
+      "skills",
+      "wechat",
+      "weixin"
+    ],
+    "updated_at": "2026-04-22T04:10:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "minimalfuture/agentmesh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhayujie/bot-on-anything",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhayujie/chatgpt-on-wechat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhayujie/cow-skill-hub",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create and publish a Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-image-arm.yml",
+      "term": "Create and publish a Docker image"
+    },
+    {
+      "context_snippet": "Create and publish a Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-image.yml",
+      "term": "Create and publish a Docker image"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/eca9a9ec-8534-4615-9e0f-96c5ac1d10a3\" alt=\"CowAgent\" width=\"550\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt-on-wechat"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/eca9a9ec-8534-4615-9e0f-96c5ac1d10a3\" alt=\"CowAgent\" width=\"550\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepseek"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/eca9a9ec-8534-4615-9e0f-96c5ac1d10a3\" alt=\"CowAgent\" width=\"550\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dingtalk"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/eca9a9ec-8534-4615-9e0f-96c5ac1d10a3\" alt=\"CowAgent\" width=\"550\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feishu-bot"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/eca9a9ec-8534-4615-9e0f-96c5ac1d10a3\" alt=\"CowAgent\" width=\"550\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/eca9a9ec-8534-4615-9e0f-96c5ac1d10a3\" alt=\"CowAgent\" width=\"550\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kimi"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/eca9a9ec-8534-4615-9e0f-96c5ac1d10a3\" alt=\"CowAgent\" width=\"550\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linkai"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/eca9a9ec-8534-4615-9e0f-96c5ac1d10a3\" alt=\"CowAgent\" width=\"550\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/eca9a9ec-8534-4615-9e0f-96c5ac1d10a3\" alt=\"CowAgent\" width=\"550\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openclaw"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/eca9a9ec-8534-4615-9e0f-96c5ac1d10a3\" alt=\"CowAgent\" width=\"550\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/eca9a9ec-8534-4615-9e0f-96c5ac1d10a3\" alt=\"CowAgent\" width=\"550\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/eca9a9ec-8534-4615-9e0f-96c5ac1d10a3\" alt=\"CowAgent\" width=\"550\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skills"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/eca9a9ec-8534-4615-9e0f-96c5ac1d10a3\" alt=\"CowAgent\" width=\"550\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wechat"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/eca9a9ec-8534-4615-9e0f-96c5ac1d10a3\" alt=\"CowAgent\" width=\"550\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "weixin"
+    }
+  ]
+}

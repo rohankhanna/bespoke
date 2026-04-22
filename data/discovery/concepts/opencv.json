@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "opencv"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencv/opencv",
+      "status": "candidate-context",
+      "text": "Open Source Computer Vision Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencv/opencv",
+      "status": "candidate-context",
+      "text": "* Homepage: <https://opencv.org>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencv/opencv",
+      "status": "candidate",
+      "text": "* Homepage: <https://opencv.org>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023185,
+      "status": "candidate",
+      "text": "computer vision annotation tool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023184,
+      "status": "candidate",
+      "text": "openvx"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023183,
+      "status": "candidate",
+      "text": "point cloud library"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023182,
+      "status": "candidate",
+      "text": "outline of object recognition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023181,
+      "status": "candidate",
+      "text": "keras"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "opencv",
+  "concept_id": "opencv",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "opencv/opencv"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "opencv",
+      "sense_id": "opencv#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

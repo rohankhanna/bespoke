@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "a python code completion plugin for gedit3+"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A python code completion plugin for gedit. Built with the Jedi auto completion library by David Halter (https://github.com/davidhalter/jedi)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A python code completion plugin for gedit. Built with the Jedi auto completion library by David Halter (https://github.com/davidhalter/jedi)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29863783,
+      "status": "candidate",
+      "text": "down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29813062,
+      "status": "candidate",
+      "text": "dishes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28478500,
+      "status": "candidate",
+      "text": "hondo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19950180,
+      "status": "candidate",
+      "text": "cdia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19950180,
+      "status": "candidate",
+      "text": "cesi"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jedi",
+      "sense_id": "jedi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jedi",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jedi",
+  "observation_id": "119a5c4f7729b77d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "jedi",
+  "source_context_snippet": "A python code completion plugin for gedit. Built with the Jedi auto completion library by David Halter (https://github.com/davidhalter/jedi).",
+  "source_file": null,
+  "source_repo": "isamert/gedi",
+  "source_repo_description": "a python code completion plugin for gedit3+"
+}

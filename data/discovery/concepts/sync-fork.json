@@ -31,6 +31,18 @@
       "source_repo": "Dogtiti/AutoGPT-Next-Web",
       "status": "candidate-context",
       "text": "Sync Fork"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xERR0R/blocky",
+      "status": "candidate-context",
+      "text": "Fast and lightweight DNS proxy as ad-blocker for local network with many features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xERR0R/blocky",
+      "status": "candidate-context",
+      "text": "Sync Fork"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Dogtiti/AutoGPT-Next-Web",
+      "status": "candidate",
+      "text": "Sync Fork"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xERR0R/blocky",
       "status": "candidate",
       "text": "Sync Fork"
     }
@@ -100,11 +118,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/sync-fork.yml",
       "source_repo": "Dogtiti/AutoGPT-Next-Web"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/fork-sync.yml",
+      "source_repo": "0xERR0R/blocky"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/sync-fork.yml",
+      "source_repo": "ElricLiu/AutoGPT-Next-Web"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

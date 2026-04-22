@@ -1,0 +1,468 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/brew.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/brew.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label_check.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/set_pr_label.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/set_pr_label.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/set_pr_label.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_build.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_build.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_build.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_build.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_build.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_build.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mamba-org/mamba",
+      "target": "mamba-org/quetz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/brew.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/brew.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "Homebrew and Linuxbrew toolchains",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "jlumbroso/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "mamba-org/setup-micromamba@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "hendrikmuhs/ccache-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "Code Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label_check.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label_check.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "Check release label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "jlumbroso/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "mamba-org/setup-micromamba@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linters.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "Linters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/set_pr_label.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/set_pr_label.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_build.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "jlumbroso/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_build.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_build.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "mamba-org/setup-micromamba@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_build.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "uraimo/run-on-arch-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_build.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_build.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_build.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "hendrikmuhs/ccache-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_build.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static_build.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "Micromamba",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mamba-org/mamba",
+      "target": "Mamba",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mamba-org/mamba",
+      "target": "conda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mamba-org/mamba",
+      "target": "package-manager",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:54:01.533214+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9108
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 199
+    },
+    {
+      "path": ".github/workflows/bot_issue_template.md",
+      "size": 106
+    },
+    {
+      "path": ".github/workflows/brew.yml",
+      "size": 2233
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 4712
+    },
+    {
+      "path": ".github/workflows/label_check.yml",
+      "size": 1808
+    },
+    {
+      "path": ".github/workflows/linters.yml",
+      "size": 1171
+    },
+    {
+      "path": ".github/workflows/set_pr_label.yml",
+      "size": 2879
+    },
+    {
+      "path": ".github/workflows/static_build.yml",
+      "size": 10322
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 969
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Fast Cross-Platform Package Manager",
+    "fork": false,
+    "full_name": "mamba-org/mamba",
+    "html_url": "https://github.com/mamba-org/mamba",
+    "language": "C++",
+    "pushed_at": "2026-04-21T13:16:41Z",
+    "stargazers_count": 7993,
+    "topics": [
+      "conda",
+      "cpp",
+      "package-manager",
+      "python"
+    ],
+    "updated_at": "2026-04-21T13:16:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mamba-org/quetz",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Homebrew and Linuxbrew toolchains",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/brew.yml",
+      "term": "Homebrew and Linuxbrew toolchains"
+    },
+    {
+      "context_snippet": "Code Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Code Coverage"
+    },
+    {
+      "context_snippet": "Check release label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label_check.yml",
+      "term": "Check release label"
+    },
+    {
+      "context_snippet": "Linters",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linters.yml",
+      "term": "Linters"
+    },
+    {
+      "context_snippet": "Micromamba",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static_build.yml",
+      "term": "Micromamba"
+    },
+    {
+      "context_snippet": "Mamba",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Mamba"
+    },
+    {
+      "context_snippet": "![mamba header image](docs/assets/mamba_header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conda"
+    },
+    {
+      "context_snippet": "![mamba header image](docs/assets/mamba_header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    }
+  ]
+}

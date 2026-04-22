@@ -1,0 +1,186 @@
+{
+  "components": [
+    {
+      "component": "base-64",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "utf8",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "create-react-class",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "flow-bin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prop-types",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native-windows",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "itinance/react-native-fs",
+      "target": "microsoft/react-native-windows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "itinance/react-native-fs",
+      "target": "cjdell/react-native-fs-test",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "itinance/react-native-fs",
+      "target": "base-64",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "itinance/react-native-fs",
+      "target": "utf8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "itinance/react-native-fs",
+      "target": "create-react-class",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "itinance/react-native-fs",
+      "target": "flow-bin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "itinance/react-native-fs",
+      "target": "prop-types",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "itinance/react-native-fs",
+      "target": "react-native",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "itinance/react-native-fs",
+      "target": "react-native-windows",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itinance/react-native-fs",
+      "target": "download",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itinance/react-native-fs",
+      "target": "filesystem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itinance/react-native-fs",
+      "target": "react-native",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:53:30.186467+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30649
+    },
+    {
+      "path": "package.json",
+      "size": 1034
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Native filesystem access for react-native",
+    "fork": false,
+    "full_name": "itinance/react-native-fs",
+    "html_url": "https://github.com/itinance/react-native-fs",
+    "language": "C++",
+    "pushed_at": "2024-03-18T00:17:22Z",
+    "stargazers_count": 5043,
+    "topics": [
+      "download",
+      "filesystem",
+      "react-native"
+    ],
+    "updated_at": "2026-04-17T09:10:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cjdell/react-native-fs-test",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/react-native-windows",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Native filesystem access for react-native",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "download"
+    },
+    {
+      "context_snippet": "Native filesystem access for react-native",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filesystem"
+    },
+    {
+      "context_snippet": "Native filesystem access for react-native",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-native"
+    }
+  ]
+}

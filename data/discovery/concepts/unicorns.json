@@ -19,6 +19,30 @@
       "source_repo": "avajs/ava",
       "status": "candidate-context",
       "text": "ava \u2014 Node.js test runner that lets you develop with confidence."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/awesome",
+      "status": "candidate-context",
+      "text": "\ud83d\ude0e Awesome lists about all kinds of interesting topics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/awesome",
+      "status": "candidate-context",
+      "text": "on: pull_request: branches: [main] paths: - 'readme.md' jobs: lint: runs-on: ubuntu-latest steps: - uses: actions/checkout@v6 with: fetch-depth: 0 - name: awesome-lint run: ./.github/workflows/repo_linter.sh"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/ponyfill",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 Like polyfill but with pony pureness"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/ponyfill",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 Like polyfill but with pony pureness"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "avajs/ava",
       "status": "candidate",
       "text": "ava \u2014 Node.js test runner that lets you develop with confidence."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/awesome",
+      "status": "candidate",
+      "text": "on: pull_request: branches: [main] paths: - 'readme.md' jobs: lint: runs-on: ubuntu-latest steps: - uses: actions/checkout@v6 with: fetch-depth: 0 - name: awesome-lint run: ./.github/workflows/repo_linter.sh"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/ponyfill",
+      "status": "candidate",
+      "text": "\ud83e\udd84 Like polyfill but with pony pureness"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "avajs/ava"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/awesome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/ponyfill"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

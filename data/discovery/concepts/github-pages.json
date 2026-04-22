@@ -38,6 +38,18 @@
       "source_repo": "cargo-generate/cargo-generate",
       "status": "candidate-context",
       "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/ROLL",
+      "status": "candidate-context",
+      "text": "An Efficient and User-Friendly Scaling Library for Reinforcement Learning with Large Language Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/ROLL",
+      "status": "candidate-context",
+      "text": "GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -50,6 +62,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cargo-generate/cargo-generate",
+      "status": "candidate",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/ROLL",
       "status": "candidate",
       "text": "GitHub Pages"
     }
@@ -113,11 +131,17 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": ".github/workflows/gh-pages.yml",
       "source_repo": "cargo-generate/cargo-generate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "alibaba/ROLL"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

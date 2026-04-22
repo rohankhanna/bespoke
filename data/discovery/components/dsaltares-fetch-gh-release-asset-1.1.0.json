@@ -1,12 +1,17 @@
 {
   "component": "dsaltares/fetch-gh-release-asset@1.1.0",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-docs.yml",
       "source_repo": "liballeg/allegro5"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "ethereum/builder-specs"
     }
   ]
 }

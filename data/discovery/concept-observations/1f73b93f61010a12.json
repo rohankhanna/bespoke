@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2699\ufe0f Load project-local settings (like .vscode/settings.json) into Neovim 0.11+ native LSP settings easily."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Easily read your project's local settings files and merge them into your Neovim 0.11+ native LSP configuration."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Easily read your project's local settings files and merge them into your Neovim 0.11+ native LSP configuration."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neovim-plugin",
+      "sense_id": "neovim-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "neovim-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "neovim-plugin",
+  "observation_id": "1f73b93f61010a12",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "neovim-plugin",
+  "source_context_snippet": "Easily read your project's local settings files and merge them into your Neovim 0.11+ native LSP configuration.",
+  "source_file": null,
+  "source_repo": "mrjones2014/codesettings.nvim",
+  "source_repo_description": "\u2699\ufe0f Load project-local settings (like .vscode/settings.json) into Neovim 0.11+ native LSP settings easily."
+}

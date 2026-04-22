@@ -1,0 +1,315 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2.7.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2.7.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2.7.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "monero-rs/workflows/.github/workflows/create-release.yml@v2.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "monero-rs/workflows/.github/workflows/release-to-crates-io.yml@v2.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "monero-rs/workflows/.github/workflows/draft-new-release.yml@v2.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml"
+    },
+    {
+      "component": "monero-rs/workflows/.github/workflows/release-to-crates-io.yml@v2.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-to-crates-io.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "monero-rs/monero-rs",
+      "target": "rust-secure-code/safety-dance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "monero-rs/monero-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "monero-rs/monero-rs",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "monero-rs/monero-rs",
+      "target": "Swatinem/rust-cache@v2.7.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "monero-rs/monero-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "monero-rs/monero-rs",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "monero-rs/monero-rs",
+      "target": "Code Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "monero-rs/monero-rs",
+      "target": "monero-rs/workflows/.github/workflows/create-release.yml@v2.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "monero-rs/monero-rs",
+      "target": "monero-rs/workflows/.github/workflows/release-to-crates-io.yml@v2.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "monero-rs/monero-rs",
+      "target": "Create release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-new-release.yml",
+      "source_repo": "monero-rs/monero-rs",
+      "target": "monero-rs/workflows/.github/workflows/draft-new-release.yml@v2.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft-new-release.yml",
+      "source_repo": "monero-rs/monero-rs",
+      "target": "Draft new release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-to-crates-io.yml",
+      "source_repo": "monero-rs/monero-rs",
+      "target": "monero-rs/workflows/.github/workflows/release-to-crates-io.yml@v2.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-to-crates-io.yml",
+      "source_repo": "monero-rs/monero-rs",
+      "target": "Release to crates.io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "monero-rs/monero-rs",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "monero-rs/monero-rs",
+      "target": "monero",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "monero-rs/monero-rs",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:08:39.567247+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2532
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1248
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1532
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 656
+    },
+    {
+      "path": ".github/workflows/create-release.yml",
+      "size": 628
+    },
+    {
+      "path": ".github/workflows/draft-new-release.yml",
+      "size": 364
+    },
+    {
+      "path": ".github/workflows/release-to-crates-io.yml",
+      "size": 372
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Rust Monero library published on crates.io",
+    "fork": false,
+    "full_name": "monero-rs/monero-rs",
+    "html_url": "https://github.com/monero-rs/monero-rs",
+    "language": "Rust",
+    "pushed_at": "2024-12-30T10:25:34Z",
+    "stargazers_count": 167,
+    "topics": [
+      "library",
+      "monero",
+      "rust"
+    ],
+    "updated_at": "2026-03-31T05:06:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-secure-code/safety-dance",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Code Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Code Coverage"
+    },
+    {
+      "context_snippet": "Create release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "term": "Create release"
+    },
+    {
+      "context_snippet": "Draft new release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft-new-release.yml",
+      "term": "Draft new release"
+    },
+    {
+      "context_snippet": "Release to crates.io",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-to-crates-io.yml",
+      "term": "Release to crates.io"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/monero-rs/monero-rs/ci.yml?branch=main)](https://github.com/monero-rs/monero-rs/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/monero-rs/monero-rs/ci.yml?branch=main)](https://github.com/monero-rs/monero-rs/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monero"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/monero-rs/monero-rs/ci.yml?branch=main)](https://github.com/monero-rs/monero-rs/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

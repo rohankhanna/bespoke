@@ -19,12 +19,30 @@
       "source_repo": "vmware-labs/webassembly-language-runtimes",
       "status": "candidate-context",
       "text": "Build libs-libjpeg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webassemblylabs/webassembly-language-runtimes",
+      "status": "candidate-context",
+      "text": "Wasm Language Runtimes provides popular language runtimes (Ruby, Python, \u2026) precompiled to WebAssembly that are tested for compatibility and kept up to date when new versions of upstream languages are released"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webassemblylabs/webassembly-language-runtimes",
+      "status": "candidate-context",
+      "text": "Build libs-libjpeg"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "vmware-labs/webassembly-language-runtimes",
+      "status": "candidate",
+      "text": "Build libs-libjpeg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webassemblylabs/webassembly-language-runtimes",
       "status": "candidate",
       "text": "Build libs-libjpeg"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/build-libs-libjpeg.yaml",
       "source_repo": "vmware-labs/webassembly-language-runtimes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/build-libs-libjpeg.yaml",
+      "source_repo": "webassemblylabs/webassembly-language-runtimes"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,18 @@
       "source_repo": "Layr-Labs/eigenda-proxy",
       "status": "candidate-context",
       "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "status": "candidate-context",
+      "text": "\ud83c\udf92 \u9489\u9489 & \ud83e\udd16 GPT-3.5 \u8ba9\u4f60\u7684\u5de5\u4f5c\u6548\u7387\u76f4\u63a5\u8d77\u98de \ud83d\ude80 \u79c1\u804a\u7fa4\u804a\u65b9\u5f0f\u3001\u5355\u804a\u4e32\u804a\u6a21\u5f0f\u3001\u89d2\u8272\u626e\u6f14\u3001\u56fe\u7247\u521b\u4f5c \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "status": "candidate-context",
+      "text": "Release Drafter"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Layr-Labs/eigenda-proxy",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eryajf/chatgpt-dingtalk",
       "status": "candidate",
       "text": "Release Drafter"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/release-drafter.yml",
       "source_repo": "Layr-Labs/eigenda-proxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "eryajf/chatgpt-dingtalk"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

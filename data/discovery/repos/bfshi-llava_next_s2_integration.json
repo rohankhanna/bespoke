@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bfshi/LLaVA_NeXT_S2_Integration",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bfshi/LLaVA_NeXT_S2_Integration",
+      "target": "facebookresearch/xformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bfshi/LLaVA_NeXT_S2_Integration",
+      "target": "idea-research/grounded-segment-anything",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bfshi/LLaVA_NeXT_S2_Integration",
+      "target": "idea-research/groundingdino",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:55:38.567904+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29187
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1256
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond.",
+    "fork": true,
+    "full_name": "bfshi/LLaVA_NeXT_S2_Integration",
+    "html_url": "https://github.com/bfshi/LLaVA_NeXT_S2_Integration",
+    "language": "Python",
+    "pushed_at": "2024-05-06T22:56:58Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-05-06T22:57:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/xformers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idea-research/grounded-segment-anything",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idea-research/groundingdino",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

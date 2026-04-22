@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/clippy.yml",
       "source_repo": "Kampfkarren/full-moon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "tauri-apps/create-tauri-app"
     }
   ],
   "term": "Clippy"

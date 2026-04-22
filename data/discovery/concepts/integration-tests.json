@@ -69,6 +69,42 @@
       "source_repo": "triton-lang/triton",
       "status": "candidate-context",
       "text": "Integration Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/accelerate",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 A simple way to launch, train, and use PyTorch models on almost any device and distributed configuration, automatic mixed precision (including fp8), and easy-to-configure FSDP and DeepSpeed support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/accelerate",
+      "status": "candidate-context",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/peft",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/peft",
+      "status": "candidate-context",
+      "text": "integration tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/sccache",
+      "status": "candidate-context",
+      "text": "Sccache is a ccache-like tool. It is used as a compiler wrapper and avoids compilation when possible. Sccache has the capability to utilize caching in remote storage environments, including various cloud storage options, or alternatively, in local storage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/sccache",
+      "status": "candidate-context",
+      "text": "integration-tests"
     }
   ],
   "candidate_glosses": [
@@ -101,6 +137,24 @@
       "source_repo": "triton-lang/triton",
       "status": "candidate",
       "text": "Integration Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/accelerate",
+      "status": "candidate",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/peft",
+      "status": "candidate",
+      "text": "integration tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/sccache",
+      "status": "candidate",
+      "text": "integration-tests"
     }
   ],
   "candidate_related_terms": [
@@ -180,11 +234,35 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "huggingface/accelerate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/integrations_tests.yml",
+      "source_repo": "huggingface/peft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "mozilla/sccache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "triton-lang/triton"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

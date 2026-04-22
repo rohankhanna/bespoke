@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "berty/www.berty.tech",
+      "target": "gohugoio/hugo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "berty/www.berty.tech",
+      "target": "berty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "berty/www.berty.tech",
+      "target": "official-website",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:07:33.706173+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3197
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official website of Berty Technologies",
+    "fork": false,
+    "full_name": "berty/www.berty.tech",
+    "html_url": "https://github.com/berty/www.berty.tech",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-07T22:00:26Z",
+    "stargazers_count": 39,
+    "topics": [
+      "berty",
+      "official-website"
+    ],
+    "updated_at": "2026-03-29T18:47:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gohugoio/hugo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "berty"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "official-website"
+    }
+  ]
+}

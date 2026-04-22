@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloneofsimo/lora",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloneofsimo/lora",
+      "target": "dreambooth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloneofsimo/lora",
+      "target": "fine-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloneofsimo/lora",
+      "target": "lora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloneofsimo/lora",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:24:21.069000+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18291
+    },
+    {
+      "path": "requirements.txt",
+      "size": 109
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Using Low-rank adaptation to quickly fine-tune diffusion models.",
+    "fork": false,
+    "full_name": "cloneofsimo/lora",
+    "html_url": "https://github.com/cloneofsimo/lora",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-03-22T03:48:10Z",
+    "stargazers_count": 7532,
+    "topics": [
+      "diffusion",
+      "dreambooth",
+      "fine-tuning",
+      "lora",
+      "stable-diffusion"
+    ],
+    "updated_at": "2026-04-21T12:01:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<!-- #region -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "<!-- #region -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dreambooth"
+    },
+    {
+      "context_snippet": "<!-- #region -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fine-tuning"
+    },
+    {
+      "context_snippet": "<!-- #region -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lora"
+    },
+    {
+      "context_snippet": "<!-- #region -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    }
+  ]
+}

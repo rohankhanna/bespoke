@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apnadkarni/tcl-libgit2",
+      "target": "libssh2/libssh2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:10:13.935323+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13675
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tcl bindings for the libgit2 library",
+    "fork": false,
+    "full_name": "apnadkarni/tcl-libgit2",
+    "html_url": "https://github.com/apnadkarni/tcl-libgit2",
+    "language": "Tcl",
+    "pushed_at": "2022-09-21T10:55:45Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-12-23T11:18:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libssh2/libssh2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

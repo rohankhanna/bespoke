@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-cloudformation/cloudformation-coverage-roadmap",
+      "target": "aws-cloudformation/aws-cloudformation-coverage-roadmap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cloudformation-coverage-roadmap",
+      "target": "aws-cloudformation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cloudformation-coverage-roadmap",
+      "target": "cloudformation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cloudformation-coverage-roadmap",
+      "target": "roadmap",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:50:34.646067+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4688
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The AWS CloudFormation Public Coverage Roadmap",
+    "fork": false,
+    "full_name": "aws-cloudformation/cloudformation-coverage-roadmap",
+    "html_url": "https://github.com/aws-cloudformation/cloudformation-coverage-roadmap",
+    "language": null,
+    "pushed_at": "2024-04-15T16:51:14Z",
+    "stargazers_count": 1141,
+    "topics": [
+      "aws",
+      "aws-cloudformation",
+      "cfn",
+      "cloudformation",
+      "roadmap"
+    ],
+    "updated_at": "2026-04-06T02:06:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-cloudformation/aws-cloudformation-coverage-roadmap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The AWS CloudFormation Public Coverage Roadmap",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-cloudformation"
+    },
+    {
+      "context_snippet": "The AWS CloudFormation Public Coverage Roadmap",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudformation"
+    },
+    {
+      "context_snippet": "The AWS CloudFormation Public Coverage Roadmap",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "roadmap"
+    }
+  ]
+}

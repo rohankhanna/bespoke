@@ -31,13 +31,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "modelscope/ms-agent",
-      "target": "modelscope/ms-enclave",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "modelscope/ms-agent",
       "target": "modelscope/modelscope-agent",
       "target_type": "repository"
     },
@@ -140,7 +133,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T01:04:57.229746+00:00",
+  "fetched_at": "2026-04-22T05:01:57.628890+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -188,11 +181,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "modelscope/modelscope-agent",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "modelscope/ms-enclave",
       "source_file": "README.md"
     }
   ],

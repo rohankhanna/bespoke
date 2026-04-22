@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_scripts.yml",
+      "source_repo": "typeshed-internal/stub_uploader",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_scripts.yml",
+      "source_repo": "typeshed-internal/stub_uploader",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_scripts.yml",
+      "source_repo": "typeshed-internal/stub_uploader",
+      "target": "Check scripts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/force_update.yml",
+      "source_repo": "typeshed-internal/stub_uploader",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/force_update.yml",
+      "source_repo": "typeshed-internal/stub_uploader",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_api_token.yml",
+      "source_repo": "typeshed-internal/stub_uploader",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_api_token.yml",
+      "source_repo": "typeshed-internal/stub_uploader",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_api_token.yml",
+      "source_repo": "typeshed-internal/stub_uploader",
+      "target": "Test PyPI API token",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_stubs.yml",
+      "source_repo": "typeshed-internal/stub_uploader",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_stubs.yml",
+      "source_repo": "typeshed-internal/stub_uploader",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-22T04:49:29.633207+00:00",
+  "source_repo": "typeshed-internal/stub_uploader"
+}

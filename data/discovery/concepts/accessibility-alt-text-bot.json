@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "Accessibility-alt-text-bot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typescript-eslint/typescript-eslint",
+      "status": "candidate-context",
+      "text": ":sparkles: Monorepo for all the tooling which enables ESLint to support TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typescript-eslint/typescript-eslint",
+      "status": "candidate-context",
+      "text": "Accessibility-alt-text-bot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typescript-eslint/typescript-eslint",
+      "status": "candidate",
+      "text": "Accessibility-alt-text-bot"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Accessibility-alt-text-bot",
+  "concept_id": "accessibility-alt-text-bot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/a11y-alt-bot.yml",
+      "source_repo": "typescript-eslint/typescript-eslint"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Accessibility-alt-text-bot",
+      "sense_id": "accessibility-alt-text-bot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

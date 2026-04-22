@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "New Pull Request Automation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d0c-s4vage/lookatme",
+      "status": "candidate-context",
+      "text": "An interactive, terminal-based markdown presenter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d0c-s4vage/lookatme",
+      "status": "candidate-context",
+      "text": "New Pull Request Automation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d0c-s4vage/lookatme",
+      "status": "candidate",
+      "text": "New Pull Request Automation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34159,
+      "status": "candidate",
+      "text": "reorder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33759,
+      "status": "candidate",
+      "text": "send"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33450,
+      "status": "candidate",
+      "text": "appeal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33450,
+      "status": "candidate",
+      "text": "application"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31985,
+      "status": "candidate",
+      "text": "enter"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "New Pull Request Automation",
+  "concept_id": "new-pull-request-automation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/pull_requests.yml",
+      "source_repo": "d0c-s4vage/lookatme"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "New Pull Request Automation",
+      "sense_id": "new-pull-request-automation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

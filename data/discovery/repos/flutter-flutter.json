@@ -1,0 +1,532 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/content-aware-hash.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cut-release-branch.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/easy-cp.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freeze.yml"
+    },
+    {
+      "component": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "dessant/lock-threads@7266a7ce5c1df01b1c6db85bf8cd86c737dadbe7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yaml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-changelog.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flutter/flutter",
+      "target": "flutter/website",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "flutter/flutter",
+      "target": "Remove outdated CICD Label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/content-aware-hash.yml",
+      "source_repo": "flutter/flutter",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "flutter/flutter",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "flutter/flutter",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "flutter/flutter",
+      "target": "coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cut-release-branch.yml",
+      "source_repo": "flutter/flutter",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cut-release-branch.yml",
+      "source_repo": "flutter/flutter",
+      "target": "Cut Release Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/easy-cp.yml",
+      "source_repo": "flutter/flutter",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/easy-cp.yml",
+      "source_repo": "flutter/flutter",
+      "target": "Cherry-pick Labeled PR to Release Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/freeze.yml",
+      "source_repo": "flutter/flutter",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/freeze.yml",
+      "source_repo": "flutter/flutter",
+      "target": "Material and Cupertino Code Freeze",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "flutter/flutter",
+      "target": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "flutter/flutter",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yaml",
+      "source_repo": "flutter/flutter",
+      "target": "dessant/lock-threads@7266a7ce5c1df01b1c6db85bf8cd86c737dadbe7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yaml",
+      "source_repo": "flutter/flutter",
+      "target": "Lock Threads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-changelog.yml",
+      "source_repo": "flutter/flutter",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-changelog.yml",
+      "source_repo": "flutter/flutter",
+      "target": "Sync stable CHANGELOG to master",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flutter/flutter",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flutter/flutter",
+      "target": "app-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flutter/flutter",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flutter/flutter",
+      "target": "dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flutter/flutter",
+      "target": "dart-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flutter/flutter",
+      "target": "desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flutter/flutter",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flutter/flutter",
+      "target": "flutter-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flutter/flutter",
+      "target": "fuchsia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flutter/flutter",
+      "target": "linux-desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flutter/flutter",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flutter/flutter",
+      "target": "material-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flutter/flutter",
+      "target": "mobile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flutter/flutter",
+      "target": "mobile-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flutter/flutter",
+      "target": "skia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flutter/flutter",
+      "target": "web-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flutter/flutter",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:13:50.968997+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7025
+    },
+    {
+      "path": ".github/workflows/cicd.yml",
+      "size": 2741
+    },
+    {
+      "path": ".github/workflows/content-aware-hash.yml",
+      "size": 904
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 805
+    },
+    {
+      "path": ".github/workflows/cut-release-branch.yml",
+      "size": 3058
+    },
+    {
+      "path": ".github/workflows/easy-cp.yml",
+      "size": 5725
+    },
+    {
+      "path": ".github/workflows/freeze.yml",
+      "size": 1935
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 625
+    },
+    {
+      "path": ".github/workflows/lock.yaml",
+      "size": 1195
+    },
+    {
+      "path": ".github/workflows/merge-changelog.yml",
+      "size": 2821
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+    "fork": false,
+    "full_name": "flutter/flutter",
+    "html_url": "https://github.com/flutter/flutter",
+    "language": "Dart",
+    "pushed_at": "2026-04-22T04:53:40Z",
+    "stargazers_count": 176064,
+    "topics": [
+      "android",
+      "app-framework",
+      "cross-platform",
+      "dart",
+      "dart-platform",
+      "desktop",
+      "flutter",
+      "flutter-package",
+      "fuchsia",
+      "ios",
+      "linux-desktop",
+      "macos",
+      "material-design",
+      "mobile",
+      "mobile-development",
+      "skia",
+      "web",
+      "web-framework",
+      "windows"
+    ],
+    "updated_at": "2026-04-22T04:21:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flutter/website",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Remove outdated CICD Label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd.yml",
+      "term": "Remove outdated CICD Label"
+    },
+    {
+      "context_snippet": "coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "coverage"
+    },
+    {
+      "context_snippet": "Cut Release Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cut-release-branch.yml",
+      "term": "Cut Release Branch"
+    },
+    {
+      "context_snippet": "Cherry-pick Labeled PR to Release Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/easy-cp.yml",
+      "term": "Cherry-pick Labeled PR to Release Branch"
+    },
+    {
+      "context_snippet": "Material and Cupertino Code Freeze",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/freeze.yml",
+      "term": "Material and Cupertino Code Freeze"
+    },
+    {
+      "context_snippet": "\"Pull Request Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "'Lock Threads'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yaml",
+      "term": "Lock Threads"
+    },
+    {
+      "context_snippet": "Sync stable CHANGELOG to master",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-changelog.yml",
+      "term": "Sync stable CHANGELOG to master"
+    },
+    {
+      "context_snippet": "<a href=\"https://flutter.dev/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "<a href=\"https://flutter.dev/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "app-framework"
+    },
+    {
+      "context_snippet": "<a href=\"https://flutter.dev/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "<a href=\"https://flutter.dev/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dart"
+    },
+    {
+      "context_snippet": "<a href=\"https://flutter.dev/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dart-platform"
+    },
+    {
+      "context_snippet": "<a href=\"https://flutter.dev/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop"
+    },
+    {
+      "context_snippet": "<a href=\"https://flutter.dev/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    },
+    {
+      "context_snippet": "<a href=\"https://flutter.dev/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter-package"
+    },
+    {
+      "context_snippet": "<a href=\"https://flutter.dev/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuchsia"
+    },
+    {
+      "context_snippet": "<a href=\"https://flutter.dev/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux-desktop"
+    },
+    {
+      "context_snippet": "<a href=\"https://flutter.dev/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "<a href=\"https://flutter.dev/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material-design"
+    },
+    {
+      "context_snippet": "<a href=\"https://flutter.dev/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile"
+    },
+    {
+      "context_snippet": "<a href=\"https://flutter.dev/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile-development"
+    },
+    {
+      "context_snippet": "<a href=\"https://flutter.dev/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skia"
+    },
+    {
+      "context_snippet": "<a href=\"https://flutter.dev/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-framework"
+    },
+    {
+      "context_snippet": "<a href=\"https://flutter.dev/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

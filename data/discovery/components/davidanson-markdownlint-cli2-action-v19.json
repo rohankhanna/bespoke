@@ -1,12 +1,17 @@
 {
   "component": "DavidAnson/markdownlint-cli2-action@v19",
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "AgriciDaniel/claude-cybersecurity"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/markdown-lint.yml",
+      "source_repo": "bbatsov/prelude"
     }
   ]
 }

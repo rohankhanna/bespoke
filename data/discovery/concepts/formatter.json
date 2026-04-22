@@ -91,6 +91,30 @@
       "source_repo": "prettier/prettier",
       "status": "candidate-context",
       "text": "[![Prettier Banner](https://unpkg.com/prettier-logo@1.0.3/images/prettier-banner-light.svg)](https://prettier.io)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonfisher/nested-logrus-formatter",
+      "status": "candidate-context",
+      "text": "Formatter for https://github.com/sirupsen/logrus"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonfisher/nested-logrus-formatter",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/antonfisher/nested-logrus-formatter.svg?branch=master)](https://travis-ci.org/antonfisher/nested-logrus-formatter)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/gts",
+      "status": "candidate-context",
+      "text": "\u2602\ufe0f TypeScript style guide, formatter, and linter.  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/gts",
+      "status": "candidate-context",
+      "text": "> Google TypeScript Style"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "prettier/prettier",
       "status": "candidate",
       "text": "[![Prettier Banner](https://unpkg.com/prettier-logo@1.0.3/images/prettier-banner-light.svg)](https://prettier.io)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonfisher/nested-logrus-formatter",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/antonfisher/nested-logrus-formatter.svg?branch=master)](https://travis-ci.org/antonfisher/nested-logrus-formatter)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/gts",
+      "status": "candidate",
+      "text": "> Google TypeScript Style"
     }
   ],
   "candidate_related_terms": [
@@ -226,11 +262,35 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "prettier/prettier"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "antonfisher/nested-logrus-formatter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "google/gts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rustfmt"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,86 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chronosphereio/calyptia-go-bubble-table",
+      "target": "calyptia/cloud-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "chronosphereio/calyptia-go-bubble-table",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "chronosphereio/calyptia-go-bubble-table",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "chronosphereio/calyptia-go-bubble-table",
+      "target": "golangci/golangci-lint-action@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:26:00.131727+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 612
+    },
+    {
+      "path": "go.mod",
+      "size": 897
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 432
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TUI table component for Bubbletea.",
+    "fork": false,
+    "full_name": "chronosphereio/calyptia-go-bubble-table",
+    "html_url": "https://github.com/chronosphereio/calyptia-go-bubble-table",
+    "language": "Go",
+    "pushed_at": "2023-11-08T09:54:38Z",
+    "stargazers_count": 100,
+    "topics": [],
+    "updated_at": "2026-04-22T00:50:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "calyptia/cloud-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

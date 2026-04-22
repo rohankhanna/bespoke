@@ -67,6 +67,30 @@
       "source_repo": "jestjs/jest",
       "status": "candidate-context",
       "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/mock-import",
+      "status": "candidate-context",
+      "text": "Mocking of Node.js EcmaScript modules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/mock-import",
+      "status": "candidate-context",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/supertape",
+      "status": "candidate-context",
+      "text": "\ud83d\udcfc  Simplest high speed testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/supertape",
+      "status": "candidate-context",
+      "text": "Node CI"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +121,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jestjs/jest",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/mock-import",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/supertape",
       "status": "candidate",
       "text": "Node CI"
     }
@@ -172,11 +208,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/nodejs.yml",
       "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "coderaiser/mock-import"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "coderaiser/supertape"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

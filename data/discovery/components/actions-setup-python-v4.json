@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -282,6 +282,101 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/clickhouse-migration-check.yml",
       "source_repo": "Helicone/helicone"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aporthq/aport-agent-guardrails"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "prebuild/prebuild"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kkroening/ffmpeg-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cpu_ci.yml",
+      "source_repo": "EleutherAI/gpt-neox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "EleutherAI/gpt-neox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/updateprojects.yml",
+      "source_repo": "cncf/tag-contributor-strategy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "explosion/projects"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "explosion/projects"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "explosion/spacy-lookups-data"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ROCm/iris"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "agentica-project/rllm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyCQA/pydocstyle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mlfoundations/open_clip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sphinx-build-deploy.yml",
+      "source_repo": "slothy-optimizer/slothy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/grapevine.yml",
+      "source_repo": "d0c-s4vage/lookatme"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/new_release.yml",
+      "source_repo": "d0c-s4vage/lookatme"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/preview.yml",
+      "source_repo": "d0c-s4vage/lookatme"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "d0c-s4vage/lookatme"
     }
   ]
 }

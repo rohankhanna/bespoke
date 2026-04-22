@@ -1,0 +1,453 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v27",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v27",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v27",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v27",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "kdheepak/panvimdoc@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr-title.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v27",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake.yml"
+    },
+    {
+      "component": "folke/github/neovim@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-schemas.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-schemas.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v27",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-schemas.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-schemas.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "adacore/ada_language_server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "angular/vscode-ng-language-service",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "alanz/vscode-hie-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "actboy168/json.lua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "cachix/install-nix-action@v27",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "Run All Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "cachix/install-nix-action@v27",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "kdheepak/panvimdoc@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "stefanzweifel/git-auto-commit-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr-title.yml",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "amannn/action-semantic-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-pr-title.yml",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "Lint PR Title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake.yml",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake.yml",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "cachix/install-nix-action@v27",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake.yml",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-flake.yml",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "Update flake dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-schemas.yml",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "folke/github/neovim@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-schemas.yml",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-schemas.yml",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "cachix/install-nix-action@v27",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-schemas.yml",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "stefanzweifel/git-auto-commit-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-schemas.yml",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "Update Schemas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "nvim-lsp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "project-setting-file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "project-settings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "target": "vscode-settings",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:13:36.219570+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28133
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "size": 1796
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1158
+    },
+    {
+      "path": ".github/workflows/lint-pr-title.yml",
+      "size": 330
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 423
+    },
+    {
+      "path": ".github/workflows/update-flake.yml",
+      "size": 615
+    },
+    {
+      "path": ".github/workflows/update-schemas.yml",
+      "size": 776
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u2699\ufe0f Load project-local settings (like .vscode/settings.json) into Neovim 0.11+ native LSP settings easily.",
+    "fork": false,
+    "full_name": "mrjones2014/codesettings.nvim",
+    "html_url": "https://github.com/mrjones2014/codesettings.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-04-21T01:32:21Z",
+    "stargazers_count": 65,
+    "topics": [
+      "lsp",
+      "neovim-plugin",
+      "nvim-lsp",
+      "project-setting-file",
+      "project-settings",
+      "vscode-settings"
+    ],
+    "updated_at": "2026-04-21T01:32:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "actboy168/json.lua",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adacore/ada_language_server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alanz/vscode-hie-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "angular/vscode-ng-language-service",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run All Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "term": "Run All Checks"
+    },
+    {
+      "context_snippet": "docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "docs"
+    },
+    {
+      "context_snippet": "Lint PR Title",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-pr-title.yml",
+      "term": "Lint PR Title"
+    },
+    {
+      "context_snippet": "Create Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Create Release"
+    },
+    {
+      "context_snippet": "Update flake dependencies",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-flake.yml",
+      "term": "Update flake dependencies"
+    },
+    {
+      "context_snippet": "Update Schemas",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-schemas.yml",
+      "term": "Update Schemas"
+    },
+    {
+      "context_snippet": "Easily read your project's local settings files and merge them into your Neovim 0.11+ native LSP configuration.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "Easily read your project's local settings files and merge them into your Neovim 0.11+ native LSP configuration.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-lsp"
+    },
+    {
+      "context_snippet": "Easily read your project's local settings files and merge them into your Neovim 0.11+ native LSP configuration.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "project-setting-file"
+    },
+    {
+      "context_snippet": "Easily read your project's local settings files and merge them into your Neovim 0.11+ native LSP configuration.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "project-settings"
+    },
+    {
+      "context_snippet": "Easily read your project's local settings files and merge them into your Neovim 0.11+ native LSP configuration.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode-settings"
+    }
+  ]
+}

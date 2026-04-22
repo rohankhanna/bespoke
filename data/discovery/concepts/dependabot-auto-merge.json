@@ -2,7 +2,8 @@
   "aliases": [
     "Dependabot Auto-Merge",
     "Dependabot Auto-merge",
-    "Dependabot auto-merge"
+    "Dependabot auto-merge",
+    "Dependabot Auto merge"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -105,6 +106,42 @@
       "source_repo": "crisidev/bacon-ls",
       "status": "candidate-context",
       "text": "Dependabot Auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "status": "candidate-context",
+      "text": "Prometheus Operator creates/configures/manages Prometheus clusters atop Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xERR0R/blocky",
+      "status": "candidate-context",
+      "text": "Fast and lightweight DNS proxy as ad-blocker for local network with many features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xERR0R/blocky",
+      "status": "candidate-context",
+      "text": "Dependabot Auto-Merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bentoml/OpenLLM",
+      "status": "candidate-context",
+      "text": "Run any open-source LLMs, such as DeepSeek and Llama, as OpenAI compatible API endpoint in the cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bentoml/OpenLLM",
+      "status": "candidate-context",
+      "text": "Dependabot Auto merge"
     }
   ],
   "candidate_glosses": [
@@ -149,9 +186,63 @@
       "source_repo": "crisidev/bacon-ls",
       "status": "candidate",
       "text": "Dependabot Auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-operator/prometheus-operator",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xERR0R/blocky",
+      "status": "candidate",
+      "text": "Dependabot Auto-Merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bentoml/OpenLLM",
+      "status": "candidate",
+      "text": "Dependabot Auto merge"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10784,
+      "status": "candidate",
+      "text": "join"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10784,
+      "status": "candidate",
+      "text": "joining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10784,
+      "status": "candidate",
+      "text": "mixing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10773,
+      "status": "candidate",
+      "text": "brakes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10773,
+      "status": "candidate",
+      "text": "car"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Dependabot Auto-Merge",
   "concept_id": "dependabot-auto-merge",
@@ -204,11 +295,29 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/auto-merge.yml",
       "source_repo": "crisidev/bacon-ls"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/automerge-dependabot.yaml",
+      "source_repo": "prometheus-operator/prometheus-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "0xERR0R/blocky"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "bentoml/OpenLLM"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

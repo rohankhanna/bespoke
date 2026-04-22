@@ -67,6 +67,42 @@
       "source_repo": "neoclide/coc.nvim",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lewis6991/pckr.nvim",
+      "status": "candidate-context",
+      "text": "Spiritual successor of https://github.com/wbthomason/packer.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/pckr.nvim",
+      "status": "candidate-context",
+      "text": "Spiritual successor of https://github.com/wbthomason/packer.nvim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LazyVim/LazyVim",
+      "status": "candidate-context",
+      "text": "Neovim config for the lazy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LazyVim/LazyVim",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f Load project-local settings (like .vscode/settings.json) into Neovim 0.11+ native LSP settings easily."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "status": "candidate-context",
+      "text": "Easily read your project's local settings files and merge them into your Neovim 0.11+ native LSP configuration."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "neoclide/coc.nvim",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/pckr.nvim",
+      "status": "candidate",
+      "text": "Spiritual successor of https://github.com/wbthomason/packer.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LazyVim/LazyVim",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "status": "candidate",
+      "text": "Easily read your project's local settings files and merge them into your Neovim 0.11+ native LSP configuration."
     }
   ],
   "candidate_related_terms": [],
@@ -142,11 +196,29 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "neoclide/coc.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "lewis6991/pckr.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "LazyVim/LazyVim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "mrjones2014/codesettings.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

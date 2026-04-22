@@ -13,12 +13,30 @@
       "source_repo": "AI-Hypercomputer/maxdiffusion",
       "status": "candidate-context",
       "text": "Unit Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2noise/ChatTTS",
+      "status": "candidate-context",
+      "text": "A generative speech model for daily dialogue."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2noise/ChatTTS",
+      "status": "candidate-context",
+      "text": "Unit Test"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "AI-Hypercomputer/maxdiffusion",
+      "status": "candidate",
+      "text": "Unit Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2noise/ChatTTS",
       "status": "candidate",
       "text": "Unit Test"
     }
@@ -70,11 +88,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/UnitTests.yml",
       "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/UnitTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/unitest.yml",
+      "source_repo": "2noise/ChatTTS"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

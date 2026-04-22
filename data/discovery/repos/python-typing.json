@@ -1,0 +1,224 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "python/typing",
+      "target": "python/typing_extensions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "python/typing",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "python/typing",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "python/typing",
+      "target": "Build the documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "python/typing",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "python/typing",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "python/typing",
+      "target": "Test and lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yml",
+      "source_repo": "python/typing",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance.yml",
+      "source_repo": "python/typing",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance.yml",
+      "source_repo": "python/typing",
+      "target": "Conformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python/typing",
+      "target": "gradual-typing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python/typing",
+      "target": "static-typing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python/typing",
+      "target": "types",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python/typing",
+      "target": "typing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:58:47.732330+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2128
+    },
+    {
+      "path": ".github/workflows/build-docs.yml",
+      "size": 492
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 566
+    },
+    {
+      "path": ".github/workflows/conformance.yml",
+      "size": 1220
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python static typing home. Hosts the documentation and a user help forum.",
+    "fork": false,
+    "full_name": "python/typing",
+    "html_url": "https://github.com/python/typing",
+    "language": "Python",
+    "pushed_at": "2026-04-21T01:34:10Z",
+    "stargazers_count": 1748,
+    "topics": [
+      "gradual-typing",
+      "python",
+      "static-typing",
+      "types",
+      "typing"
+    ],
+    "updated_at": "2026-04-21T01:34:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "python/typing_extensions",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build the documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "term": "Build the documentation"
+    },
+    {
+      "context_snippet": "Test and lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Test and lint"
+    },
+    {
+      "context_snippet": "Conformance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance.yml",
+      "term": "Conformance"
+    },
+    {
+      "context_snippet": "The documentation for Python's static typing can be found at",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradual-typing"
+    },
+    {
+      "context_snippet": "The documentation for Python's static typing can be found at",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-typing"
+    },
+    {
+      "context_snippet": "The documentation for Python's static typing can be found at",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "types"
+    },
+    {
+      "context_snippet": "The documentation for Python's static typing can be found at",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typing"
+    }
+  ]
+}

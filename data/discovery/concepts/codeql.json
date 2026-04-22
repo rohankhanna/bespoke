@@ -687,6 +687,162 @@
       "source_repo": "23andMe/Yamale",
       "status": "candidate-context",
       "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DanBloomberg/leptonica",
+      "status": "candidate-context",
+      "text": "Leptonica is an open source library containing software that is broadly useful for image processing and image analysis applications. The official github repository for Leptonica is: danbloomberg/leptonica.  See leptonica.org for more documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanBloomberg/leptonica",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tesseract-ocr/tesseract",
+      "status": "candidate-context",
+      "text": "Tesseract Open Source OCR Engine (main repository)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tesseract-ocr/tesseract",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dathere/datapusher-plus",
+      "status": "candidate-context",
+      "text": "Push data into the CKAN Datastore fast & reliably while inferring, calculating & suggesting metadata using Jinja2 Formulas defined in your scheming metadata schema. It pushes real good!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dathere/datapusher-plus",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xERR0R/blocky",
+      "status": "candidate-context",
+      "text": "Fast and lightweight DNS proxy as ad-blocker for local network with many features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xERR0R/blocky",
+      "status": "candidate-context",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "void-linux/xbps",
+      "status": "candidate-context",
+      "text": "The X Binary Package System (XBPS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "void-linux/xbps",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oras-project/oras",
+      "status": "candidate-context",
+      "text": "OCI registry client - managing content like artifacts, images, packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oras-project/oras",
+      "status": "candidate-context",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "notaryproject/notation",
+      "status": "candidate-context",
+      "text": "A CLI tool to sign and verify artifacts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notation",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ccache/ccache",
+      "status": "candidate-context",
+      "text": "ccache \u2013 a fast compiler cache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ccache/ccache",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danmar/cppcheck",
+      "status": "candidate-context",
+      "text": "static analysis of C/C++ code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danmar/cppcheck",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-java",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Java SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-java",
+      "status": "candidate-context",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zlib-ng/zlib-ng",
+      "status": "candidate-context",
+      "text": "zlib replacement with optimizations for \"next generation\" systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zlib-ng/zlib-ng",
+      "status": "candidate-context",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neovim/neovim",
+      "status": "candidate-context",
+      "text": "Vim-fork focused on extensibility and usability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neovim/neovim",
+      "status": "candidate-context",
+      "text": "\"codeql\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-vm/actions",
+      "status": "candidate-context",
+      "text": "GitHub Actions for the asdf version manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/actions",
+      "status": "candidate-context",
+      "text": "codeql"
     }
   ],
   "candidate_glosses": [
@@ -1031,6 +1187,84 @@
       "source_repo": "23andMe/Yamale",
       "status": "candidate",
       "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanBloomberg/leptonica",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tesseract-ocr/tesseract",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dathere/datapusher-plus",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xERR0R/blocky",
+      "status": "candidate",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "void-linux/xbps",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oras-project/oras",
+      "status": "candidate",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notation",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ccache/ccache",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danmar/cppcheck",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-java",
+      "status": "candidate",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zlib-ng/zlib-ng",
+      "status": "candidate",
+      "text": "CodeQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neovim/neovim",
+      "status": "candidate",
+      "text": "\"codeql\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/actions",
+      "status": "candidate",
+      "text": "codeql"
     }
   ],
   "candidate_related_terms": [],
@@ -1446,11 +1680,95 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "23andMe/Yamale"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "DanBloomberg/leptonica"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "tesseract-ocr/tesseract"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "dathere/datapusher-plus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "0xERR0R/blocky"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "void-linux/xbps"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "oras-project/oras"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "notaryproject/notation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "ccache/ccache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "danmar/cppcheck"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "open-telemetry/opentelemetry-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "zlib-ng/zlib-ng"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "neovim/neovim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "langchain-ai/langchainjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "asdf-vm/actions"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

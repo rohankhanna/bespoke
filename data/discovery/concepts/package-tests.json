@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Package Tests"
+    "Package Tests",
+    "Package tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "open-telemetry/opentelemetry-collector-releases",
       "status": "candidate-context",
       "text": "Package Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mason-org/mason-registry",
+      "status": "candidate-context",
+      "text": "Core registry for mason.nvim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mason-org/mason-registry",
+      "status": "candidate-context",
+      "text": "Package tests"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "open-telemetry/opentelemetry-collector-releases",
       "status": "candidate",
       "text": "Package Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mason-org/mason-registry",
+      "status": "candidate",
+      "text": "Package tests"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-19T01:08:57.644140+00:00",
       "source_file": ".github/workflows/base-package-tests.yaml",
       "source_repo": "open-telemetry/opentelemetry-collector-releases"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/package-tests.yaml",
+      "source_repo": "mason-org/mason-registry"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

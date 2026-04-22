@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "karalabe/xgo",
+      "target": "davecheney/golang-crosscompile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "karalabe/xgo",
+      "target": "inconshreveable/gonative",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:07:39.054454+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12998
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Go CGO cross compiler",
+    "fork": false,
+    "full_name": "karalabe/xgo",
+    "html_url": "https://github.com/karalabe/xgo",
+    "language": "Shell",
+    "pushed_at": "2021-12-14T12:33:19Z",
+    "stargazers_count": 2148,
+    "topics": [],
+    "updated_at": "2026-04-09T10:31:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davecheney/golang-crosscompile",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inconshreveable/gonative",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

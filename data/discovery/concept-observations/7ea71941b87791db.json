@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Instant neural graphics primitives: lightning fast NeRF and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"docs/assets_readme/fox.gif\" height=\"342\"/> <img src=\"docs/assets_readme/robot5.gif\" height=\"342\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"docs/assets_readme/fox.gif\" height=\"342\"/> <img src=\"docs/assets_readme/robot5.gif\" height=\"342\"/>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29881089,
+      "status": "candidate",
+      "text": "realtime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29799550,
+      "status": "candidate",
+      "text": "actual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29798148,
+      "status": "candidate",
+      "text": "real-world"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29795593,
+      "status": "candidate",
+      "text": "momentary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29794866,
+      "status": "candidate",
+      "text": "instant"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "real-time",
+      "sense_id": "real-time#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "real-time",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "real-time",
+  "observation_id": "7ea71941b87791db",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "real-time",
+  "source_context_snippet": "<img src=\"docs/assets_readme/fox.gif\" height=\"342\"/> <img src=\"docs/assets_readme/robot5.gif\" height=\"342\"/>",
+  "source_file": null,
+  "source_repo": "NVlabs/instant-ngp",
+  "source_repo_description": "Instant neural graphics primitives: lightning fast NeRF and more"
+}

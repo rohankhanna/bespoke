@@ -1,0 +1,22 @@
+{
+  "component": "google-ml-infra/actions/ci_connection@7f5ca0c263a81ed09ea276524c1b9192f1304e3c",
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bazel_cpu.yml",
+      "source_repo": "jax-ml/jax"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bazel_cuda.yml",
+      "source_repo": "jax-ml/jax"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bazel_cuda_h100_b200.yml",
+      "source_repo": "jax-ml/jax"
+    }
+  ]
+}

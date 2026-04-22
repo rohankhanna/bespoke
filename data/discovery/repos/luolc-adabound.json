@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T05:22:54.289505+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3650
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An optimizer that trains as fast as Adam and as good as SGD.",
+    "fork": false,
+    "full_name": "Luolc/AdaBound",
+    "html_url": "https://github.com/Luolc/AdaBound",
+    "language": "Python",
+    "pushed_at": "2023-07-23T10:44:20Z",
+    "stargazers_count": 2907,
+    "topics": [],
+    "updated_at": "2026-04-16T20:12:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

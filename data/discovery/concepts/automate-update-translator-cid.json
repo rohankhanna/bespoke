@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Automate update Translator cid"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "status": "candidate-context",
+      "text": "OpenAI Triton backend for Intel\u00ae GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "status": "candidate-context",
+      "text": "Automate update Translator cid"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "status": "candidate",
+      "text": "Automate update Translator cid"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21472,
+      "status": "candidate",
+      "text": "assembly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21472,
+      "status": "candidate",
+      "text": "bot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21309,
+      "status": "candidate",
+      "text": "demo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21309,
+      "status": "candidate",
+      "text": "spin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21309,
+      "status": "candidate",
+      "text": "translation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Automate update Translator cid",
+  "concept_id": "automate-update-translator-cid",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/auto-update-translator-cid.yml",
+      "source_repo": "intel/intel-xpu-backend-for-triton"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automate update Translator cid",
+      "sense_id": "automate-update-translator-cid#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

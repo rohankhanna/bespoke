@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Scala combinator library for building Finagle HTTP services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022761,
+      "status": "candidate",
+      "text": "wangle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996973,
+      "status": "candidate",
+      "text": "manage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023359,
+      "status": "candidate",
+      "text": "finangle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023358,
+      "status": "candidate",
+      "text": "phenagle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023357,
+      "status": "candidate",
+      "text": "fainaigue"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "finagle",
+      "sense_id": "finagle#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28042,
+      "status": "candidate",
+      "text": "manage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15030,
+      "status": "candidate",
+      "text": "wangle"
+    }
+  ],
+  "concept_id": "finagle",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "finagle",
+  "observation_id": "ba156175279b28b3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "finagle",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "finagle/finch",
+  "source_repo_description": "Scala combinator library for building Finagle HTTP services"
+}

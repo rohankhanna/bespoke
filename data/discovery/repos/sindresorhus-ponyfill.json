@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/ponyfill",
+      "target": "polyfill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/ponyfill",
+      "target": "ponies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/ponyfill",
+      "target": "ponyfill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sindresorhus/ponyfill",
+      "target": "unicorns",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:18:29.224030+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\udd84 Like polyfill but with pony pureness",
+    "fork": false,
+    "full_name": "sindresorhus/ponyfill",
+    "html_url": "https://github.com/sindresorhus/ponyfill",
+    "language": null,
+    "pushed_at": "2026-02-01T15:17:01Z",
+    "stargazers_count": 1275,
+    "topics": [
+      "polyfill",
+      "ponies",
+      "ponyfill",
+      "unicorns"
+    ],
+    "updated_at": "2026-04-02T05:25:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\ud83e\udd84 Like polyfill but with pony pureness",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polyfill"
+    },
+    {
+      "context_snippet": "\ud83e\udd84 Like polyfill but with pony pureness",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ponies"
+    },
+    {
+      "context_snippet": "\ud83e\udd84 Like polyfill but with pony pureness",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ponyfill"
+    },
+    {
+      "context_snippet": "\ud83e\udd84 Like polyfill but with pony pureness",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unicorns"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "davidhalter/jedi-vim",
+      "target": "gmarik/vundle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "davidhalter/jedi-vim",
+      "target": "klen/python-mode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "davidhalter/jedi-vim",
+      "target": "ervandew/supertab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "davidhalter/jedi-vim",
+      "target": "kana/vim-vspec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "davidhalter/jedi-vim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "davidhalter/jedi-vim",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:59:12.880643+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 9542
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 416
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Using the jedi autocompletion library for VIM.",
+    "fork": false,
+    "full_name": "davidhalter/jedi-vim",
+    "html_url": "https://github.com/davidhalter/jedi-vim",
+    "language": "Python",
+    "pushed_at": "2026-02-10T10:10:33Z",
+    "stargazers_count": 5314,
+    "topics": [],
+    "updated_at": "2026-04-18T18:24:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ervandew/supertab",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gmarik/vundle",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kana/vim-vspec",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "klen/python-mode",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

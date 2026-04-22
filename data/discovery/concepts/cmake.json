@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "cmake"
+    "cmake",
+    "CMake"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -33,6 +34,54 @@
       "source_repo": "microsoft/vcpkg",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DanBloomberg/leptonica",
+      "status": "candidate-context",
+      "text": "Leptonica is an open source library containing software that is broadly useful for image processing and image analysis applications. The official github repository for Leptonica is: danbloomberg/leptonica.  See leptonica.org for more documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanBloomberg/leptonica",
+      "status": "candidate-context",
+      "text": "CMake"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tesseract-ocr/tesseract",
+      "status": "candidate-context",
+      "text": "Tesseract Open Source OCR Engine (main repository)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tesseract-ocr/tesseract",
+      "status": "candidate-context",
+      "text": "cmake"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "madler/zlib",
+      "status": "candidate-context",
+      "text": "A massively spiffy yet delicately unobtrusive compression library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "madler/zlib",
+      "status": "candidate-context",
+      "text": "CMake"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zlib-ng/zlib-ng",
+      "status": "candidate-context",
+      "text": "zlib replacement with optimizations for \"next generation\" systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zlib-ng/zlib-ng",
+      "status": "candidate-context",
+      "text": "CMake"
     }
   ],
   "candidate_glosses": [
@@ -47,6 +96,30 @@
       "source_repo": "microsoft/vcpkg",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanBloomberg/leptonica",
+      "status": "candidate",
+      "text": "CMake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tesseract-ocr/tesseract",
+      "status": "candidate",
+      "text": "cmake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "madler/zlib",
+      "status": "candidate",
+      "text": "CMake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zlib-ng/zlib-ng",
+      "status": "candidate",
+      "text": "CMake"
     }
   ],
   "candidate_related_terms": [
@@ -102,11 +175,35 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "microsoft/vcpkg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "DanBloomberg/leptonica"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "tesseract-ocr/tesseract"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "madler/zlib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "zlib-ng/zlib-ng"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

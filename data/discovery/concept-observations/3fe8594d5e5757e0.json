@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Electron Logo](https://electronjs.org/images/electron-logo.svg)](https://electronjs.org)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Electron Logo](https://electronjs.org/images/electron-logo.svg)](https://electronjs.org)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028643,
+      "status": "candidate",
+      "text": "chromium-plate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028636,
+      "status": "candidate",
+      "text": "chrome-plated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30011348,
+      "status": "candidate",
+      "text": "vanadium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30011030,
+      "status": "candidate",
+      "text": "plated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010895,
+      "status": "candidate",
+      "text": "spinel"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chrome",
+      "sense_id": "chrome#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1010,
+      "status": "candidate",
+      "text": "chromium-plate"
+    }
+  ],
+  "concept_id": "chrome",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chrome",
+  "observation_id": "3fe8594d5e5757e0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "chrome",
+  "source_context_snippet": "[![Electron Logo](https://electronjs.org/images/electron-logo.svg)](https://electronjs.org)",
+  "source_file": null,
+  "source_repo": "electron/electron",
+  "source_repo_description": ":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS"
+}

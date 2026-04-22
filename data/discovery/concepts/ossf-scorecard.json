@@ -79,6 +79,18 @@
       "source_repo": "open-telemetry/opentelemetry-proto",
       "status": "candidate-context",
       "text": "OSSF Scorecard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-js-contrib",
+      "status": "candidate-context",
+      "text": "OpenTelemetry instrumentation for JavaScript modules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-js-contrib",
+      "status": "candidate-context",
+      "text": "OSSF Scorecard"
     }
   ],
   "candidate_glosses": [
@@ -115,6 +127,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "open-telemetry/opentelemetry-proto",
+      "status": "candidate",
+      "text": "OSSF Scorecard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-js-contrib",
       "status": "candidate",
       "text": "OSSF Scorecard"
     }
@@ -196,11 +214,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/ossf-scorecard.yml",
       "source_repo": "open-telemetry/opentelemetry-proto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "open-telemetry/opentelemetry-js-contrib"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

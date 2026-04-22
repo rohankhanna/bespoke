@@ -19,6 +19,18 @@
       "source_repo": "cortesi/modd",
       "status": "candidate-context",
       "text": "[![Travis Build Status](https://travis-ci.org/cortesi/modd.svg?branch=master)](https://travis-ci.org/cortesi/modd)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cortesi/devd",
+      "status": "candidate-context",
+      "text": " A local webserver for developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortesi/devd",
+      "status": "candidate-context",
+      "text": "[![Travis Build Status](https://travis-ci.org/cortesi/devd.svg?branch=master)](https://travis-ci.org/cortesi/devd)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "cortesi/modd",
       "status": "candidate",
       "text": "[![Travis Build Status](https://travis-ci.org/cortesi/modd.svg?branch=master)](https://travis-ci.org/cortesi/modd)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortesi/devd",
+      "status": "candidate",
+      "text": "[![Travis Build Status](https://travis-ci.org/cortesi/devd.svg?branch=master)](https://travis-ci.org/cortesi/devd)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "cortesi/modd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "cortesi/devd"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Commit Message Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kata-containers/cgroups-rs",
+      "status": "candidate-context",
+      "text": "Native Rust library for managing control groups under Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kata-containers/cgroups-rs",
+      "status": "candidate-context",
+      "text": "Commit Message Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kata-containers/cgroups-rs",
+      "status": "candidate",
+      "text": "Commit Message Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34690,
+      "status": "candidate",
+      "text": "ping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34290,
+      "status": "candidate",
+      "text": "pinging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34271,
+      "status": "candidate",
+      "text": "kite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19114,
+      "status": "candidate",
+      "text": "note"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18039,
+      "status": "candidate",
+      "text": "kill"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Commit Message Check",
+  "concept_id": "commit-message-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/commit-message-check.yaml",
+      "source_repo": "kata-containers/cgroups-rs"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Commit Message Check",
+      "sense_id": "commit-message-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

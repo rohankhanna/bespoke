@@ -31,6 +31,18 @@
       "source_repo": "vitejs/vite",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dathere/qsv-easy-windows-installer",
+      "status": "candidate-context",
+      "text": "\u26a1 Easy installer for qsv on Windows devices. Simply click the app's Install button and wait a few seconds to get the latest version of qsv installed to your PATH."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dathere/qsv-easy-windows-installer",
+      "status": "candidate-context",
+      "text": "![image](https://github.com/user-attachments/assets/3ccc6cad-04ab-4288-9a41-9afadaa1fcfc)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "vitejs/vite",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dathere/qsv-easy-windows-installer",
+      "status": "candidate",
+      "text": "![image](https://github.com/user-attachments/assets/3ccc6cad-04ab-4288-9a41-9afadaa1fcfc)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "vitejs/vite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "dathere/qsv-easy-windows-installer"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

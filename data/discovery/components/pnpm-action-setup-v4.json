@@ -1,7 +1,7 @@
 {
   "component": "pnpm/action-setup@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -282,6 +282,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/typescript.ci.yml",
       "source_repo": "Sovereign-Labs/sovereign-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-scripts-worker.yml",
+      "source_repo": "tauri-apps/create-tauri-app"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nx-migrate.yml",
+      "source_repo": "typescript-eslint/typescript-eslint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prettier-update.yml",
+      "source_repo": "typescript-eslint/typescript-eslint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/android-instrumentation-tests.yml",
+      "source_repo": "expo/expo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/android-unit-tests.yml",
+      "source_repo": "expo/expo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bare-diffs.yml",
+      "source_repo": "expo/expo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-issues-nightly.yml",
+      "source_repo": "expo/expo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cli.yml",
+      "source_repo": "expo/expo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/code-review.yml",
+      "source_repo": "expo/expo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/commentator.yml",
+      "source_repo": "expo/expo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "langbot-app/LangBot"
     }
   ]
 }

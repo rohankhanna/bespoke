@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update CrossC2Kit Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gloxec/CrossC2",
+      "status": "candidate-context",
+      "text": "generate CobaltStrike's cross-platform payload"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gloxec/CrossC2",
+      "status": "candidate-context",
+      "text": "Update CrossC2Kit Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gloxec/CrossC2",
+      "status": "candidate",
+      "text": "Update CrossC2Kit Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12229,
+      "status": "candidate",
+      "text": "bulletin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12229,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12229,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12229,
+      "status": "candidate",
+      "text": "presentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12229,
+      "status": "candidate",
+      "text": "statement"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update CrossC2Kit Release",
+  "concept_id": "update-crossc2kit-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/update-crossc2kit-release.yml",
+      "source_repo": "gloxec/CrossC2"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update CrossC2Kit Release",
+      "sense_id": "update-crossc2kit-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

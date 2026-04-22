@@ -1,0 +1,12 @@
+{
+  "component": "google-github-actions/release-please-action@db8f2c60ee802b3748b512940dde88eabd7b7e01",
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asdf-vm/actions"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "conao3/setup-cask@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brotzeit/rustic",
+      "target": "atomontage/xterm-color",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brotzeit/rustic",
+      "target": "drahnr/cargo-spellcheck",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brotzeit/rustic",
+      "target": "bunogi/cargo-makedocs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brotzeit/rustic",
+      "target": "cask/cask",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "brotzeit/rustic",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "brotzeit/rustic",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "brotzeit/rustic",
+      "target": "conao3/setup-cask@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:10:54.433067+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31367
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2046
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust development environment for Emacs",
+    "fork": false,
+    "full_name": "brotzeit/rustic",
+    "html_url": "https://github.com/brotzeit/rustic",
+    "language": "Emacs Lisp",
+    "pushed_at": "2024-08-23T14:38:18Z",
+    "stargazers_count": 741,
+    "topics": [],
+    "updated_at": "2026-04-06T07:08:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atomontage/xterm-color",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bunogi/cargo-makedocs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cask/cask",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drahnr/cargo-spellcheck",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

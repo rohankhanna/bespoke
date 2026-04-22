@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isamert/gedi",
+      "target": "gedi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isamert/gedi",
+      "target": "gedit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isamert/gedi",
+      "target": "gedit-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isamert/gedi",
+      "target": "jedi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:59:13.784837+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1008
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a python code completion plugin for gedit3+",
+    "fork": false,
+    "full_name": "isamert/gedi",
+    "html_url": "https://github.com/isamert/gedi",
+    "language": "Python",
+    "pushed_at": "2021-11-05T04:15:49Z",
+    "stargazers_count": 37,
+    "topics": [
+      "gedi",
+      "gedit",
+      "gedit-plugin",
+      "jedi",
+      "python"
+    ],
+    "updated_at": "2024-01-25T16:45:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A python code completion plugin for gedit. Built with the Jedi auto completion library by David Halter (https://github.com/davidhalter/jedi).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gedi"
+    },
+    {
+      "context_snippet": "A python code completion plugin for gedit. Built with the Jedi auto completion library by David Halter (https://github.com/davidhalter/jedi).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gedit"
+    },
+    {
+      "context_snippet": "A python code completion plugin for gedit. Built with the Jedi auto completion library by David Halter (https://github.com/davidhalter/jedi).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gedit-plugin"
+    },
+    {
+      "context_snippet": "A python code completion plugin for gedit. Built with the Jedi auto completion library by David Halter (https://github.com/davidhalter/jedi).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jedi"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Merge checks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfontanini/presenterm",
+      "status": "candidate-context",
+      "text": "A markdown terminal slideshow tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfontanini/presenterm",
+      "status": "candidate-context",
+      "text": "Merge checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfontanini/presenterm",
+      "status": "candidate",
+      "text": "Merge checks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10677,
+      "status": "candidate",
+      "text": "amalgamation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10677,
+      "status": "candidate",
+      "text": "fusion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10677,
+      "status": "candidate",
+      "text": "melting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10677,
+      "status": "candidate",
+      "text": "merger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10677,
+      "status": "candidate",
+      "text": "mergers"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Merge checks",
+  "concept_id": "merge-checks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/merge.yaml",
+      "source_repo": "mfontanini/presenterm"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Merge checks",
+      "sense_id": "merge-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

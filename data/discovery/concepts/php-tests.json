@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PHP Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fukuball/jieba-php",
+      "status": "candidate-context",
+      "text": "\"\u7d50\u5df4\"\u4e2d\u6587\u5206\u8a5e\uff1a\u505a\u6700\u597d\u7684 PHP \u4e2d\u6587\u5206\u8a5e\u3001\u4e2d\u6587\u65b7\u8a5e\u7d44\u4ef6\u3002 / \"Jieba\" (Chinese for \"to stutter\") Chinese text segmentation: built to be the best PHP Chinese word segmentation module."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fukuball/jieba-php",
+      "status": "candidate-context",
+      "text": "PHP Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fukuball/jieba-php",
+      "status": "candidate",
+      "text": "PHP Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "assay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "sealer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "assizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "halma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "imperial"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PHP Tests",
+  "concept_id": "php-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/php-tests.yml",
+      "source_repo": "fukuball/jieba-php"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PHP Tests",
+      "sense_id": "php-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -19,12 +19,30 @@
       "source_repo": "NVIDIA/OpenShell",
       "status": "candidate-context",
       "text": "Docker Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caddyserver/caddy-docker",
+      "status": "candidate-context",
+      "text": "Source for the official Caddy v2 Docker Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caddyserver/caddy-docker",
+      "status": "candidate-context",
+      "text": "Docker Build"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "NVIDIA/OpenShell",
+      "status": "candidate",
+      "text": "Docker Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caddyserver/caddy-docker",
       "status": "candidate",
       "text": "Docker Build"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": ".github/workflows/docker-build.yml",
       "source_repo": "NVIDIA/OpenShell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "caddyserver/caddy-docker"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

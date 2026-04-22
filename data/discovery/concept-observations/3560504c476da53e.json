@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GURU: Ebuild repository entirely maintained by Gentoo users"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "pkgcheck"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "pkgcheck"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "pkgcheck",
+      "sense_id": "pkgcheck#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pkgcheck",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pkgcheck",
+  "observation_id": "3560504c476da53e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "pkgcheck",
+  "source_context_snippet": "pkgcheck",
+  "source_file": ".github/workflows/pkgcheck.yml",
+  "source_repo": "gentoo-mirror/guru",
+  "source_repo_description": "GURU: Ebuild repository entirely maintained by Gentoo users"
+}

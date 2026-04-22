@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ide-features"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DamnWidget/anaconda",
+      "status": "candidate-context",
+      "text": "Anaconda turns your Sublime Text 3 in a full featured Python development IDE including autocompletion, code linting, IDE features, autopep8 formating, McCabe complexity checker Vagrant and Docker support for Sublime Text 3 using Jedi, PyFlakes, pep8, MyPy, PyLint, pep257 and McCabe that will never freeze your Sublime Text 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DamnWidget/anaconda",
+      "status": "candidate-context",
+      "text": "**New versions of this plugin only works with Python >= 3.6 and requires Sublime Text 4 build >= 4107**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DamnWidget/anaconda",
+      "status": "candidate",
+      "text": "**New versions of this plugin only works with Python >= 3.6 and requires Sublime Text 4 build >= 4107**"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ide-features",
+  "concept_id": "ide-features",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "DamnWidget/anaconda"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ide-features",
+      "sense_id": "ide-features#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

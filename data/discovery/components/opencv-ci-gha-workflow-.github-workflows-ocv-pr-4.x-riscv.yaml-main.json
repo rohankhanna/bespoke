@@ -1,0 +1,12 @@
+{
+  "component": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-RISCV.yaml@main",
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/PR-4.x.yaml",
+      "source_repo": "opencv/opencv"
+    }
+  ]
+}

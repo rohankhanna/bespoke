@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fxsjy/jieba",
+      "target": "anderscui/jieba.net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fxsjy/jieba",
+      "target": "452896915/jieba-android",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fxsjy/jieba",
+      "target": "baidu/lac",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fxsjy/jieba",
+      "target": "baidu/anyq",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:25:29.777696+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24926
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u7ed3\u5df4\u4e2d\u6587\u5206\u8bcd",
+    "fork": false,
+    "full_name": "fxsjy/jieba",
+    "html_url": "https://github.com/fxsjy/jieba",
+    "language": "Python",
+    "pushed_at": "2024-08-21T09:23:45Z",
+    "stargazers_count": 34916,
+    "topics": [],
+    "updated_at": "2026-04-22T04:19:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "452896915/jieba-android",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anderscui/jieba.net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baidu/anyq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baidu/lac",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "wayland"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-windowing/winit",
+      "status": "candidate-context",
+      "text": "Window handling library in pure Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-windowing/winit",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/winit.svg)](https://crates.io/crates/winit)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-windowing/winit",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/winit.svg)](https://crates.io/crates/winit)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28543637,
+      "status": "candidate",
+      "text": "wieland"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19851399,
+      "status": "candidate",
+      "text": "wayland the smith"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19851398,
+      "status": "candidate",
+      "text": "reproductive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019407,
+      "status": "candidate",
+      "text": "wotan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019406,
+      "status": "candidate",
+      "text": "wyrd"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "wayland the smith"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "wieland"
+    }
+  ],
+  "canonical_name": "wayland",
+  "concept_id": "wayland",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "rust-windowing/winit"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wayland",
+      "sense_id": "wayland#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

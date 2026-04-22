@@ -56,6 +56,30 @@
       "source_repo": "libgit2/libgit2",
       "status": "candidate-context",
       "text": "Nightly Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ml-explore/mlx",
+      "status": "candidate-context",
+      "text": "MLX: An array framework for Apple silicon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ml-explore/mlx",
+      "status": "candidate-context",
+      "text": "Nightly Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfontanini/presenterm",
+      "status": "candidate-context",
+      "text": "A markdown terminal slideshow tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfontanini/presenterm",
+      "status": "candidate-context",
+      "text": "Nightly build"
     }
   ],
   "candidate_glosses": [
@@ -76,6 +100,18 @@
       "source_repo": "libgit2/libgit2",
       "status": "candidate",
       "text": "Nightly Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ml-explore/mlx",
+      "status": "candidate",
+      "text": "Nightly Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfontanini/presenterm",
+      "status": "candidate",
+      "text": "Nightly build"
     }
   ],
   "candidate_related_terms": [
@@ -143,11 +179,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "libgit2/libgit2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ml-explore/mlx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "mfontanini/presenterm"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

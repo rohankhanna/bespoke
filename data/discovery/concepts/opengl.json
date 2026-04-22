@@ -43,6 +43,18 @@
       "source_repo": "kovidgoyal/kitty",
       "status": "candidate-context",
       "text": "module github.com/kovidgoyal/kitty go 1.26.0 toolchain go1.26.2 require ( github.com/ALTree/bigfloat v0.2.0 github.com/alecthomas/chroma/v2 v2.23.1 github.com/bmatcuk/doublestar/v4 v4.10.0 github.com/dlclark/regexp2 v1.11.5 github.com/ebitengine/purego v0.10.0 github.com/emmansu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gfx-rs/gfx",
+      "status": "candidate-context",
+      "text": "[maintenance mode] A low-overhead Vulkan-like GPU API for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/gfx",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "kovidgoyal/kitty",
       "status": "candidate",
       "text": "module github.com/kovidgoyal/kitty go 1.26.0 toolchain go1.26.2 require ( github.com/ALTree/bigfloat v0.2.0 github.com/alecthomas/chroma/v2 v2.23.1 github.com/bmatcuk/doublestar/v4 v4.10.0 github.com/dlclark/regexp2 v1.11.5 github.com/ebitengine/purego v0.10.0 github.com/emmansu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/gfx",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "kovidgoyal/kitty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "gfx-rs/gfx"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

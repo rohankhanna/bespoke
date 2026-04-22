@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tensors and Dynamic neural networks in Python with strong GPU acceleration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Upload Flash Attention 3 wheels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Upload Flash Attention 3 wheels"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31914,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31894,
+      "status": "candidate",
+      "text": "blaze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31894,
+      "status": "candidate",
+      "text": "preload"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31894,
+      "status": "candidate",
+      "text": "preloaded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31885,
+      "status": "candidate",
+      "text": "train"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Upload Flash Attention 3 wheels",
+      "sense_id": "upload-flash-attention-3-wheels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "upload-flash-attention-3-wheels",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "upload-flash-attention-3-wheels",
+  "observation_id": "daefee39d2f95bf8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "Upload Flash Attention 3 wheels",
+  "source_context_snippet": "Upload Flash Attention 3 wheels",
+  "source_file": ".github/workflows/_binary-upload-flash-attention-wheel.yml",
+  "source_repo": "pytorch/pytorch",
+  "source_repo_description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration"
+}

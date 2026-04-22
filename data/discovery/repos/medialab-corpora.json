@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T04:55:23.583172+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 386
+    },
+    {
+      "path": "requirements.txt",
+      "size": 21
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Collection of public small-scale corpora used and maintained by the lab.",
+    "fork": false,
+    "full_name": "medialab/corpora",
+    "html_url": "https://github.com/medialab/corpora",
+    "language": "Python",
+    "pushed_at": "2025-01-23T15:53:58Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-02-22T10:50:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

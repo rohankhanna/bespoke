@@ -466,6 +466,54 @@
       "source_repo": "opencontainers/tob",
       "status": "candidate-context",
       "text": "The TOB is responsible for managing conflicts, violations of procedures or guidelines and any cross-project or high-level issues that cannot be resolved in the TDC for OCI Projects. The TOB shall also be responsible for adding, removing or reorganizing OCI Projects."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RekGRpth/pg_task",
+      "status": "candidate-context",
+      "text": "pg_task - job scheduler for PostgreSQL, Greenplum and Greengage: asynchronous background execution of SQL commands at user-defined time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RekGRpth/pg_task",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oras-project/oras",
+      "status": "candidate-context",
+      "text": "OCI registry client - managing content like artifacts, images, packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oras-project/oras",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/oras-project/oras/actions/workflows/build.yml/badge.svg?event=push)](https://github.com/oras-project/oras/actions/workflows/build.yml?query=workflow%3Abuild+event%3Apush)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/go-containerregistry",
+      "status": "candidate-context",
+      "text": "Go library and CLIs for working with container registries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/go-containerregistry",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions Build Status](https://github.com/google/go-containerregistry/workflows/Build/badge.svg)](https://github.com/google/go-containerregistry/actions?query=workflow%3ABuild)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "krallin/tini",
+      "status": "candidate-context",
+      "text": "A tiny but valid `init` for containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krallin/tini",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -696,6 +744,30 @@
       "source_repo": "opencontainers/tob",
       "status": "candidate",
       "text": "The TOB is responsible for managing conflicts, violations of procedures or guidelines and any cross-project or high-level issues that cannot be resolved in the TDC for OCI Projects. The TOB shall also be responsible for adding, removing or reorganizing OCI Projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RekGRpth/pg_task",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oras-project/oras",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/oras-project/oras/actions/workflows/build.yml/badge.svg?event=push)](https://github.com/oras-project/oras/actions/workflows/build.yml?query=workflow%3Abuild+event%3Apush)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/go-containerregistry",
+      "status": "candidate",
+      "text": "[![GitHub Actions Build Status](https://github.com/google/go-containerregistry/workflows/Build/badge.svg)](https://github.com/google/go-containerregistry/actions?query=workflow%3ABuild)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "krallin/tini",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -1039,11 +1111,65 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": null,
       "source_repo": "ethpandaops/ethereum-helm-charts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "RekGRpth/pg_task"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "oras-project/oras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "google/go-containerregistry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "krallin/tini"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "ElricLiu/AutoGPT-Next-Web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coaidev/blob-service"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

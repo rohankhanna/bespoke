@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -51,6 +51,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/auto-merge.yml",
       "source_repo": "crisidev/bacon-ls"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/automerge-dependabot.yaml",
+      "source_repo": "prometheus-operator/prometheus-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "0xERR0R/blocky"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "bentoml/OpenLLM"
     }
   ],
   "term": "Dependabot Auto Merge"

@@ -1,0 +1,412 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-std.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-std.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/configure.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/configure.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contribs.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys-cygwin.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys-cygwin.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys-cygwin.yml"
+    },
+    {
+      "component": "cygwin/cygwin-install-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys-cygwin.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/others.yml"
+    },
+    {
+      "component": "vmactions/dragonflybsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/others.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/others.yml"
+    },
+    {
+      "component": "vmactions/freebsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/others.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/others.yml"
+    },
+    {
+      "component": "vmactions/netbsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/others.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/others.yml"
+    },
+    {
+      "component": "vmactions/omnios-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/others.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/others.yml"
+    },
+    {
+      "component": "vmactions/openbsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/others.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/others.yml"
+    },
+    {
+      "component": "vmactions/openindiana-vm@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/others.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/others.yml"
+    },
+    {
+      "component": "vmactions/solaris-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/others.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-std.yml",
+      "source_repo": "madler/zlib",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/c-std.yml",
+      "source_repo": "madler/zlib",
+      "target": "C Standard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "madler/zlib",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "madler/zlib",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "madler/zlib",
+      "target": "CMake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/configure.yml",
+      "source_repo": "madler/zlib",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/configure.yml",
+      "source_repo": "madler/zlib",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/configure.yml",
+      "source_repo": "madler/zlib",
+      "target": "Configure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contribs.yml",
+      "source_repo": "madler/zlib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contribs.yml",
+      "source_repo": "madler/zlib",
+      "target": "contribs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "madler/zlib",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "madler/zlib",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "madler/zlib",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "madler/zlib",
+      "target": "OSS-Fuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys-cygwin.yml",
+      "source_repo": "madler/zlib",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys-cygwin.yml",
+      "source_repo": "madler/zlib",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys-cygwin.yml",
+      "source_repo": "madler/zlib",
+      "target": "cygwin/cygwin-install-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/others.yml",
+      "source_repo": "madler/zlib",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/others.yml",
+      "source_repo": "madler/zlib",
+      "target": "vmactions/dragonflybsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/others.yml",
+      "source_repo": "madler/zlib",
+      "target": "vmactions/freebsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/others.yml",
+      "source_repo": "madler/zlib",
+      "target": "vmactions/netbsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/others.yml",
+      "source_repo": "madler/zlib",
+      "target": "vmactions/omnios-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/others.yml",
+      "source_repo": "madler/zlib",
+      "target": "vmactions/openbsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/others.yml",
+      "source_repo": "madler/zlib",
+      "target": "vmactions/openindiana-vm@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/others.yml",
+      "source_repo": "madler/zlib",
+      "target": "vmactions/solaris-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/others.yml",
+      "source_repo": "madler/zlib",
+      "target": "anyVM-OSes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:10:19.261260+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/c-std.yml",
+      "size": 6990
+    },
+    {
+      "path": ".github/workflows/cmake.yml",
+      "size": 4424
+    },
+    {
+      "path": ".github/workflows/configure.yml",
+      "size": 4754
+    },
+    {
+      "path": ".github/workflows/contribs.yml",
+      "size": 1879
+    },
+    {
+      "path": ".github/workflows/fuzz.yml",
+      "size": 601
+    },
+    {
+      "path": ".github/workflows/msys-cygwin.yml",
+      "size": 2322
+    },
+    {
+      "path": ".github/workflows/others.yml",
+      "size": 3995
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "A massively spiffy yet delicately unobtrusive compression library.",
+    "fork": false,
+    "full_name": "madler/zlib",
+    "html_url": "https://github.com/madler/zlib",
+    "language": "C",
+    "pushed_at": "2026-03-27T22:39:38Z",
+    "stargazers_count": 6818,
+    "topics": [],
+    "updated_at": "2026-04-22T00:30:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "C Standard",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/c-std.yml",
+      "term": "C Standard"
+    },
+    {
+      "context_snippet": "CMake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "term": "CMake"
+    },
+    {
+      "context_snippet": "Configure",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/configure.yml",
+      "term": "Configure"
+    },
+    {
+      "context_snippet": "contribs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contribs.yml",
+      "term": "contribs"
+    },
+    {
+      "context_snippet": "OSS-Fuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz.yml",
+      "term": "OSS-Fuzz"
+    },
+    {
+      "context_snippet": "anyVM-OSes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/others.yml",
+      "term": "anyVM-OSes"
+    }
+  ]
+}

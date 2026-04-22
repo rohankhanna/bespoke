@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A new multi-shot video understanding benchmark Shot2Story with comprehensive video summaries and detailed shot-level captions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href='https://mingfei.info/shot2story/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href='https://mingfei.info/shot2story/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "video-language-pretraining",
+      "sense_id": "video-language-pretraining#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "video-language-pretraining",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "video-language-pretraining",
+  "observation_id": "5555abb6476ec100",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "video-language-pretraining",
+  "source_context_snippet": "<a href='https://mingfei.info/shot2story/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>",
+  "source_file": null,
+  "source_repo": "bytedance/Shot2Story",
+  "source_repo_description": "A new multi-shot video understanding benchmark Shot2Story with comprehensive video summaries and detailed shot-level captions."
+}

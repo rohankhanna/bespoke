@@ -43,6 +43,42 @@
       "source_repo": "pyodide/micropip",
       "status": "candidate-context",
       "text": "[![PyPI Latest Release](https://img.shields.io/pypi/v/micropip.svg)](https://pypi.org/project/micropip/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vmware-labs/mod_wasm",
+      "status": "candidate-context",
+      "text": "mod_wasm is an extension module for the Apache HTTP Server (httpd) that enables the usage of WebAssembly (Wasm). This module allows the execution of certain tasks in the backend in a very efficient and secure way."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmware-labs/mod_wasm",
+      "status": "candidate-context",
+      "text": "<br/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vmware-labs/wasm-workers-server",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Develop and run serverless applications on WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmware-labs/wasm-workers-server",
+      "status": "candidate-context",
+      "text": "<br/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebAssembly/binaryen",
+      "status": "candidate-context",
+      "text": "Optimizer and compiler/toolchain library for WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/binaryen",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "pyodide/micropip",
       "status": "candidate",
       "text": "[![PyPI Latest Release](https://img.shields.io/pypi/v/micropip.svg)](https://pypi.org/project/micropip/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmware-labs/mod_wasm",
+      "status": "candidate",
+      "text": "<br/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vmware-labs/wasm-workers-server",
+      "status": "candidate",
+      "text": "<br/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/binaryen",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +142,29 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "pyodide/micropip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "vmware-labs/mod_wasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "vmware-labs/wasm-workers-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "WebAssembly/binaryen"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

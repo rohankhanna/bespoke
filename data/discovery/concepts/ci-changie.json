@@ -19,12 +19,30 @@
       "source_repo": "hashicorp/terraform-plugin-docs",
       "status": "candidate-context",
       "text": "ci-changie"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/terraform-provider-random",
+      "status": "candidate-context",
+      "text": "Utility provider that supports the use of randomness within Terraform configurations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-random",
+      "status": "candidate-context",
+      "text": "ci-changie"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "hashicorp/terraform-plugin-docs",
+      "status": "candidate",
+      "text": "ci-changie"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-random",
       "status": "candidate",
       "text": "ci-changie"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/ci-changie.yml",
       "source_repo": "hashicorp/terraform-plugin-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/ci-changie.yml",
+      "source_repo": "hashicorp/terraform-provider-random"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

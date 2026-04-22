@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "karpathy/minGPT",
+      "target": "openai/gpt-2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "karpathy/minGPT",
+      "target": "openai/image-gpt",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:09:07.490737+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9853
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A minimal PyTorch re-implementation of the OpenAI GPT (Generative Pretrained Transformer) training",
+    "fork": false,
+    "full_name": "karpathy/minGPT",
+    "html_url": "https://github.com/karpathy/minGPT",
+    "language": "Python",
+    "pushed_at": "2024-08-15T04:09:40Z",
+    "stargazers_count": 24206,
+    "topics": [],
+    "updated_at": "2026-04-22T04:15:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/gpt-2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/image-gpt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

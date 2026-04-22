@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Remove contributors with deleted accounts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DefinitelyTyped/DefinitelyTyped",
+      "status": "candidate-context",
+      "text": "The repository for high quality TypeScript type definitions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DefinitelyTyped/DefinitelyTyped",
+      "status": "candidate-context",
+      "text": "Remove contributors with deleted accounts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DefinitelyTyped/DefinitelyTyped",
+      "status": "candidate",
+      "text": "Remove contributors with deleted accounts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31717,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31717,
+      "status": "candidate",
+      "text": "cuts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31593,
+      "status": "candidate",
+      "text": "clearance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31593,
+      "status": "candidate",
+      "text": "die"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27138,
+      "status": "candidate",
+      "text": "delete"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Remove contributors with deleted accounts",
+  "concept_id": "remove-contributors-with-deleted-accounts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/ghostbuster.yml",
+      "source_repo": "DefinitelyTyped/DefinitelyTyped"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Remove contributors with deleted accounts",
+      "sense_id": "remove-contributors-with-deleted-accounts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

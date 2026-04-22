@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Test Suite",
-    "test suite"
+    "test suite",
+    "Test suite"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "agronholm/anyio",
       "status": "candidate-context",
       "text": "test suite"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rtomayko/tilt",
+      "status": "candidate-context",
+      "text": "Generic interface to multiple Ruby template engines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rtomayko/tilt",
+      "status": "candidate-context",
+      "text": "\"Test suite\""
     }
   ],
   "candidate_glosses": [
@@ -46,6 +59,12 @@
       "source_repo": "agronholm/anyio",
       "status": "candidate",
       "text": "test suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rtomayko/tilt",
+      "status": "candidate",
+      "text": "\"Test suite\""
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +120,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "agronholm/anyio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rtomayko/tilt"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

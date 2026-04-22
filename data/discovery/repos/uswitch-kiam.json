@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uswitch/kiam",
+      "target": "aws/amazon-vpc-cni-k8s",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uswitch/kiam",
+      "target": "lyft/cni-ipvlan-vpc-k8s",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uswitch/kiam",
+      "target": "kubernetes/kops",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uswitch/kiam",
+      "target": "aws-iam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uswitch/kiam",
+      "target": "iam-role",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "uswitch/kiam",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:51:09.150889+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10217
+    },
+    {
+      "path": "Dockerfile",
+      "size": 678
+    },
+    {
+      "path": "go.mod",
+      "size": 1255
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Integrate AWS IAM with Kubernetes",
+    "fork": false,
+    "full_name": "uswitch/kiam",
+    "html_url": "https://github.com/uswitch/kiam",
+    "language": "Go",
+    "pushed_at": "2024-03-05T11:39:28Z",
+    "stargazers_count": 1141,
+    "topics": [
+      "aws-iam",
+      "iam",
+      "iam-role",
+      "kubernetes"
+    ],
+    "updated_at": "2026-03-20T21:00:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/amazon-vpc-cni-k8s",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes/kops",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lyft/cni-ipvlan-vpc-k8s",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Docker Repository on Quay](https://quay.io/repository/uswitch/kiam/status \"Docker Repository on Quay\")](https://quay.io/repository/uswitch/kiam)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-iam"
+    },
+    {
+      "context_snippet": "[![Docker Repository on Quay](https://quay.io/repository/uswitch/kiam/status \"Docker Repository on Quay\")](https://quay.io/repository/uswitch/kiam)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iam-role"
+    },
+    {
+      "context_snippet": "[![Docker Repository on Quay](https://quay.io/repository/uswitch/kiam/status \"Docker Repository on Quay\")](https://quay.io/repository/uswitch/kiam)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    }
+  ]
+}

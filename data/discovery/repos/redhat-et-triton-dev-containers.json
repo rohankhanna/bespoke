@@ -1,0 +1,459 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-image-sbom.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-image-sbom.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-image-sbom.yml"
+    },
+    {
+      "component": "aquasecurity/trivy-action@0.35.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-image-sbom.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-image-sbom.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-build.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-build.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-build.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-build.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-sbom.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-sbom.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-sbom.yml"
+    },
+    {
+      "component": "aquasecurity/trivy-action@0.35.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-sbom.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-sbom.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-image-sbom.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-image-sbom.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "sigstore/cosign-installer@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-image-sbom.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-image-sbom.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "aquasecurity/trivy-action@0.35.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-image-sbom.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amd-image-sbom.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "amd-image-sbom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amd-image.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "amd-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu-image.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "cpu-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gosu-image.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "gosu-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-build.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-build.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-build.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-build.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "sigstore/cosign-installer@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-build.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-build.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-build.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "actions/attest-build-provenance@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image-build.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "image-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-sbom.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-sbom.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "sigstore/cosign-installer@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-sbom.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-sbom.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "aquasecurity/trivy-action@0.35.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image-sbom.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image-sbom.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "image-sbom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nvidia-image.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "nvidia-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "Pre-commit auto-update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "redhat-et/triton-dev-containers",
+      "target": "pre-commit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:02:24.861905+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6618
+    },
+    {
+      "path": ".github/workflows/amd-image-sbom.yml",
+      "size": 1633
+    },
+    {
+      "path": ".github/workflows/amd-image.yml",
+      "size": 1764
+    },
+    {
+      "path": ".github/workflows/cpu-image.yml",
+      "size": 1764
+    },
+    {
+      "path": ".github/workflows/gosu-image.yml",
+      "size": 1030
+    },
+    {
+      "path": ".github/workflows/image-build.yml",
+      "size": 2680
+    },
+    {
+      "path": ".github/workflows/image-sbom.yml",
+      "size": 1895
+    },
+    {
+      "path": ".github/workflows/nvidia-image.yml",
+      "size": 1776
+    },
+    {
+      "path": ".github/workflows/pre-commit-autoupdate.yml",
+      "size": 1131
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 273
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Development containers for triton and triton-cpu",
+    "fork": false,
+    "full_name": "redhat-et/triton-dev-containers",
+    "html_url": "https://github.com/redhat-et/triton-dev-containers",
+    "language": "Python",
+    "pushed_at": "2026-04-17T14:59:22Z",
+    "stargazers_count": 27,
+    "topics": [],
+    "updated_at": "2026-04-17T14:59:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "amd-image-sbom",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amd-image-sbom.yml",
+      "term": "amd-image-sbom"
+    },
+    {
+      "context_snippet": "amd-image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amd-image.yml",
+      "term": "amd-image"
+    },
+    {
+      "context_snippet": "cpu-image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu-image.yml",
+      "term": "cpu-image"
+    },
+    {
+      "context_snippet": "gosu-image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gosu-image.yml",
+      "term": "gosu-image"
+    },
+    {
+      "context_snippet": "image-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image-build.yml",
+      "term": "image-build"
+    },
+    {
+      "context_snippet": "image-sbom",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image-sbom.yml",
+      "term": "image-sbom"
+    },
+    {
+      "context_snippet": "nvidia-image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nvidia-image.yml",
+      "term": "nvidia-image"
+    },
+    {
+      "context_snippet": "Pre-commit auto-update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "term": "Pre-commit auto-update"
+    },
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "pre-commit"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Implementation of a memory efficient multi-head attention as proposed in the paper, \"Self-attention Does Not Need O(n\u00b2) Memory\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Implementation of a memory efficient multi-head attention as proposed in the paper, <a href=\"https://arxiv.org/abs/2112.05682\">Self-attention Does Not Need O(n\u00b2) Memory</a>. In addition, the module will take care of masking, causal masking, as well as cross attention."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Implementation of a memory efficient multi-head attention as proposed in the paper, <a href=\"https://arxiv.org/abs/2112.05682\">Self-attention Does Not Need O(n\u00b2) Memory</a>. In addition, the module will take care of masking, causal masking, as well as cross attention."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "artificial-intelligence",
+      "sense_id": "artificial-intelligence#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "artificial-intelligence",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "artificial-intelligence",
+  "observation_id": "22669bbaf43322f8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "artificial-intelligence",
+  "source_context_snippet": "Implementation of a memory efficient multi-head attention as proposed in the paper, <a href=\"https://arxiv.org/abs/2112.05682\">Self-attention Does Not Need O(n\u00b2) Memory</a>. In addition, the module will take care of masking, causal masking, as well as cross attention.",
+  "source_file": null,
+  "source_repo": "lucidrains/memory-efficient-attention-pytorch",
+  "source_repo_description": "Implementation of a memory efficient multi-head attention as proposed in the paper, \"Self-attention Does Not Need O(n\u00b2) Memory\""
+}

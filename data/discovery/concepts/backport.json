@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Backport"
+    "Backport",
+    "backport"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -55,6 +56,30 @@
       "source_repo": "elastic/go-elasticsearch",
       "status": "candidate-context",
       "text": "Backport"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-java",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Java SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-java",
+      "status": "candidate-context",
+      "text": "Backport"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neovim/neovim",
+      "status": "candidate-context",
+      "text": "Vim-fork focused on extensibility and usability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neovim/neovim",
+      "status": "candidate-context",
+      "text": "backport"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +106,18 @@
       "source_repo": "elastic/go-elasticsearch",
       "status": "candidate",
       "text": "Backport"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-java",
+      "status": "candidate",
+      "text": "Backport"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neovim/neovim",
+      "status": "candidate",
+      "text": "backport"
     }
   ],
   "candidate_related_terms": [
@@ -154,11 +191,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/backport.yml",
       "source_repo": "elastic/go-elasticsearch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "open-telemetry/opentelemetry-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "neovim/neovim"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

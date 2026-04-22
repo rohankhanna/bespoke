@@ -19,6 +19,18 @@
       "source_repo": "coderaiser/estree-to-babel",
       "status": "candidate-context",
       "text": "[NPMIMGURL]: https://img.shields.io/npm/v/estree-to-babel.svg?style=flat&longCache=true"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "estree/estree",
+      "status": "candidate-context",
+      "text": "The ESTree Spec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "estree/estree",
+      "status": "candidate-context",
+      "text": "Once upon a time, an [unsuspecting Mozilla engineer](http://calculist.org) created an API in Firefox that exposed the SpiderMonkey engine's JavaScript parser as a JavaScript API. Said engineer [documented the format it produced](https://web.archive.org/web/20210314002546/https:/\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "coderaiser/estree-to-babel",
       "status": "candidate",
       "text": "[NPMIMGURL]: https://img.shields.io/npm/v/estree-to-babel.svg?style=flat&longCache=true"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "estree/estree",
+      "status": "candidate",
+      "text": "Once upon a time, an [unsuspecting Mozilla engineer](http://calculist.org) created an API in Firefox that exposed the SpiderMonkey engine's JavaScript parser as a JavaScript API. Said engineer [documented the format it produced](https://web.archive.org/web/20210314002546/https:/\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "coderaiser/estree-to-babel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "estree/estree"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

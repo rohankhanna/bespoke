@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "jedi"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isamert/gedi",
+      "status": "candidate-context",
+      "text": "a python code completion plugin for gedit3+"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isamert/gedi",
+      "status": "candidate-context",
+      "text": "A python code completion plugin for gedit. Built with the Jedi auto completion library by David Halter (https://github.com/davidhalter/jedi)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isamert/gedi",
+      "status": "candidate",
+      "text": "A python code completion plugin for gedit. Built with the Jedi auto completion library by David Halter (https://github.com/davidhalter/jedi)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29863783,
+      "status": "candidate",
+      "text": "down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29813062,
+      "status": "candidate",
+      "text": "dishes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28478500,
+      "status": "candidate",
+      "text": "hondo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19950180,
+      "status": "candidate",
+      "text": "cdia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19950180,
+      "status": "candidate",
+      "text": "cesi"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "jedi",
+  "concept_id": "jedi",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "isamert/gedi"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jedi",
+      "sense_id": "jedi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

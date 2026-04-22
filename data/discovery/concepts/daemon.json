@@ -31,6 +31,18 @@
       "source_repo": "CoolCat467/idlemypyextension",
       "status": "candidate-context",
       "text": "Python IDLE extension to perform mypy analysis on an open file"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coreybutler/node-windows",
+      "status": "candidate-context",
+      "text": "Windows support for Node.JS scripts (daemons, eventlog, UAC, etc)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coreybutler/node-windows",
+      "status": "candidate-context",
+      "text": "![NPM version](https://img.shields.io/npm/v/node-windows?label=node-windows&logo=npm&style=for-the-badge)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "CoolCat467/idlemypyextension",
       "status": "candidate",
       "text": "Python IDLE extension to perform mypy analysis on an open file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coreybutler/node-windows",
+      "status": "candidate",
+      "text": "![NPM version](https://img.shields.io/npm/v/node-windows?label=node-windows&logo=npm&style=for-the-badge)"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "CoolCat467/idlemypyextension"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/node-windows"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

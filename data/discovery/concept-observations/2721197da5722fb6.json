@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd84 Like polyfill but with pony pureness"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ud83e\udd84 Like polyfill but with pony pureness"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ud83e\udd84 Like polyfill but with pony pureness"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30031026,
+      "status": "candidate",
+      "text": "horses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30004807,
+      "status": "candidate",
+      "text": "scrambles"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29981262,
+      "status": "candidate",
+      "text": "mules"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29952015,
+      "status": "candidate",
+      "text": "groceries"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29850988,
+      "status": "candidate",
+      "text": "trots"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ponies",
+      "sense_id": "ponies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ponies",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ponies",
+  "observation_id": "2721197da5722fb6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "ponies",
+  "source_context_snippet": "\ud83e\udd84 Like polyfill but with pony pureness",
+  "source_file": null,
+  "source_repo": "sindresorhus/ponyfill",
+  "source_repo_description": "\ud83e\udd84 Like polyfill but with pony pureness"
+}

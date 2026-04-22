@@ -19,12 +19,30 @@
       "source_repo": "helm/charts-repo-actions-demo",
       "status": "candidate-context",
       "text": "Release Charts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus-community/helm-charts",
+      "status": "candidate-context",
+      "text": "Prometheus community Helm charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-community/helm-charts",
+      "status": "candidate-context",
+      "text": "Release Charts"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "helm/charts-repo-actions-demo",
+      "status": "candidate",
+      "text": "Release Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-community/helm-charts",
       "status": "candidate",
       "text": "Release Charts"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "helm/charts-repo-actions-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "prometheus-community/helm-charts"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

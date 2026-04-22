@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "generate CobaltStrike's cross-platform payload"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Create Base Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Create Base Release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34498,
+      "status": "candidate",
+      "text": "force"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34498,
+      "status": "candidate",
+      "text": "forces"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26677,
+      "status": "candidate",
+      "text": "parted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26167,
+      "status": "candidate",
+      "text": "parted leaf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19179,
+      "status": "candidate",
+      "text": "drive"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create Base Release",
+      "sense_id": "create-base-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "create-base-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "create-base-release",
+  "observation_id": "5856918481c6955b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "Create Base Release",
+  "source_context_snippet": "Create Base Release",
+  "source_file": ".github/workflows/create-base-release.yml",
+  "source_repo": "gloxec/CrossC2",
+  "source_repo_description": "generate CobaltStrike's cross-platform payload"
+}

@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "component": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v0.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml@v7.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bazelbuild/bazel-skylib",
+      "target": "bazelbuild/bazel-gazelle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "bazelbuild/bazel-skylib",
+      "target": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v0.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "bazelbuild/bazel-skylib",
+      "target": "Publish to BCR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bazelbuild/bazel-skylib",
+      "target": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml@v7.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bazelbuild/bazel-skylib",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/bazel-skylib",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/bazel-skylib",
+      "target": "bazel-rules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/bazel-skylib",
+      "target": "starlark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:07:27.735134+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6593
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 1110
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 898
+    },
+    {
+      "path": ".github/workflows/release_prep.sh",
+      "size": 2311
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Common useful functions and rules for Bazel",
+    "fork": false,
+    "full_name": "bazelbuild/bazel-skylib",
+    "html_url": "https://github.com/bazelbuild/bazel-skylib",
+    "language": "Starlark",
+    "pushed_at": "2026-03-25T20:56:48Z",
+    "stargazers_count": 438,
+    "topics": [
+      "bazel",
+      "bazel-rules",
+      "starlark"
+    ],
+    "updated_at": "2026-04-13T05:45:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bazelbuild/bazel-gazelle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to BCR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Publish to BCR"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/921dc61e2d3a350ec40efb291914360c0bfa9b6196fa357420.svg?branch=main)](https://buildkite.com/bazel/bazel-skylib)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/921dc61e2d3a350ec40efb291914360c0bfa9b6196fa357420.svg?branch=main)](https://buildkite.com/bazel/bazel-skylib)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel-rules"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/921dc61e2d3a350ec40efb291914360c0bfa9b6196fa357420.svg?branch=main)](https://buildkite.com/bazel/bazel-skylib)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starlark"
+    }
+  ]
+}

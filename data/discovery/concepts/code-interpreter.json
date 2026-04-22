@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "code-interpreter"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leezhuuuuu/Code-Interpreter-Api",
+      "status": "candidate-context",
+      "text": "Committed to being the best code interpreter in the world."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leezhuuuuu/Code-Interpreter-Api",
+      "status": "candidate-context",
+      "text": "[English](https://github.com/leezhuuuuu/Code-Interpreter-Api/blob/main/README_EN.md) | [\u4e2d\u6587](https://github.com/leezhuuuuu/Code-Interpreter-Api/blob/main/README.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leezhuuuuu/Code-Interpreter-Api",
+      "status": "candidate",
+      "text": "[English](https://github.com/leezhuuuuu/Code-Interpreter-Api/blob/main/README_EN.md) | [\u4e2d\u6587](https://github.com/leezhuuuuu/Code-Interpreter-Api/blob/main/README.md)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "code-interpreter",
+  "concept_id": "code-interpreter",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "leezhuuuuu/Code-Interpreter-Api"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "code-interpreter",
+      "sense_id": "code-interpreter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

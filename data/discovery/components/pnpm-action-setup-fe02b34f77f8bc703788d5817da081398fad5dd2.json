@@ -1,0 +1,12 @@
+{
+  "component": "pnpm/action-setup@fe02b34f77f8bc703788d5817da081398fad5dd2",
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/frontend_profiling.yml",
+      "source_repo": "gradio-app/gradio"
+    }
+  ]
+}

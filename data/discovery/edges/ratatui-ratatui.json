@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ratatui/ratatui",
-      "target": "ratatui/templates",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ratatui/ratatui",
-      "target": "ratatui/awesome-ratatui",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-pr.yml",
       "source_repo": "ratatui/ratatui",
@@ -225,6 +211,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "generated_at": "2026-04-22T04:49:29.633207+00:00",
   "source_repo": "ratatui/ratatui"
 }

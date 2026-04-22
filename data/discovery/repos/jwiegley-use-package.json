@@ -1,0 +1,233 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jwiegley/use-package",
+      "target": "myrjola/diminish.el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jwiegley/use-package",
+      "target": "rranelli/auto-package-update.el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jwiegley/use-package",
+      "target": "raxod502/straight.el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jwiegley/use-package",
+      "target": "purcell/exec-path-from-shell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jwiegley/use-package",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jwiegley/use-package",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jwiegley/use-package",
+      "target": "Main workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwiegley/use-package",
+      "target": "autoload",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwiegley/use-package",
+      "target": "deferred-loading",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwiegley/use-package",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwiegley/use-package",
+      "target": "emacs-lisp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwiegley/use-package",
+      "target": "handler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwiegley/use-package",
+      "target": "keymap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwiegley/use-package",
+      "target": "keyword",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jwiegley/use-package",
+      "target": "melpa",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:12:33.278158+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 43536
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 903
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A use-package declaration for simplifying your .emacs",
+    "fork": false,
+    "full_name": "jwiegley/use-package",
+    "html_url": "https://github.com/jwiegley/use-package",
+    "language": "Emacs Lisp",
+    "pushed_at": "2025-08-23T17:49:46Z",
+    "stargazers_count": 4471,
+    "topics": [
+      "autoload",
+      "deferred-loading",
+      "emacs",
+      "emacs-lisp",
+      "handler",
+      "keymap",
+      "keyword",
+      "melpa"
+    ],
+    "updated_at": "2026-04-18T07:19:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "myrjola/diminish.el",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "purcell/exec-path-from-shell",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raxod502/straight.el",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rranelli/auto-package-update.el",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Main workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Main workflow"
+    },
+    {
+      "context_snippet": "Since `use-package` is now a part of Emacs core, all development has",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autoload"
+    },
+    {
+      "context_snippet": "Since `use-package` is now a part of Emacs core, all development has",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deferred-loading"
+    },
+    {
+      "context_snippet": "Since `use-package` is now a part of Emacs core, all development has",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "Since `use-package` is now a part of Emacs core, all development has",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-lisp"
+    },
+    {
+      "context_snippet": "Since `use-package` is now a part of Emacs core, all development has",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "handler"
+    },
+    {
+      "context_snippet": "Since `use-package` is now a part of Emacs core, all development has",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keymap"
+    },
+    {
+      "context_snippet": "Since `use-package` is now a part of Emacs core, all development has",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keyword"
+    },
+    {
+      "context_snippet": "Since `use-package` is now a part of Emacs core, all development has",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "melpa"
+    }
+  ]
+}

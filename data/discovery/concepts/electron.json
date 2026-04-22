@@ -19,6 +19,30 @@
       "source_repo": "LokerL/tts-vue",
       "status": "candidate-context",
       "text": "\ud83c\udfa4 \u5fae\u8f6f\u8bed\u97f3\u5408\u6210\u5de5\u5177\uff0c\u4f7f\u7528 `Electron` + `Vue` + `ElementPlus` + `Vite` \u6784\u5efa."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prebuild/prebuild",
+      "status": "candidate-context",
+      "text": "Deprecated. A command line tool for easily doing prebuilds for multiple version of node on a specific platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prebuild/prebuild",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/electron",
+      "status": "candidate-context",
+      "text": ":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/electron",
+      "status": "candidate-context",
+      "text": "[![Electron Logo](https://electronjs.org/images/electron-logo.svg)](https://electronjs.org)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "LokerL/tts-vue",
       "status": "candidate",
       "text": "\ud83c\udfa4 \u5fae\u8f6f\u8bed\u97f3\u5408\u6210\u5de5\u5177\uff0c\u4f7f\u7528 `Electron` + `Vue` + `ElementPlus` + `Vite` \u6784\u5efa."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prebuild/prebuild",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/electron",
+      "status": "candidate",
+      "text": "[![Electron Logo](https://electronjs.org/images/electron-logo.svg)](https://electronjs.org)"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +118,23 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "LokerL/tts-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "prebuild/prebuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

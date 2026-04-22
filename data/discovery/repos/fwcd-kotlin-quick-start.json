@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fwcd/kotlin-quick-start",
+      "target": "gradle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fwcd/kotlin-quick-start",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fwcd/kotlin-quick-start",
+      "target": "quickstart",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:14:11.565952+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 271
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Template Kotlin application using Gradle",
+    "fork": false,
+    "full_name": "fwcd/kotlin-quick-start",
+    "html_url": "https://github.com/fwcd/kotlin-quick-start",
+    "language": "Kotlin",
+    "pushed_at": "2022-04-26T20:00:55Z",
+    "stargazers_count": 45,
+    "topics": [
+      "gradle",
+      "kotlin",
+      "quickstart"
+    ],
+    "updated_at": "2026-04-20T07:48:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "An empty Kotlin project using Gradle.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle"
+    },
+    {
+      "context_snippet": "An empty Kotlin project using Gradle.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "An empty Kotlin project using Gradle.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quickstart"
+    }
+  ]
+}

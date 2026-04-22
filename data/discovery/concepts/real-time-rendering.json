@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "real-time-rendering"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/instant-ngp",
+      "status": "candidate-context",
+      "text": "Instant neural graphics primitives: lightning fast NeRF and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/instant-ngp",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/assets_readme/fox.gif\" height=\"342\"/> <img src=\"docs/assets_readme/robot5.gif\" height=\"342\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/instant-ngp",
+      "status": "candidate",
+      "text": "<img src=\"docs/assets_readme/fox.gif\" height=\"342\"/> <img src=\"docs/assets_readme/robot5.gif\" height=\"342\"/>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "real-time-rendering",
+  "concept_id": "real-time-rendering",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/instant-ngp"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "real-time-rendering",
+      "sense_id": "real-time-rendering#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

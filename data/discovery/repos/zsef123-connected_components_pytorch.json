@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T04:56:39.083540+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 44
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A PyTorch implementation of Connected Components Labeling",
+    "fork": false,
+    "full_name": "zsef123/Connected_components_PyTorch",
+    "html_url": "https://github.com/zsef123/Connected_components_PyTorch",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-06-08T11:32:24Z",
+    "stargazers_count": 124,
+    "topics": [],
+    "updated_at": "2026-03-29T06:09:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,22 @@
+{
+  "component": "rectalogic/notify-irc@v1",
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/duplicates.yml",
+      "source_repo": "gentoo-mirror/guru"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/emails.yml",
+      "source_repo": "gentoo-mirror/guru"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkgcheck.yml",
+      "source_repo": "gentoo-mirror/guru"
+    }
+  ]
+}

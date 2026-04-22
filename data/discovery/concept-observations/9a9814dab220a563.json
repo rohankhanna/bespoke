@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "IPFS multiaddr implementation in Elixir"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[IPFS multiaddr](https://multiformats.io/multiaddr/) implementation in Elixir"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[IPFS multiaddr](https://multiformats.io/multiaddr/) implementation in Elixir"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multiaddr",
+      "sense_id": "multiaddr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "multiaddr",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "multiaddr",
+  "observation_id": "9a9814dab220a563",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "multiaddr",
+  "source_context_snippet": "[IPFS multiaddr](https://multiformats.io/multiaddr/) implementation in Elixir",
+  "source_file": null,
+  "source_repo": "aratz-lasa/ex_multiaddr",
+  "source_repo_description": "IPFS multiaddr implementation in Elixir"
+}

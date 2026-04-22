@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "triton"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/iris",
+      "status": "candidate-context",
+      "text": "AMD RAD's multi-GPU Triton-based framework for seamless multi-GPU programming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/iris",
+      "status": "candidate-context",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/iris",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39199325,
+      "status": "candidate",
+      "text": "newt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19811447,
+      "status": "candidate",
+      "text": "tritium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19811446,
+      "status": "candidate",
+      "text": "trineutron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19811445,
+      "status": "candidate",
+      "text": "trion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19811443,
+      "status": "candidate",
+      "text": "trithorium"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3042,
+      "status": "candidate",
+      "text": "newt"
+    }
+  ],
+  "canonical_name": "triton",
+  "concept_id": "triton",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/iris"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "triton",
+      "sense_id": "triton#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

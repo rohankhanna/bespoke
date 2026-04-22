@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Production-grade platform for building agentic IM bots - \u751f\u4ea7\u7ea7\u591a\u5e73\u53f0\u667a\u80fd\u673a\u5668\u4eba\u5f00\u53d1\u5e73\u53f0. \u63d0\u4f9b Agent\u3001\u77e5\u8bc6\u5e93\u7f16\u6392\u3001\u63d2\u4ef6\u7cfb\u7edf / Bots for Discord / Slack / LINE / Telegram / WeChat(\u4f01\u4e1a\u5fae\u4fe1, \u4f01\u5fae\u667a\u80fd\u673a\u5668\u4eba, \u516c\u4f17\u53f7) / \u98de\u4e66 / \u9489\u9489 / QQ / Satori e.g. Integrated with ChatGPT(GPT), DeepSeek, Dify, n8n, Langflow, Coze, Claude, Gemini, MiniMax, Ollama, SiliconFlow, Moonshot, GLM, clawdbot / openclaw"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048089,
+      "status": "candidate",
+      "text": "titlark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048082,
+      "status": "candidate",
+      "text": "skylark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048058,
+      "status": "candidate",
+      "text": "meadowlark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047957,
+      "status": "candidate",
+      "text": "pipit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39676842,
+      "status": "candidate",
+      "text": "romp"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lark",
+      "sense_id": "lark#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25039,
+      "status": "candidate",
+      "text": "frolic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22034,
+      "status": "candidate",
+      "text": "escapade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22026,
+      "status": "candidate",
+      "text": "disport"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14030,
+      "status": "candidate",
+      "text": "cavort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13039,
+      "status": "candidate",
+      "text": "romp"
+    }
+  ],
+  "concept_id": "lark",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lark",
+  "observation_id": "cadbef4d3472e1b9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "lark",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "langbot-app/LangBot",
+  "source_repo_description": "Production-grade platform for building agentic IM bots - \u751f\u4ea7\u7ea7\u591a\u5e73\u53f0\u667a\u80fd\u673a\u5668\u4eba\u5f00\u53d1\u5e73\u53f0. \u63d0\u4f9b Agent\u3001\u77e5\u8bc6\u5e93\u7f16\u6392\u3001\u63d2\u4ef6\u7cfb\u7edf / Bots for Discord / Slack / LINE / Telegram / WeChat(\u4f01\u4e1a\u5fae\u4fe1, \u4f01\u5fae\u667a\u80fd\u673a\u5668\u4eba, \u516c\u4f17\u53f7) / \u98de\u4e66 / \u9489\u9489 / QQ / Satori e.g. Integrated with ChatGPT(GPT), DeepSeek, Dify, n8n, Langflow, Coze, Claude, Gemini, MiniMax, Ollama, SiliconFlow, Moonshot, GLM, clawdbot / openclaw"
+}

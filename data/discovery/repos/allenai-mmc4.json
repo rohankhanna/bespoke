@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T04:56:21.581228+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7569
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MultimodalC4 is a multimodal extension of c4 that interleaves millions of images with text.",
+    "fork": false,
+    "full_name": "allenai/mmc4",
+    "html_url": "https://github.com/allenai/mmc4",
+    "language": "Python",
+    "pushed_at": "2025-03-19T19:39:01Z",
+    "stargazers_count": 954,
+    "topics": [],
+    "updated_at": "2026-04-21T13:42:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

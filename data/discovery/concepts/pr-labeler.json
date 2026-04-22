@@ -56,6 +56,18 @@
       "source_repo": "folke/snacks.nvim",
       "status": "candidate-context",
       "text": "\"PR Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LazyVim/LazyVim",
+      "status": "candidate-context",
+      "text": "Neovim config for the lazy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LazyVim/LazyVim",
+      "status": "candidate-context",
+      "text": "\"PR Labeler\""
     }
   ],
   "candidate_glosses": [
@@ -80,6 +92,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "folke/snacks.nvim",
+      "status": "candidate",
+      "text": "\"PR Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LazyVim/LazyVim",
       "status": "candidate",
       "text": "\"PR Labeler\""
     }
@@ -173,11 +191,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "folke/snacks.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "LazyVim/LazyVim"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

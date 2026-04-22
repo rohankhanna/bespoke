@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "googleapis/python-aiplatform",
+      "target": "googlecloudplatform/vertex-ai-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "googleapis/python-aiplatform",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "googleapis/python-aiplatform",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "googleapis/python-aiplatform",
+      "target": "Run mypy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:06:57.789869+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 27219
+    },
+    {
+      "path": ".github/workflows/mypy.yml",
+      "size": 968
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Python SDK for Vertex AI, a fully managed, end-to-end platform for data science and machine learning.",
+    "fork": false,
+    "full_name": "googleapis/python-aiplatform",
+    "html_url": "https://github.com/googleapis/python-aiplatform",
+    "language": "Python",
+    "pushed_at": "2026-04-22T04:53:08Z",
+    "stargazers_count": 880,
+    "topics": [],
+    "updated_at": "2026-04-22T02:38:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlecloudplatform/vertex-ai-samples",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run mypy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "term": "Run mypy"
+    }
+  ]
+}

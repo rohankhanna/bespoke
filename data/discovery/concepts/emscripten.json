@@ -33,6 +33,18 @@
       "source_repo": "sql-js/sql.js",
       "status": "candidate-context",
       "text": "<img src=\"https://user-images.githubusercontent.com/552629/76405509-87025300-6388-11ea-86c9-af882abb00bd.png\" width=\"40\" height=\"40\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebAssembly/binaryen",
+      "status": "candidate-context",
+      "text": "Optimizer and compiler/toolchain library for WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/binaryen",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -47,6 +59,12 @@
       "source_repo": "sql-js/sql.js",
       "status": "candidate",
       "text": "<img src=\"https://user-images.githubusercontent.com/552629/76405509-87025300-6388-11ea-86c9-af882abb00bd.png\" width=\"40\" height=\"40\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/binaryen",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -102,11 +120,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "sql-js/sql.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "WebAssembly/binaryen"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

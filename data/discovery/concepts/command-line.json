@@ -103,6 +103,30 @@
       "source_repo": "microsoft/winget-cli",
       "status": "candidate-context",
       "text": "![winget install wingetcreate](.github/images/WingetInstall.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/vhs",
+      "status": "candidate-context",
+      "text": "Your CLI home video recorder \ud83d\udcfc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/vhs",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d0c-s4vage/lookatme",
+      "status": "candidate-context",
+      "text": "An interactive, terminal-based markdown presenter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d0c-s4vage/lookatme",
+      "status": "candidate-context",
+      "text": "[![Master Build Status](https://travis-ci.org/d0c-s4vage/lookatme.svg?branch=master)](https://travis-ci.org/d0c-s4vage/lookatme)"
     }
   ],
   "candidate_glosses": [
@@ -147,6 +171,18 @@
       "source_repo": "microsoft/winget-cli",
       "status": "candidate",
       "text": "![winget install wingetcreate](.github/images/WingetInstall.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/vhs",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d0c-s4vage/lookatme",
+      "status": "candidate",
+      "text": "[![Master Build Status](https://travis-ci.org/d0c-s4vage/lookatme.svg?branch=master)](https://travis-ci.org/d0c-s4vage/lookatme)"
     }
   ],
   "candidate_related_terms": [
@@ -228,11 +264,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "microsoft/winget-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "charmbracelet/vhs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "d0c-s4vage/lookatme"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

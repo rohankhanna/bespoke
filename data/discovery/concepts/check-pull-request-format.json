@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Pull Request Format"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2noise/ChatTTS",
+      "status": "candidate-context",
+      "text": "A generative speech model for daily dialogue."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2noise/ChatTTS",
+      "status": "candidate-context",
+      "text": "Check Pull Request Format"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2noise/ChatTTS",
+      "status": "candidate",
+      "text": "Check Pull Request Format"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43401,
+      "status": "candidate",
+      "text": "rein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27842,
+      "status": "candidate",
+      "text": "quiz"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27839,
+      "status": "candidate",
+      "text": "turn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27826,
+      "status": "candidate",
+      "text": "shape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27770,
+      "status": "candidate",
+      "text": "register"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Pull Request Format",
+  "concept_id": "check-pull-request-format",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/pull-format.yml",
+      "source_repo": "2noise/ChatTTS"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Pull Request Format",
+      "sense_id": "check-pull-request-format#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

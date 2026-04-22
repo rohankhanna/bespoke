@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T05:01:03.805607+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1039
+    },
+    {
+      "path": "go.mod",
+      "size": 273
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "IPv4 address parser for the nmap format",
+    "fork": false,
+    "full_name": "malfunkt/iprange",
+    "html_url": "https://github.com/malfunkt/iprange",
+    "language": "Go",
+    "pushed_at": "2024-12-22T22:40:38Z",
+    "stargazers_count": 70,
+    "topics": [],
+    "updated_at": "2026-02-03T00:10:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

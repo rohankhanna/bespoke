@@ -1,0 +1,228 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "1set/cronrange",
+      "target": "actions/setup-go@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "1set/cronrange",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "1set/cronrange",
+      "target": "codecov/codecov-action@v1.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "1set/cronrange",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1set/cronrange",
+      "target": "cron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1set/cronrange",
+      "target": "cron-definitions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1set/cronrange",
+      "target": "cron-expression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1set/cronrange",
+      "target": "cron-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1set/cronrange",
+      "target": "cron-style",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1set/cronrange",
+      "target": "duration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1set/cronrange",
+      "target": "go-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1set/cronrange",
+      "target": "range",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1set/cronrange",
+      "target": "range-expression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1set/cronrange",
+      "target": "time-zone",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:59:55.656704+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2240
+    },
+    {
+      "path": "go.mod",
+      "size": 84
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1309
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "time range expression in cron style",
+    "fork": false,
+    "full_name": "1set/cronrange",
+    "html_url": "https://github.com/1set/cronrange",
+    "language": "Go",
+    "pushed_at": "2022-09-04T16:47:05Z",
+    "stargazers_count": 18,
+    "topics": [
+      "cron",
+      "cron-definitions",
+      "cron-expression",
+      "cron-parser",
+      "cron-style",
+      "duration",
+      "go-package",
+      "range",
+      "range-expression",
+      "time-zone"
+    ],
+    "updated_at": "2026-04-09T15:32:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/1set/cronrange?status.svg)](https://godoc.org/github.com/1set/cronrange)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cron"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/1set/cronrange?status.svg)](https://godoc.org/github.com/1set/cronrange)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cron-definitions"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/1set/cronrange?status.svg)](https://godoc.org/github.com/1set/cronrange)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cron-expression"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/1set/cronrange?status.svg)](https://godoc.org/github.com/1set/cronrange)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cron-parser"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/1set/cronrange?status.svg)](https://godoc.org/github.com/1set/cronrange)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cron-style"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/1set/cronrange?status.svg)](https://godoc.org/github.com/1set/cronrange)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "duration"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/1set/cronrange?status.svg)](https://godoc.org/github.com/1set/cronrange)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "go-package"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/1set/cronrange?status.svg)](https://godoc.org/github.com/1set/cronrange)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "range"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/1set/cronrange?status.svg)](https://godoc.org/github.com/1set/cronrange)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "range-expression"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/1set/cronrange?status.svg)](https://godoc.org/github.com/1set/cronrange)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-zone"
+    }
+  ]
+}

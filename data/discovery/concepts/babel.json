@@ -55,6 +55,42 @@
       "source_repo": "insin/nwb",
       "status": "candidate-context",
       "text": "nwb was created at a time when JavaScript tooling was in flux, when the capabilities of ES6 were less widely-supported by browsers than they are today, and when versions of Webpack, Babel and other common build tools were out of date almost as soon as you added them to your pack\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babel/notes",
+      "status": "candidate-context",
+      "text": "\u266c Notes from the @Babel Team (discuss in PRs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/notes",
+      "status": "candidate-context",
+      "text": "> Please check out our [team page](https://babeljs.io/team)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babel/proposals",
+      "status": "candidate-context",
+      "text": "\u270d\ufe0f Tracking the status of Babel's implementation of TC39 proposals (may be out of date)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/proposals",
+      "status": "candidate-context",
+      "text": "For the official list, check the [TC39 repo](https://github.com/tc39/proposals). This list only contains all proposals higher than Stage 0 that are compilable by Babel. (If Stage 4, it will be in [preset-env](https://github.com/babel/babel/tree/master/packages/babel-preset-env))"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babel/website",
+      "status": "candidate-context",
+      "text": ":globe_with_meridians: The Babel documentation website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/website",
+      "status": "candidate-context",
+      "text": "This is the source for the [babeljs.io](https://babeljs.io) website; feel free to suggest changes to our docs!"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "insin/nwb",
       "status": "candidate",
       "text": "nwb was created at a time when JavaScript tooling was in flux, when the capabilities of ES6 were less widely-supported by browsers than they are today, and when versions of Webpack, Babel and other common build tools were out of date almost as soon as you added them to your pack\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/notes",
+      "status": "candidate",
+      "text": "> Please check out our [team page](https://babeljs.io/team)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/proposals",
+      "status": "candidate",
+      "text": "For the official list, check the [TC39 repo](https://github.com/tc39/proposals). This list only contains all proposals higher than Stage 0 that are compilable by Babel. (If Stage 4, it will be in [preset-env](https://github.com/babel/babel/tree/master/packages/babel-preset-env))"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/website",
+      "status": "candidate",
+      "text": "This is the source for the [babeljs.io](https://babeljs.io) website; feel free to suggest changes to our docs!"
     }
   ],
   "candidate_related_terms": [
@@ -156,11 +210,29 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "insin/nwb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "babel/notes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "babel/proposals"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "babel/website"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

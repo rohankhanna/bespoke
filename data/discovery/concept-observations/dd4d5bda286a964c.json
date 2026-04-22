@@ -84,7 +84,7 @@
   "normalized_form": "staleness-tests",
   "observation_id": "dd4d5bda286a964c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
   "observed_text": "Staleness tests",
   "source_context_snippet": "Staleness tests",
   "source_file": ".github/workflows/staleness_check.yml",

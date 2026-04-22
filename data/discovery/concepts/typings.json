@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "typings"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DefinitelyTyped/DefinitelyTyped",
+      "status": "candidate-context",
+      "text": "The repository for high quality TypeScript type definitions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DefinitelyTyped/DefinitelyTyped",
+      "status": "candidate-context",
+      "text": "> The repository for _high quality_ TypeScript type definitions."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DefinitelyTyped/DefinitelyTyped",
+      "status": "candidate",
+      "text": "> The repository for _high quality_ TypeScript type definitions."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30002997,
+      "status": "candidate",
+      "text": "typewriting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20002973,
+      "status": "candidate",
+      "text": "typewritten"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20002520,
+      "status": "candidate",
+      "text": "typist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20001478,
+      "status": "candidate",
+      "text": "typographical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000420,
+      "status": "candidate",
+      "text": "typewriter"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "typings",
+  "concept_id": "typings",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "DefinitelyTyped/DefinitelyTyped"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "typings",
+      "sense_id": "typings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

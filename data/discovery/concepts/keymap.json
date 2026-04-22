@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "keymap"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jwiegley/use-package",
+      "status": "candidate-context",
+      "text": "A use-package declaration for simplifying your .emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jwiegley/use-package",
+      "status": "candidate-context",
+      "text": "Since `use-package` is now a part of Emacs core, all development has"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jwiegley/use-package",
+      "status": "candidate",
+      "text": "Since `use-package` is now a part of Emacs core, all development has"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023691,
+      "status": "candidate",
+      "text": "keyset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023690,
+      "status": "candidate",
+      "text": "keylet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023689,
+      "status": "candidate",
+      "text": "keymask"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023688,
+      "status": "candidate",
+      "text": "keybind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023687,
+      "status": "candidate",
+      "text": "meta key"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "keymap",
+  "concept_id": "keymap",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "jwiegley/use-package"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "keymap",
+      "sense_id": "keymap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

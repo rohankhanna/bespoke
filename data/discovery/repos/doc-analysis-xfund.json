@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "doc-analysis/XFUND",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "doc-analysis/XFUND",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:54:09.293049+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7831
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "XFUND: A Multilingual Form Understanding Benchmark",
+    "fork": false,
+    "full_name": "doc-analysis/XFUND",
+    "html_url": "https://github.com/doc-analysis/XFUND",
+    "language": null,
+    "pushed_at": "2022-07-15T08:02:40Z",
+    "stargazers_count": 219,
+    "topics": [
+      "dataset",
+      "natural-language-processing",
+      "nlp"
+    ],
+    "updated_at": "2026-04-22T02:10:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "XFUND is a multilingual form understanding benchmark dataset that includes human-labeled forms with key-value pairs in 7 languages (Chinese, Japanese, Spanish, French, Italian, German, Portuguese).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "XFUND is a multilingual form understanding benchmark dataset that includes human-labeled forms with key-value pairs in 7 languages (Chinese, Japanese, Spanish, French, Italian, German, Portuguese).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udce8\ud83d\ude9aCNCF App Delivery TAG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "TAG App Delivery focuses on enabling projects and initiatives related to"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "TAG App Delivery focuses on enabling projects and initiatives related to"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cncf-tag",
+      "sense_id": "cncf-tag#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cncf-tag",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cncf-tag",
+  "observation_id": "eb16252fe892c776",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "cncf-tag",
+  "source_context_snippet": "TAG App Delivery focuses on enabling projects and initiatives related to",
+  "source_file": null,
+  "source_repo": "cncf/tag-app-delivery",
+  "source_repo_description": "\ud83d\udce8\ud83d\ude9aCNCF App Delivery TAG"
+}

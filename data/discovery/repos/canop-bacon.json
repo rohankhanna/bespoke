@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Canop/bacon",
+      "target": "cargo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Canop/bacon",
+      "target": "check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Canop/bacon",
+      "target": "compilation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Canop/bacon",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Canop/bacon",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:12:51.529884+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3374
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1631
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "background code checker",
+    "fork": false,
+    "full_name": "Canop/bacon",
+    "html_url": "https://github.com/Canop/bacon",
+    "language": "Rust",
+    "pushed_at": "2026-04-15T09:01:45Z",
+    "stargazers_count": 3214,
+    "topics": [
+      "cargo",
+      "check",
+      "compilation",
+      "rust",
+      "terminal"
+    ],
+    "updated_at": "2026-04-22T00:06:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![bacon][logo]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cargo"
+    },
+    {
+      "context_snippet": "![bacon][logo]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "check"
+    },
+    {
+      "context_snippet": "![bacon][logo]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compilation"
+    },
+    {
+      "context_snippet": "![bacon][logo]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "![bacon][logo]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

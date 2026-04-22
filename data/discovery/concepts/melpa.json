@@ -19,6 +19,18 @@
       "source_repo": "anandpiyer/seoul256-emacs",
       "status": "candidate-context",
       "text": "[![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=plastic)](https://github.com/anandpiyer/seoul256-emacs/blob/master/LICENSE) [![MELPA](https://melpa.org/packages/seoul256-theme-badge.svg)](https://melpa.org/#/seoul256-theme)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jwiegley/use-package",
+      "status": "candidate-context",
+      "text": "A use-package declaration for simplifying your .emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jwiegley/use-package",
+      "status": "candidate-context",
+      "text": "Since `use-package` is now a part of Emacs core, all development has"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "anandpiyer/seoul256-emacs",
       "status": "candidate",
       "text": "[![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=plastic)](https://github.com/anandpiyer/seoul256-emacs/blob/master/LICENSE) [![MELPA](https://melpa.org/packages/seoul256-theme-badge.svg)](https://melpa.org/#/seoul256-theme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jwiegley/use-package",
+      "status": "candidate",
+      "text": "Since `use-package` is now a part of Emacs core, all development has"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "anandpiyer/seoul256-emacs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "jwiegley/use-package"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "microsoft/unilm",
       "status": "candidate-context",
       "text": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BAAI-DCAI/Bunny",
+      "status": "candidate-context",
+      "text": "A family of lightweight multimodal models. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BAAI-DCAI/Bunny",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "microsoft/unilm",
       "status": "candidate",
       "text": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BAAI-DCAI/Bunny",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "microsoft/unilm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "BAAI-DCAI/Bunny"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

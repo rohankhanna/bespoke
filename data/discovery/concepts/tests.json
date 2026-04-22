@@ -555,6 +555,90 @@
       "source_repo": "8144225309/superscalar-cln",
       "status": "candidate-context",
       "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hukkin/mdformat-toc",
+      "status": "candidate-context",
+      "text": "Mdformat plugin to generate a table of contents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hukkin/mdformat-toc",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dathere/datapusher-plus",
+      "status": "candidate-context",
+      "text": "Push data into the CKAN Datastore fast & reliably while inferring, calculating & suggesting metadata using Jinja2 Formulas defined in your scheming metadata schema. It pushes real good!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dathere/datapusher-plus",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "explosion/projects",
+      "status": "candidate-context",
+      "text": "\ud83e\ude90 End-to-end NLP workflows from prototype to production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "explosion/projects",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "explosion/spacy-lookups-data",
+      "status": "candidate-context",
+      "text": "\ud83d\udcc2 Additional lookup tables and data resources for spaCy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "explosion/spacy-lookups-data",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/terraform-provider-scaffolding-framework",
+      "status": "candidate-context",
+      "text": "Quick start repository for creating a Terraform provider using terraform-plugin-framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-scaffolding-framework",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "void-linux/xbps",
+      "status": "candidate-context",
+      "text": "The X Binary Package System (XBPS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "void-linux/xbps",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ariya/esprima",
+      "status": "candidate-context",
+      "text": "ECMAScript parsing infrastructure for multipurpose analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ariya/esprima",
+      "status": "candidate-context",
+      "text": "Tests"
     }
   ],
   "candidate_glosses": [
@@ -827,6 +911,48 @@
       "source_repo": "8144225309/superscalar-cln",
       "status": "candidate",
       "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hukkin/mdformat-toc",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dathere/datapusher-plus",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "explosion/projects",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "explosion/spacy-lookups-data",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-scaffolding-framework",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "void-linux/xbps",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ariya/esprima",
+      "status": "candidate",
+      "text": "Tests"
     }
   ],
   "candidate_related_terms": [
@@ -1217,11 +1343,53 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "8144225309/superscalar-cln"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "hukkin/mdformat-toc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dathere/datapusher-plus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "explosion/projects"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "explosion/spacy-lookups-data"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hashicorp/terraform-provider-scaffolding-framework"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "void-linux/xbps"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ariya/esprima"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

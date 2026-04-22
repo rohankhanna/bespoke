@@ -55,6 +55,30 @@
       "source_repo": "Azure/azure-sdk-for-python",
       "status": "candidate-context",
       "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/iris",
+      "status": "candidate-context",
+      "text": "AMD RAD's multi-GPU Triton-based framework for seamless multi-GPU programming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/iris",
+      "status": "candidate-context",
+      "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/machinelearning",
+      "status": "candidate-context",
+      "text": "ML.NET is an open source and cross-platform machine learning framework for .NET."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/machinelearning",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "Azure/azure-sdk-for-python",
       "status": "candidate",
       "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/iris",
+      "status": "candidate",
+      "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/machinelearning",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
     }
   ],
   "candidate_related_terms": [
@@ -154,11 +190,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "Azure/azure-sdk-for-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "ROCm/iris"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/machinelearning"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

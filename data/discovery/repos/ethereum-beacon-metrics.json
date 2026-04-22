@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T05:08:01.774637+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 222
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Informative spec for beacon node metrics",
+    "fork": false,
+    "full_name": "ethereum/beacon-metrics",
+    "html_url": "https://github.com/ethereum/beacon-metrics",
+    "language": null,
+    "pushed_at": "2026-02-23T11:47:49Z",
+    "stargazers_count": 30,
+    "topics": [],
+    "updated_at": "2026-03-09T22:27:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

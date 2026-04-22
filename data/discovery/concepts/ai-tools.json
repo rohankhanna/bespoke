@@ -67,6 +67,18 @@
       "source_repo": "Charlie85270/Dorothy",
       "status": "candidate-context",
       "text": "![Dorothy](screenshots/background-2.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adityasugandhi/skillsync-mcp",
+      "status": "candidate-context",
+      "text": "SkillSync MCP \u2014 security-gated skill management for Claude Code, OpenClaw, Cursor & Windsurf. 60+ threat pattern scanner."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adityasugandhi/skillsync-mcp",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/@stranzwersweb2/skillsync-mcp)](https://www.npmjs.com/package/@stranzwersweb2/skillsync-mcp)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "Charlie85270/Dorothy",
       "status": "candidate",
       "text": "![Dorothy](screenshots/background-2.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adityasugandhi/skillsync-mcp",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/@stranzwersweb2/skillsync-mcp)](https://www.npmjs.com/package/@stranzwersweb2/skillsync-mcp)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": null,
       "source_repo": "Charlie85270/Dorothy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "adityasugandhi/skillsync-mcp"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

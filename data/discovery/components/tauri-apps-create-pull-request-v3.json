@@ -1,7 +1,7 @@
 {
   "component": "tauri-apps/create-pull-request@v3",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/covector-version-or-publish.yml",
       "source_repo": "tauri-apps/muda"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/covector-version-or-publish.yml",
+      "source_repo": "tauri-apps/create-tauri-app"
     }
   ]
 }

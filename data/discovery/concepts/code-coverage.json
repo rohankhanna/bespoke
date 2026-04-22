@@ -33,6 +33,30 @@
       "source_repo": "crisidev/bacon-ls",
       "status": "candidate-context",
       "text": "code-coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mamba-org/mamba",
+      "status": "candidate-context",
+      "text": "The Fast Cross-Platform Package Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamba-org/mamba",
+      "status": "candidate-context",
+      "text": "Code Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "monero-rs/monero-rs",
+      "status": "candidate-context",
+      "text": "The Rust Monero library published on crates.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "monero-rs/monero-rs",
+      "status": "candidate-context",
+      "text": "Code Coverage"
     }
   ],
   "candidate_glosses": [
@@ -47,6 +71,18 @@
       "source_repo": "crisidev/bacon-ls",
       "status": "candidate",
       "text": "code-coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamba-org/mamba",
+      "status": "candidate",
+      "text": "Code Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "monero-rs/monero-rs",
+      "status": "candidate",
+      "text": "Code Coverage"
     }
   ],
   "candidate_related_terms": [
@@ -108,11 +144,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/code-coverage.yml",
       "source_repo": "crisidev/bacon-ls"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "mamba-org/mamba"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "monero-rs/monero-rs"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "huggingface/hf-workflows/.github/actions/post-slack@3f88d63d3761558a32e8e46fc2a8536e04bb2aea",
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "huggingface/peft"
+    }
+  ]
+}

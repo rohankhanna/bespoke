@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KellerJordan/cifar10-airbench",
+      "target": "hiverge/cifar10-speedrun",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KellerJordan/cifar10-airbench",
+      "target": "tysam-code/hlb-cifar10",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:09:27.768499+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5131
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CIFAR-10 speedruns: 94% in 2.6 seconds and 96% in 27 seconds",
+    "fork": false,
+    "full_name": "KellerJordan/cifar10-airbench",
+    "html_url": "https://github.com/KellerJordan/cifar10-airbench",
+    "language": "Python",
+    "pushed_at": "2025-11-15T22:31:56Z",
+    "stargazers_count": 375,
+    "topics": [],
+    "updated_at": "2026-04-21T11:33:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiverge/cifar10-speedrun",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tysam-code/hlb-cifar10",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

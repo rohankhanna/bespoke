@@ -25,6 +25,18 @@
       "source_repo": "anse-app/chatgpt-demo",
       "status": "candidate-context",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anse-app/anse",
+      "status": "candidate-context",
+      "text": "Supercharged experience for multiple models such as ChatGPT, DALL-E and Stable Diffusion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anse-app/anse",
+      "status": "candidate-context",
+      "text": "![Banner](https://user-images.githubusercontent.com/1998168/235366625-e615e68d-592c-4f18-9c9f-1e5cd1778557.png)"
     }
   ],
   "candidate_glosses": [
@@ -33,6 +45,12 @@
       "source_repo": "anse-app/chatgpt-demo",
       "status": "candidate",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anse-app/anse",
+      "status": "candidate",
+      "text": "![Banner](https://user-images.githubusercontent.com/1998168/235366625-e615e68d-592c-4f18-9c9f-1e5cd1778557.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -58,11 +76,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "anse-app/anse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "anse-app/chatgpt-demo"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

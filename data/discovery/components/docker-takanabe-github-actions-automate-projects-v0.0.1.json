@@ -1,12 +1,17 @@
 {
   "component": "docker://takanabe/github-actions-automate-projects:v0.0.1",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/new-issues-to-triage-projects.yml",
       "source_repo": "NVIDIA/cutlass"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/new-issues-to-triage-projects.yml",
+      "source_repo": "rapidsai/cusignal"
     }
   ]
 }

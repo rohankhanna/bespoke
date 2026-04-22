@@ -184,6 +184,66 @@
       "source_repo": "squidfunk/mkdocs-material",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mkdocs/mkdocs",
+      "status": "candidate-context",
+      "text": "Project documentation with Markdown."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkdocs/mkdocs",
+      "status": "candidate-context",
+      "text": "> *Project documentation with Markdown*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ml-explore/mlx",
+      "status": "candidate-context",
+      "text": "MLX: An array framework for Apple silicon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ml-explore/mlx",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gfx-rs/wgpu-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings to wgpu native library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/wgpu-rs",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tauri-apps/tauri-docs",
+      "status": "candidate-context",
+      "text": "The source for all Tauri project documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/tauri-docs",
+      "status": "candidate-context",
+      "text": "![README Banner](https://github.com/tauri-apps/tauri-docs/assets/61861940/ab6fd2f5-07b7-46b2-9125-77cba0064c1b)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babel/website",
+      "status": "candidate-context",
+      "text": ":globe_with_meridians: The Babel documentation website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/website",
+      "status": "candidate-context",
+      "text": "This is the source for the [babeljs.io](https://babeljs.io) website; feel free to suggest changes to our docs!"
     }
   ],
   "candidate_glosses": [
@@ -276,6 +336,36 @@
       "source_repo": "squidfunk/mkdocs-material",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkdocs/mkdocs",
+      "status": "candidate",
+      "text": "> *Project documentation with Markdown*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ml-explore/mlx",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/wgpu-rs",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/tauri-docs",
+      "status": "candidate",
+      "text": "![README Banner](https://github.com/tauri-apps/tauri-docs/assets/61861940/ab6fd2f5-07b7-46b2-9125-77cba0064c1b)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/website",
+      "status": "candidate",
+      "text": "This is the source for the [babeljs.io](https://babeljs.io) website; feel free to suggest changes to our docs!"
     }
   ],
   "candidate_related_terms": [
@@ -444,11 +534,47 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "squidfunk/mkdocs-material"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "mkdocs/mkdocs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "ml-explore/mlx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "gfx-rs/wgpu-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "tauri-apps/tauri-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "babel/website"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

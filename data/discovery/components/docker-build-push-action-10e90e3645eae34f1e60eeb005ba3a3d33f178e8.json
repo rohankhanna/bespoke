@@ -2,7 +2,7 @@
   "component": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -54,6 +54,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build_docker_images.yml",
       "source_repo": "huggingface/diffusers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-images-release.yml",
+      "source_repo": "huggingface/accelerate"
     }
   ]
 }

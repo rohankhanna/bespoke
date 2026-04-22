@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Example Run - PR Comments"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bevyengine/bevy",
+      "status": "candidate-context",
+      "text": "A refreshingly simple data-driven game engine built in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bevyengine/bevy",
+      "status": "candidate-context",
+      "text": "Example Run - PR Comments"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bevyengine/bevy",
+      "status": "candidate",
+      "text": "Example Run - PR Comments"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33215,
+      "status": "candidate",
+      "text": "runs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32395,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26057,
+      "status": "candidate",
+      "text": "race"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25964,
+      "status": "candidate",
+      "text": "lug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22611,
+      "status": "candidate",
+      "text": "precedent"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Example Run - PR Comments",
+  "concept_id": "example-run---pr-comments",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/example-run-report.yml",
+      "source_repo": "bevyengine/bevy"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Example Run - PR Comments",
+      "sense_id": "example-run---pr-comments#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

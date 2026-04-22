@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babel/proposals",
+      "target": "airbnb/babel-plugin-dynamic-import-webpack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babel/proposals",
+      "target": "babel/babylon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babel/proposals",
+      "target": "loganfsmyth/babel-plugin-transform-decorators-legacy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babel/proposals",
+      "target": "allenwb/esideas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babel/proposals",
+      "target": "babel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babel/proposals",
+      "target": "tc39",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:11:36.898178+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15187
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u270d\ufe0f Tracking the status of Babel's implementation of TC39 proposals (may be out of date)",
+    "fork": false,
+    "full_name": "babel/proposals",
+    "html_url": "https://github.com/babel/proposals",
+    "language": null,
+    "pushed_at": "2022-01-18T09:10:47Z",
+    "stargazers_count": 436,
+    "topics": [
+      "babel",
+      "tc39"
+    ],
+    "updated_at": "2026-03-28T04:19:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "airbnb/babel-plugin-dynamic-import-webpack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenwb/esideas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babel/babylon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "loganfsmyth/babel-plugin-transform-decorators-legacy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "For the official list, check the [TC39 repo](https://github.com/tc39/proposals). This list only contains all proposals higher than Stage 0 that are compilable by Babel. (If Stage 4, it will be in [preset-env](https://github.com/babel/babel/tree/master/packages/babel-preset-env))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babel"
+    },
+    {
+      "context_snippet": "For the official list, check the [TC39 repo](https://github.com/tc39/proposals). This list only contains all proposals higher than Stage 0 that are compilable by Babel. (If Stage 4, it will be in [preset-env](https://github.com/babel/babel/tree/master/packages/babel-preset-env))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tc39"
+    }
+  ]
+}

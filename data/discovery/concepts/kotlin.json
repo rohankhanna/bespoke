@@ -49,6 +49,54 @@
       "source_repo": "fwcd/kotlin-language-server",
       "status": "candidate-context",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fwcd/atom-ide-kotlin",
+      "status": "candidate-context",
+      "text": "Intelligent Kotlin support for Atom"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fwcd/atom-ide-kotlin",
+      "status": "candidate-context",
+      "text": "[![Version](https://img.shields.io/apm/v/ide-kotlin)](https://atom.io/packages/ide-kotlin)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fwcd/kotlin-debug-adapter",
+      "status": "candidate-context",
+      "text": "Kotlin/JVM debugging for any editor/IDE using the Debug Adapter Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fwcd/kotlin-debug-adapter",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/release/fwcd/kotlin-debug-adapter)](https://github.com/fwcd/kotlin-debug-adapter/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fwcd/kotlin-quick-start",
+      "status": "candidate-context",
+      "text": "Template Kotlin application using Gradle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fwcd/kotlin-quick-start",
+      "status": "candidate-context",
+      "text": "An empty Kotlin project using Gradle."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fwcd/tree-sitter-kotlin",
+      "status": "candidate-context",
+      "text": "Kotlin grammar for Tree-sitter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fwcd/tree-sitter-kotlin",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/fwcd/tree-sitter-kotlin/actions/workflows/build.yml/badge.svg)](https://github.com/fwcd/tree-sitter-kotlin/actions/workflows/build.yml)"
     }
   ],
   "candidate_glosses": [
@@ -69,6 +117,30 @@
       "source_repo": "fwcd/kotlin-language-server",
       "status": "candidate",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fwcd/atom-ide-kotlin",
+      "status": "candidate",
+      "text": "[![Version](https://img.shields.io/apm/v/ide-kotlin)](https://atom.io/packages/ide-kotlin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fwcd/kotlin-debug-adapter",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/release/fwcd/kotlin-debug-adapter)](https://github.com/fwcd/kotlin-debug-adapter/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fwcd/kotlin-quick-start",
+      "status": "candidate",
+      "text": "An empty Kotlin project using Gradle."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fwcd/tree-sitter-kotlin",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/fwcd/tree-sitter-kotlin/actions/workflows/build.yml/badge.svg)](https://github.com/fwcd/tree-sitter-kotlin/actions/workflows/build.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +208,35 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "fwcd/kotlin-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "fwcd/atom-ide-kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "fwcd/kotlin-debug-adapter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "fwcd/kotlin-quick-start"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "fwcd/tree-sitter-kotlin"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

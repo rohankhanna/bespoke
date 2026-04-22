@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Go library and CLIs for working with container registries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ECR Authentication test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ECR Authentication test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27178,
+      "status": "candidate",
+      "text": "cse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27158,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27137,
+      "status": "candidate",
+      "text": "bible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27137,
+      "status": "candidate",
+      "text": "bookplate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27137,
+      "status": "candidate",
+      "text": "imprimatur"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ECR Authentication test",
+      "sense_id": "ecr-authentication-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ecr-authentication-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ecr-authentication-test",
+  "observation_id": "c9d3f9e6692d715a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "ECR Authentication test",
+  "source_context_snippet": "ECR Authentication test",
+  "source_file": ".github/workflows/ecr-auth.yaml",
+  "source_repo": "google/go-containerregistry",
+  "source_repo_description": "Go library and CLIs for working with container registries"
+}

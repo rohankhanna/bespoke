@@ -4,14 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hexops-graveyard/dockerfile",
-      "target": "docker-library/postgres",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hexops-graveyard/dockerfile",
-      "target": "caddyserver/caddy-docker",
+      "target": "prometheus/prometheus",
       "target_type": "repository"
     },
     {
@@ -26,6 +19,13 @@
       "source_file": "README.md",
       "source_repo": "hexops-graveyard/dockerfile",
       "target": "krallin/tini",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hexops-graveyard/dockerfile",
+      "target": "sourcegraph/godockerize",
       "target_type": "repository"
     },
     {
@@ -57,6 +57,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "generated_at": "2026-04-22T04:49:29.633207+00:00",
   "source_repo": "hexops-graveyard/dockerfile"
 }

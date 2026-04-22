@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T04:49:33.580741+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6955
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OpenAI like Deep research agent using gemini",
+    "fork": false,
+    "full_name": "Parveshiiii/Deepresearch-Agent",
+    "html_url": "https://github.com/Parveshiiii/Deepresearch-Agent",
+    "language": "Python",
+    "pushed_at": "2025-10-04T16:04:20Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-01-09T14:17:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

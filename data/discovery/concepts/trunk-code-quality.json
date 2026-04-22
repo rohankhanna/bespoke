@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Trunk Code Quality"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dgraph-io/badger",
+      "status": "candidate-context",
+      "text": "Fast key-value DB in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgraph-io/badger",
+      "status": "candidate-context",
+      "text": "Trunk Code Quality"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgraph-io/badger",
+      "status": "candidate",
+      "text": "Trunk Code Quality"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26219,
+      "status": "candidate",
+      "text": "freestyle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20481,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20010,
+      "status": "candidate",
+      "text": "crack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19661,
+      "status": "candidate",
+      "text": "stud"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19378,
+      "status": "candidate",
+      "text": "bar"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Trunk Code Quality",
+  "concept_id": "trunk-code-quality",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/trunk.yml",
+      "source_repo": "dgraph-io/badger"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Trunk Code Quality",
+      "sense_id": "trunk-code-quality#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

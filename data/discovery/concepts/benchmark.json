@@ -178,6 +178,42 @@
       "source_repo": "runfinch/finch",
       "status": "candidate-context",
       "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/Shot2Story",
+      "status": "candidate-context",
+      "text": "A new multi-shot video understanding benchmark Shot2Story with comprehensive video summaries and detailed shot-level captions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/Shot2Story",
+      "status": "candidate-context",
+      "text": "<a href='https://mingfei.info/shot2story/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlcommons/training",
+      "status": "candidate-context",
+      "text": "Reference implementations of MLPerf\u00ae training benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlcommons/training",
+      "status": "candidate-context",
+      "text": "This is a repository of reference implementations for the MLPerf training benchmarks. These implementations are valid as starting points for benchmark implementations but are not fully optimized and are not intended to be used for \"real\" performance measurements of software fram\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alacritty/vtebench",
+      "status": "candidate-context",
+      "text": "Generate benchmarks for terminal emulators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alacritty/vtebench",
+      "status": "candidate-context",
+      "text": "A tool for benchmarking terminal emulator PTY read performance."
     }
   ],
   "candidate_glosses": [
@@ -264,6 +300,24 @@
       "source_repo": "runfinch/finch",
       "status": "candidate",
       "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/Shot2Story",
+      "status": "candidate",
+      "text": "<a href='https://mingfei.info/shot2story/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlcommons/training",
+      "status": "candidate",
+      "text": "This is a repository of reference implementations for the MLPerf training benchmarks. These implementations are valid as starting points for benchmark implementations but are not fully optimized and are not intended to be used for \"real\" performance measurements of software fram\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alacritty/vtebench",
+      "status": "candidate",
+      "text": "A tool for benchmarking terminal emulator PTY read performance."
     }
   ],
   "candidate_related_terms": [
@@ -441,11 +495,41 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/benchmark.yaml",
       "source_repo": "runfinch/finch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "ggml-org/llama.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/Shot2Story"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "mlcommons/training"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "alacritty/vtebench"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

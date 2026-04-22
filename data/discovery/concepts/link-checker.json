@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Link Checker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/PaddleOCR",
+      "status": "candidate-context",
+      "text": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleOCR",
+      "status": "candidate-context",
+      "text": "Link Checker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleOCR",
+      "status": "candidate",
+      "text": "Link Checker"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35730,
+      "status": "candidate",
+      "text": "check out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35729,
+      "status": "candidate",
+      "text": "linking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35728,
+      "status": "candidate",
+      "text": "checked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35727,
+      "status": "candidate",
+      "text": "fact checker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35726,
+      "status": "candidate",
+      "text": "hyperlink"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Link Checker",
+  "concept_id": "link-checker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/link-check.yml",
+      "source_repo": "PaddlePaddle/PaddleOCR"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Link Checker",
+      "sense_id": "link-checker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

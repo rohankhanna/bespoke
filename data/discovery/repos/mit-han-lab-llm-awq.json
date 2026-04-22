@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/llm-awq",
+      "target": "intel/neural-compressor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/llm-awq",
+      "target": "lm-sys/fastchat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/llm-awq",
+      "target": "internlm/lmdeploy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/llm-awq",
+      "target": "efficient-large-model/vila",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:03:28.939460+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18109
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 865
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[MLSys 2024 Best Paper Award] AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration",
+    "fork": false,
+    "full_name": "mit-han-lab/llm-awq",
+    "html_url": "https://github.com/mit-han-lab/llm-awq",
+    "language": "Python",
+    "pushed_at": "2025-07-17T19:44:51Z",
+    "stargazers_count": 3507,
+    "topics": [],
+    "updated_at": "2026-04-22T00:57:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "efficient-large-model/vila",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel/neural-compressor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "internlm/lmdeploy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lm-sys/fastchat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

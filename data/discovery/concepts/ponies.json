@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ponies"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/ponyfill",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 Like polyfill but with pony pureness"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/ponyfill",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 Like polyfill but with pony pureness"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/ponyfill",
+      "status": "candidate",
+      "text": "\ud83e\udd84 Like polyfill but with pony pureness"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30031026,
+      "status": "candidate",
+      "text": "horses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30004807,
+      "status": "candidate",
+      "text": "scrambles"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29981262,
+      "status": "candidate",
+      "text": "mules"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29952015,
+      "status": "candidate",
+      "text": "groceries"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29850988,
+      "status": "candidate",
+      "text": "trots"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ponies",
+  "concept_id": "ponies",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/ponyfill"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ponies",
+      "sense_id": "ponies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

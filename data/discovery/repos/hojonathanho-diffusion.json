@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T05:22:49.871680+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1383
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2111
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Denoising Diffusion Probabilistic Models",
+    "fork": false,
+    "full_name": "hojonathanho/diffusion",
+    "html_url": "https://github.com/hojonathanho/diffusion",
+    "language": "Python",
+    "pushed_at": "2023-08-29T16:48:57Z",
+    "stargazers_count": 5168,
+    "topics": [],
+    "updated_at": "2026-04-22T03:24:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

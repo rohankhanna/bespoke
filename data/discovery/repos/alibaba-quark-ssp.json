@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alibaba-Quark/SSP",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alibaba-Quark/SSP",
+      "target": "petergriffinjin/search-r1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "Alibaba-Quark/SSP",
+      "target": "nvidia/apex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "Alibaba-Quark/SSP",
+      "target": "cliffwoolley/jupyter_tensorboard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alibaba-Quark/SSP",
+      "target": "alibaba",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alibaba-Quark/SSP",
+      "target": "deep-research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alibaba-Quark/SSP",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alibaba-Quark/SSP",
+      "target": "self-play",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:04:28.469406+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10525
+    },
+    {
+      "path": "requirements.txt",
+      "size": 7750
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Search Self-Play: Pushing the Frontier of Agent Capability without Supervision",
+    "fork": false,
+    "full_name": "Alibaba-Quark/SSP",
+    "html_url": "https://github.com/Alibaba-Quark/SSP",
+    "language": "Python",
+    "pushed_at": "2026-03-04T15:52:11Z",
+    "stargazers_count": 98,
+    "topics": [
+      "agent",
+      "alibaba",
+      "deep-research",
+      "llm",
+      "reinforcement-learning",
+      "self-play"
+    ],
+    "updated_at": "2026-03-26T02:00:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "petergriffinjin/search-r1",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cliffwoolley/jupyter_tensorboard",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/apex",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">Search Self-Play: Pushing the Frontier of Agent Capability without Supervision </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alibaba"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Search Self-Play: Pushing the Frontier of Agent Capability without Supervision </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-research"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Search Self-Play: Pushing the Frontier of Agent Capability without Supervision </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Search Self-Play: Pushing the Frontier of Agent Capability without Supervision </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-play"
+    }
+  ]
+}

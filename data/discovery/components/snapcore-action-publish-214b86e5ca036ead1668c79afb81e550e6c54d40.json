@@ -1,0 +1,12 @@
+{
+  "component": "snapcore/action-publish@214b86e5ca036ead1668c79afb81e550e6c54d40",
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-snap.yml",
+      "source_repo": "oras-project/oras"
+    }
+  ]
+}

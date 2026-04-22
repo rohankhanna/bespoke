@@ -33,6 +33,18 @@
       "source_repo": "squidfunk/mkdocs-material",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mkdocs/mkdocs",
+      "status": "candidate-context",
+      "text": "Project documentation with Markdown."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkdocs/mkdocs",
+      "status": "candidate-context",
+      "text": "> *Project documentation with Markdown*"
     }
   ],
   "candidate_glosses": [
@@ -47,6 +59,12 @@
       "source_repo": "squidfunk/mkdocs-material",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkdocs/mkdocs",
+      "status": "candidate",
+      "text": "> *Project documentation with Markdown*"
     }
   ],
   "candidate_related_terms": [],
@@ -66,11 +84,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "squidfunk/mkdocs-material"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "mkdocs/mkdocs"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

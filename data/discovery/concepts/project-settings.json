@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "project-settings"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f Load project-local settings (like .vscode/settings.json) into Neovim 0.11+ native LSP settings easily."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "status": "candidate-context",
+      "text": "Easily read your project's local settings files and merge them into your Neovim 0.11+ native LSP configuration."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "status": "candidate",
+      "text": "Easily read your project's local settings files and merge them into your Neovim 0.11+ native LSP configuration."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "project-settings",
+  "concept_id": "project-settings",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "mrjones2014/codesettings.nvim"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "project-settings",
+      "sense_id": "project-settings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

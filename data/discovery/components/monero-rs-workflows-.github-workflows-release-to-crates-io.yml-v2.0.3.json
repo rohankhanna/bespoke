@@ -1,0 +1,17 @@
+{
+  "component": "monero-rs/workflows/.github/workflows/release-to-crates-io.yml@v2.0.3",
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "monero-rs/monero-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-to-crates-io.yml",
+      "source_repo": "monero-rs/monero-rs"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "component": "helm/chart-testing-action@master",
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "jtblin/kube2iam"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-charts.yaml",
+      "source_repo": "jtblin/kube2iam"
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yaml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yaml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yaml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boilerplate.yaml"
+    },
+    {
+      "component": "chainguard-dev/actions/boilerplate@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boilerplate.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-deps.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-deps.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-deps.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/donotsubmit.yaml"
+    },
+    {
+      "component": "chainguard-dev/actions/donotsubmit@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/donotsubmit.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecr-auth.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecr-auth.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v6.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecr-auth.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecr-auth.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecr-auth.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v6.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecr-auth.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr-auth.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr-auth.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/go-containerregistry",
+      "target": "google/containerregistry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/go-containerregistry",
+      "target": "google/ko",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analyze.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "Analyze",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boilerplate.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boilerplate.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "chainguard-dev/actions/boilerplate@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/boilerplate.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "Boilerplate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-deps.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-deps.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-deps.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-deps.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "Bump Deps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/donotsubmit.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/donotsubmit.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "chainguard-dev/actions/donotsubmit@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/donotsubmit.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "Do Not Submit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "Basic e2e test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecr-auth.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecr-auth.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecr-auth.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "aws-actions/configure-aws-credentials@v6.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ecr-auth.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "ECR Authentication test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr-auth.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr-auth.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ghcr-auth.yaml",
+      "source_repo": "google/go-containerregistry",
+      "target": "GHCR Authentication test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/go-containerregistry",
+      "target": "container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/go-containerregistry",
+      "target": "container-registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/go-containerregistry",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/go-containerregistry",
+      "target": "registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:00:30.080745+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6866
+    },
+    {
+      "path": "go.mod",
+      "size": 2200
+    },
+    {
+      "path": ".github/workflows/analyze.yaml",
+      "size": 619
+    },
+    {
+      "path": ".github/workflows/boilerplate.yaml",
+      "size": 666
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 351
+    },
+    {
+      "path": ".github/workflows/bump-deps.yaml",
+      "size": 820
+    },
+    {
+      "path": ".github/workflows/donotsubmit.yaml",
+      "size": 234
+    },
+    {
+      "path": ".github/workflows/e2e.yaml",
+      "size": 2931
+    },
+    {
+      "path": ".github/workflows/ecr-auth.yaml",
+      "size": 2734
+    },
+    {
+      "path": ".github/workflows/ghcr-auth.yaml",
+      "size": 1064
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Go library and CLIs for working with container registries",
+    "fork": false,
+    "full_name": "google/go-containerregistry",
+    "html_url": "https://github.com/google/go-containerregistry",
+    "language": "Go",
+    "pushed_at": "2026-04-22T02:34:20Z",
+    "stargazers_count": 3832,
+    "topics": [
+      "container",
+      "container-registry",
+      "docker",
+      "registry"
+    ],
+    "updated_at": "2026-04-22T04:35:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/containerregistry",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/ko",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Analyze",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analyze.yaml",
+      "term": "Analyze"
+    },
+    {
+      "context_snippet": "Boilerplate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/boilerplate.yaml",
+      "term": "Boilerplate"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Bump Deps",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-deps.yaml",
+      "term": "Bump Deps"
+    },
+    {
+      "context_snippet": "Do Not Submit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/donotsubmit.yaml",
+      "term": "Do Not Submit"
+    },
+    {
+      "context_snippet": "Basic e2e test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "term": "Basic e2e test"
+    },
+    {
+      "context_snippet": "ECR Authentication test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ecr-auth.yaml",
+      "term": "ECR Authentication test"
+    },
+    {
+      "context_snippet": "GHCR Authentication test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ghcr-auth.yaml",
+      "term": "GHCR Authentication test"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Build Status](https://github.com/google/go-containerregistry/workflows/Build/badge.svg)](https://github.com/google/go-containerregistry/actions?query=workflow%3ABuild)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Build Status](https://github.com/google/go-containerregistry/workflows/Build/badge.svg)](https://github.com/google/go-containerregistry/actions?query=workflow%3ABuild)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container-registry"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Build Status](https://github.com/google/go-containerregistry/workflows/Build/badge.svg)](https://github.com/google/go-containerregistry/actions?query=workflow%3ABuild)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Build Status](https://github.com/google/go-containerregistry/workflows/Build/badge.svg)](https://github.com/google/go-containerregistry/actions?query=workflow%3ABuild)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "registry"
+    }
+  ]
+}

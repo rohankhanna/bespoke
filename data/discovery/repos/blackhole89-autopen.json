@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blackhole89/autopen",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blackhole89/autopen",
+      "target": "ocornut/imgui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blackhole89/autopen",
+      "target": "airguanz/imgui-filebrowser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "blackhole89/autopen",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "blackhole89/autopen",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "blackhole89/autopen",
+      "target": "MinGW Windows Nightly Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:53:10.320625+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5556
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "size": 2777
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Editor with LLM generation tree exploration",
+    "fork": false,
+    "full_name": "blackhole89/autopen",
+    "html_url": "https://github.com/blackhole89/autopen",
+    "language": "C++",
+    "pushed_at": "2025-02-12T07:12:24Z",
+    "stargazers_count": 86,
+    "topics": [],
+    "updated_at": "2026-04-16T09:58:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "airguanz/imgui-filebrowser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ocornut/imgui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "MinGW Windows Nightly Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "term": "MinGW Windows Nightly Build"
+    }
+  ]
+}

@@ -44,6 +44,18 @@
       "source_repo": "wireshark/wireshark",
       "status": "candidate-context",
       "text": "Build MacOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "status": "candidate-context",
+      "text": "OpenAI Triton backend for Intel\u00ae GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
+      "status": "candidate-context",
+      "text": "Build MacOS"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +74,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "wireshark/wireshark",
+      "status": "candidate",
+      "text": "Build MacOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-xpu-backend-for-triton",
       "status": "candidate",
       "text": "Build MacOS"
     }
@@ -137,11 +155,23 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": ".github/workflows/macos.yml",
       "source_repo": "wireshark/wireshark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "intel/intel-xpu-backend-for-triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "triton-lang/triton"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

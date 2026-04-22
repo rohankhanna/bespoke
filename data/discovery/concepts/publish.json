@@ -236,6 +236,54 @@
       "source_repo": "adrienverge/yamllint",
       "status": "candidate-context",
       "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tracel-ai/cubecl",
+      "status": "candidate-context",
+      "text": "Multi-platform high-performance compute language extension for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tracel-ai/cubecl",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tracel-ai/cubek",
+      "status": "candidate-context",
+      "text": "CubeK: high-performance multi-platform kernels in CubeCL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tracel-ai/cubek",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gfx-rs/wgpu-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings to wgpu native library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/wgpu-rs",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dolfies/discord.py-self",
+      "status": "candidate-context",
+      "text": "A fork of the popular discord.py for user accounts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dolfies/discord.py-self",
+      "status": "candidate-context",
+      "text": "Publish"
     }
   ],
   "candidate_glosses": [
@@ -344,6 +392,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "adrienverge/yamllint",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tracel-ai/cubecl",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tracel-ai/cubek",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/wgpu-rs",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dolfies/discord.py-self",
       "status": "candidate",
       "text": "Publish"
     }
@@ -587,11 +659,47 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": ".github/workflows/publish.yaml",
       "source_repo": "adrienverge/yamllint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tracel-ai/cubecl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tracel-ai/cubek"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "gfx-rs/wgpu-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "dolfies/discord.py-self"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

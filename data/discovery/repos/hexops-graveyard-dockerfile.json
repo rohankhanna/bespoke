@@ -5,14 +5,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hexops-graveyard/dockerfile",
-      "target": "docker-library/postgres",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hexops-graveyard/dockerfile",
-      "target": "caddyserver/caddy-docker",
+      "target": "prometheus/prometheus",
       "target_type": "repository"
     },
     {
@@ -27,6 +20,13 @@
       "source_file": "README.md",
       "source_repo": "hexops-graveyard/dockerfile",
       "target": "krallin/tini",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hexops-graveyard/dockerfile",
+      "target": "sourcegraph/godockerize",
       "target_type": "repository"
     },
     {
@@ -58,7 +58,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T01:07:40.958063+00:00",
+  "fetched_at": "2026-04-22T05:07:50.028226+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -92,22 +92,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "caddyserver/caddy-docker",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "docker-library/postgres",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "hexops/dockerfile",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
       "full_name": "krallin/tini",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prometheus/prometheus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sourcegraph/godockerize",
       "source_file": "README.md"
     }
   ],

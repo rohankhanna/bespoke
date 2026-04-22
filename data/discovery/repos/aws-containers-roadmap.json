@@ -1,0 +1,169 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/containers-roadmap",
+      "target": "aws/aws-proton-public-roadmap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/containers-roadmap",
+      "target": "aws-cloudformation/aws-cloudformation-coverage-roadmap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/containers-roadmap",
+      "target": "aws-controllers-k8s/community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/containers-roadmap",
+      "target": "aws/apprunner-roadmap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "aws/containers-roadmap",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "aws/containers-roadmap",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/containers-roadmap",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/containers-roadmap",
+      "target": "fargate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/containers-roadmap",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/containers-roadmap",
+      "target": "roadmap",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:50:40.377464+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4454
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 786
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This is the public roadmap for AWS container services (ECS, ECR, Fargate, and EKS). ",
+    "fork": false,
+    "full_name": "aws/containers-roadmap",
+    "html_url": "https://github.com/aws/containers-roadmap",
+    "language": "Shell",
+    "pushed_at": "2025-03-25T18:13:16Z",
+    "stargazers_count": 5347,
+    "topics": [
+      "aws",
+      "containers",
+      "ecr",
+      "ecs",
+      "eks",
+      "fargate",
+      "kubernetes",
+      "roadmap"
+    ],
+    "updated_at": "2026-04-21T21:20:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-cloudformation/aws-cloudformation-coverage-roadmap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-controllers-k8s/community",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/apprunner-roadmap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/aws-proton-public-roadmap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Close stale issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues"
+    },
+    {
+      "context_snippet": "This is the public roadmap for AWS container services (ECS, ECR, Fargate, and EKS).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "This is the public roadmap for AWS container services (ECS, ECR, Fargate, and EKS).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fargate"
+    },
+    {
+      "context_snippet": "This is the public roadmap for AWS container services (ECS, ECR, Fargate, and EKS).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "This is the public roadmap for AWS container services (ECS, ECR, Fargate, and EKS).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "roadmap"
+    }
+  ]
+}

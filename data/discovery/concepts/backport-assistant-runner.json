@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Backport Assistant Runner"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/terraform",
+      "status": "candidate-context",
+      "text": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform",
+      "status": "candidate-context",
+      "text": "Backport Assistant Runner"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform",
+      "status": "candidate",
+      "text": "Backport Assistant Runner"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9285,
+      "status": "candidate",
+      "text": "aide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9285,
+      "status": "candidate",
+      "text": "legman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9285,
+      "status": "candidate",
+      "text": "second"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9267,
+      "status": "candidate",
+      "text": "lackey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9248,
+      "status": "candidate",
+      "text": "abet"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Backport Assistant Runner",
+  "concept_id": "backport-assistant-runner",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "hashicorp/terraform"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Backport Assistant Runner",
+      "sense_id": "backport-assistant-runner#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

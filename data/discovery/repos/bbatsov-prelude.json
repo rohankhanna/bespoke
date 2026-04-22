@@ -1,0 +1,217 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-lint.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v45",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-lint.yml"
+    },
+    {
+      "component": "DavidAnson/markdownlint-cli2-action@v19",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-lint.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bbatsov/prelude",
+      "target": "bbatsov/crux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bbatsov/prelude",
+      "target": "bbatsov/super-save",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bbatsov/prelude",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bbatsov/prelude",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-lint.yml",
+      "source_repo": "bbatsov/prelude",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-lint.yml",
+      "source_repo": "bbatsov/prelude",
+      "target": "tj-actions/changed-files@v45",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-lint.yml",
+      "source_repo": "bbatsov/prelude",
+      "target": "DavidAnson/markdownlint-cli2-action@v19",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "bbatsov/prelude",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "bbatsov/prelude",
+      "target": "Close inactive issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bbatsov/prelude",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bbatsov/prelude",
+      "target": "emacs-distributions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bbatsov/prelude",
+      "target": "emacs-lisp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bbatsov/prelude",
+      "target": "emacs-prelude",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:10:44.659205+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9950
+    },
+    {
+      "path": "requirements.txt",
+      "size": 16
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 802
+    },
+    {
+      "path": ".github/workflows/markdown-lint.yml",
+      "size": 506
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1513
+    },
+    {
+      "path": ".github/workflows/unstale.yml",
+      "size": 610
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Prelude is an enhanced Emacs 29.1+ distribution that should make your experience with Emacs both more pleasant and more powerful.",
+    "fork": false,
+    "full_name": "bbatsov/prelude",
+    "html_url": "https://github.com/bbatsov/prelude",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-03-31T19:23:22Z",
+    "stargazers_count": 5279,
+    "topics": [
+      "emacs",
+      "emacs-distributions",
+      "emacs-lisp",
+      "emacs-prelude"
+    ],
+    "updated_at": "2026-04-21T11:45:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bbatsov/crux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bbatsov/super-save",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close inactive issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close inactive issues and pull requests"
+    },
+    {
+      "context_snippet": "[![License GPL 3][badge-license]](http://www.gnu.org/licenses/gpl-3.0.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "[![License GPL 3][badge-license]](http://www.gnu.org/licenses/gpl-3.0.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-distributions"
+    },
+    {
+      "context_snippet": "[![License GPL 3][badge-license]](http://www.gnu.org/licenses/gpl-3.0.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-lisp"
+    },
+    {
+      "context_snippet": "[![License GPL 3][badge-license]](http://www.gnu.org/licenses/gpl-3.0.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-prelude"
+    }
+  ]
+}

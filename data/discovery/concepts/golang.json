@@ -451,6 +451,90 @@
       "source_repo": "urjitbhatia/cozgo",
       "status": "candidate-context",
       "text": "Coz profiler Golang wrapper."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonfisher/nested-logrus-formatter",
+      "status": "candidate-context",
+      "text": "Formatter for https://github.com/sirupsen/logrus"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonfisher/nested-logrus-formatter",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/antonfisher/nested-logrus-formatter.svg?branch=master)](https://travis-ci.org/antonfisher/nested-logrus-formatter)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apex/log",
+      "status": "candidate-context",
+      "text": "Structured logging package for Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apex/log",
+      "status": "candidate-context",
+      "text": "module github.com/apex/log go 1.13 require ( github.com/apex/logs v1.0.0 github.com/aphistic/golf v0.0.0-20180712155816-02c07f170c5a github.com/aphistic/sweet v0.2.0 // indirect github.com/aws/aws-sdk-go v1.20.6 github.com/aybabtme/rgbterm v0.0.0-20170906152045-cc83f3b3ce59 gith\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bshuster-repo/logrus-logstash-hook",
+      "status": "candidate-context",
+      "text": ":information_source: Logstash hook for logrus"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bshuster-repo/logrus-logstash-hook",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/bshuster-repo/logrus-logstash-hook.svg?branch=master)](https://travis-ci.org/bshuster-repo/logrus-logstash-hook)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xERR0R/blocky",
+      "status": "candidate-context",
+      "text": "Fast and lightweight DNS proxy as ad-blocker for local network with many features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xERR0R/blocky",
+      "status": "candidate-context",
+      "text": "[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/0xERR0R/blocky/makefile.yml \"Make\")](https://github.com/0xERR0R/blocky/actions/workflows/makefile.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "status": "candidate-context",
+      "text": "\ud83c\udf92 \u9489\u9489 & \ud83e\udd16 GPT-3.5 \u8ba9\u4f60\u7684\u5de5\u4f5c\u6548\u7387\u76f4\u63a5\u8d77\u98de \ud83d\ude80 \u79c1\u804a\u7fa4\u804a\u65b9\u5f0f\u3001\u5355\u804a\u4e32\u804a\u6a21\u5f0f\u3001\u89d2\u8272\u626e\u6f14\u3001\u56fe\u7247\u521b\u4f5c \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "status": "candidate-context",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "76creates/stickers",
+      "status": "candidate-context",
+      "text": "Building blocks for charmbracelet/lipgloss \ud83d\udc7e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "76creates/stickers",
+      "status": "candidate-context",
+      "text": "Is a collection of TUI elements, FlexBox and Table at the moment, its build for [bubbletea](https://github.com/charmbracelet/bubbletea) using [lipgloss](https://github.com/charmbracelet/lipgloss)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dgraph-io/badger",
+      "status": "candidate-context",
+      "text": "Fast key-value DB in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgraph-io/badger",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/dgraph-io/badger/v4.svg)](https://pkg.go.dev/github.com/dgraph-io/badger/v4)"
     }
   ],
   "candidate_glosses": [
@@ -675,6 +759,48 @@
       "source_repo": "urjitbhatia/cozgo",
       "status": "candidate",
       "text": "Coz profiler Golang wrapper."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonfisher/nested-logrus-formatter",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/antonfisher/nested-logrus-formatter.svg?branch=master)](https://travis-ci.org/antonfisher/nested-logrus-formatter)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apex/log",
+      "status": "candidate",
+      "text": "module github.com/apex/log go 1.13 require ( github.com/apex/logs v1.0.0 github.com/aphistic/golf v0.0.0-20180712155816-02c07f170c5a github.com/aphistic/sweet v0.2.0 // indirect github.com/aws/aws-sdk-go v1.20.6 github.com/aybabtme/rgbterm v0.0.0-20170906152045-cc83f3b3ce59 gith\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bshuster-repo/logrus-logstash-hook",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/bshuster-repo/logrus-logstash-hook.svg?branch=master)](https://travis-ci.org/bshuster-repo/logrus-logstash-hook)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xERR0R/blocky",
+      "status": "candidate",
+      "text": "[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/0xERR0R/blocky/makefile.yml \"Make\")](https://github.com/0xERR0R/blocky/actions/workflows/makefile.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eryajf/chatgpt-dingtalk",
+      "status": "candidate",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "76creates/stickers",
+      "status": "candidate",
+      "text": "Is a collection of TUI elements, FlexBox and Table at the moment, its build for [bubbletea](https://github.com/charmbracelet/bubbletea) using [lipgloss](https://github.com/charmbracelet/lipgloss)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgraph-io/badger",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/dgraph-io/badger/v4.svg)](https://pkg.go.dev/github.com/dgraph-io/badger/v4)"
     }
   ],
   "candidate_related_terms": [],
@@ -922,11 +1048,53 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "urjitbhatia/cozgo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "antonfisher/nested-logrus-formatter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "apex/log"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "bshuster-repo/logrus-logstash-hook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "0xERR0R/blocky"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "eryajf/chatgpt-dingtalk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "76creates/stickers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "dgraph-io/badger"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

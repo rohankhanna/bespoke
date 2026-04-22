@@ -19,12 +19,48 @@
       "source_repo": "UB-Mannheim/tesseract",
       "status": "candidate-context",
       "text": "autotools-macos"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DanBloomberg/leptonica",
+      "status": "candidate-context",
+      "text": "Leptonica is an open source library containing software that is broadly useful for image processing and image analysis applications. The official github repository for Leptonica is: danbloomberg/leptonica.  See leptonica.org for more documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanBloomberg/leptonica",
+      "status": "candidate-context",
+      "text": "autotools-macos"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tesseract-ocr/tesseract",
+      "status": "candidate-context",
+      "text": "Tesseract Open Source OCR Engine (main repository)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tesseract-ocr/tesseract",
+      "status": "candidate-context",
+      "text": "autotools-macos"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "UB-Mannheim/tesseract",
+      "status": "candidate",
+      "text": "autotools-macos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DanBloomberg/leptonica",
+      "status": "candidate",
+      "text": "autotools-macos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tesseract-ocr/tesseract",
       "status": "candidate",
       "text": "autotools-macos"
     }
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/autotools-macos.yml",
       "source_repo": "UB-Mannheim/tesseract"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/autotools-macos.yml",
+      "source_repo": "DanBloomberg/leptonica"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/autotools-macos.yml",
+      "source_repo": "tesseract-ocr/tesseract"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

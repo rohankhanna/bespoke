@@ -1,0 +1,92 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "76creates/stickers",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "76creates/stickers",
+      "target": "grid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "76creates/stickers",
+      "target": "responsive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "76creates/stickers",
+      "target": "table",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:25:55.809716+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1339
+    },
+    {
+      "path": "go.mod",
+      "size": 992
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Building blocks for charmbracelet/lipgloss \ud83d\udc7e",
+    "fork": false,
+    "full_name": "76creates/stickers",
+    "html_url": "https://github.com/76creates/stickers",
+    "language": "Go",
+    "pushed_at": "2025-10-27T09:56:27Z",
+    "stargazers_count": 386,
+    "topics": [
+      "go",
+      "golang",
+      "grid",
+      "responsive",
+      "table",
+      "tui"
+    ],
+    "updated_at": "2026-04-21T15:58:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Is a collection of TUI elements, FlexBox and Table at the moment, its build for [bubbletea](https://github.com/charmbracelet/bubbletea) using [lipgloss](https://github.com/charmbracelet/lipgloss).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "Is a collection of TUI elements, FlexBox and Table at the moment, its build for [bubbletea](https://github.com/charmbracelet/bubbletea) using [lipgloss](https://github.com/charmbracelet/lipgloss).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grid"
+    },
+    {
+      "context_snippet": "Is a collection of TUI elements, FlexBox and Table at the moment, its build for [bubbletea](https://github.com/charmbracelet/bubbletea) using [lipgloss](https://github.com/charmbracelet/lipgloss).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "responsive"
+    },
+    {
+      "context_snippet": "Is a collection of TUI elements, FlexBox and Table at the moment, its build for [bubbletea](https://github.com/charmbracelet/bubbletea) using [lipgloss](https://github.com/charmbracelet/lipgloss).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "table"
+    }
+  ]
+}

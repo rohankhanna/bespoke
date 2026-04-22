@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Inclusive Heat Sensor"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/machinelearning",
+      "status": "candidate-context",
+      "text": "ML.NET is an open source and cross-platform machine learning framework for .NET."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/machinelearning",
+      "status": "candidate-context",
+      "text": "Inclusive Heat Sensor"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/machinelearning",
+      "status": "candidate",
+      "text": "Inclusive Heat Sensor"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37623,
+      "status": "candidate",
+      "text": "nerve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21814,
+      "status": "candidate",
+      "text": "electroscope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21814,
+      "status": "candidate",
+      "text": "emancipate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21814,
+      "status": "candidate",
+      "text": "trellis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21793,
+      "status": "candidate",
+      "text": "ray"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Inclusive Heat Sensor",
+  "concept_id": "inclusive-heat-sensor",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/inclusive-heat-sensor.yml",
+      "source_repo": "dotnet/machinelearning"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Inclusive Heat Sensor",
+      "sense_id": "inclusive-heat-sensor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

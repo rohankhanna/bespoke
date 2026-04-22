@@ -32,6 +32,18 @@
       "source_repo": "python-attrs/attrs",
       "status": "candidate-context",
       "text": "Zizmor \ud83c\udf08"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scipy/scipy-stubs",
+      "status": "candidate-context",
+      "text": "Reliable static typing support for SciPy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scipy/scipy-stubs",
+      "status": "candidate-context",
+      "text": "zizmor"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "python-attrs/attrs",
       "status": "candidate",
       "text": "Zizmor \ud83c\udf08"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scipy/scipy-stubs",
+      "status": "candidate",
+      "text": "zizmor"
     }
   ],
   "candidate_related_terms": [],
@@ -65,11 +83,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/zizmor.yml",
       "source_repo": "python-attrs/attrs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "scipy/scipy-stubs"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

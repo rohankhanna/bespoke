@@ -1,0 +1,240 @@
+{
+  "components": [
+    {
+      "component": "rekgrpth/github-repository-dispatch-shell-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "rekgrpth/github-publish-action-shell-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "rekgrpth/pgxn-release-shell-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "rekgrpth/git-clone-shell-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-license.yml"
+    },
+    {
+      "component": "rekgrpth/update-license-year-shell-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-license.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "RekGRpth/pg_task",
+      "target": "rekgrpth/github-repository-dispatch-shell-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "RekGRpth/pg_task",
+      "target": "rekgrpth/github-publish-action-shell-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "RekGRpth/pg_task",
+      "target": "rekgrpth/pgxn-release-shell-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "RekGRpth/pg_task",
+      "target": "Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-license.yml",
+      "source_repo": "RekGRpth/pg_task",
+      "target": "rekgrpth/git-clone-shell-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-license.yml",
+      "source_repo": "RekGRpth/pg_task",
+      "target": "rekgrpth/update-license-year-shell-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-license.yml",
+      "source_repo": "RekGRpth/pg_task",
+      "target": "License",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RekGRpth/pg_task",
+      "target": "async",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RekGRpth/pg_task",
+      "target": "background",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RekGRpth/pg_task",
+      "target": "greengage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RekGRpth/pg_task",
+      "target": "greenplum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RekGRpth/pg_task",
+      "target": "postgres",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RekGRpth/pg_task",
+      "target": "postgresql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RekGRpth/pg_task",
+      "target": "scheduler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RekGRpth/pg_task",
+      "target": "task",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:51:50.331433+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7996
+    },
+    {
+      "path": ".github/workflows/docker-publish.yml",
+      "size": 867
+    },
+    {
+      "path": ".github/workflows/update-license.yml",
+      "size": 308
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "pg_task - job scheduler for PostgreSQL, Greenplum and Greengage: asynchronous background execution of SQL commands at user-defined time",
+    "fork": false,
+    "full_name": "RekGRpth/pg_task",
+    "html_url": "https://github.com/RekGRpth/pg_task",
+    "language": "C",
+    "pushed_at": "2026-03-18T04:02:01Z",
+    "stargazers_count": 67,
+    "topics": [
+      "async",
+      "background",
+      "c",
+      "greengage",
+      "greenplum",
+      "job",
+      "postgres",
+      "postgresql",
+      "scheduler",
+      "sql",
+      "task"
+    ],
+    "updated_at": "2026-03-18T04:01:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "term": "Docker"
+    },
+    {
+      "context_snippet": "License",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-license.yml",
+      "term": "License"
+    },
+    {
+      "context_snippet": "PostgreSQL, Greenplum and Greengage job scheduler `pg_task` allows to execute any sql command at any specific time at background asynchronously",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "async"
+    },
+    {
+      "context_snippet": "PostgreSQL, Greenplum and Greengage job scheduler `pg_task` allows to execute any sql command at any specific time at background asynchronously",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "background"
+    },
+    {
+      "context_snippet": "PostgreSQL, Greenplum and Greengage job scheduler `pg_task` allows to execute any sql command at any specific time at background asynchronously",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "greengage"
+    },
+    {
+      "context_snippet": "PostgreSQL, Greenplum and Greengage job scheduler `pg_task` allows to execute any sql command at any specific time at background asynchronously",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "greenplum"
+    },
+    {
+      "context_snippet": "PostgreSQL, Greenplum and Greengage job scheduler `pg_task` allows to execute any sql command at any specific time at background asynchronously",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgres"
+    },
+    {
+      "context_snippet": "PostgreSQL, Greenplum and Greengage job scheduler `pg_task` allows to execute any sql command at any specific time at background asynchronously",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    },
+    {
+      "context_snippet": "PostgreSQL, Greenplum and Greengage job scheduler `pg_task` allows to execute any sql command at any specific time at background asynchronously",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scheduler"
+    },
+    {
+      "context_snippet": "PostgreSQL, Greenplum and Greengage job scheduler `pg_task` allows to execute any sql command at any specific time at background asynchronously",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "task"
+    }
+  ]
+}

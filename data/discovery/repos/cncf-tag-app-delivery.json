@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/labeler@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notice-i18n-tasks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notice-i18n-tasks.yml"
+    },
+    {
+      "component": "thollander/actions-comment-pull-request@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notice-i18n-tasks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cncf/tag-app-delivery",
+      "target": "open-gitops/.github",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "cncf/tag-app-delivery",
+      "target": "actions/labeler@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "cncf/tag-app-delivery",
+      "target": "labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notice-i18n-tasks.yml",
+      "source_repo": "cncf/tag-app-delivery",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notice-i18n-tasks.yml",
+      "source_repo": "cncf/tag-app-delivery",
+      "target": "thollander/actions-comment-pull-request@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notice-i18n-tasks.yml",
+      "source_repo": "cncf/tag-app-delivery",
+      "target": "Notice i18n Tasks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/tag-app-delivery",
+      "target": "cncf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/tag-app-delivery",
+      "target": "cncf-tag",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:56:41.524216+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4256
+    },
+    {
+      "path": ".github/workflows/deep-diff.sh",
+      "size": 571
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 192
+    },
+    {
+      "path": ".github/workflows/notice-i18n-tasks.yml",
+      "size": 1808
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "\ud83d\udce8\ud83d\ude9aCNCF App Delivery TAG",
+    "fork": false,
+    "full_name": "cncf/tag-app-delivery",
+    "html_url": "https://github.com/cncf/tag-app-delivery",
+    "language": "HTML",
+    "pushed_at": "2025-09-09T15:33:20Z",
+    "stargazers_count": 833,
+    "topics": [
+      "cncf",
+      "cncf-tag",
+      "tag"
+    ],
+    "updated_at": "2026-03-26T21:32:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-gitops/.github",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "labeler"
+    },
+    {
+      "context_snippet": "Notice i18n Tasks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notice-i18n-tasks.yml",
+      "term": "Notice i18n Tasks"
+    },
+    {
+      "context_snippet": "TAG App Delivery focuses on enabling projects and initiatives related to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cncf"
+    },
+    {
+      "context_snippet": "TAG App Delivery focuses on enabling projects and initiatives related to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cncf-tag"
+    }
+  ]
+}

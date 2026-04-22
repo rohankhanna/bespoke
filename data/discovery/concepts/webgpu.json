@@ -31,6 +31,30 @@
       "source_repo": "mrdoob/three.js",
       "status": "candidate-context",
       "text": "[![NPM Package][npm]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tracel-ai/cubecl",
+      "status": "candidate-context",
+      "text": "Multi-platform high-performance compute language extension for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tracel-ai/cubecl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gfx-rs/wgpu-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings to wgpu native library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/wgpu-rs",
+      "status": "candidate-context",
+      "text": "Project is now moved to `wgpu` folder at https://github.com/gfx-rs/wgpu"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "mrdoob/three.js",
       "status": "candidate",
       "text": "[![NPM Package][npm]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tracel-ai/cubecl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/wgpu-rs",
+      "status": "candidate",
+      "text": "Project is now moved to `wgpu` folder at https://github.com/gfx-rs/wgpu"
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +106,29 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "tracel-ai/cubecl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "gfx-rs/wgpu-rs"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

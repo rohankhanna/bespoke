@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Dispatch Docs Update on Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CherryHQ/cherry-studio",
+      "status": "candidate-context",
+      "text": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CherryHQ/cherry-studio",
+      "status": "candidate-context",
+      "text": "Dispatch Docs Update on Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CherryHQ/cherry-studio",
+      "status": "candidate",
+      "text": "Dispatch Docs Update on Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32546,
+      "status": "candidate",
+      "text": "given"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32376,
+      "status": "candidate",
+      "text": "memo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32095,
+      "status": "candidate",
+      "text": "entry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32071,
+      "status": "candidate",
+      "text": "covering letter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32035,
+      "status": "candidate",
+      "text": "documentation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dispatch Docs Update on Release",
+  "concept_id": "dispatch-docs-update-on-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/dispatch-docs-update.yml",
+      "source_repo": "CherryHQ/cherry-studio"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dispatch Docs Update on Release",
+      "sense_id": "dispatch-docs-update-on-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1478,6 +1478,246 @@
       "source_repo": "cargo-generate/cargo-generate",
       "status": "candidate-context",
       "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aporthq/aport-agent-guardrails",
+      "status": "candidate-context",
+      "text": "Pre-action authorization guardrails for AI agents - Works with OpenClaw, Claude Code, LandChain, CrewAI and others"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aporthq/aport-agent-guardrails",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/rebuild",
+      "status": "candidate-context",
+      "text": "Package to rebuild native Node.js modules against the currently installed Electron version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/rebuild",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prebuild/prebuild-install",
+      "status": "candidate-context",
+      "text": "Deprecated. Minimal install client for prebuilds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prebuild/prebuild-install",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mybigday/llama.node",
+      "status": "candidate-context",
+      "text": "Node.js binding of llama.cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mybigday/llama.node",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "01mf02/jaq",
+      "status": "candidate-context",
+      "text": "A jq clone focussed on correctness, speed, and simplicity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "01mf02/jaq",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenAPITools/openapi-generator-cli",
+      "status": "candidate-context",
+      "text": "A node package wrapper for https://github.com/OpenAPITools/openapi-generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenAPITools/openapi-generator-cli",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uber-go/mock",
+      "status": "candidate-context",
+      "text": "GoMock is a mocking framework for the Go programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uber-go/mock",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rbenv/ruby-build",
+      "status": "candidate-context",
+      "text": "A tool to download, compile, and install Ruby on Unix-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rbenv/ruby-build",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/terraform-provider-scaffolding-framework",
+      "status": "candidate-context",
+      "text": "Quick start repository for creating a Terraform provider using terraform-plugin-framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-scaffolding-framework",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/gts",
+      "status": "candidate-context",
+      "text": "\u2602\ufe0f TypeScript style guide, formatter, and linter.  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/gts",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/bazel-skylib",
+      "status": "candidate-context",
+      "text": "Common useful functions and rules for Bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel-skylib",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/beacon-APIs",
+      "status": "candidate-context",
+      "text": "Collection of RESTful APIs provided by Ethereum Beacon nodes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/beacon-APIs",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/builder-specs",
+      "status": "candidate-context",
+      "text": "Specification for the external block builders."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/builder-specs",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mason-org/mason-registry",
+      "status": "candidate-context",
+      "text": "Core registry for mason.nvim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mason-org/mason-registry",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anse-app/anse",
+      "status": "candidate-context",
+      "text": "Supercharged experience for multiple models such as ChatGPT, DALL-E and Stable Diffusion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anse-app/anse",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlfoundations/open_clip",
+      "status": "candidate-context",
+      "text": "An open source implementation of CLIP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlfoundations/open_clip",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bentoml/OpenLLM",
+      "status": "candidate-context",
+      "text": "Run any open-source LLMs, such as DeepSeek and Llama, as OpenAI compatible API endpoint in the cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bentoml/OpenLLM",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/auditwheel",
+      "status": "candidate-context",
+      "text": "Auditing and relabeling cross-distribution Linux wheels."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/auditwheel",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfontanini/presenterm",
+      "status": "candidate-context",
+      "text": "A markdown terminal slideshow tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfontanini/presenterm",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-vm/actions",
+      "status": "candidate-context",
+      "text": "GitHub Actions for the asdf version manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/actions",
+      "status": "candidate-context",
+      "text": "release"
     }
   ],
   "candidate_glosses": [
@@ -2206,6 +2446,126 @@
       "source_repo": "cargo-generate/cargo-generate",
       "status": "candidate",
       "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aporthq/aport-agent-guardrails",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/rebuild",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prebuild/prebuild-install",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mybigday/llama.node",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "01mf02/jaq",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenAPITools/openapi-generator-cli",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uber-go/mock",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rbenv/ruby-build",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-scaffolding-framework",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/gts",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/bazel-skylib",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/beacon-APIs",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/builder-specs",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mason-org/mason-registry",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anse-app/anse",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlfoundations/open_clip",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bentoml/OpenLLM",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/auditwheel",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfontanini/presenterm",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-vm/actions",
+      "status": "candidate",
+      "text": "release"
     }
   ],
   "candidate_related_terms": [
@@ -3317,11 +3677,161 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "cargo-generate/cargo-generate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aporthq/aport-agent-guardrails"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "compozy/kb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "prebuild/prebuild-install"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mybigday/llama.node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "01mf02/jaq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "OpenAPITools/openapi-generator-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "uber-go/mock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rbenv/ruby-build"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hashicorp/terraform-provider-scaffolding-framework"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mislav/hub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "modelscope/ms-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "google/gts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "bazelbuild/bazel-skylib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "ethereum/beacon-APIs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "ethereum/builder-specs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mason-org/mason-registry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "anse-app/anse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "mlfoundations/open_clip"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/create-releases.yml",
+      "source_repo": "bentoml/OpenLLM"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pypa/auditwheel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mfontanini/presenterm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asdf-vm/actions"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

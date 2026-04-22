@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Reliable static typing support for SciPy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Reliable type annotations for <a href=\"https://github.com/scipy/scipy\">SciPy</a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Reliable type annotations for <a href=\"https://github.com/scipy/scipy\">SciPy</a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stubs-only",
+      "sense_id": "stubs-only#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "stubs-only",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stubs-only",
+  "observation_id": "0fb7de36a03b9e82",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "stubs-only",
+  "source_context_snippet": "Reliable type annotations for <a href=\"https://github.com/scipy/scipy\">SciPy</a>",
+  "source_file": null,
+  "source_repo": "scipy/scipy-stubs",
+  "source_repo_description": "Reliable static typing support for SciPy"
+}

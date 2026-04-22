@@ -46,20 +46,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "rust-lang/rustfmt",
-      "target": "rust-lang/rust.vim",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rust-lang/rustfmt",
-      "target": "rust-lang/rust-mode",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rust-lang/rustfmt",
       "target": "rust-dev-tools/fmt-rfcs",
       "target_type": "repository"
     },
@@ -197,7 +183,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T11:31:28.964487+00:00",
+  "fetched_at": "2026-04-22T05:11:12.799305+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -245,30 +231,20 @@
     "full_name": "rust-lang/rustfmt",
     "html_url": "https://github.com/rust-lang/rustfmt",
     "language": "Rust",
-    "pushed_at": "2026-04-20T18:53:57Z",
-    "stargazers_count": 6801,
+    "pushed_at": "2026-04-21T16:25:15Z",
+    "stargazers_count": 6802,
     "topics": [
       "codeformatter",
       "formatter",
       "rust",
       "rustfmt"
     ],
-    "updated_at": "2026-04-20T18:54:34Z"
+    "updated_at": "2026-04-21T16:25:23Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "rust-dev-tools/fmt-rfcs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rust-lang/rust-mode",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rust-lang/rust.vim",
       "source_file": "README.md"
     }
   ],

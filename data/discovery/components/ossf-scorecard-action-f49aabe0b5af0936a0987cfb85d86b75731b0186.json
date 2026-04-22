@@ -1,0 +1,12 @@
+{
+  "component": "ossf/scorecard-action@f49aabe0b5af0936a0987cfb85d86b75731b0186",
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "facebook/zstd"
+    }
+  ]
+}

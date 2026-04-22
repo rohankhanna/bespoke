@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ahmetb/cloud-run-faq",
+      "target": "steren/awesome-cloudrun",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ahmetb/cloud-run-faq",
+      "target": "googlecloudplatform/berglas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ahmetb/cloud-run-faq",
+      "target": "knative/docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ahmetb/cloud-run-faq",
+      "target": "ahmetb/runsd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahmetb/cloud-run-faq",
+      "target": "cloud-run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahmetb/cloud-run-faq",
+      "target": "google-cloud-run",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:04:32.730651+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 60304
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Unofficial FAQ and everything you've been wondering about Google Cloud Run.",
+    "fork": false,
+    "full_name": "ahmetb/cloud-run-faq",
+    "html_url": "https://github.com/ahmetb/cloud-run-faq",
+    "language": "Shell",
+    "pushed_at": "2025-06-03T20:21:05Z",
+    "stargazers_count": 2341,
+    "topics": [
+      "cloud-run",
+      "google-cloud-run"
+    ],
+    "updated_at": "2026-04-19T21:41:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ahmetb/runsd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlecloudplatform/berglas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "knative/docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "steren/awesome-cloudrun",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> \u26a0\ufe0f Beware: This is a **community-maintained** informal knowledge base.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-run"
+    },
+    {
+      "context_snippet": "> \u26a0\ufe0f Beware: This is a **community-maintained** informal knowledge base.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-cloud-run"
+    }
+  ]
+}

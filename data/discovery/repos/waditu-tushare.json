@@ -1,0 +1,133 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "waditu/tushare",
+      "target": "finance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "waditu/tushare",
+      "target": "fintech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "waditu/tushare",
+      "target": "pandas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "waditu/tushare",
+      "target": "realtime-quotes-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "waditu/tushare",
+      "target": "stock-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "waditu/tushare",
+      "target": "stock-market",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "waditu/tushare",
+      "target": "tushare",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:01:37.360953+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9874
+    },
+    {
+      "path": "requirements.txt",
+      "size": 93
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TuShare is a utility for crawling historical data of China stocks",
+    "fork": false,
+    "full_name": "waditu/tushare",
+    "html_url": "https://github.com/waditu/tushare",
+    "language": "Python",
+    "pushed_at": "2024-03-13T14:31:20Z",
+    "stargazers_count": 14787,
+    "topics": [
+      "finance",
+      "fintech",
+      "pandas",
+      "python",
+      "realtime-quotes-data",
+      "stock-data",
+      "stock-market",
+      "tushare"
+    ],
+    "updated_at": "2026-04-21T23:44:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "TuShare",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "finance"
+    },
+    {
+      "context_snippet": "TuShare",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fintech"
+    },
+    {
+      "context_snippet": "TuShare",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pandas"
+    },
+    {
+      "context_snippet": "TuShare",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "realtime-quotes-data"
+    },
+    {
+      "context_snippet": "TuShare",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stock-data"
+    },
+    {
+      "context_snippet": "TuShare",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stock-market"
+    },
+    {
+      "context_snippet": "TuShare",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tushare"
+    }
+  ]
+}

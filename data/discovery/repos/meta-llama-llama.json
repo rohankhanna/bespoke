@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-llama/llama",
+      "target": "meta-llama/llama-agentic-system",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-llama/llama",
+      "target": "meta-llama/llama-recipes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-llama/llama",
+      "target": "facebookresearch/llama-recipes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-llama/llama",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:56:32.748034+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8672
+    },
+    {
+      "path": "requirements.txt",
+      "size": 35
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Inference code for Llama models",
+    "fork": false,
+    "full_name": "meta-llama/llama",
+    "html_url": "https://github.com/meta-llama/llama",
+    "language": "Python",
+    "pushed_at": "2025-01-26T21:42:26Z",
+    "stargazers_count": 59355,
+    "topics": [],
+    "updated_at": "2026-04-22T03:57:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama-recipes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meta-llama/llama-agentic-system",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meta-llama/llama-recipes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

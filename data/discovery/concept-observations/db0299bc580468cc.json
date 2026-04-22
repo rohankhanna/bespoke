@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Pull request WIP checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Pull request WIP checks"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27743,
+      "status": "candidate",
+      "text": "weight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17615,
+      "status": "candidate",
+      "text": "horsepower"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17471,
+      "status": "candidate",
+      "text": "cost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17468,
+      "status": "candidate",
+      "text": "balance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17426,
+      "status": "candidate",
+      "text": "curb"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull request WIP checks",
+      "sense_id": "pull-request-wip-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pull-request-wip-checks",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pull-request-wip-checks",
+  "observation_id": "db0299bc580468cc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "Pull request WIP checks",
+  "source_context_snippet": "Pull request WIP checks",
+  "source_file": ".github/workflows/PR-wip-checks.yaml",
+  "source_repo": "kata-containers/community",
+  "source_repo_description": null
+}

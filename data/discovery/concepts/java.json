@@ -79,6 +79,30 @@
       "source_repo": "google/error-prone",
       "status": "candidate-context",
       "text": "Error Prone is a static analysis tool for Java that catches common programming"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "activeviam/jdk4py",
+      "status": "candidate-context",
+      "text": "A JDK shipped in a Python package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "activeviam/jdk4py",
+      "status": "candidate-context",
+      "text": "A JDK shipped in a Python package."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/spotbugs-intellij-plugin",
+      "status": "candidate-context",
+      "text": "The SpotBugs Plugin for IntelliJ IDEA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/spotbugs-intellij-plugin",
+      "status": "candidate-context",
+      "text": "[![team JetBrains project](https://jb.gg/badges/team.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "google/error-prone",
       "status": "candidate",
       "text": "Error Prone is a static analysis tool for Java that catches common programming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "activeviam/jdk4py",
+      "status": "candidate",
+      "text": "A JDK shipped in a Python package."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/spotbugs-intellij-plugin",
+      "status": "candidate",
+      "text": "[![team JetBrains project](https://jb.gg/badges/team.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)"
     }
   ],
   "candidate_related_terms": [
@@ -222,11 +258,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "google/error-prone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "activeviam/jdk4py"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/spotbugs-intellij-plugin"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

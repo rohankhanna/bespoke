@@ -1,0 +1,451 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-badger.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-badger.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-badger.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-badger.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-badger.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-badger.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-badger.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-badger-bank-tests-nightly.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-badger-bank-tests-nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-badger-bank-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-badger-bank-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-badger-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-badger-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-badger-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-badger-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-tests.yml"
+    },
+    {
+      "component": "dgraph-io/.github/.github/workflows/trunk.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trunk.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dgraph-io/badger",
+      "target": "appleboy/gorush",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dgraph-io/badger",
+      "target": "bbva/raft-badger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dgraph-io/badger",
+      "target": "bgokden/veri",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dgraph-io/badger",
+      "target": "blinklabs-io/bluefin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-badger.yml",
+      "source_repo": "dgraph-io/badger",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-badger.yml",
+      "source_repo": "dgraph-io/badger",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-badger.yml",
+      "source_repo": "dgraph-io/badger",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-badger.yml",
+      "source_repo": "dgraph-io/badger",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-badger.yml",
+      "source_repo": "dgraph-io/badger",
+      "target": "cd-badger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-badger-bank-tests-nightly.yml",
+      "source_repo": "dgraph-io/badger",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-badger-bank-tests-nightly.yml",
+      "source_repo": "dgraph-io/badger",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-badger-bank-tests-nightly.yml",
+      "source_repo": "dgraph-io/badger",
+      "target": "ci-badger-bank-tests-nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-badger-bank-tests.yml",
+      "source_repo": "dgraph-io/badger",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-badger-bank-tests.yml",
+      "source_repo": "dgraph-io/badger",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-badger-bank-tests.yml",
+      "source_repo": "dgraph-io/badger",
+      "target": "ci-badger-bank-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-badger-tests.yml",
+      "source_repo": "dgraph-io/badger",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-badger-tests.yml",
+      "source_repo": "dgraph-io/badger",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-badger-tests.yml",
+      "source_repo": "dgraph-io/badger",
+      "target": "ci-badger-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-tests.yml",
+      "source_repo": "dgraph-io/badger",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-tests.yml",
+      "source_repo": "dgraph-io/badger",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dgraph-tests.yml",
+      "source_repo": "dgraph-io/badger",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-dgraph-tests.yml",
+      "source_repo": "dgraph-io/badger",
+      "target": "ci-dgraph-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trunk.yml",
+      "source_repo": "dgraph-io/badger",
+      "target": "dgraph-io/.github/.github/workflows/trunk.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trunk.yml",
+      "source_repo": "dgraph-io/badger",
+      "target": "Trunk Code Quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgraph-io/badger",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgraph-io/badger",
+      "target": "document-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgraph-io/badger",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgraph-io/badger",
+      "target": "key-value",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgraph-io/badger",
+      "target": "library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:26:35.595756+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16652
+    },
+    {
+      "path": "go.mod",
+      "size": 1159
+    },
+    {
+      "path": ".github/workflows/cd-badger.yml",
+      "size": 4154
+    },
+    {
+      "path": ".github/workflows/ci-badger-bank-tests-nightly.yml",
+      "size": 1515
+    },
+    {
+      "path": ".github/workflows/ci-badger-bank-tests.yml",
+      "size": 811
+    },
+    {
+      "path": ".github/workflows/ci-badger-tests.yml",
+      "size": 1361
+    },
+    {
+      "path": ".github/workflows/ci-dgraph-tests.yml",
+      "size": 1842
+    },
+    {
+      "path": ".github/workflows/trunk.yml",
+      "size": 247
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fast key-value DB in Go.",
+    "fork": false,
+    "full_name": "dgraph-io/badger",
+    "html_url": "https://github.com/dgraph-io/badger",
+    "language": "Go",
+    "pushed_at": "2026-04-20T00:26:11Z",
+    "stargazers_count": 15578,
+    "topics": [
+      "database",
+      "document-database",
+      "go",
+      "golang",
+      "key-value",
+      "library",
+      "ssd"
+    ],
+    "updated_at": "2026-04-21T22:39:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appleboy/gorush",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bbva/raft-badger",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bgokden/veri",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blinklabs-io/bluefin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "cd-badger",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-badger.yml",
+      "term": "cd-badger"
+    },
+    {
+      "context_snippet": "ci-badger-bank-tests-nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-badger-bank-tests-nightly.yml",
+      "term": "ci-badger-bank-tests-nightly"
+    },
+    {
+      "context_snippet": "ci-badger-bank-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-badger-bank-tests.yml",
+      "term": "ci-badger-bank-tests"
+    },
+    {
+      "context_snippet": "ci-badger-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-badger-tests.yml",
+      "term": "ci-badger-tests"
+    },
+    {
+      "context_snippet": "ci-dgraph-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-dgraph-tests.yml",
+      "term": "ci-dgraph-tests"
+    },
+    {
+      "context_snippet": "Trunk Code Quality",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trunk.yml",
+      "term": "Trunk Code Quality"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/dgraph-io/badger/v4.svg)](https://pkg.go.dev/github.com/dgraph-io/badger/v4)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/dgraph-io/badger/v4.svg)](https://pkg.go.dev/github.com/dgraph-io/badger/v4)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "document-database"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/dgraph-io/badger/v4.svg)](https://pkg.go.dev/github.com/dgraph-io/badger/v4)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/dgraph-io/badger/v4.svg)](https://pkg.go.dev/github.com/dgraph-io/badger/v4)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "key-value"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/dgraph-io/badger/v4.svg)](https://pkg.go.dev/github.com/dgraph-io/badger/v4)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    }
+  ]
+}

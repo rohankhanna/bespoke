@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tpoechtrager/osxcross",
+      "target": "tpoechtrager/cctools-port",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tpoechtrager/osxcross",
+      "target": "multiarch/crossbuild",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:10:11.682591+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8574
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MacOS Cross-Toolchain for Linux and *BSD",
+    "fork": false,
+    "full_name": "tpoechtrager/osxcross",
+    "html_url": "https://github.com/tpoechtrager/osxcross",
+    "language": "C++",
+    "pushed_at": "2025-12-15T17:34:45Z",
+    "stargazers_count": 3305,
+    "topics": [],
+    "updated_at": "2026-04-21T14:34:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "multiarch/crossbuild",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tpoechtrager/cctools-port",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

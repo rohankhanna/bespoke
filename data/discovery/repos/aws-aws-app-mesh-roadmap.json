@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/aws-app-mesh-roadmap",
+      "target": "aws/aws-app-mesh-examples",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:50:37.507818+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4979
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AWS App Mesh is a service mesh that you can use with your microservices to manage service to service communication",
+    "fork": false,
+    "full_name": "aws/aws-app-mesh-roadmap",
+    "html_url": "https://github.com/aws/aws-app-mesh-roadmap",
+    "language": null,
+    "pushed_at": "2024-09-24T15:17:36Z",
+    "stargazers_count": 346,
+    "topics": [],
+    "updated_at": "2026-04-01T11:53:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/aws-app-mesh-examples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

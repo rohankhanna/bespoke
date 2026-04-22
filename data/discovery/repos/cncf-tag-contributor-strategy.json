@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "autoprefixer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hugo-extended",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss-cli",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updateprojects.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updateprojects.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updateprojects.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cncf/tag-contributor-strategy",
+      "target": "cncf/project-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cncf/tag-contributor-strategy",
+      "target": "autoprefixer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cncf/tag-contributor-strategy",
+      "target": "hugo-extended",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cncf/tag-contributor-strategy",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cncf/tag-contributor-strategy",
+      "target": "postcss-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updateprojects.yml",
+      "source_repo": "cncf/tag-contributor-strategy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updateprojects.yml",
+      "source_repo": "cncf/tag-contributor-strategy",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updateprojects.yml",
+      "source_repo": "cncf/tag-contributor-strategy",
+      "target": "peter-evans/create-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/updateprojects.yml",
+      "source_repo": "cncf/tag-contributor-strategy",
+      "target": "Update Projects",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:56:45.875935+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4931
+    },
+    {
+      "path": "package.json",
+      "size": 472
+    },
+    {
+      "path": ".github/workflows/updateprojects.py",
+      "size": 4031
+    },
+    {
+      "path": ".github/workflows/updateprojects.yml",
+      "size": 878
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "CNCF Technical Advisory Group on Contributor Strategy -- maintainer relations, building up contributors, governance, graduation, and more.",
+    "fork": false,
+    "full_name": "cncf/tag-contributor-strategy",
+    "html_url": "https://github.com/cncf/tag-contributor-strategy",
+    "language": "HTML",
+    "pushed_at": "2025-09-25T19:55:05Z",
+    "stargazers_count": 209,
+    "topics": [],
+    "updated_at": "2026-04-14T16:26:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cncf/project-template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Update Projects",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/updateprojects.yml",
+      "term": "Update Projects"
+    }
+  ]
+}

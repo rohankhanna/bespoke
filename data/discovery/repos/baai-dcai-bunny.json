@@ -1,0 +1,168 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BAAI-DCAI/Bunny",
+      "target": "baai-dcai/spatialbot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BAAI-DCAI/Bunny",
+      "target": "baai-dcai/multimodal-robustness-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BAAI-DCAI/Bunny",
+      "target": "nvidia/apex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BAAI-DCAI/Bunny",
+      "target": "baai-dcai/dataset-pruning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BAAI-DCAI/Bunny",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BAAI-DCAI/Bunny",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BAAI-DCAI/Bunny",
+      "target": "english",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BAAI-DCAI/Bunny",
+      "target": "gpt-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BAAI-DCAI/Bunny",
+      "target": "mllm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BAAI-DCAI/Bunny",
+      "target": "multimodal-large-language-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:53:05.160338+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35647
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A family of lightweight multimodal models. ",
+    "fork": false,
+    "full_name": "BAAI-DCAI/Bunny",
+    "html_url": "https://github.com/BAAI-DCAI/Bunny",
+    "language": "Python",
+    "pushed_at": "2024-11-18T12:18:33Z",
+    "stargazers_count": 1053,
+    "topics": [
+      "chatgpt",
+      "chinese",
+      "english",
+      "gpt-4",
+      "mllm",
+      "multimodal-large-language-models",
+      "vlm"
+    ],
+    "updated_at": "2026-04-03T09:27:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baai-dcai/dataset-pruning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baai-dcai/multimodal-robustness-benchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baai-dcai/spatialbot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/apex",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "english"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mllm"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-large-language-models"
+    }
+  ]
+}

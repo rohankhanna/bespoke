@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ML.NET is an open source and cross-platform machine learning framework for .NET."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Inclusive Heat Sensor"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Inclusive Heat Sensor"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37623,
+      "status": "candidate",
+      "text": "nerve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21814,
+      "status": "candidate",
+      "text": "electroscope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21814,
+      "status": "candidate",
+      "text": "emancipate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21814,
+      "status": "candidate",
+      "text": "trellis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21793,
+      "status": "candidate",
+      "text": "ray"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Inclusive Heat Sensor",
+      "sense_id": "inclusive-heat-sensor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "inclusive-heat-sensor",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "inclusive-heat-sensor",
+  "observation_id": "16bf023f72290fa9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "Inclusive Heat Sensor",
+  "source_context_snippet": "Inclusive Heat Sensor",
+  "source_file": ".github/workflows/inclusive-heat-sensor.yml",
+  "source_repo": "dotnet/machinelearning",
+  "source_repo_description": "ML.NET is an open source and cross-platform machine learning framework for .NET."
+}

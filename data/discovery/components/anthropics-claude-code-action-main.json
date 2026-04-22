@@ -1,7 +1,7 @@
 {
   "component": "anthropics/claude-code-action@main",
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-04-18T09:21:02.237042+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/issue-triage.yml",
       "source_repo": "anthropics/claude-code-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-translator.yml",
+      "source_repo": "CherryHQ/cherry-studio"
     }
   ]
 }

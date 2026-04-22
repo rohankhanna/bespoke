@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A generative speech model for daily dialogue."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Calculate and Sync SHA256"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Calculate and Sync SHA256"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11296,
+      "status": "candidate",
+      "text": "timed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11135,
+      "status": "candidate",
+      "text": "assess"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11135,
+      "status": "candidate",
+      "text": "assessing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11053,
+      "status": "candidate",
+      "text": "align"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11053,
+      "status": "candidate",
+      "text": "lip"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Calculate and Sync SHA256",
+      "sense_id": "calculate-and-sync-sha256#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "calculate-and-sync-sha256",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "calculate-and-sync-sha256",
+  "observation_id": "2f8586d74aed9dbf",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "Calculate and Sync SHA256",
+  "source_context_snippet": "Calculate and Sync SHA256",
+  "source_file": ".github/workflows/checksum.yml",
+  "source_repo": "2noise/ChatTTS",
+  "source_repo_description": "A generative speech model for daily dialogue."
+}

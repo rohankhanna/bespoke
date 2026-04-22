@@ -91,6 +91,54 @@
       "source_repo": "nlohmann/json",
       "status": "candidate-context",
       "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/cusignal",
+      "status": "candidate-context",
+      "text": "cuSignal - RAPIDS Signal Processing Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cusignal",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tauri-apps/tauri-docs",
+      "status": "candidate-context",
+      "text": "The source for all Tauri project documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/tauri-docs",
+      "status": "candidate-context",
+      "text": "'Pull Request Labeler'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flutter/flutter",
+      "status": "candidate-context",
+      "text": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flutter/flutter",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fwcd/tree-sitter-kotlin",
+      "status": "candidate-context",
+      "text": "Kotlin grammar for Tree-sitter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fwcd/tree-sitter-kotlin",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
     }
   ],
   "candidate_glosses": [
@@ -133,6 +181,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nlohmann/json",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cusignal",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tauri-apps/tauri-docs",
+      "status": "candidate",
+      "text": "'Pull Request Labeler'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flutter/flutter",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fwcd/tree-sitter-kotlin",
       "status": "candidate",
       "text": "\"Pull Request Labeler\""
     }
@@ -226,11 +298,35 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "nlohmann/json"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "rapidsai/cusignal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "tauri-apps/tauri-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "flutter/flutter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "fwcd/tree-sitter-kotlin"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

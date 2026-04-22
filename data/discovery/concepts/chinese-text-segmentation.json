@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "chinese-text-segmentation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fukuball/jieba-php",
+      "status": "candidate-context",
+      "text": "\"\u7d50\u5df4\"\u4e2d\u6587\u5206\u8a5e\uff1a\u505a\u6700\u597d\u7684 PHP \u4e2d\u6587\u5206\u8a5e\u3001\u4e2d\u6587\u65b7\u8a5e\u7d44\u4ef6\u3002 / \"Jieba\" (Chinese for \"to stutter\") Chinese text segmentation: built to be the best PHP Chinese word segmentation module."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fukuball/jieba-php",
+      "status": "candidate-context",
+      "text": "[![Made with Love](https://img.shields.io/badge/made%20with-%e2%9d%a4-ff69b4.svg)](http://www.fukuball.com)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fukuball/jieba-php",
+      "status": "candidate",
+      "text": "[![Made with Love](https://img.shields.io/badge/made%20with-%e2%9d%a4-ff69b4.svg)](http://www.fukuball.com)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "chinese-text-segmentation",
+  "concept_id": "chinese-text-segmentation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "fukuball/jieba-php"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chinese-text-segmentation",
+      "sense_id": "chinese-text-segmentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

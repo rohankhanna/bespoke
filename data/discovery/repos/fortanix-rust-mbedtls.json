@@ -1,0 +1,150 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-crates.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-crates.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@988c164c3d0e93c4dbab36aaf5bbeb77425b2894",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fortanix/rust-mbedtls",
+      "target": "mbed-tls/mbedtls",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-crates.yml",
+      "source_repo": "fortanix/rust-mbedtls",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-crates.yml",
+      "source_repo": "fortanix/rust-mbedtls",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-crates.yml",
+      "source_repo": "fortanix/rust-mbedtls",
+      "target": "Publish Crates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "fortanix/rust-mbedtls",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "fortanix/rust-mbedtls",
+      "target": "Swatinem/rust-cache@988c164c3d0e93c4dbab36aaf5bbeb77425b2894",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "fortanix/rust-mbedtls",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "fortanix/rust-mbedtls",
+      "target": "taiki-e/install-action@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:25:09.989422+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11802
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 92
+    },
+    {
+      "path": ".github/workflows/publish-crates.yml",
+      "size": 2090
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 3402
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Idiomatic Rust wrapper for MbedTLS",
+    "fork": false,
+    "full_name": "fortanix/rust-mbedtls",
+    "html_url": "https://github.com/fortanix/rust-mbedtls",
+    "language": "Rust",
+    "pushed_at": "2026-03-06T17:11:13Z",
+    "stargazers_count": 87,
+    "topics": [],
+    "updated_at": "2026-02-13T16:15:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mbed-tls/mbedtls",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish Crates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-crates.yml",
+      "term": "Publish Crates"
+    }
+  ]
+}

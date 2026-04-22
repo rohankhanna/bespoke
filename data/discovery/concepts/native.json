@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "native"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "expo/expo",
+      "status": "candidate-context",
+      "text": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expo/expo",
+      "status": "candidate-context",
+      "text": "<!-- Banner Image -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expo/expo",
+      "status": "candidate",
+      "text": "<!-- Banner Image -->"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031778,
+      "status": "candidate",
+      "text": "autochthonic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031762,
+      "status": "candidate",
+      "text": "autochthonal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031734,
+      "status": "candidate",
+      "text": "autochthonous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031721,
+      "status": "candidate",
+      "text": "indigenous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031650,
+      "status": "candidate",
+      "text": "native-born"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27054,
+      "status": "candidate",
+      "text": "pure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22060,
+      "status": "candidate",
+      "text": "natural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17023,
+      "status": "candidate",
+      "text": "connatural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16053,
+      "status": "candidate",
+      "text": "domestic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14066,
+      "status": "candidate",
+      "text": "endemic"
+    }
+  ],
+  "canonical_name": "native",
+  "concept_id": "native",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "expo/expo"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "native",
+      "sense_id": "native#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

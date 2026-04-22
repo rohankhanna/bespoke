@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "changjiashuai/kotlin-multiaddr",
+      "target": "multiformats/multiformats",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "changjiashuai/kotlin-multiaddr",
+      "target": "richardlitt/standard-readme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "changjiashuai/kotlin-multiaddr",
+      "target": "ipfs/community",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:08:21.168538+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2206
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Composable and future-proof network addresses https://github.com/multiformats/multiaddr",
+    "fork": false,
+    "full_name": "changjiashuai/kotlin-multiaddr",
+    "html_url": "https://github.com/changjiashuai/kotlin-multiaddr",
+    "language": "Kotlin",
+    "pushed_at": "2021-12-14T23:04:14Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2019-07-06T11:45:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipfs/community",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "multiformats/multiformats",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "richardlitt/standard-readme",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

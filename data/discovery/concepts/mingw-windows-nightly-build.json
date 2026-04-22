@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "MinGW Windows Nightly Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blackhole89/autopen",
+      "status": "candidate-context",
+      "text": "Editor with LLM generation tree exploration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blackhole89/autopen",
+      "status": "candidate-context",
+      "text": "MinGW Windows Nightly Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blackhole89/autopen",
+      "status": "candidate",
+      "text": "MinGW Windows Nightly Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21914,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20952,
+      "status": "candidate",
+      "text": "fluctuation limit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20897,
+      "status": "candidate",
+      "text": "tiler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20746,
+      "status": "candidate",
+      "text": "tile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20719,
+      "status": "candidate",
+      "text": "daylight"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "MinGW Windows Nightly Build",
+  "concept_id": "mingw-windows-nightly-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "blackhole89/autopen"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "MinGW Windows Nightly Build",
+      "sense_id": "mingw-windows-nightly-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

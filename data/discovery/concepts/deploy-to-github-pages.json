@@ -43,6 +43,18 @@
       "source_repo": "strands-agents/docs",
       "status": "candidate-context",
       "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/execution-apis",
+      "status": "candidate-context",
+      "text": "Collection of APIs provided by Ethereum execution layer clients "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/execution-apis",
+      "status": "candidate-context",
+      "text": "Deploy to GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "strands-agents/docs",
+      "status": "candidate",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/execution-apis",
       "status": "candidate",
       "text": "Deploy to GitHub Pages"
     }
@@ -130,11 +148,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/deploy-github-pages.yml",
       "source_repo": "strands-agents/docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "ethereum/execution-apis"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

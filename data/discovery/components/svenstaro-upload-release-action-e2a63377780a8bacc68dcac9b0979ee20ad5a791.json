@@ -1,0 +1,17 @@
+{
+  "component": "svenstaro/upload-release-action@e2a63377780a8bacc68dcac9b0979ee20ad5a791",
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "mfontanini/presenterm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "mfontanini/presenterm"
+    }
+  ]
+}

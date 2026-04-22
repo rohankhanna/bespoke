@@ -1,7 +1,7 @@
 {
   "component": "sigstore/cosign-installer@398d4b0eeef1380460a10c8013a76f728fb906ac",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

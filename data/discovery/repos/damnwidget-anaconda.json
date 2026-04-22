@@ -1,0 +1,122 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DamnWidget/anaconda",
+      "target": "sublimelsp/lsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DamnWidget/anaconda",
+      "target": "damnwidget/anaconda_go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DamnWidget/anaconda",
+      "target": "damnwidget/anaconda_rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DamnWidget/anaconda",
+      "target": "damnwidget/anaconda_php",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamnWidget/anaconda",
+      "target": "anaconda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamnWidget/anaconda",
+      "target": "ide-features",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamnWidget/anaconda",
+      "target": "sublime-text",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:59:07.472699+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7931
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Anaconda turns your Sublime Text 3 in a full featured Python development IDE including autocompletion, code linting, IDE features, autopep8 formating, McCabe complexity checker Vagrant and Docker support for Sublime Text 3 using Jedi, PyFlakes, pep8, MyPy, PyLint, pep257 and McCabe that will never freeze your Sublime Text 3",
+    "fork": false,
+    "full_name": "DamnWidget/anaconda",
+    "html_url": "https://github.com/DamnWidget/anaconda",
+    "language": "Python",
+    "pushed_at": "2022-08-12T18:54:06Z",
+    "stargazers_count": 2243,
+    "topics": [
+      "anaconda",
+      "ide-features",
+      "python",
+      "sublime-text"
+    ],
+    "updated_at": "2026-04-21T11:54:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "damnwidget/anaconda_go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "damnwidget/anaconda_php",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "damnwidget/anaconda_rust",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sublimelsp/lsp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**New versions of this plugin only works with Python >= 3.6 and requires Sublime Text 4 build >= 4107**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anaconda"
+    },
+    {
+      "context_snippet": "**New versions of this plugin only works with Python >= 3.6 and requires Sublime Text 4 build >= 4107**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ide-features"
+    },
+    {
+      "context_snippet": "**New versions of this plugin only works with Python >= 3.6 and requires Sublime Text 4 build >= 4107**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-text"
+    }
+  ]
+}

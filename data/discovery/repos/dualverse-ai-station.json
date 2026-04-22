@@ -1,0 +1,122 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dualverse-ai/station",
+      "target": "ai-agents-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dualverse-ai/station",
+      "target": "ai-scientist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dualverse-ai/station",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dualverse-ai/station",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dualverse-ai/station",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dualverse-ai/station",
+      "target": "open-world",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:09:11.891485+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19392
+    },
+    {
+      "path": "requirements.txt",
+      "size": 305
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Station, an open-world multi-agent environment that models a miniature scientific ecosystem.",
+    "fork": false,
+    "full_name": "dualverse-ai/station",
+    "html_url": "https://github.com/dualverse-ai/station",
+    "language": "Python",
+    "pushed_at": "2026-02-09T06:57:32Z",
+    "stargazers_count": 112,
+    "topics": [
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "ai-agents-framework",
+      "ai-scientist",
+      "artificial-intelligence",
+      "large-language-models",
+      "llm",
+      "machine-learning",
+      "open-world"
+    ],
+    "updated_at": "2026-04-13T18:15:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-agents-framework"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-scientist"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-world"
+    }
+  ]
+}

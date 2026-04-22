@@ -1,0 +1,17 @@
+{
+  "component": "aquasecurity/trivy-action@0.35.0",
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/amd-image-sbom.yml",
+      "source_repo": "redhat-et/triton-dev-containers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/image-sbom.yml",
+      "source_repo": "redhat-et/triton-dev-containers"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_commands.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_commands.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_commands.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optional.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optional.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pandas-dev/pandas-stubs",
+      "target": "python/typing_extensions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pandas-dev/pandas-stubs",
+      "target": "virtuslab/pandas-stubs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_commands.yml",
+      "source_repo": "pandas-dev/pandas-stubs",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_commands.yml",
+      "source_repo": "pandas-dev/pandas-stubs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment_commands.yml",
+      "source_repo": "pandas-dev/pandas-stubs",
+      "target": "Comment Commands to Trigger CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optional.yml",
+      "source_repo": "pandas-dev/pandas-stubs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/optional.yml",
+      "source_repo": "pandas-dev/pandas-stubs",
+      "target": "Optional",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pandas-dev/pandas-stubs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pandas-dev/pandas-stubs",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pandas-dev/pandas-stubs",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:58:44.349915+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8911
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 10755
+    },
+    {
+      "path": ".github/workflows/comment_commands.yml",
+      "size": 3333
+    },
+    {
+      "path": ".github/workflows/optional.yml",
+      "size": 765
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1893
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Public type stubs for pandas",
+    "fork": false,
+    "full_name": "pandas-dev/pandas-stubs",
+    "html_url": "https://github.com/pandas-dev/pandas-stubs",
+    "language": "Python",
+    "pushed_at": "2026-04-21T20:30:58Z",
+    "stargazers_count": 313,
+    "topics": [],
+    "updated_at": "2026-04-21T20:31:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "python/typing_extensions",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "virtuslab/pandas-stubs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Comment Commands to Trigger CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment_commands.yml",
+      "term": "Comment Commands to Trigger CI"
+    },
+    {
+      "context_snippet": "'Optional'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/optional.yml",
+      "term": "Optional"
+    },
+    {
+      "context_snippet": "\"Test\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opencv/opencv",
+      "target": "opencv/opencv_contrib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/4.x.yml",
+      "source_repo": "opencv/opencv",
+      "target": "opencv/ci-gha-workflow/.github/workflows/OCV-CodeQL.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR-4.x.yaml",
+      "source_repo": "opencv/opencv",
+      "target": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-Linux.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR-4.x.yaml",
+      "source_repo": "opencv/opencv",
+      "target": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-Windows.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR-4.x.yaml",
+      "source_repo": "opencv/opencv",
+      "target": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-ARM64.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR-4.x.yaml",
+      "source_repo": "opencv/opencv",
+      "target": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-ARM64-Debug.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR-4.x.yaml",
+      "source_repo": "opencv/opencv",
+      "target": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-U20-OpenVINO.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR-4.x.yaml",
+      "source_repo": "opencv/opencv",
+      "target": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-U20-Cuda.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR-4.x.yaml",
+      "source_repo": "opencv/opencv",
+      "target": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-macOS-ARM64.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR-4.x.yaml",
+      "source_repo": "opencv/opencv",
+      "target": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-macOS-x86_64.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR-4.x.yaml",
+      "source_repo": "opencv/opencv",
+      "target": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-macOS-ARM64-Vulkan.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR-4.x.yaml",
+      "source_repo": "opencv/opencv",
+      "target": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-iOS.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR-4.x.yaml",
+      "source_repo": "opencv/opencv",
+      "target": "opencv/ci-gha-workflow/.github/workflows/OCV-4.x-Android-SDK.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR-4.x.yaml",
+      "source_repo": "opencv/opencv",
+      "target": "opencv/ci-gha-workflow/.github/workflows/OCV-timvx-backend-tests-4.x.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR-4.x.yaml",
+      "source_repo": "opencv/opencv",
+      "target": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-docs.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR-4.x.yaml",
+      "source_repo": "opencv/opencv",
+      "target": "opencv/ci-gha-workflow/.github/workflows/OCV-PR-4.x-RISCV.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PR-4.x.yaml",
+      "source_repo": "opencv/opencv",
+      "target": "PR:4.x",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencv/opencv",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencv/opencv",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencv/opencv",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencv/opencv",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencv/opencv",
+      "target": "opencv",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T04:49:29.633207+00:00",
+  "source_repo": "opencv/opencv"
+}

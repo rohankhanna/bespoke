@@ -19,12 +19,30 @@
       "source_repo": "ROCm/aiter",
       "status": "candidate-context",
       "text": "Build and Deploy Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/iris",
+      "status": "candidate-context",
+      "text": "AMD RAD's multi-GPU Triton-based framework for seamless multi-GPU programming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/iris",
+      "status": "candidate-context",
+      "text": "Build and Deploy Documentation"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "ROCm/aiter",
+      "status": "candidate",
+      "text": "Build and Deploy Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/iris",
       "status": "candidate",
       "text": "Build and Deploy Documentation"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "ROCm/aiter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ROCm/iris"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

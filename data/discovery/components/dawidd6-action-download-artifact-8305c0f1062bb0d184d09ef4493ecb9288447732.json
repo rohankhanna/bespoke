@@ -1,12 +1,17 @@
 {
   "component": "dawidd6/action-download-artifact@8305c0f1062bb0d184d09ef4493ecb9288447732",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/builder.yml",
       "source_repo": "home-assistant/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mypy_primer_comment.yml",
+      "source_repo": "scipy/scipy-stubs"
     }
   ]
 }

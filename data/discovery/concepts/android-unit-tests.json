@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Android Unit Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "expo/expo",
+      "status": "candidate-context",
+      "text": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expo/expo",
+      "status": "candidate-context",
+      "text": "Android Unit Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expo/expo",
+      "status": "candidate",
+      "text": "Android Unit Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22617,
+      "status": "candidate",
+      "text": "cpu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22606,
+      "status": "candidate",
+      "text": "brain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22606,
+      "status": "candidate",
+      "text": "brains"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19838,
+      "status": "candidate",
+      "text": "star"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16384,
+      "status": "candidate",
+      "text": "bot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Android Unit Tests",
+  "concept_id": "android-unit-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/android-unit-tests.yml",
+      "source_repo": "expo/expo"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Android Unit Tests",
+      "sense_id": "android-unit-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

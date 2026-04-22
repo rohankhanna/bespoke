@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Anaconda turns your Sublime Text 3 in a full featured Python development IDE including autocompletion, code linting, IDE features, autopep8 formating, McCabe complexity checker Vagrant and Docker support for Sublime Text 3 using Jedi, PyFlakes, pep8, MyPy, PyLint, pep257 and McCabe that will never freeze your Sublime Text 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**New versions of this plugin only works with Python >= 3.6 and requires Sublime Text 4 build >= 4107**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**New versions of this plugin only works with Python >= 3.6 and requires Sublime Text 4 build >= 4107**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28507931,
+      "status": "candidate",
+      "text": "eunectes murinus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28507930,
+      "status": "candidate",
+      "text": "butte"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036159,
+      "status": "candidate",
+      "text": "green anaconda"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036158,
+      "status": "candidate",
+      "text": "rat snake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20036157,
+      "status": "candidate",
+      "text": "thunder snake"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "anaconda",
+      "sense_id": "anaconda#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "eunectes murinus"
+    }
+  ],
+  "concept_id": "anaconda",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "anaconda",
+  "observation_id": "23f37f908ec1be35",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "anaconda",
+  "source_context_snippet": "**New versions of this plugin only works with Python >= 3.6 and requires Sublime Text 4 build >= 4107**",
+  "source_file": null,
+  "source_repo": "DamnWidget/anaconda",
+  "source_repo_description": "Anaconda turns your Sublime Text 3 in a full featured Python development IDE including autocompletion, code linting, IDE features, autopep8 formating, McCabe complexity checker Vagrant and Docker support for Sublime Text 3 using Jedi, PyFlakes, pep8, MyPy, PyLint, pep257 and McCabe that will never freeze your Sublime Text 3"
+}

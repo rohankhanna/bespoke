@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Ruby definitions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rbenv/ruby-build",
+      "status": "candidate-context",
+      "text": "A tool to download, compile, and install Ruby on Unix-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rbenv/ruby-build",
+      "status": "candidate-context",
+      "text": "Update Ruby definitions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rbenv/ruby-build",
+      "status": "candidate",
+      "text": "Update Ruby definitions"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17722,
+      "status": "candidate",
+      "text": "gem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17697,
+      "status": "candidate",
+      "text": "hue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9794,
+      "status": "candidate",
+      "text": "maintenance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9794,
+      "status": "candidate",
+      "text": "real-time"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9756,
+      "status": "candidate",
+      "text": "connote"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Ruby definitions",
+  "concept_id": "update-ruby-definitions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/update-ruby.yml",
+      "source_repo": "rbenv/ruby-build"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Ruby definitions",
+      "sense_id": "update-ruby-definitions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

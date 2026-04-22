@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "quickstart"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fwcd/kotlin-quick-start",
+      "status": "candidate-context",
+      "text": "Template Kotlin application using Gradle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fwcd/kotlin-quick-start",
+      "status": "candidate-context",
+      "text": "An empty Kotlin project using Gradle."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fwcd/kotlin-quick-start",
+      "status": "candidate",
+      "text": "An empty Kotlin project using Gradle."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022503,
+      "status": "candidate",
+      "text": "user guide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022502,
+      "status": "candidate",
+      "text": "autostart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022501,
+      "status": "candidate",
+      "text": "tutorial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022500,
+      "status": "candidate",
+      "text": "readme"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022499,
+      "status": "candidate",
+      "text": "helpfile"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "quickstart",
+  "concept_id": "quickstart",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "fwcd/kotlin-quick-start"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "quickstart",
+      "sense_id": "quickstart#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

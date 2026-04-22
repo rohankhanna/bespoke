@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Structured logging package for Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "module github.com/apex/log go 1.13 require ( github.com/apex/logs v1.0.0 github.com/aphistic/golf v0.0.0-20180712155816-02c07f170c5a github.com/aphistic/sweet v0.2.0 // indirect github.com/aws/aws-sdk-go v1.20.6 github.com/aybabtme/rgbterm v0.0.0-20170906152045-cc83f3b3ce59 gith\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "module github.com/apex/log go 1.13 require ( github.com/apex/logs v1.0.0 github.com/aphistic/golf v0.0.0-20180712155816-02c07f170c5a github.com/aphistic/sweet v0.2.0 // indirect github.com/aws/aws-sdk-go v1.20.6 github.com/aybabtme/rgbterm v0.0.0-20170906152045-cc83f3b3ce59 gith\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30016772,
+      "status": "candidate",
+      "text": "stumpage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012774,
+      "status": "candidate",
+      "text": "mowing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006847,
+      "status": "candidate",
+      "text": "mining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003718,
+      "status": "candidate",
+      "text": "felling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001922,
+      "status": "candidate",
+      "text": "harvesting"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "logging",
+      "sense_id": "logging#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "logging",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "logging",
+  "observation_id": "4cd9e974b63eb706",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_text": "logging",
+  "source_context_snippet": "module github.com/apex/log go 1.13 require ( github.com/apex/logs v1.0.0 github.com/aphistic/golf v0.0.0-20180712155816-02c07f170c5a github.com/aphistic/sweet v0.2.0 // indirect github.com/aws/aws-sdk-go v1.20.6 github.com/aybabtme/rgbterm v0.0.0-20170906152045-cc83f3b3ce59 gith\u2026",
+  "source_file": null,
+  "source_repo": "apex/log",
+  "source_repo_description": "Structured logging package for Go."
+}

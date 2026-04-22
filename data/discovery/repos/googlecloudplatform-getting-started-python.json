@@ -1,0 +1,61 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GoogleCloudPlatform/getting-started-python",
+      "target": "googlecloudplatform/kubernetes-engine-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/getting-started-python",
+      "target": "samples",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:07:04.248037+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1791
+    },
+    {
+      "path": "requirements.txt",
+      "size": 124
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code samples for using Python on Google Cloud Platform",
+    "fork": false,
+    "full_name": "GoogleCloudPlatform/getting-started-python",
+    "html_url": "https://github.com/GoogleCloudPlatform/getting-started-python",
+    "language": "Python",
+    "pushed_at": "2026-04-13T20:05:44Z",
+    "stargazers_count": 815,
+    "topics": [
+      "samples"
+    ],
+    "updated_at": "2026-04-19T18:45:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlecloudplatform/kubernetes-engine-samples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository is the complete sample code for the [Python Getting Started on Google Cloud Platform](https://cloud.google.com/python/docs/) tutorials. Please refer to the tutorials for instructions on configuring, running, and deploying these samples.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "samples"
+    }
+  ]
+}

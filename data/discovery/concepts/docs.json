@@ -190,6 +190,96 @@
       "source_repo": "danielrosehill/Agent-Handover-Demo",
       "status": "candidate-context",
       "text": "[![View AI Agents Repository Index](https://img.shields.io/badge/View-AI%20Agents%20Repository%20Index-blue?style=for-the-badge)](https://github.com/danielrosehill/AI-Agents)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mkdocs/mkdocs",
+      "status": "candidate-context",
+      "text": "Project documentation with Markdown."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkdocs/mkdocs",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/conda-forge.github.io",
+      "status": "candidate-context",
+      "text": "The conda-forge website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/conda-forge.github.io",
+      "status": "candidate-context",
+      "text": "[![deploy](https://github.com/conda-forge/conda-forge.github.io/workflows/deploy/badge.svg)](https://github.com/conda-forge/conda-forge.github.io/actions?query=workflow%3Adeploy)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xERR0R/blocky",
+      "status": "candidate-context",
+      "text": "Fast and lightweight DNS proxy as ad-blocker for local network with many features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xERR0R/blocky",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/python-pubsublite",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-windowing/winit",
+      "status": "candidate-context",
+      "text": "Window handling library in pure Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-windowing/winit",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babel/website",
+      "status": "candidate-context",
+      "text": ":globe_with_meridians: The Babel documentation website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/website",
+      "status": "candidate-context",
+      "text": "This is the source for the [babeljs.io](https://babeljs.io) website; feel free to suggest changes to our docs!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neovim/neovim",
+      "status": "candidate-context",
+      "text": "Vim-fork focused on extensibility and usability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neovim/neovim",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f Load project-local settings (like .vscode/settings.json) into Neovim 0.11+ native LSP settings easily."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "status": "candidate-context",
+      "text": "docs"
     }
   ],
   "candidate_glosses": [
@@ -276,6 +366,54 @@
       "source_repo": "danielrosehill/Agent-Handover-Demo",
       "status": "candidate",
       "text": "[![View AI Agents Repository Index](https://img.shields.io/badge/View-AI%20Agents%20Repository%20Index-blue?style=for-the-badge)](https://github.com/danielrosehill/AI-Agents)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkdocs/mkdocs",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/conda-forge.github.io",
+      "status": "candidate",
+      "text": "[![deploy](https://github.com/conda-forge/conda-forge.github.io/workflows/deploy/badge.svg)](https://github.com/conda-forge/conda-forge.github.io/actions?query=workflow%3Adeploy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xERR0R/blocky",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/python-pubsublite",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-windowing/winit",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/website",
+      "status": "candidate",
+      "text": "This is the source for the [babeljs.io](https://babeljs.io) website; feel free to suggest changes to our docs!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neovim/neovim",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrjones2014/codesettings.nvim",
+      "status": "candidate",
+      "text": "docs"
     }
   ],
   "candidate_related_terms": [
@@ -420,11 +558,65 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Agent-Handover-Demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mkdocs/mkdocs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "conda-forge/conda-forge.github.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "0xERR0R/blocky"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "googleapis/python-pubsublite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "rust-windowing/winit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "babel/website"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "neovim/neovim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mrjones2014/codesettings.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

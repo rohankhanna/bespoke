@@ -1,12 +1,17 @@
 {
   "component": "folke/github/neovim@main",
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/community.yml",
       "source_repo": "folke/lazy.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-schemas.yml",
+      "source_repo": "mrjones2014/codesettings.nvim"
     }
   ]
 }

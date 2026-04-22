@@ -1,0 +1,144 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cortesi/devd",
+      "target": "cortesi/godist",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cortesi/devd",
+      "target": "golang/dep",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cortesi/devd",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cortesi/devd",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortesi/devd",
+      "target": "front-end-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortesi/devd",
+      "target": "livereload",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortesi/devd",
+      "target": "reverse-proxies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortesi/devd",
+      "target": "webserver",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:50:06.548905+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11269
+    },
+    {
+      "path": "go.mod",
+      "size": 1339
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 827
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " A local webserver for developers",
+    "fork": false,
+    "full_name": "cortesi/devd",
+    "html_url": "https://github.com/cortesi/devd",
+    "language": "Go",
+    "pushed_at": "2026-03-26T22:44:00Z",
+    "stargazers_count": 3467,
+    "topics": [
+      "front-end-development",
+      "livereload",
+      "reverse-proxies",
+      "webserver"
+    ],
+    "updated_at": "2026-04-15T06:36:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cortesi/godist",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "golang/dep",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Travis Build Status](https://travis-ci.org/cortesi/devd.svg?branch=master)](https://travis-ci.org/cortesi/devd)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "front-end-development"
+    },
+    {
+      "context_snippet": "[![Travis Build Status](https://travis-ci.org/cortesi/devd.svg?branch=master)](https://travis-ci.org/cortesi/devd)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "livereload"
+    },
+    {
+      "context_snippet": "[![Travis Build Status](https://travis-ci.org/cortesi/devd.svg?branch=master)](https://travis-ci.org/cortesi/devd)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reverse-proxies"
+    },
+    {
+      "context_snippet": "[![Travis Build Status](https://travis-ci.org/cortesi/devd.svg?branch=master)](https://travis-ci.org/cortesi/devd)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webserver"
+    }
+  ]
+}

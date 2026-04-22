@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "FiloSottile/homebrew-musl-cross"
+    }
+  ],
+  "term": "brew test-bot"
+}

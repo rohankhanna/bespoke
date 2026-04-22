@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "microsoft/vcpkg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "DanBloomberg/leptonica"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "tesseract-ocr/tesseract"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "madler/zlib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "zlib-ng/zlib-ng"
     }
   ],
   "term": "cmake"

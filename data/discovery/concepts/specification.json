@@ -31,6 +31,30 @@
       "source_repo": "compose-spec/compose-spec",
       "status": "candidate-context",
       "text": "{:.no_toc}"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/beacon-APIs",
+      "status": "candidate-context",
+      "text": "Collection of RESTful APIs provided by Ethereum Beacon nodes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/beacon-APIs",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/ethereum/beacon-APIs/workflows/CI/badge.svg)](https://github.com/ethereum/beacon-APIs/actions/workflows/main.yml?query=branch%3Amaster)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "estree/estree",
+      "status": "candidate-context",
+      "text": "The ESTree Spec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "estree/estree",
+      "status": "candidate-context",
+      "text": "Once upon a time, an [unsuspecting Mozilla engineer](http://calculist.org) created an API in Firefox that exposed the SpiderMonkey engine's JavaScript parser as a JavaScript API. Said engineer [documented the format it produced](https://web.archive.org/web/20210314002546/https:/\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "compose-spec/compose-spec",
       "status": "candidate",
       "text": "{:.no_toc}"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/beacon-APIs",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/ethereum/beacon-APIs/workflows/CI/badge.svg)](https://github.com/ethereum/beacon-APIs/actions/workflows/main.yml?query=branch%3Amaster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "estree/estree",
+      "status": "candidate",
+      "text": "Once upon a time, an [unsuspecting Mozilla engineer](http://calculist.org) created an API in Firefox that exposed the SpiderMonkey engine's JavaScript parser as a JavaScript API. Said engineer [documented the format it produced](https://web.archive.org/web/20210314002546/https:/\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -121,11 +157,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "compose-spec/compose-spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "ethereum/beacon-APIs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "estree/estree"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

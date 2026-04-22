@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T05:19:18.790031+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8260
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Release for Improved Denoising Diffusion Probabilistic Models",
+    "fork": false,
+    "full_name": "openai/improved-diffusion",
+    "html_url": "https://github.com/openai/improved-diffusion",
+    "language": "Python",
+    "pushed_at": "2024-07-18T02:45:29Z",
+    "stargazers_count": 3824,
+    "topics": [],
+    "updated_at": "2026-04-21T20:27:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

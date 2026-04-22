@@ -55,6 +55,54 @@
       "source_repo": "huggingface/diffusers",
       "status": "candidate-context",
       "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anse-app/anse",
+      "status": "candidate-context",
+      "text": "Supercharged experience for multiple models such as ChatGPT, DALL-E and Stable Diffusion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anse-app/anse",
+      "status": "candidate-context",
+      "text": "![Banner](https://user-images.githubusercontent.com/1998168/235366625-e615e68d-592c-4f18-9c9f-1e5cd1778557.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuChengTHU/dpm-solver",
+      "status": "candidate-context",
+      "text": "Official code for \"DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps\" (Neurips 2022 Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuChengTHU/dpm-solver",
+      "status": "candidate-context",
+      "text": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/LuChengTHU/dpmsolver_sdm)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloneofsimo/lora",
+      "status": "candidate-context",
+      "text": "Using Low-rank adaptation to quickly fine-tune diffusion models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloneofsimo/lora",
+      "status": "candidate-context",
+      "text": "<!-- #region -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "status": "candidate-context",
+      "text": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +129,30 @@
       "source_repo": "huggingface/diffusers",
       "status": "candidate",
       "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anse-app/anse",
+      "status": "candidate",
+      "text": "![Banner](https://user-images.githubusercontent.com/1998168/235366625-e615e68d-592c-4f18-9c9f-1e5cd1778557.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuChengTHU/dpm-solver",
+      "status": "candidate",
+      "text": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/LuChengTHU/dpmsolver_sdm)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloneofsimo/lora",
+      "status": "candidate",
+      "text": "<!-- #region -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/ComfyUI",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +190,35 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "huggingface/diffusers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "anse-app/anse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "LuChengTHU/dpm-solver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "cloneofsimo/lora"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

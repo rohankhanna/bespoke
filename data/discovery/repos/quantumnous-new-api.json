@@ -225,20 +225,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "QuantumNous/new-api",
-      "target": "suno-api/suno-api",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "QuantumNous/new-api",
-      "target": "songquanpeng/one-api",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker-image-alpha.yml",
       "source_repo": "QuantumNous/new-api",
@@ -491,7 +477,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T01:10:38.776904+00:00",
+  "fetched_at": "2026-04-22T05:15:44.851695+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -540,7 +526,7 @@
     "html_url": "https://github.com/QuantumNous/new-api",
     "language": "Go",
     "pushed_at": "2026-04-18T06:22:55Z",
-    "stargazers_count": 28093,
+    "stargazers_count": 28148,
     "topics": [
       "ai-gateway",
       "claude",
@@ -550,22 +536,12 @@
       "openai",
       "rerank"
     ],
-    "updated_at": "2026-04-22T01:06:39Z"
+    "updated_at": "2026-04-22T05:10:06Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "calcium-ion/new-api",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "songquanpeng/one-api",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "suno-api/suno-api",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ssiu/flash-attention-turing",
+      "target": "facebookresearch/xformers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:03:37.517463+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2672
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ssiu/flash-attention-turing",
+    "html_url": "https://github.com/ssiu/flash-attention-turing",
+    "language": "C++",
+    "pushed_at": "2026-03-23T07:13:12Z",
+    "stargazers_count": 89,
+    "topics": [],
+    "updated_at": "2026-04-20T10:02:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/xformers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

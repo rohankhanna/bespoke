@@ -19,6 +19,18 @@
       "source_repo": "danielrosehill/AI-Synthesised-Perspectives",
       "status": "candidate-context",
       "text": "A curated list of projects involving multi-agent simulations for exploring diverse perspectives on policy topics, including simulated fora, conferences, debates, and deliberative processes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/awesome",
+      "status": "candidate-context",
+      "text": "\ud83d\ude0e Awesome lists about all kinds of interesting topics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/awesome",
+      "status": "candidate-context",
+      "text": "on: pull_request: branches: [main] paths: - 'readme.md' jobs: lint: runs-on: ubuntu-latest steps: - uses: actions/checkout@v6 with: fetch-depth: 0 - name: awesome-lint run: ./.github/workflows/repo_linter.sh"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "danielrosehill/AI-Synthesised-Perspectives",
       "status": "candidate",
       "text": "A curated list of projects involving multi-agent simulations for exploring diverse perspectives on policy topics, including simulated fora, conferences, debates, and deliberative processes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/awesome",
+      "status": "candidate",
+      "text": "on: pull_request: branches: [main] paths: - 'readme.md' jobs: lint: runs-on: ubuntu-latest steps: - uses: actions/checkout@v6 with: fetch-depth: 0 - name: awesome-lint run: ./.github/workflows/repo_linter.sh"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/AI-Synthesised-Perspectives"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/awesome"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

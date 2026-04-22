@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "superoptimization"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "slothy-optimizer/slothy",
+      "status": "candidate-context",
+      "text": "Assembly super-optimization via constraint solving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slothy-optimizer/slothy",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slothy-optimizer/slothy",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19973581,
+      "status": "candidate",
+      "text": "superoptimizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19973580,
+      "status": "candidate",
+      "text": "peephole optimization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19973579,
+      "status": "candidate",
+      "text": "supercompilation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19973578,
+      "status": "candidate",
+      "text": "peepholing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19973577,
+      "status": "candidate",
+      "text": "premature optimization"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "superoptimization",
+  "concept_id": "superoptimization",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "slothy-optimizer/slothy"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "superoptimization",
+      "sense_id": "superoptimization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/quickcheck",
+      "target": "proptest-rs/proptest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/quickcheck",
+      "target": "rust-fuzz/cargo-fuzz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BurntSushi/quickcheck",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BurntSushi/quickcheck",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:54:59.139100+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18246
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 986
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2608
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Automated property based testing for Rust (with shrinking).",
+    "fork": false,
+    "full_name": "BurntSushi/quickcheck",
+    "html_url": "https://github.com/BurntSushi/quickcheck",
+    "language": "Rust",
+    "pushed_at": "2026-04-03T00:52:54Z",
+    "stargazers_count": 2743,
+    "topics": [],
+    "updated_at": "2026-04-21T16:04:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "proptest-rs/proptest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-fuzz/cargo-fuzz",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

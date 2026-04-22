@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crowsonkb/v-diffusion-jax",
+      "target": "google/jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crowsonkb/v-diffusion-jax",
+      "target": "kingoflolz/clip_jax",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:19:15.193823+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4023
+    },
+    {
+      "path": "requirements.txt",
+      "size": 80
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "v objective diffusion inference code for JAX.",
+    "fork": false,
+    "full_name": "crowsonkb/v-diffusion-jax",
+    "html_url": "https://github.com/crowsonkb/v-diffusion-jax",
+    "language": "Python",
+    "pushed_at": "2022-04-14T17:59:08Z",
+    "stargazers_count": 216,
+    "topics": [],
+    "updated_at": "2026-03-30T19:41:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/jax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kingoflolz/clip_jax",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

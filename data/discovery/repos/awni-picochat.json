@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T05:08:55.177627+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Nanochat in MLX",
+    "fork": false,
+    "full_name": "awni/picochat",
+    "html_url": "https://github.com/awni/picochat",
+    "language": null,
+    "pushed_at": "2026-03-06T14:14:57Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-04-11T11:23:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

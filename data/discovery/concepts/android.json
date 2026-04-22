@@ -88,6 +88,54 @@
       "source_repo": "BrainiumLLC/cargo-mobile",
       "status": "candidate-context",
       "text": "*The answer to \"how do I use Rust on iOS and Android?\"*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gloxec/CrossC2",
+      "status": "candidate-context",
+      "text": "generate CobaltStrike's cross-platform payload"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gloxec/CrossC2",
+      "status": "candidate-context",
+      "text": "![ Linux ](https://img.shields.io/badge/platform-Linux-green)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-windowing/winit",
+      "status": "candidate-context",
+      "text": "Window handling library in pure Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-windowing/winit",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/winit.svg)](https://crates.io/crates/winit)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flutter/flutter",
+      "status": "candidate-context",
+      "text": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flutter/flutter",
+      "status": "candidate-context",
+      "text": "<a href=\"https://flutter.dev/\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "expo/expo",
+      "status": "candidate-context",
+      "text": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expo/expo",
+      "status": "candidate-context",
+      "text": "<!-- Banner Image -->"
     }
   ],
   "candidate_glosses": [
@@ -132,6 +180,30 @@
       "source_repo": "BrainiumLLC/cargo-mobile",
       "status": "candidate",
       "text": "*The answer to \"how do I use Rust on iOS and Android?\"*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gloxec/CrossC2",
+      "status": "candidate",
+      "text": "![ Linux ](https://img.shields.io/badge/platform-Linux-green)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-windowing/winit",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/winit.svg)](https://crates.io/crates/winit)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flutter/flutter",
+      "status": "candidate",
+      "text": "<a href=\"https://flutter.dev/\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expo/expo",
+      "status": "candidate",
+      "text": "<!-- Banner Image -->"
     }
   ],
   "candidate_related_terms": [
@@ -238,11 +310,35 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "BrainiumLLC/cargo-mobile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "gloxec/CrossC2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "rust-windowing/winit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "flutter/flutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "expo/expo"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

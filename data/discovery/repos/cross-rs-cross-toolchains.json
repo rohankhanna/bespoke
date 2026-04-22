@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T05:11:22.507258+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6764
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Additional Dockerfiles and crosstool-ng config files to build additional toolchains.",
+    "fork": false,
+    "full_name": "cross-rs/cross-toolchains",
+    "html_url": "https://github.com/cross-rs/cross-toolchains",
+    "language": "Dockerfile",
+    "pushed_at": "2026-01-27T17:25:15Z",
+    "stargazers_count": 153,
+    "topics": [],
+    "updated_at": "2026-04-12T20:04:27Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

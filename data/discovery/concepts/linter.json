@@ -202,6 +202,30 @@
       "source_repo": "adrienverge/yamllint",
       "status": "candidate-context",
       "text": "yamllint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/gts",
+      "status": "candidate-context",
+      "text": "\u2602\ufe0f TypeScript style guide, formatter, and linter.  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/gts",
+      "status": "candidate-context",
+      "text": "> Google TypeScript Style"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/pydocstyle",
+      "status": "candidate-context",
+      "text": "docstring style checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/pydocstyle",
+      "status": "candidate-context",
+      "text": "pydocstyle - docstring style checker"
     }
   ],
   "candidate_glosses": [
@@ -300,6 +324,18 @@
       "source_repo": "adrienverge/yamllint",
       "status": "candidate",
       "text": "yamllint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/gts",
+      "status": "candidate",
+      "text": "> Google TypeScript Style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/pydocstyle",
+      "status": "candidate",
+      "text": "pydocstyle - docstring style checker"
     }
   ],
   "candidate_related_terms": [
@@ -469,11 +505,29 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": null,
       "source_repo": "adrienverge/yamllint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/CPUTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "google/gts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/pydocstyle"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

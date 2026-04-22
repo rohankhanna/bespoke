@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T05:12:24.868415+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1185
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "1.2-prime",
+    "description": "Funtoo Dev Kit",
+    "fork": false,
+    "full_name": "funtoo/dev-kit",
+    "html_url": "https://github.com/funtoo/dev-kit",
+    "language": "Shell",
+    "pushed_at": "2025-01-29T04:09:04Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-01-20T10:54:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

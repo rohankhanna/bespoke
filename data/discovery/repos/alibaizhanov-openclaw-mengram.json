@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "@sinclair/typebox",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "openclaw",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alibaizhanov/openclaw-mengram",
+      "target": "alibaizhanov/mengram",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "alibaizhanov/openclaw-mengram",
+      "target": "@sinclair/typebox",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alibaizhanov/openclaw-mengram",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "alibaizhanov/openclaw-mengram",
+      "target": "openclaw",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:49:44.084428+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5648
+    },
+    {
+      "path": "package.json",
+      "size": 846
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mengram memory plugin for OpenClaw \u2014 semantic, episodic & procedural memory with auto-recall/capture and Graph RAG",
+    "fork": false,
+    "full_name": "alibaizhanov/openclaw-mengram",
+    "html_url": "https://github.com/alibaizhanov/openclaw-mengram",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-06T13:51:06Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-04-17T15:03:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaizhanov/mengram",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

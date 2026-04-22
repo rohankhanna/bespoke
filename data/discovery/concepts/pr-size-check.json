@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR Size Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crewAIInc/crewAI",
+      "status": "candidate-context",
+      "text": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crewAIInc/crewAI",
+      "status": "candidate-context",
+      "text": "PR Size Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crewAIInc/crewAI",
+      "status": "candidate",
+      "text": "PR Size Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25691,
+      "status": "candidate",
+      "text": "suss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25680,
+      "status": "candidate",
+      "text": "gap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25680,
+      "status": "candidate",
+      "text": "gapped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25680,
+      "status": "candidate",
+      "text": "gsp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23025,
+      "status": "candidate",
+      "text": "stunt"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR Size Check",
+  "concept_id": "pr-size-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/pr-size.yml",
+      "source_repo": "crewAIInc/crewAI"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Size Check",
+      "sense_id": "pr-size-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "lintcommit"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neovim/neovim",
+      "status": "candidate-context",
+      "text": "Vim-fork focused on extensibility and usability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neovim/neovim",
+      "status": "candidate-context",
+      "text": "lintcommit"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neovim/neovim",
+      "status": "candidate",
+      "text": "lintcommit"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "lintcommit",
+  "concept_id": "lintcommit",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": ".github/workflows/lintcommit.yml",
+      "source_repo": "neovim/neovim"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "lintcommit",
+      "sense_id": "lintcommit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

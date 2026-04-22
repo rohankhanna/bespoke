@@ -49,6 +49,18 @@
       "source_repo": "EleutherAI/lm-evaluation-harness",
       "status": "candidate-context",
       "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10256836.svg)](https://doi.org/10.5281/zenodo.10256836)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scasella/nanochat-mlx",
+      "status": "candidate-context",
+      "text": "Train your own ChatGPT on Apple Silicon \u2014 MLX port of nanochat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scasella/nanochat-mlx",
+      "status": "candidate-context",
+      "text": "Train your own ChatGPT on Apple Silicon. Minimal MLX port of [Karpathy's nanochat](https://github.com/karpathy/nanochat)."
     }
   ],
   "candidate_glosses": [
@@ -69,6 +81,12 @@
       "source_repo": "EleutherAI/lm-evaluation-harness",
       "status": "candidate",
       "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10256836.svg)](https://doi.org/10.5281/zenodo.10256836)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scasella/nanochat-mlx",
+      "status": "candidate",
+      "text": "Train your own ChatGPT on Apple Silicon. Minimal MLX port of [Karpathy's nanochat](https://github.com/karpathy/nanochat)."
     }
   ],
   "candidate_related_terms": [
@@ -154,11 +172,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "EleutherAI/lm-evaluation-harness"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:49:29.633207+00:00",
+      "source_file": null,
+      "source_repo": "scasella/nanochat-mlx"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "lexical_providers": [
     "datamuse"
   ],

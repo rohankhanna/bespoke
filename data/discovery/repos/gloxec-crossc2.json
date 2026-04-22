@@ -1,0 +1,637 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-base-release.yml"
+    },
+    {
+      "component": "jossef/action-latest-release-info@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-base-release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-base-release.yml"
+    },
+    {
+      "component": "mknejp/delete-release-assets@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-base-release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-base-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-base-release.yml"
+    },
+    {
+      "component": "jossef/action-latest-release-info@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-base-release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-base-release.yml"
+    },
+    {
+      "component": "mknejp/delete-release-assets@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-base-release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-base-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-base-release.yml"
+    },
+    {
+      "component": "i3h/download-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-base-release.yml"
+    },
+    {
+      "component": "i3h/download-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-base-release.yml"
+    },
+    {
+      "component": "jossef/action-latest-release-info@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-base-release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-base-release.yml"
+    },
+    {
+      "component": "mknejp/delete-release-assets@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-base-release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-base-release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-base-release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-crossc2kit-release.yml"
+    },
+    {
+      "component": "jossef/action-latest-release-info@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-crossc2kit-release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-crossc2kit-release.yml"
+    },
+    {
+      "component": "mknejp/delete-release-assets@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-crossc2kit-release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-crossc2kit-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-crossc2kit-release.yml"
+    },
+    {
+      "component": "jossef/action-latest-release-info@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-crossc2kit-release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-crossc2kit-release.yml"
+    },
+    {
+      "component": "mknejp/delete-release-assets@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-crossc2kit-release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-crossc2kit-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-crossc2kit-release.yml"
+    },
+    {
+      "component": "i3h/download-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-crossc2kit-release.yml"
+    },
+    {
+      "component": "i3h/download-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-crossc2kit-release.yml"
+    },
+    {
+      "component": "jossef/action-latest-release-info@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-crossc2kit-release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-crossc2kit-release.yml"
+    },
+    {
+      "component": "mknejp/delete-release-assets@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-crossc2kit-release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-crossc2kit-release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-base-release.yml"
+    },
+    {
+      "component": "jossef/action-latest-release-info@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-base-release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-base-release.yml"
+    },
+    {
+      "component": "mknejp/delete-release-assets@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-base-release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-base-release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-base-release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-crossc2-release.yml"
+    },
+    {
+      "component": "jossef/action-latest-release-info@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-crossc2-release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-crossc2-release.yml"
+    },
+    {
+      "component": "mknejp/delete-release-assets@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-crossc2-release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-crossc2-release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-crossc2kit-release.yml"
+    },
+    {
+      "component": "jossef/action-latest-release-info@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-crossc2kit-release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-crossc2kit-release.yml"
+    },
+    {
+      "component": "mknejp/delete-release-assets@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-crossc2kit-release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-crossc2kit-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gloxec/CrossC2",
+      "target": "crossc2/crossc2kit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-base-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-base-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "jossef/action-latest-release-info@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-base-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-base-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "mknejp/delete-release-assets@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-base-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-base-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "i3h/download-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile-base-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "Compile Base Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-crossc2kit-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-crossc2kit-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "jossef/action-latest-release-info@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-crossc2kit-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-crossc2kit-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "mknejp/delete-release-assets@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-crossc2kit-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-crossc2kit-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "i3h/download-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile-crossc2kit-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "Compile CrossC2Kit Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-base-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-base-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "jossef/action-latest-release-info@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-base-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-base-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "mknejp/delete-release-assets@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-base-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "Create Base Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-crossc2-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-crossc2-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "jossef/action-latest-release-info@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-crossc2-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-crossc2-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "mknejp/delete-release-assets@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-crossc2-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "Create CrossC2 Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-crossc2kit-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-crossc2kit-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "jossef/action-latest-release-info@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-crossc2kit-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-crossc2kit-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "mknejp/delete-release-assets@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-crossc2kit-release.yml",
+      "source_repo": "gloxec/CrossC2",
+      "target": "Update CrossC2Kit Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gloxec/CrossC2",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gloxec/CrossC2",
+      "target": "cobalt-strike",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gloxec/CrossC2",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gloxec/CrossC2",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gloxec/CrossC2",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gloxec/CrossC2",
+      "target": "redteam",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:00:54.066790+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4945
+    },
+    {
+      "path": ".github/workflows/compile-base-release.yml",
+      "size": 10672
+    },
+    {
+      "path": ".github/workflows/compile-crossc2kit-release.yml",
+      "size": 9945
+    },
+    {
+      "path": ".github/workflows/create-base-release.yml",
+      "size": 3086
+    },
+    {
+      "path": ".github/workflows/update-crossc2-release.yml",
+      "size": 2288
+    },
+    {
+      "path": ".github/workflows/update-crossc2kit-release.yml",
+      "size": 2428
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "cs4.1",
+    "description": "generate CobaltStrike's cross-platform payload",
+    "fork": false,
+    "full_name": "gloxec/CrossC2",
+    "html_url": "https://github.com/gloxec/CrossC2",
+    "language": "C",
+    "pushed_at": "2023-11-20T10:54:46Z",
+    "stargazers_count": 2559,
+    "topics": [
+      "android",
+      "cobalt-strike",
+      "cross-platform",
+      "ios",
+      "linux",
+      "macos",
+      "redteam"
+    ],
+    "updated_at": "2026-04-21T15:42:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crossc2/crossc2kit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Compile Base Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile-base-release.yml",
+      "term": "Compile Base Release"
+    },
+    {
+      "context_snippet": "Compile CrossC2Kit Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile-crossc2kit-release.yml",
+      "term": "Compile CrossC2Kit Release"
+    },
+    {
+      "context_snippet": "Create Base Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-base-release.yml",
+      "term": "Create Base Release"
+    },
+    {
+      "context_snippet": "Create CrossC2 Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-crossc2-release.yml",
+      "term": "Create CrossC2 Release"
+    },
+    {
+      "context_snippet": "Update CrossC2Kit Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-crossc2kit-release.yml",
+      "term": "Update CrossC2Kit Release"
+    },
+    {
+      "context_snippet": "![ Linux ](https://img.shields.io/badge/platform-Linux-green)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "![ Linux ](https://img.shields.io/badge/platform-Linux-green)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cobalt-strike"
+    },
+    {
+      "context_snippet": "![ Linux ](https://img.shields.io/badge/platform-Linux-green)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "![ Linux ](https://img.shields.io/badge/platform-Linux-green)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "![ Linux ](https://img.shields.io/badge/platform-Linux-green)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "![ Linux ](https://img.shields.io/badge/platform-Linux-green)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redteam"
+    }
+  ]
+}

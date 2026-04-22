@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leezhuuuuu/Code-Interpreter-Api",
+      "target": "code-interpreter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leezhuuuuu/Code-Interpreter-Api",
+      "target": "langchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leezhuuuuu/Code-Interpreter-Api",
+      "target": "tools",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T05:17:52.336594+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4797
+    },
+    {
+      "path": "Dockerfile",
+      "size": 845
+    },
+    {
+      "path": "requirements.txt",
+      "size": 102
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Committed to being the best code interpreter in the world.",
+    "fork": false,
+    "full_name": "leezhuuuuu/Code-Interpreter-Api",
+    "html_url": "https://github.com/leezhuuuuu/Code-Interpreter-Api",
+    "language": "Python",
+    "pushed_at": "2025-01-04T12:02:59Z",
+    "stargazers_count": 182,
+    "topics": [
+      "code-interpreter",
+      "langchain",
+      "llm",
+      "tools"
+    ],
+    "updated_at": "2026-03-29T12:21:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[English](https://github.com/leezhuuuuu/Code-Interpreter-Api/blob/main/README_EN.md) | [\u4e2d\u6587](https://github.com/leezhuuuuu/Code-Interpreter-Api/blob/main/README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-interpreter"
+    },
+    {
+      "context_snippet": "[English](https://github.com/leezhuuuuu/Code-Interpreter-Api/blob/main/README_EN.md) | [\u4e2d\u6587](https://github.com/leezhuuuuu/Code-Interpreter-Api/blob/main/README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchain"
+    },
+    {
+      "context_snippet": "[English](https://github.com/leezhuuuuu/Code-Interpreter-Api/blob/main/README_EN.md) | [\u4e2d\u6587](https://github.com/leezhuuuuu/Code-Interpreter-Api/blob/main/README.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tools"
+    }
+  ]
+}

@@ -22,13 +22,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "chakra-core/ChakraCore",
-      "target": "microsoft/vcpkg",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/agreement.yml",
       "source_repo": "chakra-core/ChakraCore",
@@ -141,7 +134,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T19:01:58.785780+00:00",
+  "fetched_at": "2026-04-22T04:57:54.950405+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -195,11 +188,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "microsoft/chakracore",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "microsoft/vcpkg",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T05:12:50.087197+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 596
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "My configuration files and tools",
+    "fork": false,
+    "full_name": "tjdevries/config_manager",
+    "html_url": "https://github.com/tjdevries/config_manager",
+    "language": "Lua",
+    "pushed_at": "2024-05-20T18:14:55Z",
+    "stargazers_count": 1210,
+    "topics": [],
+    "updated_at": "2026-04-20T07:07:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}
