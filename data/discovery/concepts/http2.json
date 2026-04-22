@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "http2"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "labstack/echo",
+      "status": "candidate-context",
+      "text": "High performance, minimalist Go web framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "labstack/echo",
+      "status": "candidate-context",
+      "text": "[![Sourcegraph](https://sourcegraph.com/github.com/labstack/echo/-/badge.svg?style=flat-square)](https://sourcegraph.com/github.com/labstack/echo?badge)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "labstack/echo",
+      "status": "candidate",
+      "text": "[![Sourcegraph](https://sourcegraph.com/github.com/labstack/echo/-/badge.svg?style=flat-square)](https://sourcegraph.com/github.com/labstack/echo?badge)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "http2",
+  "concept_id": "http2",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "labstack/echo"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "http2",
+      "sense_id": "http2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

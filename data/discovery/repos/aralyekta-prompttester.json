@@ -1,0 +1,215 @@
+{
+  "components": [
+    {
+      "component": "@anthropic-ai/sdk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@google/generative-ai",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "openai",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-scripts",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "autoprefixer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "aralyekta/prompttester",
+      "target": "@anthropic-ai/sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "aralyekta/prompttester",
+      "target": "@google/generative-ai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "aralyekta/prompttester",
+      "target": "openai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "aralyekta/prompttester",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "aralyekta/prompttester",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "aralyekta/prompttester",
+      "target": "react-scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aralyekta/prompttester",
+      "target": "autoprefixer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aralyekta/prompttester",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aralyekta/prompttester",
+      "target": "llm-evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aralyekta/prompttester",
+      "target": "llm-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aralyekta/prompttester",
+      "target": "llm-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aralyekta/prompttester",
+      "target": "llm-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aralyekta/prompttester",
+      "target": "prompt-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aralyekta/prompttester",
+      "target": "prompt-testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:44:38.252217+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1273
+    },
+    {
+      "path": "package.json",
+      "size": 814
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Test, compare, and optimize your AI prompts in minutes",
+    "fork": false,
+    "full_name": "aralyekta/prompttester",
+    "html_url": "https://github.com/aralyekta/prompttester",
+    "language": "JavaScript",
+    "pushed_at": "2025-08-13T21:20:08Z",
+    "stargazers_count": 8,
+    "topics": [
+      "llm-evaluation",
+      "llm-test",
+      "llm-testing",
+      "llm-tools",
+      "prompt-test",
+      "prompt-testing"
+    ],
+    "updated_at": "2025-08-31T08:11:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![PromptTester Demo](img/promptTester.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-evaluation"
+    },
+    {
+      "context_snippet": "![PromptTester Demo](img/promptTester.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-test"
+    },
+    {
+      "context_snippet": "![PromptTester Demo](img/promptTester.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-testing"
+    },
+    {
+      "context_snippet": "![PromptTester Demo](img/promptTester.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-tools"
+    },
+    {
+      "context_snippet": "![PromptTester Demo](img/promptTester.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-test"
+    },
+    {
+      "context_snippet": "![PromptTester Demo](img/promptTester.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-testing"
+    }
+  ]
+}

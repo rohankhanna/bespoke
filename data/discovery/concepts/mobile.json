@@ -31,6 +31,18 @@
       "source_repo": "BrainiumLLC/cargo-mobile",
       "status": "candidate-context",
       "text": "*The answer to \"how do I use Rust on iOS and Android?\"*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cafeTechne/antigravity-link-extension",
+      "status": "candidate-context",
+      "text": "Mobile companion for Google's Antigravity IDE. Mirror AI sessions on your phone, send messages, stop generation, automate via 9 MCP tools or OpenAPI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cafeTechne/antigravity-link-extension",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/cafeTechne/antigravity-link-extension/actions/workflows/ci.yml/badge.svg)](https://github.com/cafeTechne/antigravity-link-extension/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "BrainiumLLC/cargo-mobile",
       "status": "candidate",
       "text": "*The answer to \"how do I use Rust on iOS and Android?\"*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cafeTechne/antigravity-link-extension",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/cafeTechne/antigravity-link-extension/actions/workflows/ci.yml/badge.svg)](https://github.com/cafeTechne/antigravity-link-extension/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "BrainiumLLC/cargo-mobile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "cafeTechne/antigravity-link-extension"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "lexical_providers": [
     "datamuse"
   ],

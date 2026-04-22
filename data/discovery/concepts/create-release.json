@@ -116,6 +116,18 @@
       "source_repo": "direnv/direnv",
       "status": "candidate-context",
       "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coin-or/CyLP",
+      "status": "candidate-context",
+      "text": "A Python interface to CLP, CBC, and CGL to solve LPs and MIPs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coin-or/CyLP",
+      "status": "candidate-context",
+      "text": "Create Release"
     }
   ],
   "candidate_glosses": [
@@ -170,6 +182,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "direnv/direnv",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coin-or/CyLP",
       "status": "candidate",
       "text": "Create Release"
     }
@@ -275,11 +293,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "direnv/direnv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "coin-or/CyLP"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "lexical_providers": [
     "datamuse"
   ],

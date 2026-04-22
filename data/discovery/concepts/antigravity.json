@@ -43,6 +43,18 @@
       "source_repo": "heyhuynhgiabuu/proxypal",
       "status": "candidate-context",
       "text": "Use your AI subscriptions (Claude, ChatGPT, Gemini, GitHub Copilot) with any coding tool. Native desktop app wrapping [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cafeTechne/antigravity-link-extension",
+      "status": "candidate-context",
+      "text": "Mobile companion for Google's Antigravity IDE. Mirror AI sessions on your phone, send messages, stop generation, automate via 9 MCP tools or OpenAPI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cafeTechne/antigravity-link-extension",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/cafeTechne/antigravity-link-extension/actions/workflows/ci.yml/badge.svg)](https://github.com/cafeTechne/antigravity-link-extension/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "heyhuynhgiabuu/proxypal",
       "status": "candidate",
       "text": "Use your AI subscriptions (Claude, ChatGPT, Gemini, GitHub Copilot) with any coding tool. Native desktop app wrapping [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cafeTechne/antigravity-link-extension",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/cafeTechne/antigravity-link-extension/actions/workflows/ci.yml/badge.svg)](https://github.com/cafeTechne/antigravity-link-extension/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "heyhuynhgiabuu/proxypal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "cafeTechne/antigravity-link-extension"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "lexical_providers": [
     "datamuse"
   ],

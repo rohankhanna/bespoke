@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Example project to demo testing and hosting a chart repository with GitHub Pages and Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release Charts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Release Charts"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11476,
+      "status": "candidate",
+      "text": "atlas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11476,
+      "status": "candidate",
+      "text": "cards"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11476,
+      "status": "candidate",
+      "text": "chart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11476,
+      "status": "candidate",
+      "text": "charting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11476,
+      "status": "candidate",
+      "text": "dashboard"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Charts",
+      "sense_id": "release-charts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-charts",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-charts",
+  "observation_id": "7058300747eb591a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T04:41:58.081535+00:00",
+  "observed_text": "Release Charts",
+  "source_context_snippet": "Release Charts",
+  "source_file": ".github/workflows/release.yaml",
+  "source_repo": "helm/charts-repo-actions-demo",
+  "source_repo_description": "Example project to demo testing and hosting a chart repository with GitHub Pages and Actions"
+}

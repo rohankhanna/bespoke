@@ -803,6 +803,30 @@
       "source_repo": "ocaml-tracing/ocaml-tracy",
       "status": "candidate-context",
       "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "8144225309/superscalar-wallet",
+      "status": "candidate-context",
+      "text": "SuperScalar Wallet \u2014 web UI for Lightning channel factory management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8144225309/superscalar-wallet",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cargo-generate/cargo-generate",
+      "status": "candidate-context",
+      "text": "cargo, make me a project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-generate/cargo-generate",
+      "status": "candidate-context",
+      "text": "Build"
     }
   ],
   "candidate_glosses": [
@@ -1207,6 +1231,18 @@
       "source_repo": "ocaml-tracing/ocaml-tracy",
       "status": "candidate",
       "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8144225309/superscalar-wallet",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-generate/cargo-generate",
+      "status": "candidate",
+      "text": "Build"
     }
   ],
   "candidate_related_terms": [
@@ -1771,11 +1807,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "8144225309/superscalar-wallet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cargo-generate/cargo-generate"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "lexical_providers": [
     "datamuse"
   ],

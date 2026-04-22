@@ -1,0 +1,262 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "8144225309/superscalar-cln",
+      "target": "elementsproject/lightning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "8144225309/superscalar-cln",
+      "target": "lightning/blips",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "8144225309/superscalar-cln",
+      "target": "8144225309/superscalar-wallet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "8144225309/superscalar-cln",
+      "target": "8144225309/superscalar-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "8144225309/superscalar-cln",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "8144225309/superscalar-cln",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "8144225309/superscalar-cln",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "8144225309/superscalar-cln",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "8144225309/superscalar-cln",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "8144225309/superscalar-cln",
+      "target": "bitcoin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "8144225309/superscalar-cln",
+      "target": "blip-56",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "8144225309/superscalar-cln",
+      "target": "channel-factory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "8144225309/superscalar-cln",
+      "target": "core-lightning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "8144225309/superscalar-cln",
+      "target": "lightning-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "8144225309/superscalar-cln",
+      "target": "musig2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "8144225309/superscalar-cln",
+      "target": "superscalar",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:43:14.331628+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15853
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1038
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 7340
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SuperScalar channel factory plugin for Core Lightning (bLIP-56)",
+    "fork": false,
+    "full_name": "8144225309/superscalar-cln",
+    "html_url": "https://github.com/8144225309/superscalar-cln",
+    "language": "C",
+    "pushed_at": "2026-04-21T15:01:50Z",
+    "stargazers_count": 0,
+    "topics": [
+      "bitcoin",
+      "blip-56",
+      "channel-factory",
+      "core-lightning",
+      "lightning-network",
+      "musig2",
+      "superscalar"
+    ],
+    "updated_at": "2026-04-21T15:01:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "8144225309/superscalar-docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "8144225309/superscalar-wallet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elementsproject/lightning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lightning/blips",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "tests"
+    },
+    {
+      "context_snippet": "SuperScalar channel factory plugin for [Core Lightning](https://github.com/ElementsProject/lightning). Implements [bLIP-56](https://github.com/lightning/blips/pull/56) (pluggable channel factories) using Decker-Wattenhofer state trees with MuSig2 signing.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitcoin"
+    },
+    {
+      "context_snippet": "SuperScalar channel factory plugin for [Core Lightning](https://github.com/ElementsProject/lightning). Implements [bLIP-56](https://github.com/lightning/blips/pull/56) (pluggable channel factories) using Decker-Wattenhofer state trees with MuSig2 signing.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blip-56"
+    },
+    {
+      "context_snippet": "SuperScalar channel factory plugin for [Core Lightning](https://github.com/ElementsProject/lightning). Implements [bLIP-56](https://github.com/lightning/blips/pull/56) (pluggable channel factories) using Decker-Wattenhofer state trees with MuSig2 signing.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "channel-factory"
+    },
+    {
+      "context_snippet": "SuperScalar channel factory plugin for [Core Lightning](https://github.com/ElementsProject/lightning). Implements [bLIP-56](https://github.com/lightning/blips/pull/56) (pluggable channel factories) using Decker-Wattenhofer state trees with MuSig2 signing.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "core-lightning"
+    },
+    {
+      "context_snippet": "SuperScalar channel factory plugin for [Core Lightning](https://github.com/ElementsProject/lightning). Implements [bLIP-56](https://github.com/lightning/blips/pull/56) (pluggable channel factories) using Decker-Wattenhofer state trees with MuSig2 signing.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightning-network"
+    },
+    {
+      "context_snippet": "SuperScalar channel factory plugin for [Core Lightning](https://github.com/ElementsProject/lightning). Implements [bLIP-56](https://github.com/lightning/blips/pull/56) (pluggable channel factories) using Decker-Wattenhofer state trees with MuSig2 signing.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "musig2"
+    },
+    {
+      "context_snippet": "SuperScalar channel factory plugin for [Core Lightning](https://github.com/ElementsProject/lightning). Implements [bLIP-56](https://github.com/lightning/blips/pull/56) (pluggable channel factories) using Decker-Wattenhofer state trees with MuSig2 signing.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "superscalar"
+    }
+  ]
+}

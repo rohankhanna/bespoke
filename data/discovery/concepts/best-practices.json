@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "best-practices"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonbabenko/terraform-skill",
+      "status": "candidate-context",
+      "text": "The Claude Agent Skill for Terraform and OpenTofu - testing, modules, CI/CD, and production patterns"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/terraform-skill",
+      "status": "candidate-context",
+      "text": "[![Claude Skill](https://img.shields.io/badge/Claude-Skill-5865F2)](https://docs.claude.ai/docs/agent-skills)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/terraform-skill",
+      "status": "candidate",
+      "text": "[![Claude Skill](https://img.shields.io/badge/Claude-Skill-5865F2)](https://docs.claude.ai/docs/agent-skills)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "best-practices",
+  "concept_id": "best-practices",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "antonbabenko/terraform-skill"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "best-practices",
+      "sense_id": "best-practices#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

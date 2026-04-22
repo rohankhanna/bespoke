@@ -1442,6 +1442,42 @@
       "source_repo": "clibequilibrium/Tracy-CSharp",
       "status": "candidate-context",
       "text": "\"Release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "64bit/commandOK",
+      "status": "candidate-context",
+      "text": "Spotlight-like command generator for your terminal. Pops up when you need it, gets out of the way when you don't."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "64bit/commandOK",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acheronfail/repgrep",
+      "status": "candidate-context",
+      "text": "An interactive replacer for ripgrep that makes it easy to find and replace across files on the command line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acheronfail/repgrep",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cargo-generate/cargo-generate",
+      "status": "candidate-context",
+      "text": "cargo, make me a project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-generate/cargo-generate",
+      "status": "candidate-context",
+      "text": "Release"
     }
   ],
   "candidate_glosses": [
@@ -2152,6 +2188,24 @@
       "source_repo": "clibequilibrium/Tracy-CSharp",
       "status": "candidate",
       "text": "\"Release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "64bit/commandOK",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acheronfail/repgrep",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-generate/cargo-generate",
+      "status": "candidate",
+      "text": "Release"
     }
   ],
   "candidate_related_terms": [
@@ -3239,11 +3293,35 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "clibequilibrium/Tracy-CSharp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "64bit/commandOK"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "acheronfail/repgrep"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cargo-generate/cargo-generate"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "lexical_providers": [
     "datamuse"
   ],

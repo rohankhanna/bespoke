@@ -1,181 +1,6 @@
 {
-  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "generated_at": "2026-04-22T04:41:58.081535+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "labstack/echo",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "consensys/devp2p-dissectors",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "wireshark/wireshark",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "skylenet/ethereum-helm-charts",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "23andme/yamale",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "adrienverge/yamllint",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "helm/charts-repo-actions-demo",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "spf13/viper",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "masterminds/sprig",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "norwoodj/hashbash-backend-go",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "csu-radarmet/csu_radartools",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mdanalysis/mda-xdrlib",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "meteoswiss/pyrad",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mpy/cylp",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "astronomyk/simcado",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "8144225309/lightning",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "8144225309/superscalar-cln",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "8144225309/superscalar-docs",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "8144225309/superscalar-wallet",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "16arpi/meteo-tui",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "24seconds/rust-sadari-cli",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "64bit/commandok",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "acheronfail/repgrep",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cargo-generate/cargo-generate",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "agricidaniel/claude-email",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ahmedasmar/devops-claude-skills",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "airowe/claude-a11y-skill",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "antonbabenko/terraform-skill",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "0xnyk/awesome-hermes-agent",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "askbudi/roundtable",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cafetechne/antigravity-link-extension",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "charlie85270/dorothy",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aden-hive/hive",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aralyekta/prompttester",
-      "graph_distance": 7
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "helicone/helicone",
-      "graph_distance": 7
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "parveshiiii/deepresearch-agent",
@@ -3685,6 +3510,276 @@
       "discovered_via": "explicit-github-link",
       "full_name": "imandra-ai/ocaml-tracy",
       "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "brpaz/echozap",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "casbin/casbin",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "darkweak/souin",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "go-woo/protoc-gen-echo",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "consensys/devp2p-dissectors",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "animosity/craftirc",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "helm/chart-releaser-action",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "helm/chart-testing-action",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "helm/hub",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "helm/kind-action",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bearer/bearer",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "digitalocean/doctl",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "docker/notary",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "go-viper/mapstructure",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "imdario/mergo",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "norwoodj/hashbash-backend-java",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "prometheus/client_golang",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rabbitmq/amqp091-go",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "meteoswiss-mdr/pyart",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "meteoswiss-mdr/pyrad",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "meteoswiss/pyrad-examples",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "coin-or/cbc",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "coin-or/coinbrew",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "elementsproject/lightning",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lightning/bolts",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lightningd/plugins",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lightning/blips",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "elementsproject/cln-application",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "chronotope/chrono",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rust-cli/confy",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "serde-rs/json",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "wangdayeeeeee/geometricweather",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "fdehau/tui-rs",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "johnthagen/min-sized-rust",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rustwasm/wasm-pack-template",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "garoth/sendgrid-mcp",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "softeria/ms-365-mcp-server",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "taylorwilsdon/google_workspace_mcp",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dequelabs/axe-core",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "antonbabenko/pre-commit-terraform",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aquasecurity/trivy",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "shuaibiyy/awesome-tf",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "terraform-linters/tflint",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "0xnyk/openclaw-to-hermes",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "0xrsydn/nix-hermes-agent",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "1ilkhamov/opencode-hermes-multiagent",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "42-evey/evey-bridge-plugin",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "gherghett/antigravity-shit-chat",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lukasz-wronski/antigravity-shit-chat",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mario4272/ag_bridge",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "googleworkspace/cli",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "adenhq/hive",
+      "graph_distance": 8
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vercel/modelfusion",
+      "graph_distance": 8
     }
   ],
   "processed": [
@@ -5436,6 +5531,39 @@
     "clibequilibrium/tracy-csharp",
     "ocaml-tracing/ocaml-tracy",
     "nagisa/rust_tracy_client",
-    "oskarnp/odin-tracy"
+    "oskarnp/odin-tracy",
+    "labstack/echo",
+    "wireshark/wireshark",
+    "23andme/yamale",
+    "adrienverge/yamllint",
+    "helm/charts-repo-actions-demo",
+    "spf13/viper",
+    "masterminds/sprig",
+    "norwoodj/hashbash-backend-go",
+    "csu-radarmet/csu_radartools",
+    "mdanalysis/mda-xdrlib",
+    "meteoswiss/pyrad",
+    "coin-or/cylp",
+    "astronomyk/simcado",
+    "8144225309/lightning",
+    "8144225309/superscalar-cln",
+    "8144225309/superscalar-docs",
+    "8144225309/superscalar-wallet",
+    "16arpi/meteo-tui",
+    "24seconds/rust-sadari-cli",
+    "64bit/commandok",
+    "acheronfail/repgrep",
+    "cargo-generate/cargo-generate",
+    "agricidaniel/claude-email",
+    "ahmedasmar/devops-claude-skills",
+    "airowe/claude-a11y-skill",
+    "antonbabenko/terraform-skill",
+    "0xnyk/awesome-hermes-agent",
+    "askbudi/roundtable",
+    "cafetechne/antigravity-link-extension",
+    "charlie85270/dorothy",
+    "aden-hive/hive",
+    "aralyekta/prompttester",
+    "helicone/helicone"
   ]
 }

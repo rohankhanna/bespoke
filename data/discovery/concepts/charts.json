@@ -31,6 +31,18 @@
       "source_repo": "helm/helm",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/helm/helm/workflows/release/badge.svg)](https://github.com/helm/helm/actions?workflow=release)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "status": "candidate-context",
+      "text": "Example project to demo testing and hosting a chart repository with GitHub Pages and Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "status": "candidate-context",
+      "text": "[![](https://github.com/helm/charts-repo-actions-demo/workflows/Release%20Charts/badge.svg?branch=main)](https://github.com/helm/charts-repo-actions-demo/actions)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "helm/helm",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/helm/helm/workflows/release/badge.svg)](https://github.com/helm/helm/actions?workflow=release)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "status": "candidate",
+      "text": "[![](https://github.com/helm/charts-repo-actions-demo/workflows/Release%20Charts/badge.svg?branch=main)](https://github.com/helm/charts-repo-actions-demo/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "helm/helm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "helm/charts-repo-actions-demo"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "lexical_providers": [
     "datamuse"
   ],

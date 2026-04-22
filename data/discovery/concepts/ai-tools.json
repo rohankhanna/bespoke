@@ -43,6 +43,30 @@
       "source_repo": "alirezarezvani/claude-code-skill-factory",
       "status": "candidate-context",
       "text": "A comprehensive toolkit for generating production-ready Claude Skills and Claude Code Agents at scale. This repository provides templates, examples, and powerful prompt engineering systems to create custom skills and specialized agents for Claude AI across all platforms."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cafeTechne/antigravity-link-extension",
+      "status": "candidate-context",
+      "text": "Mobile companion for Google's Antigravity IDE. Mirror AI sessions on your phone, send messages, stop generation, automate via 9 MCP tools or OpenAPI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cafeTechne/antigravity-link-extension",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/cafeTechne/antigravity-link-extension/actions/workflows/ci.yml/badge.svg)](https://github.com/cafeTechne/antigravity-link-extension/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Charlie85270/Dorothy",
+      "status": "candidate-context",
+      "text": "Dorothy, the wife your AI agents needs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Charlie85270/Dorothy",
+      "status": "candidate-context",
+      "text": "![Dorothy](screenshots/background-2.png)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "alirezarezvani/claude-code-skill-factory",
       "status": "candidate",
       "text": "A comprehensive toolkit for generating production-ready Claude Skills and Claude Code Agents at scale. This repository provides templates, examples, and powerful prompt engineering systems to create custom skills and specialized agents for Claude AI across all platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cafeTechne/antigravity-link-extension",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/cafeTechne/antigravity-link-extension/actions/workflows/ci.yml/badge.svg)](https://github.com/cafeTechne/antigravity-link-extension/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Charlie85270/Dorothy",
+      "status": "candidate",
+      "text": "![Dorothy](screenshots/background-2.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "cafeTechne/antigravity-link-extension"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "Charlie85270/Dorothy"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "lexical_providers": [
     "datamuse"
   ],

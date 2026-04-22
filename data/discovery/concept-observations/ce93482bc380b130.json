@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Multi-Agent Harness for Production AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bounty completed"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bounty completed"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11089,
+      "status": "candidate",
+      "text": "bounteous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11089,
+      "status": "candidate",
+      "text": "dog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11089,
+      "status": "candidate",
+      "text": "largesse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11089,
+      "status": "candidate",
+      "text": "liberality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11089,
+      "status": "candidate",
+      "text": "price"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bounty completed",
+      "sense_id": "bounty-completed#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bounty-completed",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bounty-completed",
+  "observation_id": "ce93482bc380b130",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T04:41:58.081535+00:00",
+  "observed_text": "Bounty completed",
+  "source_context_snippet": "Bounty completed",
+  "source_file": ".github/workflows/bounty-completed.yml",
+  "source_repo": "aden-hive/hive",
+  "source_repo_description": "Multi-Agent Harness for Production AI"
+}

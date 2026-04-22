@@ -1,27 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ethpandaops/ethereum-helm-charts",
-      "target": "ethpandaops/ethereum-k8s-testnets",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ethpandaops/ethereum-helm-charts",
-      "target": "norwoodj/helm-docs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ethpandaops/ethereum-helm-charts",
-      "target": "helm/chart-testing",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-typos.yaml",
       "source_repo": "ethpandaops/ethereum-helm-charts",
@@ -267,6 +246,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-20T03:16:48.146869+00:00",
+  "generated_at": "2026-04-22T04:41:58.081535+00:00",
   "source_repo": "ethpandaops/ethereum-helm-charts"
 }

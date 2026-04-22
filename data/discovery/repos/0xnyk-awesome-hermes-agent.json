@@ -1,0 +1,150 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xNyk/awesome-hermes-agent",
+      "target": "42-evey/evey-bridge-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xNyk/awesome-hermes-agent",
+      "target": "0xrsydn/nix-hermes-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xNyk/awesome-hermes-agent",
+      "target": "0xnyk/openclaw-to-hermes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xNyk/awesome-hermes-agent",
+      "target": "1ilkhamov/opencode-hermes-multiagent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xNyk/awesome-hermes-agent",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xNyk/awesome-hermes-agent",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xNyk/awesome-hermes-agent",
+      "target": "hermes-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xNyk/awesome-hermes-agent",
+      "target": "nous-research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xNyk/awesome-hermes-agent",
+      "target": "skills",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:44:16.850045+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 40599
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A curated list of awesome skills, tools, integrations, and resources for Hermes Agent by Nous Research",
+    "fork": false,
+    "full_name": "0xNyk/awesome-hermes-agent",
+    "html_url": "https://github.com/0xNyk/awesome-hermes-agent",
+    "language": null,
+    "pushed_at": "2026-04-21T15:27:19Z",
+    "stargazers_count": 1578,
+    "topics": [
+      "ai-agents",
+      "awesome",
+      "awesome-list",
+      "hermes-agent",
+      "nous-research",
+      "skills"
+    ],
+    "updated_at": "2026-04-22T04:39:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xnyk/openclaw-to-hermes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xrsydn/nix-hermes-agent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "1ilkhamov/opencode-hermes-multiagent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "42-evey/evey-bridge-plugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hermes-agent"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nous-research"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skills"
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "components": [
+    {
+      "component": "mheap/github-action-required-labels@388fd6af37b34cdfe5a23b37060e763217e58b03",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@3041bf56c941b39c61721a86cd11f3bb1338122a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@3041bf56c941b39c61721a86cd11f3bb1338122a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@3041bf56c941b39c61721a86cd11f3bb1338122a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@4afd733a84b1f43292c63897423277bb7f4313a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "cachix/install-nix-action@3715ab1a11cac9e991980d7b4a28d80c7ebdd8f9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/dependency-review-action@3b139cfc5fae8b618d3eae3675e383bb1769c019",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/octoslash.yaml"
+    },
+    {
+      "component": "sagikazarmark/octoslash-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/octoslash.yaml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spf13/viper",
+      "target": "docker/notary",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spf13/viper",
+      "target": "digitalocean/doctl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spf13/viper",
+      "target": "bearer/bearer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spf13/viper",
+      "target": "go-viper/mapstructure",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "spf13/viper",
+      "target": "mheap/github-action-required-labels@388fd6af37b34cdfe5a23b37060e763217e58b03",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "spf13/viper",
+      "target": "PR Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "spf13/viper",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "spf13/viper",
+      "target": "actions/setup-go@3041bf56c941b39c61721a86cd11f3bb1338122a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "spf13/viper",
+      "target": "golangci/golangci-lint-action@4afd733a84b1f43292c63897423277bb7f4313a9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "spf13/viper",
+      "target": "cachix/install-nix-action@3715ab1a11cac9e991980d7b4a28d80c7ebdd8f9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "spf13/viper",
+      "target": "actions/dependency-review-action@3b139cfc5fae8b618d3eae3675e383bb1769c019",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/octoslash.yaml",
+      "source_repo": "spf13/viper",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/octoslash.yaml",
+      "source_repo": "spf13/viper",
+      "target": "sagikazarmark/octoslash-action@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/octoslash.yaml",
+      "source_repo": "spf13/viper",
+      "target": "Octoslash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "spf13/viper",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "spf13/viper",
+      "target": "Close stale issues",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:42:45.842594+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21376
+    },
+    {
+      "path": "go.mod",
+      "size": 747
+    },
+    {
+      "path": ".github/workflows/checks.yaml",
+      "size": 823
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 3076
+    },
+    {
+      "path": ".github/workflows/octoslash.yaml",
+      "size": 342
+    },
+    {
+      "path": ".github/workflows/stale.yaml",
+      "size": 897
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go configuration with fangs",
+    "fork": false,
+    "full_name": "spf13/viper",
+    "html_url": "https://github.com/spf13/viper",
+    "language": "Go",
+    "pushed_at": "2026-01-12T21:42:47Z",
+    "stargazers_count": 30210,
+    "topics": [],
+    "updated_at": "2026-04-21T22:14:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bearer/bearer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "digitalocean/doctl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker/notary",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-viper/mapstructure",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PR Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yaml",
+      "term": "PR Checks"
+    },
+    {
+      "context_snippet": "Octoslash",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/octoslash.yaml",
+      "term": "Octoslash"
+    },
+    {
+      "context_snippet": "\"Close stale issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "term": "Close stale issues"
+    }
+  ]
+}

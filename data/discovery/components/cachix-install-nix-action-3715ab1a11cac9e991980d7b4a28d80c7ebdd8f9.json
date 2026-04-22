@@ -1,0 +1,12 @@
+{
+  "component": "cachix/install-nix-action@3715ab1a11cac9e991980d7b4a28d80c7ebdd8f9",
+  "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "spf13/viper"
+    }
+  ]
+}

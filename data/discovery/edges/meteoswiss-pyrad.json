@@ -1,0 +1,188 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "meteoswiss-mdr/pyart",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "meteoswiss/pyrad-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "meteoswiss-mdr/pyrad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yml",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yml",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "mamba-org/setup-micromamba@add3a49764cedee8ee24e82dfde87f5bc2914462",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yml",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docs.yml",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "build-deploy-site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyrad_tests_base.yml",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyrad_tests_base.yml",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyrad_tests_base.yml",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "mamba-org/setup-micromamba@add3a49764cedee8ee24e82dfde87f5bc2914462",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pyrad_tests_base.yml",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "Test pyrad base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyrad_tests_base_dev.yml",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyrad_tests_base_dev.yml",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyrad_tests_base_dev.yml",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "mamba-org/setup-micromamba@add3a49764cedee8ee24e82dfde87f5bc2914462",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pyrad_tests_base_dev.yml",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "Test pyrad base dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyrad_tests_mch.yml",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyrad_tests_mch.yml",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "mamba-org/setup-micromamba@add3a49764cedee8ee24e82dfde87f5bc2914462",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pyrad_tests_mch.yml",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "Test pyrad mch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyrad_tests_mch_dev.yml",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyrad_tests_mch_dev.yml",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "mamba-org/setup-micromamba@add3a49764cedee8ee24e82dfde87f5bc2914462",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyrad_tests_mch_dev.yml",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pyrad_tests_mch_dev.yml",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "Test pyrad mch dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_ruff.yml",
+      "source_repo": "MeteoSwiss/pyrad",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-22T04:41:58.081535+00:00",
+  "source_repo": "MeteoSwiss/pyrad"
+}

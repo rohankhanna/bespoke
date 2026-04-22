@@ -19,6 +19,18 @@
       "source_repo": "safe-fndn/safe-smart-account",
       "status": "candidate-context",
       "text": "[![npm version](https://badge.fury.io/js/%40safe-global%2Fsafe-smart-account.svg)](https://badge.fury.io/js/%40safe-global%2Fsafe-smart-account)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "8144225309/superscalar-wallet",
+      "status": "candidate-context",
+      "text": "SuperScalar Wallet \u2014 web UI for Lightning channel factory management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8144225309/superscalar-wallet",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "safe-fndn/safe-smart-account",
       "status": "candidate",
       "text": "[![npm version](https://badge.fury.io/js/%40safe-global%2Fsafe-smart-account.svg)](https://badge.fury.io/js/%40safe-global%2Fsafe-smart-account)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8144225309/superscalar-wallet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "safe-fndn/safe-smart-account"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "8144225309/superscalar-wallet"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "lexical_providers": [
     "datamuse"
   ],

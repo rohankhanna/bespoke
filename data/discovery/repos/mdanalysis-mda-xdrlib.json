@@ -1,0 +1,138 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "MDAnalysis/pypi-deployment@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "MDAnalysis/pypi-deployment@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-ci.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "MDAnalysis/mda-xdrlib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "MDAnalysis/mda-xdrlib",
+      "target": "MDAnalysis/pypi-deployment@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "MDAnalysis/mda-xdrlib",
+      "target": "Build and upload to PyPi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-ci.yaml",
+      "source_repo": "MDAnalysis/mda-xdrlib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-ci.yaml",
+      "source_repo": "MDAnalysis/mda-xdrlib",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-ci.yaml",
+      "source_repo": "MDAnalysis/mda-xdrlib",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-ci.yaml",
+      "source_repo": "MDAnalysis/mda-xdrlib",
+      "target": "GH Actions CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:42:53.627204+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1250
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1671
+    },
+    {
+      "path": ".github/workflows/deploy.yaml",
+      "size": 1378
+    },
+    {
+      "path": ".github/workflows/gh-ci.yaml",
+      "size": 1379
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Stand-alone XDRLIB module (from cpython 3.10.8)",
+    "fork": false,
+    "full_name": "MDAnalysis/mda-xdrlib",
+    "html_url": "https://github.com/MDAnalysis/mda-xdrlib",
+    "language": "Python",
+    "pushed_at": "2025-10-12T14:24:59Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-10-12T14:25:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and upload to PyPi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yaml",
+      "term": "Build and upload to PyPi"
+    },
+    {
+      "context_snippet": "GH Actions CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-ci.yaml",
+      "term": "GH Actions CI"
+    }
+  ]
+}

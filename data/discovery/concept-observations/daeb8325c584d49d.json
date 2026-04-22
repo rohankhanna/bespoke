@@ -84,7 +84,7 @@
   "normalized_form": "kubernetes",
   "observation_id": "daeb8325c584d49d",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-20T03:16:48.146869+00:00",
+  "observed_at": "2026-04-22T04:41:58.081535+00:00",
   "observed_text": "kubernetes",
   "source_context_snippet": "[![Release Helm Charts](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml/badge.svg)](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml)",
   "source_file": null,

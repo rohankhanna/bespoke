@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Zero-configuration MCP server that unifies multiple AI coding assistants (Codex, Claude Code, Cursor, Gemini) through intelligent auto-discovery and standardized interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![PyPI version](https://badge.fury.io/py/roundtable-ai.svg)](https://badge.fury.io/py/roundtable-ai)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/roundtable-ai.svg)](https://badge.fury.io/py/roundtable-ai)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vibe-coding",
+      "sense_id": "vibe-coding#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vibe-coding",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vibe-coding",
+  "observation_id": "e812b73f9b3dbfa9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:41:58.081535+00:00",
+  "observed_text": "vibe-coding",
+  "source_context_snippet": "[![PyPI version](https://badge.fury.io/py/roundtable-ai.svg)](https://badge.fury.io/py/roundtable-ai)",
+  "source_file": null,
+  "source_repo": "askbudi/roundtable",
+  "source_repo_description": "Zero-configuration MCP server that unifies multiple AI coding assistants (Codex, Claude Code, Cursor, Gemini) through intelligent auto-discovery and standardized interface"
+}

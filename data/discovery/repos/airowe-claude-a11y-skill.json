@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "airowe/claude-a11y-skill",
+      "target": "dequelabs/axe-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "airowe/claude-a11y-skill",
+      "target": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:43:45.046164+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1842
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Claude Code skill for running comprehensive accessibility audits (axe-core + jsx-a11y)",
+    "fork": false,
+    "full_name": "airowe/claude-a11y-skill",
+    "html_url": "https://github.com/airowe/claude-a11y-skill",
+    "language": null,
+    "pushed_at": "2026-01-24T18:28:59Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-04-18T19:36:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dequelabs/axe-core",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

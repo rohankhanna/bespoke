@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "echo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "labstack/echo",
+      "status": "candidate-context",
+      "text": "High performance, minimalist Go web framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "labstack/echo",
+      "status": "candidate-context",
+      "text": "[![Sourcegraph](https://sourcegraph.com/github.com/labstack/echo/-/badge.svg?style=flat-square)](https://sourcegraph.com/github.com/labstack/echo?badge)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "labstack/echo",
+      "status": "candidate",
+      "text": "[![Sourcegraph](https://sourcegraph.com/github.com/labstack/echo/-/badge.svg?style=flat-square)](https://sourcegraph.com/github.com/labstack/echo?badge)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39904201,
+      "status": "candidate",
+      "text": "reverberate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39903983,
+      "status": "candidate",
+      "text": "resound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39903569,
+      "status": "candidate",
+      "text": "reverberation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39868922,
+      "status": "candidate",
+      "text": "repeat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39851788,
+      "status": "candidate",
+      "text": "recall"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37077,
+      "status": "candidate",
+      "text": "ring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31033,
+      "status": "candidate",
+      "text": "resound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28034,
+      "status": "candidate",
+      "text": "reverberate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23049,
+      "status": "candidate",
+      "text": "recall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13038,
+      "status": "candidate",
+      "text": "reverberation"
+    }
+  ],
+  "canonical_name": "echo",
+  "concept_id": "echo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "labstack/echo"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "echo",
+      "sense_id": "echo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "GH Actions CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MDAnalysis/mda-xdrlib",
+      "status": "candidate-context",
+      "text": "Stand-alone XDRLIB module (from cpython 3.10.8)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MDAnalysis/mda-xdrlib",
+      "status": "candidate-context",
+      "text": "GH Actions CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MDAnalysis/mda-xdrlib",
+      "status": "candidate",
+      "text": "GH Actions CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23284,
+      "status": "candidate",
+      "text": "positive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15314,
+      "status": "candidate",
+      "text": "eta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15014,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14264,
+      "status": "candidate",
+      "text": "negative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14264,
+      "status": "candidate",
+      "text": "shallow"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "GH Actions CI",
+  "concept_id": "gh-actions-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": ".github/workflows/gh-ci.yaml",
+      "source_repo": "MDAnalysis/mda-xdrlib"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GH Actions CI",
+      "sense_id": "gh-actions-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

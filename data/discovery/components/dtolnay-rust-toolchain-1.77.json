@@ -1,12 +1,17 @@
 {
   "component": "dtolnay/rust-toolchain@1.77",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "tauri-apps/wry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/crate-bump.yml",
+      "source_repo": "8144225309/lightning"
     }
   ]
 }

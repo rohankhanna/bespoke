@@ -19,6 +19,30 @@
       "source_repo": "prettier/prettier",
       "status": "candidate-context",
       "text": "[![Prettier Banner](https://unpkg.com/prettier-logo@1.0.3/images/prettier-banner-light.svg)](https://prettier.io)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "23andMe/Yamale",
+      "status": "candidate-context",
+      "text": "A schema and validator for YAML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "23andMe/Yamale",
+      "status": "candidate-context",
+      "text": "Yamale (ya\u00b7ma\u00b7l\u0113)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adrienverge/yamllint",
+      "status": "candidate-context",
+      "text": "A linter for YAML files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrienverge/yamllint",
+      "status": "candidate-context",
+      "text": "yamllint"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "prettier/prettier",
       "status": "candidate",
       "text": "[![Prettier Banner](https://unpkg.com/prettier-logo@1.0.3/images/prettier-banner-light.svg)](https://prettier.io)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "23andMe/Yamale",
+      "status": "candidate",
+      "text": "Yamale (ya\u00b7ma\u00b7l\u0113)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrienverge/yamllint",
+      "status": "candidate",
+      "text": "yamllint"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "prettier/prettier"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "23andMe/Yamale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "adrienverge/yamllint"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "rust sadari game based on terminal! (Ghost leg or Amidakuji in another words)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/rust-sadari-cli.svg)](https://crates.io/crates/rust-sadari-cli)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/rust-sadari-cli.svg)](https://crates.io/crates/rust-sadari-cli)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sadari",
+      "sense_id": "sadari#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sadari",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sadari",
+  "observation_id": "6112c8baee3784ef",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-22T04:41:58.081535+00:00",
+  "observed_text": "sadari",
+  "source_context_snippet": "[![Crates.io](https://img.shields.io/crates/v/rust-sadari-cli.svg)](https://crates.io/crates/rust-sadari-cli)",
+  "source_file": null,
+  "source_repo": "24seconds/rust-sadari-cli",
+  "source_repo_description": "rust sadari game based on terminal! (Ghost leg or Amidakuji in another words)"
+}

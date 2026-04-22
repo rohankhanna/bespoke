@@ -79,6 +79,18 @@
       "source_repo": "jezweb/claude-skills",
       "status": "candidate-context",
       "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xNyk/awesome-hermes-agent",
+      "status": "candidate-context",
+      "text": "A curated list of awesome skills, tools, integrations, and resources for Hermes Agent by Nous Research"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xNyk/awesome-hermes-agent",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "jezweb/claude-skills",
       "status": "candidate",
       "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xNyk/awesome-hermes-agent",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -214,11 +232,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "jezweb/claude-skills"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "0xNyk/awesome-hermes-agent"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -26,6 +26,7 @@
     "b83eb9775bfc0297"
   ],
   "actions": [
+    "17ee74bdc7132be3",
     "859c41cd59b71009"
   ],
   "active-metadata": [
@@ -128,7 +129,8 @@
   "agent-framework": [
     "3de1aa404a79122f",
     "4bce90855e426602",
-    "6650a705ed136d37"
+    "6650a705ed136d37",
+    "fc812ca94cadca83"
   ],
   "agent-harness": [
     "e56c383598a6f6fc"
@@ -140,6 +142,9 @@
   "agent-memory-server": [
     "94fc2a94788e6256"
   ],
+  "agent-monitoring": [
+    "fb0d1d587694ffe5"
+  ],
   "agent-plugins": [
     "a9c15fa6cb8c0991"
   ],
@@ -150,6 +155,7 @@
     "e16c947566285c55"
   ],
   "agent-skills": [
+    "2f354b49ad722abf",
     "30a1637cc62aff3e",
     "7fbe5ca7b3eea38c",
     "878e59907e81008f",
@@ -307,7 +313,8 @@
   ],
   "ai-marketing": [
     "1cd4b22e61a4bb3f",
-    "da191da797bd4ec5"
+    "da191da797bd4ec5",
+    "f9adc5f0bab7a8ad"
   ],
   "ai-memory": [
     "9f652e35f4e60763",
@@ -357,7 +364,9 @@
   ],
   "ai-tools": [
     "618599ae465ff867",
+    "a7e5c43c6c8ecc44",
     "c3939009165d9e46",
+    "da8b305913c956f5",
     "e3548be0961a72a5",
     "fcd0a92c2bc24748"
   ],
@@ -439,11 +448,15 @@
     "a559436b5e6764ef",
     "b0d91c629f78ff50"
   ],
+  "amidakuji": [
+    "05eb6aaa85f5b07f"
+  ],
   "analysis": [
     "2b3c229c056ca96d",
     "e9f73c48cfd2c7b9"
   ],
   "analytics": [
+    "ae2b4da163f547ea",
     "d5490a118006416f",
     "e845e853c28be594"
   ],
@@ -496,6 +509,7 @@
     "2b8e6a44fa77dbf1",
     "363027d212b58744",
     "39b3bbe257c4c1ff",
+    "3d6fbab015ab1d3d",
     "49e83545fb65d9d1",
     "58c41912b8f39d6b",
     "792c03024c94fd04",
@@ -528,6 +542,7 @@
     "93f7019cb546da9c"
   ],
   "antigravity": [
+    "093ded8163ca51e3",
     "2d3e1a10f4ff6aa6",
     "4971ba7326515dc1",
     "4ff4766a06eed838",
@@ -829,7 +844,8 @@
     "16f09ccf4837d097"
   ],
   "auto-close-duplicate-issues": [
-    "10d5beed230739df"
+    "10d5beed230739df",
+    "95f41e7c2b94bb6a"
   ],
   "auto-close-issue-workflow": [
     "67ebf652c3e26fae"
@@ -961,6 +977,9 @@
   "automated-machine-learning": [
     "4d6056f4cb2f7c19"
   ],
+  "automated-release": [
+    "fafc38575c224f71"
+  ],
   "automated-rollback-manager": [
     "f7f146060b00994d"
   ],
@@ -994,6 +1013,7 @@
     "41f974021cae736b",
     "44f6ddb63dc4a989",
     "4db1a2a5befeff1e",
+    "4ddfac976a00e150",
     "589b7f05b8fecb53",
     "600f9724b769749e",
     "6711cd00f57844d1",
@@ -1027,6 +1047,7 @@
     "28509603c504871c",
     "38d5f049d2eea63d",
     "739f1976801fa282",
+    "78842c46f3322467",
     "7cd4a831584ed1a7",
     "a053c2756d441971",
     "ae34fae0dd194cc1",
@@ -1073,6 +1094,7 @@
     "433ea7f973a50286",
     "4a5d8546c5698069",
     "4f65515af8b33506",
+    "937a93d8e4527999",
     "b6ba57784d2f771a",
     "f36d6c88d073a3e8"
   ],
@@ -1080,6 +1102,7 @@
     "a1454d19937688cd"
   ],
   "awesome-list": [
+    "0790d24deccec594",
     "261b4396451d8eaf",
     "4e806e098e7bb5ac",
     "5dc80fed7ba12eb6",
@@ -1354,6 +1377,9 @@
     "481beb011c1ae8d3",
     "4d8ae06429c18818"
   ],
+  "best-practices": [
+    "ece0917aeb237f32"
+  ],
   "best-readme": [
     "fbae4af6c3ff8f3e"
   ],
@@ -1446,7 +1472,10 @@
   ],
   "bitcoin": [
     "3d2f3f23b614324a",
+    "42b00196d0b11812",
     "77f3b0c4a5329493",
+    "af3841427a79d52d",
+    "d37459e79bae524a",
     "d9dccf3f61e8c35d"
   ],
   "bitext-mining": [
@@ -1468,6 +1497,10 @@
   ],
   "blazingly-fast": [
     "eec1f60c17b08b4d"
+  ],
+  "blip-56": [
+    "103b786ad27a3b49",
+    "27ed5c55414ac457"
   ],
   "blob": [
     "0452ec732af02d28"
@@ -1552,6 +1585,9 @@
   ],
   "bounding-box": [
     "097c4ff8b7ded138"
+  ],
+  "bounty-completed": [
+    "ce93482bc380b130"
   ],
   "branch-build": [
     "b2a367b20071c20a",
@@ -1641,6 +1677,7 @@
     "6c0b4440a2048a0f",
     "6eec007c8c47c23d",
     "6fa73ba1762dd8e6",
+    "74ebc37db450777e",
     "7acc06726f508dc1",
     "7d02e3b13e80928d",
     "800707ca98cdd544",
@@ -1653,6 +1690,7 @@
     "a5d48e0f242cb64c",
     "a7acdcc3dedd3e5d",
     "a7f7b8d5a3a1897d",
+    "a817f62b644d2545",
     "af5a836829e7129a",
     "b1f1a7ae2fb2972b",
     "bdf7c6a08699c836",
@@ -1764,6 +1802,9 @@
   "build-and-release-code-signed": [
     "9ba31edfb3fa70ba"
   ],
+  "build-and-release-package": [
+    "005df918146e4532"
+  ],
   "build-and-release-processor": [
     "10bedd64bc645b0f"
   ],
@@ -1838,6 +1879,8 @@
     "f8c7f0abba0ab4cb"
   ],
   "build-and-upload-to-pypi": [
+    "0eea18a278a73231",
+    "23d4c48e8a6610fe",
     "34d2543503ef54ae"
   ],
   "build-and-upload-tunix-package": [
@@ -1936,6 +1979,7 @@
     "4e4f5854b4984daf"
   ],
   "build-deploy-site": [
+    "4c23084ab45c8f37",
     "648aa16f3add80ce"
   ],
   "build-devnet": [
@@ -2070,6 +2114,7 @@
     "f7d45fc831d785f2"
   ],
   "build-macos": [
+    "a0d25a1048f78580",
     "a60484417c136c21",
     "d963a1b264560d0f"
   ],
@@ -2087,6 +2132,9 @@
   ],
   "build-miniforge": [
     "76b63a990ff28579"
+  ],
+  "build-msys2": [
+    "2a6b74c514207a5c"
   ],
   "build-native-module-prebuilds": [
     "edc2cc6ca0f6ec97"
@@ -2165,6 +2213,9 @@
   "build-slim-latest": [
     "caa88c0a65ef8d24"
   ],
+  "build-stratoshark-macos": [
+    "866715b24f1bd789"
+  ],
   "build-swap-and-asb-release-binaries": [
     "5f914fe8a8ea540a"
   ],
@@ -2211,6 +2262,9 @@
   "build-typescript-ci": [
     "c584db611d4bd725"
   ],
+  "build-ubuntu": [
+    "1b5858b55fbe3770"
+  ],
   "build-unsigned-artifacts": [
     "b2f0cc92dcba93a2"
   ],
@@ -2243,6 +2297,9 @@
   ],
   "build-wheels-metal": [
     "614b81db319642fa"
+  ],
+  "build-windows": [
+    "6e87e7f02f68c796"
   ],
   "build-windows-ci-container": [
     "e5b316684dade9fb"
@@ -2311,6 +2368,9 @@
   ],
   "bump-provider-and-module-versions": [
     "55176dec4928db28"
+  ],
+  "bump-rust-crate-version": [
+    "0ddd8909a7bde18b"
   ],
   "bump-tempo-dependencies": [
     "aebb70af785f67d1"
@@ -2428,7 +2488,8 @@
   "cargo": [
     "0d3b43ef1a3e71f4",
     "5f9efc0c233620de",
-    "638a2419a8a59acd"
+    "638a2419a8a59acd",
+    "cc13af9a64e01513"
   ],
   "cargo-audit": [
     "498e457b100d1411",
@@ -2445,6 +2506,7 @@
     "621ada9fdfe65058"
   ],
   "cargo-generate": [
+    "0507a96cafa9db90",
     "09b8cd5be6fcc9c5"
   ],
   "cargo-publish-dry-run": [
@@ -2507,8 +2569,11 @@
     "97b46b708086d69d"
   ],
   "channel-factory": [
+    "31498671c37f45c5",
     "3827ffe123e7a534",
-    "6f9a453a0d8921dc"
+    "6f9a453a0d8921dc",
+    "cc8824e438b6f258",
+    "ecb8bf5af95829cd"
   ],
   "chaos": [
     "b66cb7f684027003"
@@ -2522,6 +2587,7 @@
   ],
   "charts": [
     "485c705783ce68b7",
+    "5ab071c30b635f26",
     "ead00b75f5692c06",
     "f0e443a8735a4de7",
     "f26e41c91821ee82"
@@ -2823,6 +2889,9 @@
   "chromadb": [
     "4e42836557ffb784"
   ],
+  "chrome-devtools-protocol": [
+    "8400c53fe850ca30"
+  ],
   "ci---builder": [
     "25424d7d520d0112"
   ],
@@ -2849,6 +2918,9 @@
   ],
   "ci---other-binaries": [
     "5b59c98d090e808e"
+  ],
+  "ci---tests": [
+    "f6e810eb006543cf"
   ],
   "ci---with-jax-nightly": [
     "d1cd64dd26b61359"
@@ -2882,7 +2954,8 @@
   "ci-cd": [
     "45eb6014513cad96",
     "68b433c930b1bd29",
-    "e30deb9e97e7c4d9"
+    "e30deb9e97e7c4d9",
+    "f3a8ee954c6e7c7f"
   ],
   "ci-cd-base": [
     "cf4b58e20d4f9b98"
@@ -3053,6 +3126,7 @@
     "0c400fd3302a4bc1",
     "14d73af12e8ec1a8",
     "150db59720908c4d",
+    "1951b3db9f2aff85",
     "1c5a5c8bd49bdda2",
     "20e64736cb3b6919",
     "26557da473e8ce9b",
@@ -3075,6 +3149,7 @@
     "654e35e7401bc763",
     "65e8116c29385ae9",
     "6cda69853ad113e8",
+    "6e0a73ff7646b667",
     "78355a7840756dd4",
     "7aaca044f60bfc59",
     "7bd60359cd9f8d02",
@@ -3084,6 +3159,7 @@
     "8a71212b1efa555f",
     "8f9f0a27c94cf96a",
     "8ffc29645a27df47",
+    "940f7db54af02f07",
     "9bd4aa2a04f6f5e9",
     "9d0de68aa22080b8",
     "9ed66003f40a5c47",
@@ -3093,6 +3169,7 @@
     "b23d3e0257f9ffbe",
     "b48a72bb501421ae",
     "b536feb4a55fd338",
+    "b69b591916b87220",
     "c3e848695987af26",
     "c40e9429f4296002",
     "c8f9d8706e1fe6e7",
@@ -3168,6 +3245,7 @@
     "75b634ab1fc35e58"
   ],
   "claude-code-review": [
+    "094574574b13c801",
     "3136527754ccbda3",
     "32c6de9c73212539",
     "3b62cdf0167b2b23",
@@ -3185,7 +3263,8 @@
     "6202c875d039eb6e",
     "7e10b7a66370e471",
     "87ede300735e4c32",
-    "9cec553e9fd0938e"
+    "9cec553e9fd0938e",
+    "ed91df9fb004f341"
   ],
   "claude-code-skills": [
     "28ccda7328f26383",
@@ -3244,6 +3323,7 @@
     "064ad320a1022eed",
     "27ef9fe62cc3829a",
     "31028fe427cd69e4",
+    "3b522caf079e0f52",
     "63130b8141257cb6",
     "8a1791d2b47c3b4d",
     "9e878a1b73682f02",
@@ -3335,6 +3415,12 @@
     "1986441ef5d00ae8",
     "a635ea7ec8b1913d"
   ],
+  "clickhouse-migration-check": [
+    "78631d02860684b8"
+  ],
+  "clickhouse-wrapper-tests": [
+    "0463da7164c1cd88"
+  ],
   "client": [
     "95d504ea34f9e874",
     "a168cd95df5c0358",
@@ -3394,6 +3480,7 @@
   "close-inactive-issues": [
     "1b57bede753217c8",
     "6b14764021ce7d00",
+    "7afe005dd3d36633",
     "b4f5e12ae34cf0cc",
     "d74d99de458a0b5d",
     "e925e09042418800"
@@ -3435,6 +3522,7 @@
     "427dfec194532b5f",
     "5ba9a944113e3dd3",
     "7f390892e766f7bf",
+    "81541d3169a00be6",
     "8bd4404092703e09",
     "8facb4844636ff5a",
     "a0fae32ed97957d0",
@@ -3531,6 +3619,9 @@
   ],
   "cmake-on-multiple-platforms": [
     "91b872d9a899d393"
+  ],
+  "cmake-options-test": [
+    "f04888f91ec366a5"
   ],
   "cmake-win64": [
     "0bdd5c71f4d2b642"
@@ -3682,6 +3773,7 @@
     "7088732228cdc851",
     "720716a02236c520",
     "767b6a655e2ad807",
+    "80bbb4ac8edae230",
     "80c2091c98f9e457",
     "837a518d45e5376a",
     "857af24e8e14bfd1",
@@ -3805,7 +3897,8 @@
   ],
   "combine-dependabot-prs": [
     "3927011944e4faa2",
-    "a2f25d19390f8c78"
+    "a2f25d19390f8c78",
+    "e42f25b096947af6"
   ],
   "command-line": [
     "121a3db44ab5a007",
@@ -4108,6 +4201,7 @@
     "3ee35af0964091ef",
     "49bff055daabea8b",
     "64239b0be40cee5c",
+    "73d8858812b27eeb",
     "8f1eaa11951df811",
     "93601224dc6620b8",
     "afaa5bc5ac92f17d",
@@ -4182,6 +4276,11 @@
   "core-ganache": [
     "a9a219ef8b12b3ad"
   ],
+  "core-lightning": [
+    "336c64ffa6ee35c6",
+    "768e7d6ca5f527c7",
+    "db19a4f1cc21ebfc"
+  ],
   "coreaudio": [
     "593911bd19be0475"
   ],
@@ -4234,6 +4333,9 @@
     "db5c636c8a3544c7",
     "e1f35500705b6886",
     "f0221f85672a1b6e"
+  ],
+  "coverage-nightly": [
+    "c0db00deabaaf114"
   ],
   "coverity": [
     "9155b58c7e6820f9"
@@ -4322,6 +4424,7 @@
   "create-release": [
     "07d36954416b38be",
     "348a1027c2b14d08",
+    "4ab7b0ed73ab50ab",
     "4cce78decbe31b70",
     "563917bb3a6e6b9b",
     "7a725f54a75faa29",
@@ -4504,6 +4607,7 @@
   "cursor": [
     "1a4aa82758ed78dd",
     "1f11dd9b292745d8",
+    "499a5cbf74e7fc39",
     "50da79704f4d73ea",
     "51b415b2734716ab",
     "a4ddba91895f3151",
@@ -4864,6 +4968,7 @@
     "771d9da2c4cd6798"
   ],
   "demo": [
+    "2c9902775c0c513f",
     "7b8632e66762f6b6"
   ],
   "deno": [
@@ -5119,6 +5224,7 @@
     "4d5b6324a2aefe98",
     "54ef68ca5b791e3d",
     "7ccd4b5a8ee83e03",
+    "977e93e23c929529",
     "b04f59a29425d4ed",
     "cde070b58808dc44",
     "f9eae18f281143a6",
@@ -5140,6 +5246,7 @@
   ],
   "devops": [
     "03050bbee04c1cb9",
+    "04c2fcdaebbe7fc9",
     "5336eeb998d4c957",
     "6cfe9bbfbbe01316",
     "c2a5c63734a9b433",
@@ -5529,6 +5636,9 @@
   "documentation-build-and-deploy": [
     "00170f2084b24785"
   ],
+  "documentation-nightly": [
+    "c182f0ea36a2bf24"
+  ],
   "docusaurus": [
     "f57c23a287547cf7"
   ],
@@ -5615,10 +5725,14 @@
     "443b8589d96a09d4"
   ],
   "e2e-test": [
+    "3ff46bf27b350e10",
     "fae29cb18b8f6d83"
   ],
   "e2e-test-coverage": [
     "abaae19e314e6af5"
+  ],
+  "e2e-test-suite": [
+    "b8fd41b5c5a655c2"
   ],
   "e2e-tests": [
     "55da11de8a52b50b",
@@ -5659,6 +5773,9 @@
   "ecdsa": [
     "f3c111bd3884fc40",
     "f713647b713bfe97"
+  ],
+  "echo": [
+    "10cde9d9fbbe662e"
   ],
   "eclipse": [
     "2fe5c95f72c95e3b"
@@ -5887,6 +6004,7 @@
   ],
   "evaluation": [
     "06f32121de4239d2",
+    "1339289b2975bd66",
     "493848cad3c5e468",
     "6af6f2d72c448334"
   ],
@@ -6398,6 +6516,7 @@
   "gemini-cli": [
     "041fbeba491b8765",
     "09416f2ccf60bf57",
+    "1aef2e9c0205f9d5",
     "7785137cbbab5d67",
     "a01ae80ae72e0775",
     "a105460b4f99c0e5",
@@ -6572,12 +6691,21 @@
   "ggml": [
     "302b76c38e650907"
   ],
+  "gh-actions-ci": [
+    "75a5dda66093cff5"
+  ],
   "ghcr-image-mirroring": [
     "75e7e959ba0e86e9"
   ],
   "ghidra": [
     "8fc21790261972a7",
     "ad709289d13f6d8a"
+  ],
+  "ghost-leg": [
+    "9d4d8e8b827e4e8b"
+  ],
+  "ghostleg": [
+    "557f0d07e5073780"
   ],
   "git-commits": [
     "253e7d7624b70cad"
@@ -6655,6 +6783,7 @@
     "94ffea16bcc166c2"
   ],
   "github-pages": [
+    "2677d1fed012b9d7",
     "bfa267dcaddc5486",
     "fa3c56022224d6d6"
   ],
@@ -7098,6 +7227,12 @@
   "harmonyos": [
     "a6cf8a627b2b7cd2"
   ],
+  "harness": [
+    "67cdeb7b138c9346"
+  ],
+  "harness-engineering": [
+    "0f8f0ef88dd823f5"
+  ],
   "harvesters": [
     "0c1338f06c7ab65e"
   ],
@@ -7137,6 +7272,7 @@
   "helm": [
     "07055fe0b5670a7c",
     "588b2ea079a2598d",
+    "5fa9bdb501df7584",
     "6b693d11dd79f443",
     "9c1b4077bbf0a803",
     "d039716f929fb81f",
@@ -7152,6 +7288,7 @@
     "41c4eb89c51f5a04"
   ],
   "hermes-agent": [
+    "1bce7ef4a9d3d977",
     "2cfb0789cb8edc0d"
   ],
   "heroku": [
@@ -7201,6 +7338,9 @@
   "hourly": [
     "ced1be6b09b4fbbe"
   ],
+  "how-to": [
+    "37d0ed09af99bd4a"
+  ],
   "html": [
     "0a3944af4c46cf43",
     "1caa652cd94b0b71"
@@ -7230,6 +7370,12 @@
   "http-server": [
     "37f3515a3d3af406"
   ],
+  "http2": [
+    "890b34c277502dbb"
+  ],
+  "https": [
+    "e453aeb86be9b128"
+  ],
   "huggingface": [
     "4a80a031b45a37bf",
     "4bb8a8469b7118ee",
@@ -7243,6 +7389,9 @@
   ],
   "human-ai-collaboration": [
     "e9de854d6b17870d"
+  ],
+  "human-in-the-loop": [
+    "f484b85bbfba6c44"
   ],
   "hybrid": [
     "c9bfdbb9ec29de1b"
@@ -7400,6 +7549,9 @@
   "infra": [
     "f72d80138c869f94"
   ],
+  "infrastructure-as-code": [
+    "d4f751c08f3ff575"
+  ],
   "initiate-new-vote": [
     "8a88e38514d85294"
   ],
@@ -7458,6 +7610,9 @@
   ],
   "integration-testing": [
     "daea023d4af720e6"
+  ],
+  "integration-testing-with-cvxpy": [
+    "1b4e1abc5b10c7e3"
   ],
   "integration-tests": [
     "1ba305de8acde78a",
@@ -7613,6 +7768,7 @@
   ],
   "issue-triage": [
     "6042d04dc8d92f83",
+    "eddd579ba76c089d",
     "fbe165c2954605b4"
   ],
   "istio": [
@@ -7642,6 +7798,9 @@
   ],
   "javascriptcore": [
     "eeaae103d903ef2b"
+  ],
+  "jawn-build-precheck": [
+    "af024cbb63574c99"
   ],
   "jdbc": [
     "c692e20ad9e84585"
@@ -7908,6 +8067,7 @@
     "a9366c456e15c41c",
     "b071d0829893e7bd",
     "b899c4216b073d7f",
+    "bebd09619a792b0c",
     "c2efac92da62d79b",
     "c59ab8f2f695136a",
     "d65a6d65d41e830c",
@@ -7983,6 +8143,9 @@
   "labels": [
     "0c39484db729e236"
   ],
+  "labstack-echo": [
+    "21c44cf8f96b8ac7"
+  ],
   "laion": [
     "58bcc8b2188fbac1"
   ],
@@ -7996,6 +8159,7 @@
     "151d40a7c701fc60",
     "158e1674c23eb18d",
     "2fe920dde86cb7f1",
+    "6053f1c79de2d8a6",
     "7ba9f1086c977df1",
     "8bb2f34fcbf2cbb8",
     "8cfa1866caa99790",
@@ -8060,6 +8224,7 @@
     "12f2e33dfc840d80",
     "4695b19220c9add4",
     "48a75d3cd9c65097",
+    "494b1417d0e52b1f",
     "62b1f99a52d162bc",
     "ff740d76328af7c2"
   ],
@@ -8107,6 +8272,9 @@
   ],
   "less": [
     "214257fe52a5334d"
+  ],
+  "letsencrypt": [
+    "d7900f7a625c9d84"
   ],
   "letta-code": [
     "5413fcc83d59f617",
@@ -8189,6 +8357,9 @@
     "d8bd152a5fae6e07"
   ],
   "lightning-network": [
+    "29fb930144757df4",
+    "333758c30604a3c4",
+    "3b6b624abce3799e",
     "9d89a989654eca37",
     "bfa2e79d6cad0b0f"
   ],
@@ -8243,7 +8414,9 @@
     "3d5ba73883a1511d",
     "3e44b8337fa3ec34",
     "3e90c043e0bf01d3",
+    "459437c34b4956d3",
     "4743df9e93d03c20",
+    "539e3470a30efc43",
     "59f5fc70be21b898",
     "5d16164ab87e36b8",
     "670d5ee5e4e9e36a",
@@ -8302,6 +8475,9 @@
   ],
   "lint-and-format-check": [
     "54a9fc9b2dd6c8c1"
+  ],
+  "lint-and-test-charts": [
+    "1161e51c42a04597"
   ],
   "lint-check": [
     "6f1476c087e28840",
@@ -8406,6 +8582,7 @@
     "8d9d0bac64c3385d",
     "b1c25ba764167249",
     "d758f7ffc3a9451c",
+    "d86ea35425be8c03",
     "daac6842deb2c775",
     "ddeac7aff7d1cb32",
     "f4870f46728e9631"
@@ -8471,6 +8648,9 @@
   "linux-tests": [
     "861d03a5dc499e46"
   ],
+  "liquid": [
+    "3a284b440866cd89"
+  ],
   "litellm": [
     "b2db505f88764ba4",
     "c8967af434aa8c44",
@@ -8502,6 +8682,9 @@
   "llama-cpp": [
     "5b5bdef279a3a108"
   ],
+  "llama-index": [
+    "da0b7157902ae62f"
+  ],
   "llama2": [
     "01f1a2884825caac",
     "4f7f46fcc1e3416e",
@@ -8532,8 +8715,13 @@
     "24cb07a833261d21",
     "b0c7d6332d018828"
   ],
+  "llm-cost": [
+    "d0aa395b0a56ad8a"
+  ],
   "llm-evaluation": [
-    "1d21b3b0acbc4c7c"
+    "1d21b3b0acbc4c7c",
+    "1f0f482679a87e10",
+    "9b092a49669ce39d"
   ],
   "llm-framework": [
     "ff8fc530da914366"
@@ -8550,6 +8738,9 @@
   "llm-memory": [
     "289653020e7a184b"
   ],
+  "llm-observability": [
+    "4ed6137dd327d74f"
+  ],
   "llm-orchestration": [
     "9e80c5990d39cfcb"
   ],
@@ -8564,8 +8755,15 @@
     "6fdea57664443381",
     "ef5f46bd908235a0"
   ],
+  "llm-test": [
+    "c7c08a31bd699e31"
+  ],
+  "llm-testing": [
+    "b14b226163bb1e10"
+  ],
   "llm-tools": [
-    "64606c40f8a5587d"
+    "64606c40f8a5587d",
+    "749d650dbd7e6047"
   ],
   "llm-wiki": [
     "a1247c0e8b5dbb00",
@@ -8576,7 +8774,8 @@
   ],
   "llmops": [
     "3cacb0bf840ffc54",
-    "92f548f1d0328cad"
+    "92f548f1d0328cad",
+    "e2523d0de3f045ee"
   ],
   "llms": [
     "3eca709a6d25b085",
@@ -8966,6 +9165,7 @@
     "869a5688e5200a60"
   ],
   "marketing-automation": [
+    "3c7327740e2bf644",
     "5cd09d069c0214ff",
     "956f42660fcf464e",
     "e4e9bca64d08a77c"
@@ -9016,6 +9216,8 @@
   "mcp-server": [
     "0ddbfba73a5f36f4",
     "4c2f0385ce2366a7",
+    "4d7d82dd18960215",
+    "55407a2300c74d13",
     "5ca92f1a2992dd3a",
     "71338e258399a930",
     "773fc5a2b9e7204b",
@@ -9102,8 +9304,17 @@
   "mfcc": [
     "f3d74401cd2eb9e2"
   ],
+  "micro-framework": [
+    "8de3b909d5915357"
+  ],
+  "microservice": [
+    "14aaabacb7e2b8dd"
+  ],
   "microsoft": [
     "a54017f6346f5d84"
+  ],
+  "middleware": [
+    "45b6139295283bf0"
   ],
   "midjourney": [
     "03802ea5a4102ec7",
@@ -9201,7 +9412,8 @@
   ],
   "mobile": [
     "33ffb066a2b04e13",
-    "51468c2652f7b3fd"
+    "51468c2652f7b3fd",
+    "614661c7ea51f4aa"
   ],
   "mobile-app": [
     "8ed5de44f07f723f",
@@ -9220,6 +9432,7 @@
     "c5314d7337e92bcb"
   ],
   "model-context-protocol": [
+    "1c1e42050bb60494",
     "4d6f5b8ccb9bca7a",
     "701b3ba557c06007",
     "acd91a4ed188a12b",
@@ -9252,6 +9465,9 @@
   "modular": [
     "d1f8fa865e788071"
   ],
+  "modules": [
+    "3fd696da5f99825c"
+  ],
   "moltbot": [
     "9731029389e7f9c0"
   ],
@@ -9264,7 +9480,8 @@
   "monitoring": [
     "04cad561da1fd560",
     "5a2c5b08ebea83af",
-    "b390d45f050f9089"
+    "b390d45f050f9089",
+    "e0c77a0a432bd242"
   ],
   "monorepo": [
     "ae58ea0446ba1cc0"
@@ -9362,7 +9579,8 @@
   ],
   "musig2": [
     "74027d2269135db1",
-    "a14f1f187cf41e34"
+    "a14f1f187cf41e34",
+    "a7a893565f9547b6"
   ],
   "mutation-testing": [
     "2e81436a8631904a"
@@ -9755,6 +9973,9 @@
   "notify-on-push": [
     "df584efa4cb43c78"
   ],
+  "nous-research": [
+    "7b27dee43b9acf04"
+  ],
   "npm-cli": [
     "ad368686a50921d6",
     "b28720dfeb88086a"
@@ -9840,6 +10061,9 @@
   ],
   "octicons": [
     "f0fc157fc51f6a79"
+  ],
+  "octoslash": [
+    "e1b7467ba06034a4"
   ],
   "odin": [
     "27da2ad7706d326a"
@@ -9947,6 +10171,7 @@
     "fe21e648dc7e4e36"
   ],
   "open-source": [
+    "00affd23f472cfca",
     "2294ed36402d3682",
     "25473a26d35bfbe2",
     "28f3146684845446",
@@ -9956,7 +10181,8 @@
     "427417a598f29ec7",
     "70b303d643aaff28",
     "7934092e74b9b2b5",
-    "d10b6fd136d1712d"
+    "d10b6fd136d1712d",
+    "fb19eb0009212990"
   ],
   "open-source-ai": [
     "5abaf5ab667f5806"
@@ -9974,6 +10200,7 @@
     "fddca5f5f6bcf9a6"
   ],
   "openai-codex": [
+    "3bf300dabfce37cd",
     "5006ef94f573cc69"
   ],
   "openai-whisper": [
@@ -9981,6 +10208,7 @@
   ],
   "openapi": [
     "4227e1385007c7ad",
+    "797127ee78a62252",
     "bfbaa28f3a0de22b"
   ],
   "openapi-generator": [
@@ -10081,6 +10309,7 @@
     "f8c9b3f43c514ee5"
   ],
   "opentofu": [
+    "b30fd41737ac8df3",
     "e0a7a13384ef51c9"
   ],
   "opentype": [
@@ -10133,6 +10362,7 @@
   ],
   "orchestration": [
     "16ca682cd140b3df",
+    "4a9855f82d53fa77",
     "8875ba336b287a7a",
     "9aec47a71752a0f2"
   ],
@@ -10262,6 +10492,9 @@
   ],
   "packer": [
     "f5839eb6d3c24632"
+  ],
+  "packet-capture": [
+    "758051fdbdc9c1f2"
   ],
   "packsvgs": [
     "0169d796a771352f"
@@ -10427,6 +10660,9 @@
     "c7520ea70d01a02e",
     "cceea48f9b4b1ef1"
   ],
+  "placeholders": [
+    "248456864f9902ad"
+  ],
   "plan-lifecycle": [
     "371a7f271827f795"
   ],
@@ -10441,6 +10677,7 @@
     "2be0815694bde194"
   ],
   "playground": [
+    "8779e6c0c0cdfc5c",
     "b43a6d597b00854e"
   ],
   "playwright": [
@@ -10604,9 +10841,13 @@
     "71b216413732a08d",
     "851739f0bf9a8d4e"
   ],
+  "pr-check-command": [
+    "15a7e17271bc754d"
+  ],
   "pr-checks": [
     "0f3a91161172cf6d",
     "4d06e6043e44e9dd",
+    "b9281a2a10814f91",
     "ba092497117ac05e"
   ],
   "pr-checks-bun-run-check": [
@@ -10652,6 +10893,12 @@
   ],
   "pr-path-labeler": [
     "607de86d55fecf4f"
+  ],
+  "pr-requirements-backfill": [
+    "04de6c7df13aec61"
+  ],
+  "pr-requirements-enforcement": [
+    "809cf3674ceeff1d"
   ],
   "pr-review": [
     "18f8c8b8b741baff",
@@ -10865,6 +11112,7 @@
   ],
   "prompt-engineering": [
     "0d7dbfc6cd052800",
+    "19d07aca71251a48",
     "9058b22aee23d7fa",
     "c0838a35bb5cc96c",
     "c839003fe72d3268",
@@ -10878,8 +11126,17 @@
   "prompt-injection-llm-security": [
     "501d965f026aa0ec"
   ],
+  "prompt-management": [
+    "51fda3d6382acd1d"
+  ],
   "prompt-templates": [
     "4283d3d36195bcde"
+  ],
+  "prompt-test": [
+    "92732ced16528383"
+  ],
+  "prompt-testing": [
+    "4054cfc5c58fa279"
   ],
   "prompts": [
     "801213edca290b55",
@@ -10963,6 +11220,7 @@
     "234bd501db7bdd8c",
     "575019a738a33cd1",
     "5b3d5b569a3b5497",
+    "6eb53b05987097f0",
     "7a4c5fcf5628647c",
     "8a9fc16be3155a62",
     "9365269c458a5dbd",
@@ -11034,6 +11292,9 @@
   ],
   "publish-modin-wheel-to-pypi": [
     "a447d98527d3d11a"
+  ],
+  "publish-multi-platform-docker-images": [
+    "1a1615ae8f15dd39"
   ],
   "publish-npm": [
     "5203280e2cec5112"
@@ -11231,6 +11492,9 @@
   ],
   "push-specific-docker-tag": [
     "267c63e43f2bed7f"
+  ],
+  "push-to-docker-hub": [
+    "f6b3da88f8f0464b"
   ],
   "push-to-main": [
     "b9dfef122e3d4b88"
@@ -11685,6 +11949,7 @@
     "3d446a34f6ce42ea",
     "3dc48ce1c79bd637",
     "3f297a355bef0469",
+    "427e12dc6d5ce7a3",
     "43208e06f4590dec",
     "44da6d802e503b21",
     "4774b567f831328a",
@@ -11694,6 +11959,7 @@
     "4dc8b1ba18670136",
     "4dfc39a8cdf05c92",
     "4f913e0ccc22911a",
+    "50c0a72521f14521",
     "526ba2c7132a3896",
     "54cddcb0f340fbd3",
     "552b26b254444094",
@@ -11765,6 +12031,7 @@
     "c4b37c597db0a426",
     "c6c65957bb2cbcf8",
     "cbc60a0bbb1cb701",
+    "ce0999f573460e67",
     "d21ac3a0775703df",
     "d3d415ecdbeb856f",
     "d7bf28bd6a195ace",
@@ -11811,11 +12078,17 @@
   "release-binaries": [
     "1974680e88fedeac"
   ],
+  "release-binary-assets": [
+    "66198a32d385b716"
+  ],
   "release-build-and-publish": [
     "100aae2398f05522"
   ],
   "release-candidate": [
     "489c25e837bbbee1"
+  ],
+  "release-charts": [
+    "7058300747eb591a"
   ],
   "release-ci": [
     "086e4067fe21a8b4",
@@ -11938,6 +12211,9 @@
     "a78e7d070ee01969",
     "b72071686732a8d7"
   ],
+  "release-pr": [
+    "1525dd55afde387c"
+  ],
   "release-prepare": [
     "13cb8802e896b7f6"
   ],
@@ -11954,6 +12230,9 @@
   ],
   "release-pypi-package": [
     "1d61e7809a79c8a1"
+  ],
+  "release-rust": [
+    "7e1a9cb4eeaf0000"
   ],
   "release-swarmcli-gem": [
     "45b318e2b06833f3"
@@ -12247,6 +12526,9 @@
     "34f75dfd0f369963",
     "a1a461a20edc9307"
   ],
+  "run-checks": [
+    "75fd3022bda251da"
+  ],
   "run-ci-on-master": [
     "dd5c8174f0d9677f"
   ],
@@ -12321,6 +12603,7 @@
     "279a1e8784dcfa97",
     "382ae99e4cb3002b",
     "43f96784975bcd15",
+    "7d89925e86be5654",
     "aafa77ec8925d867",
     "b1ba76f1b1d00ab6",
     "bca2f07383090205",
@@ -12331,6 +12614,9 @@
   ],
   "run-the-julia-package-butler": [
     "b2e3bf3b91762d13"
+  ],
+  "run-tox": [
+    "0fb5f6fc304784f6"
   ],
   "run-unit-tests": [
     "a5b041d2038ae740"
@@ -12349,6 +12635,7 @@
     "e52da0404fc15447"
   ],
   "rust": [
+    "05ed74717ff07c26",
     "0775224316fa73d8",
     "08cdb1563f0d877c",
     "0a79fcaa3a0d1f8f",
@@ -12434,6 +12721,7 @@
     "c20a8b1f30799e78",
     "c581eb62af545715",
     "c791af1a0796700b",
+    "c809967a173e7bb0",
     "c908636d882bafa7",
     "cc3fcec15169d8b0",
     "cee3d958517b2dd5",
@@ -12507,6 +12795,9 @@
   "saas-metrics": [
     "fe4c755648d8e14e"
   ],
+  "sadari": [
+    "6112c8baee3784ef"
+  ],
   "safe-smart-account": [
     "c96fbff19825358c"
   ],
@@ -12560,6 +12851,9 @@
   ],
   "scheduler": [
     "d6b41be4fca13a11"
+  ],
+  "schema": [
+    "66c088f93afe29f0"
   ],
   "science": [
     "b2c603fd26d46445"
@@ -12747,12 +13041,16 @@
   ],
   "self-hosted": [
     "161611e51e578fd6",
+    "5cb384ee180c28dd",
     "9bd3b0d89bfe2e4d",
     "b38edfd463e94762",
     "c5d92dd71a5d5fd5"
   ],
   "self-hosted-runner-benchmark": [
     "3475244a446bbee2"
+  ],
+  "self-improving": [
+    "e9ef812ca13e14eb"
   ],
   "self-improving-ai": [
     "519293716d1dd3be"
@@ -12936,6 +13234,7 @@
     "9adef701e572738f",
     "a16c96ba65db8d0d",
     "a411360e8c86995c",
+    "a538e326289de82e",
     "b51ed469f9e1202c",
     "c4baf4a8c3a327ec",
     "db7a7ea6ae2df7df"
@@ -13368,6 +13667,9 @@
   "strands-sdk": [
     "f0e04f7f23c4332f"
   ],
+  "stratoshark": [
+    "b82e7b0d7160e1c9"
+  ],
   "stripe": [
     "83ee0c32dc2a171a",
     "c1a97d801ddf9b72",
@@ -13481,7 +13783,10 @@
     "5e0892958d61e912"
   ],
   "superscalar": [
-    "841860be6b02ea39"
+    "5789ae1939cf9186",
+    "841860be6b02ea39",
+    "93e03d519e3c0bda",
+    "f5f8e6795b544675"
   ],
   "surveillance": [
     "ba3341b9ca335c54"
@@ -13678,6 +13983,7 @@
     "ecfa711e33da7e48"
   ],
   "template": [
+    "0fcaa808cfb730f4",
     "ed2d6454820992b6"
   ],
   "template-cleanup": [
@@ -13686,7 +13992,11 @@
   "template-engine": [
     "ba2115bfd9b68d45"
   ],
+  "template-generator": [
+    "c32360d8939c5f59"
+  ],
   "template-project": [
+    "37eaa9a5dab7592b",
     "52444553cf84ca46"
   ],
   "template-repository": [
@@ -13699,6 +14009,9 @@
   ],
   "template-update": [
     "25507c7c9a029aad"
+  ],
+  "templates": [
+    "6fcc0abe1b570f4c"
   ],
   "tempo": [
     "a4b414e9b13a437b"
@@ -13783,6 +14096,7 @@
     "7f215f0ab51537a5",
     "91f91eef9c7e0478",
     "a32d78231ef0f08c",
+    "c0c7614fc2bdb7c3",
     "edde5c1c80770a76"
   ],
   "terraform-azurerm": [
@@ -14013,6 +14327,18 @@
   "test-pypi-publish": [
     "193104e2fc997850"
   ],
+  "test-pyrad-base": [
+    "a54f010fe65ce853"
+  ],
+  "test-pyrad-base-dev": [
+    "33b129472edd55b7"
+  ],
+  "test-pyrad-mch": [
+    "6b52016ee84243c4"
+  ],
+  "test-pyrad-mch-dev": [
+    "3dc51003dd421e1b"
+  ],
   "test-release": [
     "2198a52ffe5a7932",
     "8c2bdf9c94ce5254"
@@ -14072,6 +14398,7 @@
     "4242099c2b25246f",
     "446261128092aeeb",
     "4abadb97464c0608",
+    "854cf2d9cd030eb3",
     "93ba6476299e20e1",
     "9cb55930067ad800",
     "9d7c21a1aeb6f7ac",
@@ -14116,6 +14443,7 @@
     "572133c258dddd63",
     "5dafce205cadd56d",
     "64525c046caac673",
+    "6601400d89c03b2a",
     "782a8ebdb1622a6d",
     "788582da82a1bf4e",
     "7d65aa3410d1397d",
@@ -14126,6 +14454,7 @@
     "908d6d9ae89488fc",
     "950a2cb9e5c977e3",
     "982444aa1f36db33",
+    "9e86bdb1dcba91e8",
     "a350adc951388ced",
     "a424a444b0638d96",
     "aae0e19c0bf3e9a9",
@@ -14133,6 +14462,7 @@
     "acc55ae2c7570667",
     "ae30f2f97e62f854",
     "b82c22a86c695d3a",
+    "d0ffd03662653c17",
     "d451c5b4ce4eba87",
     "d65e4cc0d444f10a",
     "e015006a1b711c06",
@@ -14390,6 +14720,9 @@
   "try": [
     "351cb9831435f616"
   ],
+  "tshark": [
+    "2df5f39233be2b82"
+  ],
   "ttf-fonts": [
     "94c417f010b43eec"
   ],
@@ -14518,6 +14851,7 @@
     "1ec291e63271e4d8",
     "262826618233588c",
     "578beb644740ba3c",
+    "a8f613adc98f84e0",
     "c4a4b8a7f57ed453"
   ],
   "unittests": [
@@ -14746,6 +15080,9 @@
   "validate-pull-request": [
     "3bd6968d788db1ac"
   ],
+  "validate-skill": [
+    "2b0f01c189720beb"
+  ],
   "validate-vote-commit-and-update-participation": [
     "cae24e073e1acb75"
   ],
@@ -14877,7 +15214,8 @@
   "vibe-coding": [
     "04c55472c197650c",
     "737721db151033e4",
-    "8300a06a013340b0"
+    "8300a06a013340b0",
+    "e812b73f9b3dbfa9"
   ],
   "video": [
     "2d740d7b3b935467"
@@ -14981,7 +15319,8 @@
   ],
   "vscode-extension": [
     "67b37f4589eacb46",
-    "7449b13a5fd352e9"
+    "7449b13a5fd352e9",
+    "e5146cee970676ce"
   ],
   "vt100": [
     "0573f97b0285cfa6"
@@ -15011,7 +15350,8 @@
     "dd338388fd939f20"
   ],
   "wallet": [
-    "65a2e98e19a010f6"
+    "65a2e98e19a010f6",
+    "718124c631bb97dd"
   ],
   "wallets": [
     "534a3b2e6d88cbe1"
@@ -15038,6 +15378,9 @@
   ],
   "weather-radars": [
     "3eb79972b908a2d5"
+  ],
+  "web-framework": [
+    "76bb39bfe79ab4f3"
   ],
   "web-frontend": [
     "0d86812eee31ffa6"
@@ -15083,6 +15426,9 @@
   "website": [
     "3a5b596a78f75bc3",
     "ddfe4c85c66ab78b"
+  ],
+  "websocket": [
+    "157ec125bada7df1"
   ],
   "websockets-transport": [
     "eb29c461b0d8ec0d"
@@ -15195,7 +15541,8 @@
     "20136703c7b38a80"
   ],
   "wireshark": [
-    "4822af1612330522"
+    "4822af1612330522",
+    "ae82e8e43cadb88a"
   ],
   "wordwrap": [
     "d8bd3d988a4cc3c2"
@@ -15291,7 +15638,12 @@
     "fba0b0463fb4f5f9"
   ],
   "yaml": [
+    "27c07589b2c5ef49",
+    "2f60ce4b948b2fa0",
     "d6dc517eb660b1fa"
+  ],
+  "yamllint": [
+    "5d81a3161ce3d61f"
   ],
   "yapf": [
     "6658fd5e17d4f1ae"
@@ -15304,7 +15656,8 @@
     "73f03108f6dd80f3"
   ],
   "ycombinator": [
-    "3a38be3458cfb88c"
+    "3a38be3458cfb88c",
+    "b094146f4e1e7cc7"
   ],
   "yolo-update-pins": [
     "9ac618ac5983b766"

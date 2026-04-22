@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:50:06.115508+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -76,6 +76,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "strands-agents/docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "aden-hive/hive"
     }
   ],
   "term": "autonomous-agents"

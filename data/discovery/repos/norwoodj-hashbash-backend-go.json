@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "norwoodj/hashbash-backend-go",
+      "target": "norwoodj/hashbash-backend-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "norwoodj/hashbash-backend-go",
+      "target": "prometheus/client_golang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "norwoodj/hashbash-backend-go",
+      "target": "rabbitmq/amqp091-go",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:42:50.873888+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2361
+    },
+    {
+      "path": "go.mod",
+      "size": 2578
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A rewrite of the hashbash backend services in golang",
+    "fork": false,
+    "full_name": "norwoodj/hashbash-backend-go",
+    "html_url": "https://github.com/norwoodj/hashbash-backend-go",
+    "language": "Go",
+    "pushed_at": "2024-08-05T12:59:09Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2024-08-05T12:59:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "norwoodj/hashbash-backend-java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prometheus/client_golang",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rabbitmq/amqp091-go",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

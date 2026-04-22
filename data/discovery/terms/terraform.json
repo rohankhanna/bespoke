@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -41,6 +41,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "coder/coder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/terraform-skill"
     }
   ],
   "term": "terraform"

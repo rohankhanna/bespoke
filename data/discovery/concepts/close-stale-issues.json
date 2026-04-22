@@ -212,6 +212,18 @@
       "source_repo": "elastic/go-elasticsearch",
       "status": "candidate-context",
       "text": "\"Close stale issues\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spf13/viper",
+      "status": "candidate-context",
+      "text": "Go configuration with fangs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spf13/viper",
+      "status": "candidate-context",
+      "text": "\"Close stale issues\""
     }
   ],
   "candidate_glosses": [
@@ -314,6 +326,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "elastic/go-elasticsearch",
+      "status": "candidate",
+      "text": "\"Close stale issues\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spf13/viper",
       "status": "candidate",
       "text": "\"Close stale issues\""
     }
@@ -467,11 +485,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/close-stale-issues.yml",
       "source_repo": "elastic/go-elasticsearch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "spf13/viper"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "lexical_providers": [
     "datamuse"
   ],

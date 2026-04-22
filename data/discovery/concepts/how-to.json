@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "how-to"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "status": "candidate-context",
+      "text": "Example project to demo testing and hosting a chart repository with GitHub Pages and Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "status": "candidate-context",
+      "text": "[![](https://github.com/helm/charts-repo-actions-demo/workflows/Release%20Charts/badge.svg?branch=main)](https://github.com/helm/charts-repo-actions-demo/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "status": "candidate",
+      "text": "[![](https://github.com/helm/charts-repo-actions-demo/workflows/Release%20Charts/badge.svg?branch=main)](https://github.com/helm/charts-repo-actions-demo/actions)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022107,
+      "status": "candidate",
+      "text": "procedure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020789,
+      "status": "candidate",
+      "text": "procedural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30019061,
+      "status": "candidate",
+      "text": "practice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017729,
+      "status": "candidate",
+      "text": "descriptive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014443,
+      "status": "candidate",
+      "text": "practical"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "how-to",
+  "concept_id": "how-to",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "helm/charts-repo-actions-demo"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "how-to",
+      "sense_id": "how-to#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

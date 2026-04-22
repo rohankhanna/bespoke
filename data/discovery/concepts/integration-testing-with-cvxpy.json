@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Integration testing with CVXPY"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coin-or/CyLP",
+      "status": "candidate-context",
+      "text": "A Python interface to CLP, CBC, and CGL to solve LPs and MIPs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coin-or/CyLP",
+      "status": "candidate-context",
+      "text": "Integration testing with CVXPY"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coin-or/CyLP",
+      "status": "candidate",
+      "text": "Integration testing with CVXPY"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11670,
+      "status": "candidate",
+      "text": "consideration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10640,
+      "status": "candidate",
+      "text": "amalgamation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10640,
+      "status": "candidate",
+      "text": "downstream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10640,
+      "status": "candidate",
+      "text": "fusion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10640,
+      "status": "candidate",
+      "text": "merger"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Integration testing with CVXPY",
+  "concept_id": "integration-testing-with-cvxpy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": ".github/workflows/ci-cvxpy.yml",
+      "source_repo": "coin-or/CyLP"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Integration testing with CVXPY",
+      "sense_id": "integration-testing-with-cvxpy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

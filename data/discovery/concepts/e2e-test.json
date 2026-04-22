@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "e2e-test"
+    "e2e-test",
+    "e2e test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "alexellis/arkade-get",
       "status": "candidate-context",
       "text": "\"e2e-test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cargo-generate/cargo-generate",
+      "status": "candidate-context",
+      "text": "cargo, make me a project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-generate/cargo-generate",
+      "status": "candidate-context",
+      "text": "e2e test"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "alexellis/arkade-get",
       "status": "candidate",
       "text": "\"e2e-test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-generate/cargo-generate",
+      "status": "candidate",
+      "text": "e2e test"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analyses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analysing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "analyzing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "ascertain"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "e2e-test",
   "concept_id": "e2e-test",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "alexellis/arkade-get"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": ".github/workflows/e2e-test.yml",
+      "source_repo": "cargo-generate/cargo-generate"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "lexical_providers": [
     "datamuse"
   ],

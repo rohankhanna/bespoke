@@ -1,0 +1,65 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "CSU-Radarmet/CSU_RadarTools",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "CSU-Radarmet/CSU_RadarTools",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:42:52.266273+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6018
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 113
+    },
+    {
+      "path": "requirements.txt",
+      "size": 38
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1231
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A module of independent functions to do precipitation retrievals from polarimetric radar data",
+    "fork": false,
+    "full_name": "CSU-Radarmet/CSU_RadarTools",
+    "html_url": "https://github.com/CSU-Radarmet/CSU_RadarTools",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-02-19T19:14:53Z",
+    "stargazers_count": 100,
+    "topics": [],
+    "updated_at": "2026-03-23T16:07:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "16arpi/meteo-tui",
+      "target": "serde-rs/json",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "16arpi/meteo-tui",
+      "target": "rust-cli/confy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "16arpi/meteo-tui",
+      "target": "chronotope/chrono",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "16arpi/meteo-tui",
+      "target": "wangdayeeeeee/geometricweather",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:43:24.445718+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2537
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 474
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Programme de pr\u00e9visions m\u00e9t\u00e9o dans le terminal \u00e9crit en Rust",
+    "fork": false,
+    "full_name": "16arpi/meteo-tui",
+    "html_url": "https://github.com/16arpi/meteo-tui",
+    "language": "Rust",
+    "pushed_at": "2024-09-20T11:34:30Z",
+    "stargazers_count": 41,
+    "topics": [],
+    "updated_at": "2026-02-16T09:08:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chronotope/chrono",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-cli/confy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "serde-rs/json",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wangdayeeeeee/geometricweather",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

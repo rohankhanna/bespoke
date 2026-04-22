@@ -84,7 +84,7 @@
   "normalized_form": "test-xatu-sentry-logs",
   "observation_id": "8faf1c390c47d2ce",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-20T03:16:48.146869+00:00",
+  "observed_at": "2026-04-22T04:41:58.081535+00:00",
   "observed_text": "Test xatu-sentry-logs",
   "source_context_snippet": "Test xatu-sentry-logs",
   "source_file": ".github/workflows/test-xatu-sentry-logs.yaml",

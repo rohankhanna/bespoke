@@ -1,0 +1,32 @@
+{
+  "component": "mamba-org/setup-micromamba@add3a49764cedee8ee24e82dfde87f5bc2914462",
+  "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yml",
+      "source_repo": "MeteoSwiss/pyrad"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pyrad_tests_base.yml",
+      "source_repo": "MeteoSwiss/pyrad"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pyrad_tests_base_dev.yml",
+      "source_repo": "MeteoSwiss/pyrad"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pyrad_tests_mch.yml",
+      "source_repo": "MeteoSwiss/pyrad"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pyrad_tests_mch_dev.yml",
+      "source_repo": "MeteoSwiss/pyrad"
+    }
+  ]
+}

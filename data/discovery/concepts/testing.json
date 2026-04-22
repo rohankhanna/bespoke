@@ -142,6 +142,18 @@
       "source_repo": "jestjs/jest",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonbabenko/terraform-skill",
+      "status": "candidate-context",
+      "text": "The Claude Agent Skill for Terraform and OpenTofu - testing, modules, CI/CD, and production patterns"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/terraform-skill",
+      "status": "candidate-context",
+      "text": "[![Claude Skill](https://img.shields.io/badge/Claude-Skill-5865F2)](https://docs.claude.ai/docs/agent-skills)"
     }
   ],
   "candidate_glosses": [
@@ -210,6 +222,12 @@
       "source_repo": "jestjs/jest",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/terraform-skill",
+      "status": "candidate",
+      "text": "[![Claude Skill](https://img.shields.io/badge/Claude-Skill-5865F2)](https://docs.claude.ai/docs/agent-skills)"
     }
   ],
   "candidate_related_terms": [
@@ -333,11 +351,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "antonbabenko/terraform-skill"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "lexical_providers": [
     "datamuse"
   ],

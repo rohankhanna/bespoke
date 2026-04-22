@@ -43,6 +43,42 @@
       "source_repo": "8144225309/SuperScalar",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/8144225309/SuperScalar/workflows/CI/badge.svg)](https://github.com/8144225309/SuperScalar/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "8144225309/lightning",
+      "status": "candidate-context",
+      "text": "Core Lightning fork with bLIP-56 \u2014 pluggable channel factory support for SuperScalar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8144225309/lightning",
+      "status": "candidate-context",
+      "text": "Core Lightning (previously c-lightning) is a lightweight, highly customizable and [standard compliant][std] implementation of the Lightning Network protocol."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "8144225309/superscalar-cln",
+      "status": "candidate-context",
+      "text": "SuperScalar channel factory plugin for Core Lightning (bLIP-56)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8144225309/superscalar-cln",
+      "status": "candidate-context",
+      "text": "SuperScalar channel factory plugin for [Core Lightning](https://github.com/ElementsProject/lightning). Implements [bLIP-56](https://github.com/lightning/blips/pull/56) (pluggable channel factories) using Decker-Wattenhofer state trees with MuSig2 signing."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "8144225309/superscalar-wallet",
+      "status": "candidate-context",
+      "text": "SuperScalar Wallet \u2014 web UI for Lightning channel factory management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8144225309/superscalar-wallet",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "8144225309/SuperScalar",
       "status": "candidate",
       "text": "[![CI](https://github.com/8144225309/SuperScalar/workflows/CI/badge.svg)](https://github.com/8144225309/SuperScalar/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8144225309/lightning",
+      "status": "candidate",
+      "text": "Core Lightning (previously c-lightning) is a lightweight, highly customizable and [standard compliant][std] implementation of the Lightning Network protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8144225309/superscalar-cln",
+      "status": "candidate",
+      "text": "SuperScalar channel factory plugin for [Core Lightning](https://github.com/ElementsProject/lightning). Implements [bLIP-56](https://github.com/lightning/blips/pull/56) (pluggable channel factories) using Decker-Wattenhofer state trees with MuSig2 signing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8144225309/superscalar-wallet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +178,29 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "8144225309/SuperScalar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "8144225309/lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "8144225309/superscalar-cln"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "8144225309/superscalar-wallet"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "lexical_providers": [
     "datamuse"
   ],

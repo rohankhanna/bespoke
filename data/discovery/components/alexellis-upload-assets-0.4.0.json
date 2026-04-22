@@ -1,0 +1,12 @@
+{
+  "component": "alexellis/upload-assets@0.4.0",
+  "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "coin-or/CyLP"
+    }
+  ]
+}

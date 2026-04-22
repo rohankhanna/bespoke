@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "amidakuji"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "24seconds/rust-sadari-cli",
+      "status": "candidate-context",
+      "text": "rust sadari game based on terminal! (Ghost leg or Amidakuji in another words)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "24seconds/rust-sadari-cli",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/rust-sadari-cli.svg)](https://crates.io/crates/rust-sadari-cli)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "24seconds/rust-sadari-cli",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/rust-sadari-cli.svg)](https://crates.io/crates/rust-sadari-cli)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "o-mikuji"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "omikuji"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "kabuki play"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "kabuki theater"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "kukurai"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "amidakuji",
+  "concept_id": "amidakuji",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "24seconds/rust-sadari-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "amidakuji",
+      "sense_id": "amidakuji#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

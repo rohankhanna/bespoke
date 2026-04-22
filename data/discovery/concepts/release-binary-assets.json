@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Binary Assets"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cargo-generate/cargo-generate",
+      "status": "candidate-context",
+      "text": "cargo, make me a project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-generate/cargo-generate",
+      "status": "candidate-context",
+      "text": "Release Binary Assets"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-generate/cargo-generate",
+      "status": "candidate",
+      "text": "Release Binary Assets"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18128,
+      "status": "candidate",
+      "text": "ascii"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17898,
+      "status": "candidate",
+      "text": "portion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17853,
+      "status": "candidate",
+      "text": "ember"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17833,
+      "status": "candidate",
+      "text": "block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17833,
+      "status": "candidate",
+      "text": "water"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Binary Assets",
+  "concept_id": "release-binary-assets",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": ".github/workflows/release-binary-assets.yml",
+      "source_repo": "cargo-generate/cargo-generate"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Binary Assets",
+      "sense_id": "release-binary-assets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

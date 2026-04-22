@@ -1036,6 +1036,30 @@
       "source_repo": "microsoft/tracing-etw",
       "status": "candidate-context",
       "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "24seconds/rust-sadari-cli",
+      "status": "candidate-context",
+      "text": "rust sadari game based on terminal! (Ghost leg or Amidakuji in another words)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "24seconds/rust-sadari-cli",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/rust-sadari-cli.svg)](https://crates.io/crates/rust-sadari-cli)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cargo-generate/cargo-generate",
+      "status": "candidate-context",
+      "text": "cargo, make me a project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-generate/cargo-generate",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1566,6 +1590,18 @@
       "source_repo": "microsoft/tracing-etw",
       "status": "candidate",
       "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "24seconds/rust-sadari-cli",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/rust-sadari-cli.svg)](https://crates.io/crates/rust-sadari-cli)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-generate/cargo-generate",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -2347,11 +2383,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/rust.yml",
       "source_repo": "microsoft/tracing-etw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "24seconds/rust-sadari-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "cargo-generate/cargo-generate"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "lexical_providers": [
     "datamuse"
   ],

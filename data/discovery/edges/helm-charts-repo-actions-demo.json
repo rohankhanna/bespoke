@@ -1,0 +1,153 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "target": "helm/kind-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "target": "helm/chart-testing-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "target": "helm/chart-releaser-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "target": "helm/hub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yaml",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yaml",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "target": "azure/setup-helm@5119fcb9089d432beecbf79bb2c7915207344b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yaml",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "target": "actions/setup-python@65d7f2d534ac1bc67fcd62888c5f4f3d2cb2b236",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yaml",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "target": "helm/chart-testing-action@e8788873172cb653a90ca2e819d79d65a66d4e76",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yaml",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "target": "helm/kind-action@dda0770415bac9fc20092cacbc54aa298604d140",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-test.yaml",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "target": "Lint and Test Charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "target": "azure/setup-helm@5119fcb9089d432beecbf79bb2c7915207344b78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "target": "helm/chart-releaser-action@be16258da8010256c6e82849661221415f031968",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "target": "Release Charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/charts-repo-actions-demo",
+      "target": "actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/charts-repo-actions-demo",
+      "target": "charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/charts-repo-actions-demo",
+      "target": "ci-cd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/charts-repo-actions-demo",
+      "target": "demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/charts-repo-actions-demo",
+      "target": "helm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/charts-repo-actions-demo",
+      "target": "how-to",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/charts-repo-actions-demo",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-22T04:41:58.081535+00:00",
+  "source_repo": "helm/charts-repo-actions-demo"
+}

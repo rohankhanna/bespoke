@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Multi-Agent Harness for Production AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PR Requirements Backfill"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "PR Requirements Backfill"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14083,
+      "status": "candidate",
+      "text": "filk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14083,
+      "status": "candidate",
+      "text": "fill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14083,
+      "status": "candidate",
+      "text": "fills"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14083,
+      "status": "candidate",
+      "text": "fulfil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14083,
+      "status": "candidate",
+      "text": "fulfill"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Requirements Backfill",
+      "sense_id": "pr-requirements-backfill#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pr-requirements-backfill",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pr-requirements-backfill",
+  "observation_id": "04de6c7df13aec61",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T04:41:58.081535+00:00",
+  "observed_text": "PR Requirements Backfill",
+  "source_context_snippet": "PR Requirements Backfill",
+  "source_file": ".github/workflows/pr-requirements-backfill.yml",
+  "source_repo": "aden-hive/hive",
+  "source_repo_description": "Multi-Agent Harness for Production AI"
+}

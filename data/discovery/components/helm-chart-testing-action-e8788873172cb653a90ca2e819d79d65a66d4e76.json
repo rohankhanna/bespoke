@@ -1,0 +1,12 @@
+{
+  "component": "helm/chart-testing-action@e8788873172cb653a90ca2e819d79d65a66d4e76",
+  "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yaml",
+      "source_repo": "helm/charts-repo-actions-demo"
+    }
+  ]
+}

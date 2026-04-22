@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "16arpi/meteo-tui",
+      "target": "serde-rs/json",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "16arpi/meteo-tui",
+      "target": "rust-cli/confy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "16arpi/meteo-tui",
+      "target": "chronotope/chrono",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "16arpi/meteo-tui",
+      "target": "wangdayeeeeee/geometricweather",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-22T04:41:58.081535+00:00",
+  "source_repo": "16arpi/meteo-tui"
+}

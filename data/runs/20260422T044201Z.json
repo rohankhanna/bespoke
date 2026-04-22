@@ -1,0 +1,286 @@
+{
+  "api_stop_detail": null,
+  "batch_count": 2,
+  "budget_seconds": 180,
+  "concept_index_counts": {
+    "aliases": 4316,
+    "buckets": 15,
+    "observations_by_concept": 4031
+  },
+  "elapsed_seconds": 171.696,
+  "embedding_unit_count": 20840,
+  "explicit_repo_exists_degraded": false,
+  "explicit_repo_exists_fallbacks": [],
+  "generated_at": "2026-04-22T04:41:58.081535+00:00",
+  "processed_repositories": [
+    "labstack/echo",
+    "wireshark/wireshark",
+    "23andme/yamale",
+    "adrienverge/yamllint",
+    "helm/charts-repo-actions-demo",
+    "spf13/viper",
+    "masterminds/sprig",
+    "norwoodj/hashbash-backend-go",
+    "csu-radarmet/csu_radartools",
+    "mdanalysis/mda-xdrlib",
+    "meteoswiss/pyrad",
+    "coin-or/cylp",
+    "astronomyk/simcado",
+    "8144225309/lightning",
+    "8144225309/superscalar-cln",
+    "8144225309/superscalar-docs",
+    "8144225309/superscalar-wallet",
+    "16arpi/meteo-tui",
+    "24seconds/rust-sadari-cli",
+    "64bit/commandok",
+    "acheronfail/repgrep",
+    "cargo-generate/cargo-generate",
+    "agricidaniel/claude-email",
+    "ahmedasmar/devops-claude-skills",
+    "airowe/claude-a11y-skill",
+    "antonbabenko/terraform-skill",
+    "0xnyk/awesome-hermes-agent",
+    "askbudi/roundtable",
+    "cafetechne/antigravity-link-extension",
+    "charlie85270/dorothy",
+    "aden-hive/hive",
+    "aralyekta/prompttester",
+    "helicone/helicone"
+  ],
+  "remaining_budget_seconds": 8.304,
+  "remaining_frontier": 756,
+  "repo_timing_summary": {
+    "average_seconds": 2.704,
+    "count": 35,
+    "max_seconds": 25.47,
+    "total_seconds": 94.636
+  },
+  "repo_timings": [
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 5.942,
+      "full_name": "labstack/echo",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.558,
+      "full_name": "consensys/ethereum-dissectors",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.26,
+      "full_name": "wireshark/wireshark",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.331,
+      "full_name": "ethpandaops/ethereum-helm-charts",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.053,
+      "full_name": "23andme/yamale",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.608,
+      "full_name": "adrienverge/yamllint",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.199,
+      "full_name": "helm/charts-repo-actions-demo",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 4.923,
+      "full_name": "spf13/viper",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.587,
+      "full_name": "masterminds/sprig",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.256,
+      "full_name": "norwoodj/hashbash-backend-go",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.392,
+      "full_name": "csu-radarmet/csu_radartools",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.354,
+      "full_name": "mdanalysis/mda-xdrlib",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.289,
+      "full_name": "meteoswiss/pyrad",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.567,
+      "full_name": "coin-or/cylp",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.457,
+      "full_name": "astronomyk/simcado",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.491,
+      "full_name": "8144225309/lightning",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.086,
+      "full_name": "8144225309/superscalar-cln",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.443,
+      "full_name": "8144225309/superscalar-docs",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.287,
+      "full_name": "8144225309/superscalar-wallet",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.894,
+      "full_name": "16arpi/meteo-tui",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.047,
+      "full_name": "24seconds/rust-sadari-cli",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.462,
+      "full_name": "64bit/commandok",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.6,
+      "full_name": "acheronfail/repgrep",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.545,
+      "full_name": "cargo-generate/cargo-generate",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.764,
+      "full_name": "agricidaniel/claude-email",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.602,
+      "full_name": "ahmedasmar/devops-claude-skills",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.152,
+      "full_name": "airowe/claude-a11y-skill",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.423,
+      "full_name": "antonbabenko/terraform-skill",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 25.47,
+      "full_name": "0xnyk/awesome-hermes-agent",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.88,
+      "full_name": "askbudi/roundtable",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.661,
+      "full_name": "cafetechne/antigravity-link-extension",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.437,
+      "full_name": "charlie85270/dorothy",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.948,
+      "full_name": "aden-hive/hive",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.825,
+      "full_name": "aralyekta/prompttester",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.843,
+      "full_name": "helicone/helicone",
+      "graph_distance": 7
+    }
+  ],
+  "run_id": "20260422T044201Z",
+  "skipped_repositories": [],
+  "slow_repo_threshold_seconds": 10.0,
+  "slow_repositories": [
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 25.47,
+      "full_name": "0xnyk/awesome-hermes-agent",
+      "graph_distance": 7
+    }
+  ],
+  "stale_repo_pruned_count": 0,
+  "stale_repositories_pruned": [],
+  "stop_reason": "budget",
+  "stopped_due_to_api": false,
+  "stopped_due_to_budget": true
+}

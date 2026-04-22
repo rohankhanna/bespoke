@@ -162,6 +162,9 @@
   "agent-memory-server": [
     "agent-memory-server"
   ],
+  "agent-monitoring": [
+    "agent-monitoring"
+  ],
   "agent-plugins": [
     "agent-plugins"
   ],
@@ -424,6 +427,9 @@
   ],
   "amid": [
     "en-preposition-amid"
+  ],
+  "amidakuji": [
+    "amidakuji"
   ],
   "among": [
     "en-preposition-among"
@@ -902,6 +908,9 @@
   "automated documentation audit": [
     "automated-documentation-audit"
   ],
+  "automated release": [
+    "automated-release"
+  ],
   "automated tests": [
     "automated-tests"
   ],
@@ -1228,6 +1237,9 @@
     "en-discourse_marker-besides",
     "en-preposition-besides"
   ],
+  "best-practices": [
+    "best-practices"
+  ],
   "best-readme": [
     "best-readme"
   ],
@@ -1339,6 +1351,9 @@
   "blazingly-fast": [
     "blazingly-fast"
   ],
+  "blip-56": [
+    "blip-56"
+  ],
   "blob": [
     "blob"
   ],
@@ -1418,6 +1433,9 @@
   ],
   "bounding-box": [
     "bounding-box"
+  ],
+  "bounty completed": [
+    "bounty-completed"
   ],
   "branch build": [
     "branch-build"
@@ -1550,6 +1568,9 @@
   ],
   "build and release (code signed)": [
     "build-and-release-code-signed"
+  ],
+  "build and release package": [
+    "build-and-release-package"
   ],
   "build and release processor": [
     "build-and-release-processor"
@@ -1800,6 +1821,9 @@
   "build miniforge": [
     "build-miniforge"
   ],
+  "build msys2": [
+    "build-msys2"
+  ],
   "build native module prebuilds": [
     "build-native-module-prebuilds"
   ],
@@ -1860,6 +1884,9 @@
   "build signed artifacts and publish": [
     "build-signed-artifacts-and-publish"
   ],
+  "build stratoshark macos": [
+    "build-stratoshark-macos"
+  ],
   "build swap and asb release binaries": [
     "build-swap-and-asb-release-binaries"
   ],
@@ -1874,6 +1901,9 @@
   ],
   "build typescript ci": [
     "build-typescript-ci"
+  ],
+  "build ubuntu": [
+    "build-ubuntu"
   ],
   "build unsigned artifacts": [
     "build-unsigned-artifacts"
@@ -1901,6 +1931,9 @@
   ],
   "build wheels and deploy": [
     "build-wheels-and-deploy"
+  ],
+  "build windows": [
+    "build-windows"
   ],
   "build windows ci container": [
     "build-windows-ci-container"
@@ -2048,6 +2081,9 @@
   ],
   "bump provider and module versions": [
     "bump-provider-and-module-versions"
+  ],
+  "bump rust \ud83e\udd80 crate version": [
+    "bump-rust-crate-version"
   ],
   "bump tempo dependencies": [
     "bump-tempo-dependencies"
@@ -2494,6 +2530,9 @@
   "chromadb": [
     "chromadb"
   ],
+  "chrome-devtools-protocol": [
+    "chrome-devtools-protocol"
+  ],
   "ci & release": [
     "ci-release"
   ],
@@ -2544,6 +2583,9 @@
   ],
   "ci - other binaries": [
     "ci---other-binaries"
+  ],
+  "ci - tests": [
+    "ci---tests"
   ],
   "ci - with jax nightly": [
     "ci---with-jax-nightly"
@@ -2854,6 +2896,12 @@
   "clickhouse": [
     "clickhouse"
   ],
+  "clickhouse migration check": [
+    "clickhouse-migration-check"
+  ],
+  "clickhouse wrapper tests": [
+    "clickhouse-wrapper-tests"
+  ],
   "client": [
     "client"
   ],
@@ -2994,6 +3042,9 @@
   ],
   "cmake on multiple platforms": [
     "cmake-on-multiple-platforms"
+  ],
+  "cmake options test": [
+    "cmake-options-test"
   ],
   "cmake-win64": [
     "cmake-win64"
@@ -3457,6 +3508,9 @@
   "core ganache": [
     "core-ganache"
   ],
+  "core-lightning": [
+    "core-lightning"
+  ],
   "coreaudio": [
     "coreaudio"
   ],
@@ -3492,6 +3546,9 @@
   ],
   "coverage": [
     "coverage"
+  ],
+  "coverage (nightly)": [
+    "coverage-nightly"
   ],
   "coverity": [
     "coverity"
@@ -4489,6 +4546,9 @@
   "documentation": [
     "documentation"
   ],
+  "documentation (nightly)": [
+    "documentation-nightly"
+  ],
   "documentation build": [
     "documentation-build"
   ],
@@ -4588,8 +4648,14 @@
   "e2e snapshot tests": [
     "e2e-snapshot-tests"
   ],
+  "e2e test": [
+    "e2e-test"
+  ],
   "e2e test coverage": [
     "e2e-test-coverage"
+  ],
+  "e2e test suite": [
+    "e2e-test-suite"
   ],
   "e2e tests": [
     "e2e-tests"
@@ -4637,6 +4703,9 @@
   ],
   "ecdsa": [
     "ecdsa"
+  ],
+  "echo": [
+    "echo"
   ],
   "eclipse": [
     "eclipse"
@@ -5440,11 +5509,20 @@
   "ggml": [
     "ggml"
   ],
+  "gh actions ci": [
+    "gh-actions-ci"
+  ],
   "ghcr image mirroring": [
     "ghcr-image-mirroring"
   ],
   "ghidra": [
     "ghidra"
+  ],
+  "ghost-leg": [
+    "ghost-leg"
+  ],
+  "ghostleg": [
+    "ghostleg"
   ],
   "git governance audit": [
     "git-governance-audit"
@@ -5800,6 +5878,12 @@
   "harmonyos": [
     "harmonyos"
   ],
+  "harness": [
+    "harness"
+  ],
+  "harness-engineering": [
+    "harness-engineering"
+  ],
   "harvesters": [
     "harvesters"
   ],
@@ -5917,6 +6001,9 @@
   "how": [
     "en-interrogative-how"
   ],
+  "how-to": [
+    "how-to"
+  ],
   "however": [
     "en-discourse_marker-however"
   ],
@@ -5938,6 +6025,12 @@
   "http-server": [
     "http-server"
   ],
+  "http2": [
+    "http2"
+  ],
+  "https": [
+    "https"
+  ],
   "huggingface": [
     "huggingface"
   ],
@@ -5949,6 +6042,9 @@
   ],
   "human-ai-collaboration": [
     "human-ai-collaboration"
+  ],
+  "human-in-the-loop": [
+    "human-in-the-loop"
   ],
   "hybrid": [
     "hybrid"
@@ -6106,6 +6202,9 @@
   "infra": [
     "infra"
   ],
+  "infrastructure-as-code": [
+    "infrastructure-as-code"
+  ],
   "initiate new vote": [
     "initiate-new-vote"
   ],
@@ -6162,6 +6261,9 @@
   ],
   "integration testing": [
     "integration-testing"
+  ],
+  "integration testing with cvxpy": [
+    "integration-testing-with-cvxpy"
   ],
   "integration tests": [
     "integration-tests"
@@ -6312,6 +6414,9 @@
   ],
   "javascriptcore": [
     "javascriptcore"
+  ],
+  "jawn build precheck": [
+    "jawn-build-precheck"
   ],
   "jdbc": [
     "jdbc"
@@ -6589,6 +6694,9 @@
   "labels": [
     "labels"
   ],
+  "labstack-echo": [
+    "labstack-echo"
+  ],
   "laion": [
     "laion"
   ],
@@ -6690,6 +6798,9 @@
   ],
   "lest": [
     "en-conjunction-lest"
+  ],
+  "letsencrypt": [
+    "letsencrypt"
   ],
   "letta code": [
     "letta-code"
@@ -6796,6 +6907,9 @@
   "lint and format check": [
     "lint-and-format-check"
   ],
+  "lint and test charts": [
+    "lint-and-test-charts"
+  ],
   "lint check": [
     "lint-check"
   ],
@@ -6889,6 +7003,9 @@
   "linux-containers": [
     "linux-containers"
   ],
+  "liquid": [
+    "liquid"
+  ],
   "litellm": [
     "litellm"
   ],
@@ -6907,6 +7024,9 @@
   ],
   "llama-cpp": [
     "llama-cpp"
+  ],
+  "llama-index": [
+    "llama-index"
   ],
   "llama2": [
     "llama2"
@@ -6932,6 +7052,9 @@
   "llm-code": [
     "llm-code"
   ],
+  "llm-cost": [
+    "llm-cost"
+  ],
   "llm-evaluation": [
     "llm-evaluation"
   ],
@@ -6947,6 +7070,9 @@
   "llm-memory": [
     "llm-memory"
   ],
+  "llm-observability": [
+    "llm-observability"
+  ],
   "llm-orchestration": [
     "llm-orchestration"
   ],
@@ -6958,6 +7084,12 @@
   ],
   "llm-serving": [
     "llm-serving"
+  ],
+  "llm-test": [
+    "llm-test"
+  ],
+  "llm-testing": [
+    "llm-testing"
   ],
   "llm-tools": [
     "llm-tools"
@@ -7380,8 +7512,17 @@
   "mfcc": [
     "mfcc"
   ],
+  "micro-framework": [
+    "micro-framework"
+  ],
+  "microservice": [
+    "microservice"
+  ],
   "microsoft": [
     "microsoft"
+  ],
+  "middleware": [
+    "middleware"
   ],
   "midjourney": [
     "midjourney"
@@ -7520,6 +7661,9 @@
   ],
   "modular": [
     "modular"
+  ],
+  "modules": [
+    "modules"
   ],
   "moltbot": [
     "moltbot"
@@ -7973,6 +8117,9 @@
   "notify on push": [
     "notify-on-push"
   ],
+  "nous-research": [
+    "nous-research"
+  ],
   "now": [
     "en-deictic_or_spatiotemporal_marker-now",
     "en-discourse_marker-now"
@@ -8042,6 +8189,9 @@
   ],
   "octicons": [
     "octicons"
+  ],
+  "octoslash": [
+    "octoslash"
   ],
   "odin": [
     "odin"
@@ -8412,6 +8562,9 @@
   "packer": [
     "packer"
   ],
+  "packet-capture": [
+    "packet-capture"
+  ],
   "packsvgs": [
     "packsvgs"
   ],
@@ -8561,6 +8714,9 @@
   ],
   "pkg pr new ci": [
     "pkg-pr-new-ci"
+  ],
+  "placeholders": [
+    "placeholders"
   ],
   "plan-lifecycle": [
     "plan-lifecycle"
@@ -8718,6 +8874,9 @@
   "pr check": [
     "pr-check"
   ],
+  "pr check command": [
+    "pr-check-command"
+  ],
   "pr checks": [
     "pr-checks"
   ],
@@ -8759,6 +8918,12 @@
   ],
   "pr path labeler": [
     "pr-path-labeler"
+  ],
+  "pr requirements backfill": [
+    "pr-requirements-backfill"
+  ],
+  "pr requirements enforcement": [
+    "pr-requirements-enforcement"
   ],
   "pr review": [
     "pr-review"
@@ -8934,8 +9099,17 @@
   "prompt-injection-llm-security": [
     "prompt-injection-llm-security"
   ],
+  "prompt-management": [
+    "prompt-management"
+  ],
   "prompt-templates": [
     "prompt-templates"
+  ],
+  "prompt-test": [
+    "prompt-test"
+  ],
+  "prompt-testing": [
+    "prompt-testing"
   ],
   "prompts": [
     "prompts"
@@ -9047,6 +9221,9 @@
   ],
   "publish modin wheel to pypi": [
     "publish-modin-wheel-to-pypi"
+  ],
+  "publish multi-platform docker images": [
+    "publish-multi-platform-docker-images"
   ],
   "publish npm": [
     "publish-npm"
@@ -9200,6 +9377,9 @@
   ],
   "push specific docker tag": [
     "push-specific-docker-tag"
+  ],
+  "push to docker hub": [
+    "push-to-docker-hub"
   ],
   "push-notifications": [
     "push-notifications"
@@ -9576,11 +9756,17 @@
   "release binaries": [
     "release-binaries"
   ],
+  "release binary assets": [
+    "release-binary-assets"
+  ],
   "release build and publish": [
     "release-build-and-publish"
   ],
   "release candidate": [
     "release-candidate"
+  ],
+  "release charts": [
+    "release-charts"
   ],
   "release ci": [
     "release-ci"
@@ -9654,6 +9840,9 @@
   "release please": [
     "release-please"
   ],
+  "release pr": [
+    "release-pr"
+  ],
   "release project": [
     "release-project"
   ],
@@ -9662,6 +9851,9 @@
   ],
   "release pypi package": [
     "release-pypi-package"
+  ],
+  "release rust \ud83e\udd80": [
+    "release-rust"
   ],
   "release swarmcli gem": [
     "release-swarmcli-gem"
@@ -9957,6 +10149,9 @@
   "run benchmarks": [
     "run-benchmarks"
   ],
+  "run checks": [
+    "run-checks"
+  ],
   "run ci on master": [
     "run-ci-on-master"
   ],
@@ -10032,6 +10227,9 @@
   "run the julia package butler": [
     "run-the-julia-package-butler"
   ],
+  "run tox": [
+    "run-tox"
+  ],
   "run unit tests": [
     "run-unit-tests"
   ],
@@ -10098,6 +10296,9 @@
   "saas-metrics": [
     "saas-metrics"
   ],
+  "sadari": [
+    "sadari"
+  ],
   "safe-smart-account": [
     "safe-smart-account"
   ],
@@ -10148,6 +10349,9 @@
   ],
   "scheduler": [
     "scheduler"
+  ],
+  "schema": [
+    "schema"
   ],
   "science": [
     "science"
@@ -10280,6 +10484,9 @@
   ],
   "self-hosted runner (benchmark)": [
     "self-hosted-runner-benchmark"
+  ],
+  "self-improving": [
+    "self-improving"
   ],
   "self-improving-ai": [
     "self-improving-ai"
@@ -10793,6 +11000,9 @@
   "strands-sdk": [
     "strands-sdk"
   ],
+  "stratoshark": [
+    "stratoshark"
+  ],
   "stripe": [
     "stripe"
   ],
@@ -11087,11 +11297,17 @@
   "template-engine": [
     "template-engine"
   ],
+  "template-generator": [
+    "template-generator"
+  ],
   "template-project": [
     "template-project"
   ],
   "template-repository": [
     "template-repository"
+  ],
+  "templates": [
+    "templates"
   ],
   "tempo": [
     "tempo"
@@ -11266,6 +11482,18 @@
   ],
   "test pypi publish": [
     "test-pypi-publish"
+  ],
+  "test pyrad base": [
+    "test-pyrad-base"
+  ],
+  "test pyrad base dev": [
+    "test-pyrad-base-dev"
+  ],
+  "test pyrad mch": [
+    "test-pyrad-mch"
+  ],
+  "test pyrad mch dev": [
+    "test-pyrad-mch-dev"
   ],
   "test release to test.pypi.org": [
     "test-release-to-test.pypi.org"
@@ -11650,6 +11878,9 @@
   "try": [
     "try"
   ],
+  "tshark": [
+    "tshark"
+  ],
   "ttf-fonts": [
     "ttf-fonts"
   ],
@@ -11999,6 +12230,9 @@
   "validate pull request": [
     "validate-pull-request"
   ],
+  "validate skill": [
+    "validate-skill"
+  ],
   "validate vote commit and update participation": [
     "validate-vote-commit-and-update-participation"
   ],
@@ -12260,6 +12494,9 @@
   "weather-radars": [
     "weather-radars"
   ],
+  "web-framework": [
+    "web-framework"
+  ],
   "web-frontend": [
     "web-frontend"
   ],
@@ -12298,6 +12535,9 @@
   ],
   "website": [
     "website"
+  ],
+  "websocket": [
+    "websocket"
   ],
   "websockets-transport": [
     "websockets-transport"
@@ -12555,6 +12795,9 @@
   ],
   "yaml": [
     "yaml"
+  ],
+  "yamllint": [
+    "yamllint"
   ],
   "yapf": [
     "yapf"

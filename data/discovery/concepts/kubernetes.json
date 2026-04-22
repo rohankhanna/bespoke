@@ -319,6 +319,18 @@
       "source_repo": "dexidp/dex",
       "status": "candidate-context",
       "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dexidp/dex/ci.yaml?style=flat-square&branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "status": "candidate-context",
+      "text": "Example project to demo testing and hosting a chart repository with GitHub Pages and Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "status": "candidate-context",
+      "text": "[![](https://github.com/helm/charts-repo-actions-demo/workflows/Release%20Charts/badge.svg?branch=main)](https://github.com/helm/charts-repo-actions-demo/actions)"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +489,12 @@
       "source_repo": "dexidp/dex",
       "status": "candidate",
       "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/dexidp/dex/ci.yaml?style=flat-square&branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "status": "candidate",
+      "text": "[![](https://github.com/helm/charts-repo-actions-demo/workflows/Release%20Charts/badge.svg?branch=main)](https://github.com/helm/charts-repo-actions-demo/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -706,11 +724,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "dexidp/dex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-helm-charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "helm/charts-repo-actions-demo"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "lexical_providers": [
     "datamuse"
   ],

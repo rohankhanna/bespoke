@@ -61,6 +61,18 @@
       "source_repo": "serpro69/claude-toolbox",
       "status": "candidate-context",
       "text": "[![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/hesreallyhim/awesome-claude-code)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aden-hive/hive",
+      "status": "candidate-context",
+      "text": "Multi-Agent Harness for Production AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aden-hive/hive",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -87,6 +99,12 @@
       "source_repo": "serpro69/claude-toolbox",
       "status": "candidate",
       "text": "[![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/hesreallyhim/awesome-claude-code)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aden-hive/hive",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -130,11 +148,17 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": null,
       "source_repo": "serpro69/claude-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "aden-hive/hive"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "lexical_providers": [
     "datamuse"
   ],

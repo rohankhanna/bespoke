@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test pyrad base"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MeteoSwiss/pyrad",
+      "status": "candidate-context",
+      "text": "Python Radar Data Processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MeteoSwiss/pyrad",
+      "status": "candidate-context",
+      "text": "Test pyrad base"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MeteoSwiss/pyrad",
+      "status": "candidate",
+      "text": "Test pyrad base"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28071,
+      "status": "candidate",
+      "text": "litmus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28057,
+      "status": "candidate",
+      "text": "shroff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27976,
+      "status": "candidate",
+      "text": "spaceport"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11671,
+      "status": "candidate",
+      "text": "ace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11671,
+      "status": "candidate",
+      "text": "ban"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test pyrad base",
+  "concept_id": "test-pyrad-base",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": ".github/workflows/pyrad_tests_base.yml",
+      "source_repo": "MeteoSwiss/pyrad"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test pyrad base",
+      "sense_id": "test-pyrad-base#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

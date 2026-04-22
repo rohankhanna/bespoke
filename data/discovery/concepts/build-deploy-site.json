@@ -19,12 +19,30 @@
       "source_repo": "ARM-DOE/pyart",
       "status": "candidate-context",
       "text": "build-deploy-site"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MeteoSwiss/pyrad",
+      "status": "candidate-context",
+      "text": "Python Radar Data Processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MeteoSwiss/pyrad",
+      "status": "candidate-context",
+      "text": "build-deploy-site"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "ARM-DOE/pyart",
+      "status": "candidate",
+      "text": "build-deploy-site"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MeteoSwiss/pyrad",
       "status": "candidate",
       "text": "build-deploy-site"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/build_docs.yml",
       "source_repo": "ARM-DOE/pyart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": ".github/workflows/build_docs.yml",
+      "source_repo": "MeteoSwiss/pyrad"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "lexical_providers": [
     "datamuse"
   ],

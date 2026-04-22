@@ -1,0 +1,12 @@
+{
+  "component": "helm/kind-action@dda0770415bac9fc20092cacbc54aa298604d140",
+  "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yaml",
+      "source_repo": "helm/charts-repo-actions-demo"
+    }
+  ]
+}

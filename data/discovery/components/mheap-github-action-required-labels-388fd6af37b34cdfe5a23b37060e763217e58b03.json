@@ -1,0 +1,12 @@
+{
+  "component": "mheap/github-action-required-labels@388fd6af37b34cdfe5a23b37060e763217e58b03",
+  "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "spf13/viper"
+    }
+  ]
+}

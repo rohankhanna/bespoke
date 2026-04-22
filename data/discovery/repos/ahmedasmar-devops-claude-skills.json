@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-22T04:43:43.894180+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5655
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Claude Code Skills Marketplace for DevOps workflows",
+    "fork": false,
+    "full_name": "ahmedasmar/devops-claude-skills",
+    "html_url": "https://github.com/ahmedasmar/devops-claude-skills",
+    "language": "Python",
+    "pushed_at": "2026-04-11T16:18:43Z",
+    "stargazers_count": 130,
+    "topics": [],
+    "updated_at": "2026-04-21T16:18:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -67,6 +67,18 @@
       "source_repo": "avelino/awesome-go",
       "status": "candidate-context",
       "text": "<a href=\"https://awesome-go.com/\"><img align=\"right\" src=\"https://github.com/avelino/awesome-go/raw/main/tmpl/assets/logo.png\" alt=\"awesome-go\" title=\"awesome-go\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xNyk/awesome-hermes-agent",
+      "status": "candidate-context",
+      "text": "A curated list of awesome skills, tools, integrations, and resources for Hermes Agent by Nous Research"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xNyk/awesome-hermes-agent",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -93,6 +105,12 @@
       "source_repo": "avelino/awesome-go",
       "status": "candidate",
       "text": "<a href=\"https://awesome-go.com/\"><img align=\"right\" src=\"https://github.com/avelino/awesome-go/raw/main/tmpl/assets/logo.png\" alt=\"awesome-go\" title=\"awesome-go\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xNyk/awesome-hermes-agent",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -214,11 +232,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "avelino/awesome-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "0xNyk/awesome-hermes-agent"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "lexical_providers": [
     "datamuse"
   ],

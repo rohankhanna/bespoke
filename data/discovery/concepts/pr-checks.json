@@ -19,12 +19,30 @@
       "source_repo": "dexidp/dex",
       "status": "candidate-context",
       "text": "PR Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spf13/viper",
+      "status": "candidate-context",
+      "text": "Go configuration with fangs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spf13/viper",
+      "status": "candidate-context",
+      "text": "PR Checks"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "dexidp/dex",
+      "status": "candidate",
+      "text": "PR Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spf13/viper",
       "status": "candidate",
       "text": "PR Checks"
     }
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/checks.yaml",
       "source_repo": "dexidp/dex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "spf13/viper"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "lexical_providers": [
     "datamuse"
   ],

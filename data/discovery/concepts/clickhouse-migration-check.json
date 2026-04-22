@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ClickHouse Migration Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Helicone/helicone",
+      "status": "candidate-context",
+      "text": "\ud83e\uddca Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 \ud83c\udf53"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Helicone/helicone",
+      "status": "candidate-context",
+      "text": "ClickHouse Migration Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Helicone/helicone",
+      "status": "candidate",
+      "text": "ClickHouse Migration Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11564,
+      "status": "candidate",
+      "text": "conjugation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11564,
+      "status": "candidate",
+      "text": "immigration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11564,
+      "status": "candidate",
+      "text": "mobilization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11564,
+      "status": "candidate",
+      "text": "moving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11564,
+      "status": "candidate",
+      "text": "passage"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ClickHouse Migration Check",
+  "concept_id": "clickhouse-migration-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": ".github/workflows/clickhouse-migration-check.yml",
+      "source_repo": "Helicone/helicone"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ClickHouse Migration Check",
+      "sense_id": "clickhouse-migration-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

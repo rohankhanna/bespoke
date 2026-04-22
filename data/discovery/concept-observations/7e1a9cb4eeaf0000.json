@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Core Lightning fork with bLIP-56 \u2014 pluggable channel factory support for SuperScalar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Release Rust \ud83e\udd80\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Release Rust \ud83e\udd80\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10839,
+      "status": "candidate",
+      "text": "aeciospore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10839,
+      "status": "candidate",
+      "text": "canker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10839,
+      "status": "candidate",
+      "text": "ocher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10839,
+      "status": "candidate",
+      "text": "ochre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10839,
+      "status": "candidate",
+      "text": "oxidize"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Rust \ud83e\udd80",
+      "sense_id": "release-rust#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-rust",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-rust",
+  "observation_id": "7e1a9cb4eeaf0000",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-22T04:41:58.081535+00:00",
+  "observed_text": "Release Rust \ud83e\udd80",
+  "source_context_snippet": "\"Release Rust \ud83e\udd80\"",
+  "source_file": ".github/workflows/crate-io.yml",
+  "source_repo": "8144225309/lightning",
+  "source_repo_description": "Core Lightning fork with bLIP-56 \u2014 pluggable channel factory support for SuperScalar"
+}

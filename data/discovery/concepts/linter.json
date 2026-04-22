@@ -190,6 +190,18 @@
       "source_repo": "golangci/golangci-lint",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adrienverge/yamllint",
+      "status": "candidate-context",
+      "text": "A linter for YAML files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrienverge/yamllint",
+      "status": "candidate-context",
+      "text": "yamllint"
     }
   ],
   "candidate_glosses": [
@@ -282,6 +294,12 @@
       "source_repo": "golangci/golangci-lint",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrienverge/yamllint",
+      "status": "candidate",
+      "text": "yamllint"
     }
   ],
   "candidate_related_terms": [
@@ -445,11 +463,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "golangci/golangci-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "adrienverge/yamllint"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "lexical_providers": [
     "datamuse"
   ],

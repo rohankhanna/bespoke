@@ -19,6 +19,18 @@
       "source_repo": "japaric/trust",
       "status": "candidate-context",
       "text": "> Travis CI and AppVeyor template to test your Rust crate on 5 architectures"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Masterminds/sprig",
+      "status": "candidate-context",
+      "text": "Useful template functions for Go templates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Masterminds/sprig",
+      "status": "candidate-context",
+      "text": "[![GoDoc](https://img.shields.io/static/v1?label=godoc&message=reference&color=blue)](https://pkg.go.dev/github.com/Masterminds/sprig/v3)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "japaric/trust",
       "status": "candidate",
       "text": "> Travis CI and AppVeyor template to test your Rust crate on 5 architectures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Masterminds/sprig",
+      "status": "candidate",
+      "text": "[![GoDoc](https://img.shields.io/static/v1?label=godoc&message=reference&color=blue)](https://pkg.go.dev/github.com/Masterminds/sprig/v3)"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "japaric/trust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "Masterminds/sprig"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "lexical_providers": [
     "datamuse"
   ],

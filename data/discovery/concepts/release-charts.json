@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Charts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "status": "candidate-context",
+      "text": "Example project to demo testing and hosting a chart repository with GitHub Pages and Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "status": "candidate-context",
+      "text": "Release Charts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/charts-repo-actions-demo",
+      "status": "candidate",
+      "text": "Release Charts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11476,
+      "status": "candidate",
+      "text": "atlas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11476,
+      "status": "candidate",
+      "text": "cards"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11476,
+      "status": "candidate",
+      "text": "chart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11476,
+      "status": "candidate",
+      "text": "charting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11476,
+      "status": "candidate",
+      "text": "dashboard"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Charts",
+  "concept_id": "release-charts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "helm/charts-repo-actions-demo"
+    }
+  ],
+  "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Charts",
+      "sense_id": "release-charts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -139,6 +139,30 @@
       "source_repo": "symgraph/BinAssistMCP",
       "status": "candidate-context",
       "text": "> Comprehensive Model Context Protocol (MCP) server for Binary Ninja with AI-powered reverse engineering capabilities"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "askbudi/roundtable",
+      "status": "candidate-context",
+      "text": "Zero-configuration MCP server that unifies multiple AI coding assistants (Codex, Claude Code, Cursor, Gemini) through intelligent auto-discovery and standardized interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "askbudi/roundtable",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/roundtable-ai.svg)](https://badge.fury.io/py/roundtable-ai)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cafeTechne/antigravity-link-extension",
+      "status": "candidate-context",
+      "text": "Mobile companion for Google's Antigravity IDE. Mirror AI sessions on your phone, send messages, stop generation, automate via 9 MCP tools or OpenAPI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cafeTechne/antigravity-link-extension",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/cafeTechne/antigravity-link-extension/actions/workflows/ci.yml/badge.svg)](https://github.com/cafeTechne/antigravity-link-extension/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +231,18 @@
       "source_repo": "symgraph/BinAssistMCP",
       "status": "candidate",
       "text": "> Comprehensive Model Context Protocol (MCP) server for Binary Ninja with AI-powered reverse engineering capabilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "askbudi/roundtable",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/roundtable-ai.svg)](https://badge.fury.io/py/roundtable-ai)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cafeTechne/antigravity-link-extension",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/cafeTechne/antigravity-link-extension/actions/workflows/ci.yml/badge.svg)](https://github.com/cafeTechne/antigravity-link-extension/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -328,11 +364,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "symgraph/BinAssistMCP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "askbudi/roundtable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "cafeTechne/antigravity-link-extension"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "lexical_providers": [
     "datamuse"
   ],

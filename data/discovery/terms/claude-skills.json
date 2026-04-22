@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T02:41:24.975901+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -61,6 +61,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "alirezarezvani/claude-code-skill-factory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/terraform-skill"
     }
   ],
   "term": "claude-skills"

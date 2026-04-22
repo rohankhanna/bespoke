@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "alexellis/arkade-get"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/e2e-test.yml",
+      "source_repo": "cargo-generate/cargo-generate"
     }
   ],
   "term": "e2e-test"

@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "askbudi/roundtable",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "askbudi/roundtable",
+      "target": "cursor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "askbudi/roundtable",
+      "target": "gemini-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "askbudi/roundtable",
+      "target": "mcp-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "askbudi/roundtable",
+      "target": "openai-codex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "askbudi/roundtable",
+      "target": "vibe-coding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:44:19.437759+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24598
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2183
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Zero-configuration MCP server that unifies multiple AI coding assistants (Codex, Claude Code, Cursor, Gemini) through intelligent auto-discovery and standardized interface",
+    "fork": false,
+    "full_name": "askbudi/roundtable",
+    "html_url": "https://github.com/askbudi/roundtable",
+    "language": "Python",
+    "pushed_at": "2025-10-06T04:11:43Z",
+    "stargazers_count": 101,
+    "topics": [
+      "claude-code",
+      "cursor",
+      "gemini-cli",
+      "mcp-server",
+      "openai-codex",
+      "vibe-coding"
+    ],
+    "updated_at": "2026-04-21T10:39:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/roundtable-ai.svg)](https://badge.fury.io/py/roundtable-ai)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/roundtable-ai.svg)](https://badge.fury.io/py/roundtable-ai)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cursor"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/roundtable-ai.svg)](https://badge.fury.io/py/roundtable-ai)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini-cli"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/roundtable-ai.svg)](https://badge.fury.io/py/roundtable-ai)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-server"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/roundtable-ai.svg)](https://badge.fury.io/py/roundtable-ai)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openai-codex"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/roundtable-ai.svg)](https://badge.fury.io/py/roundtable-ai)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vibe-coding"
+    }
+  ]
+}

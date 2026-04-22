@@ -1,7 +1,7 @@
 {
   "component": "msys2/setup-msys2@v2",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cpp_windows.yml",
       "source_repo": "apache/arrow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml",
+      "source_repo": "wireshark/wireshark"
     }
   ]
 }

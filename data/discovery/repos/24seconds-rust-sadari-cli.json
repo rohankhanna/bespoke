@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "24seconds/rust-sadari-cli",
+      "target": "fdehau/tui-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "24seconds/rust-sadari-cli",
+      "target": "amidakuji",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "24seconds/rust-sadari-cli",
+      "target": "ghost-leg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "24seconds/rust-sadari-cli",
+      "target": "ghostleg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "24seconds/rust-sadari-cli",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "24seconds/rust-sadari-cli",
+      "target": "sadari",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-22T04:43:25.496685+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1461
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 795
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "rust sadari game based on terminal! (Ghost leg or Amidakuji in another words)",
+    "fork": false,
+    "full_name": "24seconds/rust-sadari-cli",
+    "html_url": "https://github.com/24seconds/rust-sadari-cli",
+    "language": "Rust",
+    "pushed_at": "2020-05-11T14:47:06Z",
+    "stargazers_count": 36,
+    "topics": [
+      "amidakuji",
+      "ghost-leg",
+      "ghostleg",
+      "rust",
+      "sadari",
+      "tui"
+    ],
+    "updated_at": "2026-01-07T19:16:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fdehau/tui-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/rust-sadari-cli.svg)](https://crates.io/crates/rust-sadari-cli)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amidakuji"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/rust-sadari-cli.svg)](https://crates.io/crates/rust-sadari-cli)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ghost-leg"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/rust-sadari-cli.svg)](https://crates.io/crates/rust-sadari-cli)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ghostleg"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/rust-sadari-cli.svg)](https://crates.io/crates/rust-sadari-cli)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/rust-sadari-cli.svg)](https://crates.io/crates/rust-sadari-cli)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sadari"
+    }
+  ]
+}

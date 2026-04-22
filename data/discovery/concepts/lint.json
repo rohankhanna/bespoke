@@ -767,6 +767,30 @@
       "source_repo": "all-contributors/allcontributors.org",
       "status": "candidate-context",
       "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adrienverge/yamllint",
+      "status": "candidate-context",
+      "text": "A linter for YAML files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrienverge/yamllint",
+      "status": "candidate-context",
+      "text": "yamllint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "8144225309/superscalar-wallet",
+      "status": "candidate-context",
+      "text": "SuperScalar Wallet \u2014 web UI for Lightning channel factory management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8144225309/superscalar-wallet",
+      "status": "candidate-context",
+      "text": "Lint"
     }
   ],
   "candidate_glosses": [
@@ -1145,6 +1169,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "all-contributors/allcontributors.org",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrienverge/yamllint",
+      "status": "candidate",
+      "text": "yamllint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8144225309/superscalar-wallet",
       "status": "candidate",
       "text": "Lint"
     }
@@ -1717,11 +1753,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": null,
+      "source_repo": "adrienverge/yamllint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "8144225309/superscalar-wallet"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "lexical_providers": [
     "datamuse"
   ],

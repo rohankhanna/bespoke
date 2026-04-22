@@ -44,6 +44,18 @@
       "source_repo": "ogham/exa",
       "status": "candidate-context",
       "text": "Unit tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "8144225309/superscalar-wallet",
+      "status": "candidate-context",
+      "text": "SuperScalar Wallet \u2014 web UI for Lightning channel factory management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8144225309/superscalar-wallet",
+      "status": "candidate-context",
+      "text": "Unit tests"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +74,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ogham/exa",
+      "status": "candidate",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8144225309/superscalar-wallet",
       "status": "candidate",
       "text": "Unit tests"
     }
@@ -137,11 +155,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/unit-tests.yml",
       "source_repo": "ogham/exa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-22T04:41:58.081535+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "8144225309/superscalar-wallet"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "lexical_providers": [
     "datamuse"
   ],
