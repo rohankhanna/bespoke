@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 27,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 6,
-    "terms": 26
+    "components": 58,
+    "concepts": 54,
+    "observations": 54,
+    "repos": 12,
+    "terms": 54
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,19 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "ApeWorX/ape",
     "davidhalter/jedi",
     "django/channels",
     "django/daphne",
-    "dolfies/discord.py-self",
+    "facebookincubator/AITemplate",
+    "getzep/zep",
     "graphql-python/gql",
-    "jeffallan/claude-skills"
+    "Kapeli/Dash-User-Contributions",
+    "ml-explore/mlx-examples",
+    "snakers4/silero-vad",
+    "tabatkins/railroad-diagrams",
+    "therealxiaomanchu/ex-skill"
   ]
 }

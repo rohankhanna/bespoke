@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 67,
+    "components": 89,
     "concepts": 5,
     "observations": 5,
-    "repos": 4,
+    "repos": 6,
     "terms": 12
   },
   "facet_version": 1,
@@ -12,10 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "4Catalyzer/javascript",
     "alexellis/arkade-get",
     "bmad-code-org/bmad-method-test-architecture-enterprise",
+    "GuillaumeGomez/browser-UI-test",
     "itsrishika/payment-bypass-bug-lab",
     "peergos/web-ui"
   ]

@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "components": 18,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 3,
+    "terms": 7
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "unknown",
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_31_60d"
+  },
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "repo_ids": [
+    "cwfitzgerald/libtest-mimic",
+    "DataDog/opa",
+    "kleisauke/glib"
+  ]
+}

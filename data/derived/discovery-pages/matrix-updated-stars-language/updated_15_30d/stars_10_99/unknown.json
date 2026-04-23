@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 4,
-    "terms": 11
+    "components": 5,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 5,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "bmad-code-org/bmad-plugins-marketplace",
+    "cedar-policy/cedar-docs",
+    "dragonflyoss/community",
     "ithiria894/awesome-claude-code-hooks",
-    "onyx-dot-app/onyx_deep_research_bench",
-    "opencontainers/tob"
+    "onyx-dot-app/onyx_deep_research_bench"
   ]
 }

@@ -3,7 +3,7 @@
     "components": 32,
     "concepts": 18,
     "observations": 18,
-    "repos": 27,
+    "repos": 33,
     "terms": 27
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "alexcrichton/cc-rs",
@@ -31,8 +31,14 @@
     "damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
     "damacol/meta-llama-llama-3-2-3b",
     "damacol/xai-org-grok-2",
+    "danielrosehill/adb-ops-plugin",
     "danielrosehill/Agent-Assisted-Purchase-Research-Index",
     "danielrosehill/AI-Geopol-Projects",
+    "danielrosehill/Arch-And-Interiors-Index",
+    "danielrosehill/Backup-Planner",
+    "danielrosehill/Claude-AI-Engineering-Plugin",
+    "danielrosehill/Claude-Audio-Production-Plugin",
+    "danielrosehill/Claude-Workspace-Reshaping-190426",
     "foundersieve687/skill-gateway",
     "livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux",
     "muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux",

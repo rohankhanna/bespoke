@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 8,
-    "terms": 31
+    "components": 21,
+    "concepts": 73,
+    "observations": 74,
+    "repos": 24,
+    "terms": 70
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,31 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "27medkamal/tmux-session-wizard",
+    "asdf-vm/asdf-plugin-template",
     "belak/prezto-contrib",
     "chinanf-boy/ripgrep-zh",
     "chrismytton/shoreman",
+    "coin-or/COIN-OR-OptimizationSuite",
+    "CrossC2/CrossC2Kit",
+    "danhper/fundle",
     "derekstavis/plugin-nvm",
+    "devcontainers/feature-starter",
+    "docker-library/healthcheck",
+    "FabioAntunes/fish-nvm",
+    "fastai/docker-containers",
+    "google-research-datasets/conceptual-captions",
+    "heroku/heroku-buildpack-multi",
+    "ipfs/community",
+    "ipfs/infra",
+    "janmoesen/tilde",
     "jonmosco/kube-tmux",
+    "koalaman/shellcheck-precommit",
     "matchai/spacefish",
     "rbenv/rbenv-installer",
+    "steeve/cross-compiler",
     "vmware-labs/webassembly-language-runtimes"
   ]
 }

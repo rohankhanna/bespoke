@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 138,
-    "concepts": 128,
-    "observations": 128,
-    "repos": 14,
-    "terms": 128
+    "components": 211,
+    "concepts": 161,
+    "observations": 161,
+    "repos": 19,
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,26 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
-    "aws/aws-node-termination-handler",
-    "C2SP/wycheproof",
-    "cncf/toc",
-    "dolthub/doltgresql",
-    "elastic/go-elasticsearch",
-    "eryajf/chatgpt-dingtalk",
-    "ethereum-optimism/optimism",
-    "ethersphere/bee",
-    "flannel-io/flannel",
-    "google/go-containerregistry",
-    "hashicorp/terraform-provider-azurerm",
-    "open-telemetry/opentelemetry-collector",
-    "openshift/installer",
-    "prometheus-operator/prometheus-operator"
+    "apache/dubbo-admin",
+    "aquasecurity/trivy-operator",
+    "awslabs/amazon-eks-ami",
+    "bazel-contrib/bazel-gazelle",
+    "containerd/stargz-snapshotter",
+    "cri-o/cri-o",
+    "DataDog/datadog-agent",
+    "docker/buildx",
+    "docker/docker-credential-helpers",
+    "dragonflyoss/dragonfly",
+    "erigontech/erigon",
+    "golang/tools",
+    "grafana/alloy",
+    "ko-build/ko",
+    "kubernetes-sigs/external-dns",
+    "kubernetes/client-go",
+    "kubernetes/test-infra",
+    "prometheus/client_golang",
+    "SpecterOps/BloodHound"
   ]
 }

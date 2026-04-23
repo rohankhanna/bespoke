@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 8,
-    "concepts": 13,
-    "observations": 13,
-    "repos": 3,
-    "terms": 13
+    "components": 48,
+    "concepts": 57,
+    "observations": 59,
+    "repos": 9,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,16 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "devicons/devicon",
     "facebookresearch/sam2",
+    "fastai/fastai",
+    "Ileriayo/markdown-badges",
+    "koalaman/shellcheck",
     "LazyVim/LazyVim",
+    "microsoft/language-server-protocol",
+    "nvim-treesitter/nvim-treesitter",
     "openai/CLIP"
   ]
 }

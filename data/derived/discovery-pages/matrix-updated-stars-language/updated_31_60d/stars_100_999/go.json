@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 44,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 4,
-    "terms": 19
+    "components": 53,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 8,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "aws/amazon-ec2-spot-interrupter",
+    "aws/amazon-ecs-cni-plugins",
     "aws/aws-xray-daemon",
     "cedar-policy/cedar-go",
+    "erigontech/interfaces",
+    "kubernetes-sigs/hydrophone",
+    "opencontainers/runtime-tools",
     "withastro/compiler"
   ]
 }

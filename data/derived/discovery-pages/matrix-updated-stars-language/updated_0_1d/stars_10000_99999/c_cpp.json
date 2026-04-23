@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 87,
-    "concepts": 120,
-    "observations": 121,
-    "repos": 12,
-    "terms": 120
+    "components": 195,
+    "concepts": 203,
+    "observations": 203,
+    "repos": 21,
+    "terms": 203
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,28 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
-    "abseil/abseil-cpp",
-    "apache/arrow",
+    "apple/foundationdb",
     "argotorg/solidity",
-    "ClickHouse/ClickHouse",
+    "bitcoin/bitcoin",
+    "curl/curl",
+    "duckdb/duckdb",
+    "emscripten-core/emscripten",
+    "facebook/folly",
+    "facebook/rocksdb",
+    "facebookresearch/faiss",
+    "FreeRDP/FreeRDP",
     "ggml-org/ggml",
-    "microsoft/winget-cli",
-    "ml-explore/mlx",
-    "opencv/opencv",
-    "openssl/openssl",
+    "gnachman/iTerm2",
+    "google/sentencepiece",
+    "microsoft/onnxruntime",
+    "microsoft/react-native-windows",
+    "microsoft/WSL",
+    "mpv-player/mpv",
+    "NixOS/nix",
+    "ocornut/imgui",
     "protocolbuffers/protobuf",
-    "tesseract-ocr/tesseract",
-    "wolfpld/tracy"
+    "RPCS3/rpcs3"
   ]
 }

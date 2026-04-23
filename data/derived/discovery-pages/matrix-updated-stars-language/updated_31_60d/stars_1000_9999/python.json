@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 11,
-    "terms": 25
+    "components": 43,
+    "concepts": 53,
+    "observations": 53,
+    "repos": 15,
+    "terms": 54
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "adrienverge/yamllint",
     "benjaminp/six",
     "django/asgiref",
+    "dolfies/discord.py-self",
     "explosion/spacy-models",
+    "google/ml_collections",
+    "jeffallan/claude-skills",
     "miolini/autoresearch-macos",
     "NVlabs/VILA",
+    "open-mmlab/mmaction2",
     "pytest-dev/pytest-cov",
     "qix-/better-exceptions",
     "shareai-lab/claw0",

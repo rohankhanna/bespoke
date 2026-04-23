@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 930,
-    "concepts": 156,
-    "observations": 156,
-    "repos": 24,
-    "terms": 176
+    "components": 4246,
+    "concepts": 361,
+    "observations": 362,
+    "repos": 41,
+    "terms": 381
   },
   "facet_version": 1,
   "filters": {
@@ -12,31 +12,48 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "apollographql/apollo-client",
+    "babel/babel",
     "badlogic/pi-mono",
+    "changesets/changesets",
+    "CherryHQ/cherry-studio",
+    "coder/code-server",
+    "DefinitelyTyped/DefinitelyTyped",
+    "elastic/kibana",
     "everyinc/compound-engineering-plugin",
-    "fission-ai/openspec",
+    "expo/expo",
     "garrytan/gstack",
+    "graphql/graphiql",
     "invoke-ai/InvokeAI",
     "iOfficeAI/AionUi",
     "jestjs/jest",
+    "juice-shop/juice-shop",
+    "KaTeX/KaTeX",
+    "labring/FastGPT",
+    "labring/sealos",
     "microsoft/playwright-mcp",
     "modelcontextprotocol/servers",
     "multica-ai/multica",
     "neoclide/coc.nvim",
     "nvidia/nemoclaw",
     "openai/openai-node",
+    "puppeteer/puppeteer",
     "qwenlm/qwen-code",
     "qwibitai/nanoclaw",
     "recharts/recharts",
     "ryoppippi/ccusage",
+    "SBoudrias/Inquirer.js",
     "slopus/happy",
     "tanweai/pua",
-    "toon-format/toon",
+    "typescript-eslint/typescript-eslint",
     "upstash/context7",
     "vadimdemedes/ink",
-    "withastro/astro"
+    "vitejs/vite",
+    "VSCodeVim/Vim",
+    "withastro/astro",
+    "xtermjs/xterm.js",
+    "xyflow/xyflow"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 2,
-    "terms": 18
+    "components": 30,
+    "concepts": 57,
+    "observations": 57,
+    "repos": 7,
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "Alibaba-NLP/DeepResearch",
     "huggingface/text-generation-inference",
+    "Jiayi-Pan/TinyZero",
+    "PaddlePaddle/PaddleDetection",
+    "powerline/powerline",
+    "QwenLM/Qwen",
     "superclaude-org/superclaude_framework"
   ]
 }

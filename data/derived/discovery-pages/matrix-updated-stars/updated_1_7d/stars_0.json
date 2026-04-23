@@ -1,19 +1,20 @@
 {
   "counts": {
-    "components": 359,
-    "concepts": 47,
-    "observations": 47,
-    "repos": 59,
-    "terms": 76
+    "components": 371,
+    "concepts": 60,
+    "observations": 60,
+    "repos": 68,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "8144225309/lightning",
+    "8144225309/superscalar-cln",
     "8144225309/superscalar-wallet",
     "aipurposes1587-max/weixin-agent-rs",
     "alexcrichton/cc-rs",
@@ -35,9 +36,15 @@
     "damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
     "damacol/meta-llama-llama-3-2-3b",
     "damacol/xai-org-grok-2",
+    "danielrosehill/adb-ops-plugin",
     "danielrosehill/Agent-Assisted-Purchase-Research-Index",
     "danielrosehill/AI-Geopol-Projects",
     "danielrosehill/AI-Ideation-Runs",
+    "danielrosehill/Arch-And-Interiors-Index",
+    "danielrosehill/Backup-Planner",
+    "danielrosehill/Claude-AI-Engineering-Plugin",
+    "danielrosehill/Claude-Audio-Production-Plugin",
+    "danielrosehill/Claude-Workspace-Reshaping-190426",
     "fekkak1998/scira",
     "firestryk/chatgpt-website.github.io",
     "florisheedless915/grok-register",
@@ -47,6 +54,7 @@
     "gerardtschanz/revenue-os",
     "gopi2211/ralph",
     "gyf0311/lorekit",
+    "hauntsaninja/mypy",
     "jonislutheran87/weclaw",
     "jsleekr/skilldigest",
     "kidshadow79/ogma",
@@ -69,6 +77,7 @@
     "similar-colpoxerosis201/codex-wechat",
     "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
     "tornikepe/ai-chatbot",
+    "ueno/podman-sequoia",
     "vivianalaced749/vk-calls-tunnel",
     "wblondel/blog",
     "wendyalbanez/clawui"

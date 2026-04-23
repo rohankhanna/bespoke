@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 5,
-    "terms": 3
+    "components": 14,
+    "concepts": 43,
+    "observations": 43,
+    "repos": 17,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,24 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "antonbabenko/awsp",
+    "Berrysoft/fish-msys2",
     "berty/community",
     "cehoffman/luaenv",
     "ChainSafe/lodestar-quickstart",
+    "FabioAntunes/base16-fish-shell",
     "funtoo/dev-kit",
-    "icanhasjonas/run-claude-docker"
+    "icanhasjonas/run-claude-docker",
+    "isaacs/npm",
+    "luizm/asdf-shellcheck",
+    "luizm/asdf-shfmt",
+    "scaleway/initrd",
+    "sharkdp/fd-benchmarks",
+    "Shavian-info/interalia",
+    "Shougo/dein-installer.vim",
+    "tiran/cpython-wasm-test",
+    "unixorn/autoupdate-zgen"
   ]
 }

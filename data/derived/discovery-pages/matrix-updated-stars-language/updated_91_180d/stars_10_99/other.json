@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 2,
-    "terms": 0
+    "components": 17,
+    "concepts": 35,
+    "observations": 36,
+    "repos": 9,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "adobe-type-tools/aots",
-    "ayrat555/cargo-mode"
+    "ayrat555/cargo-mode",
+    "Cle2ment/CherryStudio_themes",
+    "ethpandaops/optimism-package",
+    "getumbrel/umbrel-lightning",
+    "opencontainers/oci-conformance",
+    "PeterDaveHello/docker-doctoc",
+    "pug-php/js-phpize",
+    "sbcgua/abap-string-map"
   ]
 }

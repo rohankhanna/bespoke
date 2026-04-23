@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "components": 5,
+    "concepts": 7,
+    "observations": 8,
+    "repos": 2,
+    "terms": 7
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "java",
+    "star_bucket": "stars_10_99",
+    "updated_bucket": "updated_8_14d"
+  },
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "repo_ids": [
+    "codetyio/codety-scanner",
+    "google/guava-beta-checker"
+  ]
+}

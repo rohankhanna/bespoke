@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 51,
+    "concepts": 10,
+    "observations": 10,
+    "repos": 1,
+    "terms": 10
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "java",
+    "star_bucket": "stars_1000_9999",
+    "updated_bucket": "updated_8_14d"
+  },
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "repo_ids": [
+    "react-native-share/react-native-share"
+  ]
+}

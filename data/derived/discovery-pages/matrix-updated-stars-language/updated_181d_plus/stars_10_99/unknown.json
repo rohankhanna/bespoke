@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 18,
-    "terms": 18
+    "components": 11,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 43,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,50 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "1nickpappas/move-code-quality-skill",
+    "adobe-research/Cross-lingual-Test-Dataset-XTD10",
+    "aquasecurity/community",
     "aws/ec2-spot-instances-integrations-roadmap",
+    "babel/rfcs",
+    "bandali/rust-for-c",
+    "bitcoin-core/bitcoin-devwiki",
+    "bjl101501/CherryStudio-Claudestyle-dynamic",
     "blockprotocol/awesome-blocks",
+    "bluejekyll/trust-dns",
+    "bowenliang123/dify-grafana-dashboard",
     "Centaurusalpha/DialogGen",
+    "ChainAgnostic/varsig",
     "ChatGPTNextWeb/NextChat-iOS",
     "chrisleyva/todo-slash-command",
     "cncf/tag-network",
+    "datasette/datasette-studio",
+    "davidbgk/open-source-template",
+    "docker/model-spec",
+    "dotnet-foundation/Home",
+    "eryajf/awesome-chatgpt-answer",
+    "ethereum-optimism/.github",
+    "graphql/foundation",
     "greggb/sublime-snazzy",
     "hashintel/awesome-hash",
+    "jenkinsci/winsw-maven-packaging",
     "KohakuBlueleaf/LoCon",
     "mark0smith/Kunlun-M-GUI",
+    "MILVLG/xmchat",
+    "open-gitops/.github",
+    "opencontainers/wg-reference-types",
     "openshift/community",
+    "pypa/.github",
+    "rust-embedded-community/meta",
+    "standard/.github",
     "tellnobody1/sublime-purescript-syntax",
+    "termux/termux-community",
     "tott/laravel-tall-claude-ai-configs",
     "ubmit/seoul256-kitty",
     "vega/roadmap",
     "webassemblylabs/webassembly-language-runtimes",
-    "yzyydev/agentic-coding-structure"
+    "yzyydev/agentic-coding-structure",
+    "zlib-ng/patches"
   ]
 }

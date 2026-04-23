@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 60,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 4,
-    "terms": 27
+    "components": 236,
+    "concepts": 71,
+    "observations": 73,
+    "repos": 13,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,20 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "absolute-version/commit-and-tag-version",
+    "Atheos/Atheos",
     "comme2e/comm",
+    "fastify/create-fastify",
+    "fastify/example",
+    "fastify/fastify-cli",
+    "Level/abstract-level",
     "npm/rfcs",
     "protocolbuffers/protobuf-javascript",
+    "semantic-release/changelog",
+    "semantic-release/git",
+    "terraform-linters/setup-tflint",
     "toon-format/spec"
   ]
 }

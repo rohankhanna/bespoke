@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 16,
-    "observations": 16,
-    "repos": 8,
-    "terms": 16
+    "components": 98,
+    "concepts": 47,
+    "observations": 48,
+    "repos": 28,
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,35 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "16arpi/meteo-tui",
+    "AdnoC/sixel-rs",
+    "AdnoC/sixel-sys",
+    "anderejd/cargo-geiger",
     "asg017/sqlite-fastrand",
+    "axodotdev/axolotlsay",
     "BonsaiDen/cursive_calendar_view",
     "BonsaiDen/cursive_table_view",
+    "casbin-rs/examples",
     "casey/janus",
+    "celo-org/celo-bls-snark-rs",
+    "celo-org/plumo-prover",
+    "celo-org/snark-setup",
+    "celo-org/snark-setup-operator",
+    "CryptArchy/regex_generate",
+    "davidlattimore/duplicate-function-checker",
     "DCjanus/cang-jie",
     "dymat/rwkv-burn",
-    "eira-fransham/crunchy"
+    "eira-fransham/crunchy",
+    "EmbarkStudios/buildkite-jobify",
+    "extrawurst/gitui-presentation",
+    "kawamuray/linux-taskstats-rs",
+    "nlewo/hydra-cli",
+    "rkyv/bytecheck",
+    "rkyv/ptr_meta",
+    "rkyv/rancor",
+    "UnstoppableSwap/wallet",
+    "webassemblylabs/wasm-workers-server"
   ]
 }

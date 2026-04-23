@@ -3,7 +3,7 @@
     "components": 10,
     "concepts": 8,
     "observations": 8,
-    "repos": 8,
+    "repos": 11,
     "terms": 8
   },
   "facet_version": 1,
@@ -12,15 +12,18 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "aar0npb/curator-skill",
     "agenmod/mirror-skill",
     "agenmod/steamer-skill",
+    "agent-sh/prepare-delivery",
     "AI-Agent-Hub/mcp-marketplace",
     "danielrosehill/AI-Synthesised-Perspectives",
+    "danielrosehill/Claude-AI-Attribution-Plugin",
     "flinedev/marketplace",
-    "nodejs/web-team"
+    "nodejs/web-team",
+    "sp1-patches/bn"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 6,
-    "terms": 11
+    "components": 69,
+    "concepts": 45,
+    "observations": 45,
+    "repos": 25,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,32 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "alfredbaudisch/raylib-cimgui",
+    "antoonpurnal/clangover",
     "asg017/sqlite-path",
     "asg017/sqlite-url",
     "blackhole89/autopen",
+    "coin-or/Cmpl",
+    "conor42/fxz",
     "dgl/re-engine-RE2",
     "dukesoferl/re2",
-    "kozyraki/phoenix"
+    "escherba/python-cityhash",
+    "escherba/python-metrohash",
+    "IDLabMedia/image-lens-reproject",
+    "jart/gemma3",
+    "kimgr/getopt_port",
+    "kinow/gtest-tap-listener",
+    "kozyraki/phoenix",
+    "madler/brotli",
+    "microsoft/FreeRDP-mirror",
+    "microsoft/LinuxTracepoints",
+    "microsoft/pulseaudio-mirror",
+    "pullmoll/musl-fts",
+    "ROCm/HIPCC",
+    "tpoechtrager/xar",
+    "TritonDataCenter/javascriptlint",
+    "trufanov-nok/minidjvu-mod"
   ]
 }

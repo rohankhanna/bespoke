@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 0 stars · Unknown
 
-Generated at: `2026-04-22T07:07:02.129101+00:00`
+Generated at: `2026-04-23T09:29:29.007338+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 27
+- repos: 33
 - terms: 27
 - components: 32
 - concepts: 18
@@ -26,9 +26,15 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Backup-Planner](https://github.com/danielrosehill/Backup-Planner) | 0 | 2026-04-21T11:48:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/adb-ops-plugin](https://github.com/danielrosehill/adb-ops-plugin) | 0 | 2026-04-21T11:44:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Geopol-Projects](https://github.com/danielrosehill/AI-Geopol-Projects) | 0 | 2026-04-20T11:43:31Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [danielrosehill/Arch-And-Interiors-Index](https://github.com/danielrosehill/Arch-And-Interiors-Index) | 0 | 2026-04-19T17:18:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Workspace-Reshaping-190426](https://github.com/danielrosehill/Claude-Workspace-Reshaping-190426) | 0 | 2026-04-19T14:44:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [narutoxdd6/nyro](https://github.com/Narutoxdd6/Nyro) | 0 | 2026-04-19T13:52:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [carloandremoreyra/xx](https://github.com/carloandremoreyra/XX) | 0 | 2026-04-19T13:26:55Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Audio-Production-Plugin](https://github.com/danielrosehill/Claude-Audio-Production-Plugin) | 0 | 2026-04-19T13:02:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-AI-Engineering-Plugin](https://github.com/danielrosehill/Claude-AI-Engineering-Plugin) | 0 | 2026-04-19T12:52:12Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [wendyalbanez/clawui](https://github.com/wendyalbanez/ClawUI) | 0 | 2026-04-19T12:39:07Z | Unknown | CLI | 0 | 0 | 0 | 0 |
 | [pragmatical-transshipment598/claude-code-workflows](https://github.com/Pragmatical-transshipment598/claude-code-workflows) | 0 | 2026-04-19T12:39:02Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
 | [vivianalaced749/vk-calls-tunnel](https://github.com/vivianalaced749/vk-calls-tunnel) | 0 | 2026-04-19T12:38:50Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
@@ -58,9 +64,15 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Backup-Planner](https://github.com/danielrosehill/Backup-Planner) | 0 | 2026-04-21T11:48:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/adb-ops-plugin](https://github.com/danielrosehill/adb-ops-plugin) | 0 | 2026-04-21T11:44:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Geopol-Projects](https://github.com/danielrosehill/AI-Geopol-Projects) | 0 | 2026-04-20T11:43:31Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [danielrosehill/Arch-And-Interiors-Index](https://github.com/danielrosehill/Arch-And-Interiors-Index) | 0 | 2026-04-19T17:18:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Workspace-Reshaping-190426](https://github.com/danielrosehill/Claude-Workspace-Reshaping-190426) | 0 | 2026-04-19T14:44:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [narutoxdd6/nyro](https://github.com/Narutoxdd6/Nyro) | 0 | 2026-04-19T13:52:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [carloandremoreyra/xx](https://github.com/carloandremoreyra/XX) | 0 | 2026-04-19T13:26:55Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Audio-Production-Plugin](https://github.com/danielrosehill/Claude-Audio-Production-Plugin) | 0 | 2026-04-19T13:02:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-AI-Engineering-Plugin](https://github.com/danielrosehill/Claude-AI-Engineering-Plugin) | 0 | 2026-04-19T12:52:12Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [wendyalbanez/clawui](https://github.com/wendyalbanez/ClawUI) | 0 | 2026-04-19T12:39:07Z | Unknown | CLI | 0 | 0 | 0 | 0 |
 | [pragmatical-transshipment598/claude-code-workflows](https://github.com/Pragmatical-transshipment598/claude-code-workflows) | 0 | 2026-04-19T12:39:02Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
 | [vivianalaced749/vk-calls-tunnel](https://github.com/vivianalaced749/vk-calls-tunnel) | 0 | 2026-04-19T12:38:50Z | Unknown | Service/API | 0 | 0 | 0 | 0 |

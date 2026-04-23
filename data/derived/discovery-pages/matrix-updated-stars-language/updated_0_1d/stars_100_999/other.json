@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 107,
-    "concepts": 51,
-    "observations": 52,
-    "repos": 8,
-    "terms": 51
+    "components": 225,
+    "concepts": 134,
+    "observations": 134,
+    "repos": 19,
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,26 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
-    "aio-libs/aiohttp-demos",
-    "ClickHouse/clickhouse-docs",
-    "danielrosehill/Claude-Code-Projects-Index",
-    "dart-lang/build",
-    "intel/intel-xpu-backend-for-triton",
-    "nix-community/nur-combined",
-    "open-telemetry/opentelemetry-kotlin",
-    "rust-lang/crates.io-index"
+    "abap2UI5/abap2UI5",
+    "AdaCore/libadalang",
+    "argotorg/hevm",
+    "aws/aws-lc",
+    "bazel-contrib/rules_python",
+    "cedar-policy/cedar-spec",
+    "cgrindel/rules_swift_package_manager",
+    "chainguard-images/images",
+    "dart-lang/shelf",
+    "dart-lang/tools",
+    "dotnet/dotnet-api-docs",
+    "emacscollective/borg",
+    "grafana-community/helm-charts",
+    "microsoft/react-native-windows-samples",
+    "NixOS/nixos-homepage",
+    "OpenZeppelin/openzeppelin-foundry-upgrades",
+    "pq-code-package/mlkem-native",
+    "shakacode/shakapacker",
+    "w3c/aria"
   ]
 }

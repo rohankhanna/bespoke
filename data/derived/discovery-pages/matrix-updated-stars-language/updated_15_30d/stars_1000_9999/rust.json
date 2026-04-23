@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 34,
-    "observations": 35,
-    "repos": 8,
-    "terms": 34
+    "components": 62,
+    "concepts": 56,
+    "observations": 57,
+    "repos": 11,
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "arxanas/git-branchless",
     "BurntSushi/quickcheck",
+    "chronotope/chrono",
     "cross-rs/cross",
-    "dtolnay/anyhow",
-    "dtolnay/thiserror",
+    "crossterm-rs/crossterm",
     "google/tarpc",
     "gyscos/cursive",
-    "nabijaczleweli/cargo-update"
+    "mitsuhiko/insta",
+    "mozilla/cbindgen",
+    "nabijaczleweli/cargo-update",
+    "servo/ipc-channel"
   ]
 }

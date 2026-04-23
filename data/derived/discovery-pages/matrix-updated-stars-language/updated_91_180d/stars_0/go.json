@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 5,
+    "concepts": 1,
+    "observations": 1,
+    "repos": 1,
+    "terms": 1
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "go",
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_91_180d"
+  },
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "repo_ids": [
+    "appscodelabs/liche"
+  ]
+}

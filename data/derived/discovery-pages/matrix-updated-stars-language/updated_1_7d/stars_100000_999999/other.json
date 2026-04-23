@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 5,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 1,
+    "terms": 25
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "other",
+    "star_bucket": "stars_100000_999999",
+    "updated_bucket": "updated_1_7d"
+  },
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "repo_ids": [
+    "flutter/flutter"
+  ]
+}

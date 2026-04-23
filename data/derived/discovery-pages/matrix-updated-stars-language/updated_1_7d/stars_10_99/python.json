@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 107,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 11,
-    "terms": 55
+    "components": 132,
+    "concepts": 54,
+    "observations": 56,
+    "repos": 16,
+    "terms": 69
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,23 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "activeviam/jdk4py",
     "AI-Hypercomputer/pathways-utils",
+    "AstarVienna/ScopeSim",
     "cdeust/cortex",
     "costiash/claude-code-docs",
-    "dathere/datapusher-plus",
+    "MeteoSwiss/pyart",
     "MeteoSwiss/pyrad",
+    "mypyc/mypyc-benchmarks",
     "pyodide/pyodide-build",
+    "pyodide/pytest-pyodide",
     "pytest-dev/execnet",
     "redhat-et/triton-dev-containers",
+    "scipy/scipy-stubs",
     "sliamh11/deus",
-    "svaningelgem/logprise"
+    "svaningelgem/logprise",
+    "typeshed-internal/stub_uploader"
   ]
 }

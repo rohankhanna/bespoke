@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 62,
-    "concepts": 58,
-    "observations": 58,
-    "repos": 9,
-    "terms": 58
+    "components": 130,
+    "concepts": 83,
+    "observations": 83,
+    "repos": 16,
+    "terms": 83
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,23 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "aaronjmars/MiroShark",
     "AI-Hypercomputer/maxdiffusion",
-    "akfamily/akquant",
-    "conda-forge/conda-smithy",
-    "googleapis/python-aiplatform",
-    "huggingface/kernels",
-    "microsoft/RedStone",
-    "pandas-dev/pandas-stubs",
-    "ROCm/aiter",
-    "ROCm/iris"
+    "alibaba/ROCK",
+    "alibaizhanov/mengram",
+    "Ascend/pytorch",
+    "deepset-ai/haystack-core-integrations",
+    "googleads/google-ads-python",
+    "KBH00/Semantic-Fast-SAM",
+    "llamastack/llama-stack-client-python",
+    "nodejs/gyp-next",
+    "NVIDIA-NeMo/Emerging-Optimizers",
+    "NVIDIA-NeMo/Megatron-Bridge",
+    "OpenHands/OpenHands-CLI",
+    "OpenHands/software-agent-sdk",
+    "python-humanize/humanize",
+    "voxel51/fiftyone-brain"
   ]
 }

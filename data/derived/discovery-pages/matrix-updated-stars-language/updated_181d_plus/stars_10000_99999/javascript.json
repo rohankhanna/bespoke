@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 92,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 3,
-    "terms": 22
+    "components": 163,
+    "concepts": 48,
+    "observations": 49,
+    "repos": 5,
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "faressoft/terminalizer",
     "JakeChampion/fetch",
+    "jaredpalmer/razzle",
     "restify/node-restify",
     "standard/standard"
   ]

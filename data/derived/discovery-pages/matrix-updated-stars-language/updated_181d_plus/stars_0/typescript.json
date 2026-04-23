@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 15,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 1,
+    "terms": 0
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "typescript",
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_181d_plus"
+  },
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "repo_ids": [
+    "alexgorbatchev/typescript-transform-react-jsx-source"
+  ]
+}

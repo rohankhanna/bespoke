@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 13,
-    "concepts": 3,
-    "observations": 3,
-    "repos": 2,
-    "terms": 3
+    "components": 84,
+    "concepts": 54,
+    "observations": 54,
+    "repos": 13,
+    "terms": 54
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,20 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "a16z/helios",
+    "ash-rs/ash",
+    "brendanzab/codespan",
+    "crossbeam-rs/crossbeam",
+    "dtolnay/anyhow",
+    "dtolnay/proc-macro-workshop",
+    "dtolnay/thiserror",
     "haleclipse/ccometixline",
+    "ImageOptim/gifski",
+    "rust-lang/flate2-rs",
+    "simd-lite/simd-json",
+    "Stebalien/tempfile",
     "tauri-apps/cargo-mobile2"
   ]
 }

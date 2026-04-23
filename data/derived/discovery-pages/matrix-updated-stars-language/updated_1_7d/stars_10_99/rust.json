@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 90,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 11,
-    "terms": 47
+    "components": 136,
+    "concepts": 59,
+    "observations": 59,
+    "repos": 17,
+    "terms": 73
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,24 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "64bit/commandOK",
+    "boundless-xyz/steel",
+    "ClickHouse/clickhousectl",
     "cloudllm-ai/mentisdb",
     "crate-ci/imperative",
     "fortanix/rustls-mbedtls-provider",
     "foundry-rs/foundry-fork-db",
     "hagan/claudia-statusline",
+    "janrueth/boring-rustls-provider",
     "major7apps/pensyve",
     "phiat/claude-esp-rs",
+    "Sovereign-Labs/rollup-starter",
     "tombelieber/claude-view",
     "tracel-ai/burn-bench",
-    "tracel-ai/burn-onnx"
+    "tracel-ai/burn-onnx",
+    "tracel-ai/cubek",
+    "vaporif/parry-guard"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100,000 to 999,999 stars · C/C++
 
-Generated at: `2026-04-21T07:07:17.825929+00:00`
+Generated at: `2026-04-23T09:29:29.007338+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 8
-- components: 15
-- concepts: 8
-- observations: 8
+- repos: 3
+- terms: 25
+- components: 59
+- concepts: 25
+- observations: 25
 
 ## Static behavior
 
@@ -26,10 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 104898 | 2026-04-19T13:09:26Z | C/C++ | Infrastructure/tooling | 8 | 15 | 8 | 8 |
+| [electron/electron](https://github.com/electron/electron) | 120988 | 2026-04-22T03:46:46Z | C/C++ | Infrastructure/tooling | 14 | 57 | 14 | 14 |
+| [microsoft/terminal](https://github.com/microsoft/terminal) | 102849 | 2026-04-22T00:47:50Z | C/C++ | CLI | 11 | 2 | 11 | 11 |
+| [torvalds/linux](https://github.com/torvalds/linux) | 230270 | 2026-04-22T00:44:30Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 104898 | 2026-04-19T13:09:26Z | C/C++ | Infrastructure/tooling | 8 | 15 | 8 | 8 |
+| [torvalds/linux](https://github.com/torvalds/linux) | 230270 | 2026-04-22T00:44:30Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [electron/electron](https://github.com/electron/electron) | 120988 | 2026-04-22T03:46:46Z | C/C++ | Infrastructure/tooling | 14 | 57 | 14 | 14 |
+| [microsoft/terminal](https://github.com/microsoft/terminal) | 102849 | 2026-04-22T00:47:50Z | C/C++ | CLI | 11 | 2 | 11 | 11 |

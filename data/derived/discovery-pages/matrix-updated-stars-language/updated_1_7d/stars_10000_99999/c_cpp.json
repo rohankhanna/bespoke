@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 54,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 5,
-    "terms": 25
+    "components": 238,
+    "concepts": 225,
+    "observations": 226,
+    "repos": 25,
+    "terms": 235
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,32 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "abseil/abseil-cpp",
+    "alibaba/MNN",
+    "apache/arrow",
+    "aseprite/aseprite",
+    "ClickHouse/ClickHouse",
+    "fmtlib/fmt",
+    "gabime/spdlog",
     "ggml-org/whisper.cpp",
+    "git/git",
+    "google/benchmark",
+    "google/flatbuffers",
     "google/skia",
+    "Immediate-Mode-UI/Nuklear",
+    "jonas/tig",
+    "jqlang/jq",
+    "microsoft/winget-cli",
+    "microsoft/WSL2-Linux-Kernel",
+    "ml-explore/mlx",
     "mozilla-ai/llamafile",
+    "opencv/opencv",
+    "openssl/openssl",
     "px4/px4-autopilot",
-    "tmux/tmux"
+    "pybind/pybind11",
+    "tesseract-ocr/tesseract",
+    "wolfpld/tracy"
   ]
 }

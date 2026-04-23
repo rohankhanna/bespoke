@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 9,
-    "observations": 9,
-    "repos": 7,
-    "terms": 9
+    "components": 49,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 12,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,19 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "caronc/apprise-docs",
     "cyber404/che-apple-mail-mcp",
     "dm0x23/portfolio-website",
     "floxym/financial-chat-finance-nlp-chatbots",
+    "goreleaser/.github",
     "joinwell52-ai/codeflow-pwa",
+    "lahma/test262-harness-dotnet",
+    "Mbed-TLS/mbedtls-test",
     "mitchuski/agentprivacy-docs",
-    "tarikmanoar/tarikmanoar"
+    "Shougo/dpp-ext-lazy",
+    "tarikmanoar/tarikmanoar",
+    "wavelens/gobgp.nix"
   ]
 }

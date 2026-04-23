@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 41,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 0
+    "components": 88,
+    "concepts": 39,
+    "observations": 39,
+    "repos": 7,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
-    "kata-containers/www.katacontainers.io"
+    "3rd/config",
+    "apache/arrow-dotnet",
+    "hashicorp/web-unified-docs",
+    "meta-pytorch/executorch-examples",
+    "ocaml-tracing/ocaml-opentelemetry",
+    "SAP/abap-file-formats",
+    "SAP/abap-file-formats-tools"
   ]
 }

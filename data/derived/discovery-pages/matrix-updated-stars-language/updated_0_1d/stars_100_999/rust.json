@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 60,
-    "concepts": 30,
-    "observations": 31,
-    "repos": 5,
-    "terms": 30
+    "components": 106,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 9,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
-    "ChainSafe/forest",
-    "containers/netavark",
+    "Azure/azure-sdk-for-rust",
+    "Blockstream/electrs",
+    "Commit-Boost/commit-boost-client",
+    "cyphar/libpathrs",
     "eigenwallet/core",
-    "rust-lang/team",
-    "Sovereign-Labs/sovereign-sdk"
+    "fancy-regex/fancy-regex",
+    "recmo/uint",
+    "rust-lang/rustc-perf",
+    "Watfaq/PowerSession-rs"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 357,
-    "concepts": 212,
-    "observations": 212,
-    "repos": 27,
-    "terms": 230
+    "components": 512,
+    "concepts": 337,
+    "observations": 337,
+    "repos": 43,
+    "terms": 352
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,28 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "abraxas-365/langchain-rust",
     "alloy-rs/alloy",
+    "bitcoindevkit/bdk",
+    "blacknon/hwatch",
+    "bluealloy/revm",
     "BoundaryML/baml",
-    "Canop/bacon",
     "cargo-bins/cargo-binstall",
     "cedar-policy/cedar",
     "crate-ci/typos",
+    "dathere/qsv",
+    "dtolnay/syn",
     "eventual-inc/daft",
     "hashintel/hash",
     "johnnymorganz/stylua",
+    "kata-containers/kata-containers",
     "Keats/jsonwebtoken",
     "libp2p/rust-libp2p",
+    "lycheeverse/lychee",
+    "medialab/xan",
     "mfontanini/presenterm",
     "mikeyobrien/ralph-orchestrator",
     "mozilla/sccache",
@@ -34,12 +41,21 @@
     "napi-rs/node-rs",
     "nvidia/openshell",
     "open-telemetry/opentelemetry-rust",
+    "proptest-rs/proptest",
+    "ratatui/mousefood",
+    "rusqlite/rusqlite",
     "rust-cli/env_logger",
     "rust-lang/cc-rs",
+    "rust-lang/docs.rs",
     "rust-lang/git2-rs",
+    "rust-lang/rustfmt",
     "rust-openssl/rust-openssl",
+    "rustls/rustls",
     "ruvnet/ruvector",
+    "tauri-apps/create-tauri-app",
     "tokio-rs/tracing",
-    "wasm-bindgen/wasm-pack"
+    "toml-rs/toml",
+    "tracel-ai/cubecl",
+    "trishume/syntect"
   ]
 }

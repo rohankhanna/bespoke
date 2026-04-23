@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 45,
-    "concepts": 4,
-    "observations": 4,
-    "repos": 1,
-    "terms": 4
+    "components": 261,
+    "concepts": 50,
+    "observations": 50,
+    "repos": 8,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
-    "babel/website"
+    "abaplint/abaplint",
+    "charmbracelet/vhs-action",
+    "circlefin/stablecoin-evm",
+    "electron/packager",
+    "lerna-lite/lerna-lite",
+    "microsoft/react-native-gallery",
+    "OpenZeppelin/openzeppelin-upgrades",
+    "safe-fndn/safe-singleton-factory"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 137,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 6,
-    "terms": 32
+    "components": 481,
+    "concepts": 115,
+    "observations": 115,
+    "repos": 16,
+    "terms": 117
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,23 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "bcoe/c8",
+    "Blockstream/esplora",
     "callstack/react-native-builder-bob",
+    "coderaiser/cloudcmd",
+    "DavidAnson/markdownlint",
+    "eslint/js",
     "google/closure-compiler",
-    "nodejs/Release",
+    "JuliaPluto/Pluto.jl",
+    "mapbox/node-pre-gyp",
+    "micromatch/picomatch",
+    "nodejs/undici",
     "npm/cli",
     "piebald-ai/claude-code-system-prompts",
-    "rullerzhou-afk/clawd-on-desk"
+    "rullerzhou-afk/clawd-on-desk",
+    "tc39/test262",
+    "thlorenz/doctoc"
   ]
 }

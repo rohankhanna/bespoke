@@ -1,0 +1,22 @@
+{
+  "counts": {
+    "components": 49,
+    "concepts": 53,
+    "observations": 54,
+    "repos": 4,
+    "terms": 53
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "shell",
+    "star_bucket": "stars_10000_99999",
+    "updated_bucket": "updated_0_1d"
+  },
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "repo_ids": [
+    "google/oss-fuzz",
+    "super-linter/super-linter",
+    "termux/termux-packages",
+    "VSCodium/vscodium"
+  ]
+}

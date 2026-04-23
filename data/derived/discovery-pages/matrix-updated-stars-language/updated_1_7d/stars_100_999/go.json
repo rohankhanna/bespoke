@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 122,
-    "concepts": 58,
-    "observations": 58,
-    "repos": 14,
-    "terms": 68
+    "components": 312,
+    "concepts": 223,
+    "observations": 226,
+    "repos": 35,
+    "terms": 233
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,42 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "AliyunContainerService/terway",
+    "apache/dubbo-go-samples",
+    "apache/dubbo-kubernetes",
+    "appleboy/go-fcm",
+    "aws/amazon-vpc-resource-controller-k8s",
+    "awslabs/soci-snapshotter",
+    "Azure/terraform-provider-azapi",
+    "celestiaorg/celestia-node",
     "charmbracelet/catwalk",
+    "coder/envbuilder",
     "crytic/medusa",
+    "darkweak/souin",
+    "estesp/manifest-tool",
     "foxj77/claudectx",
     "googleapis/go-genproto",
     "hashicorp/terraform-plugin-docs",
+    "hashicorp/terraform-plugin-framework",
+    "hashicorp/terraform-plugin-go",
+    "hashicorp/terraform-plugin-sdk",
     "hashicorp/terraform-provider-random",
-    "kubernetes/cri-api",
+    "hashicorp/terraform-provider-scaffolding-framework",
+    "helm/chart-releaser",
+    "knative/community",
+    "kubernetes-sigs/custom-metrics-apiserver",
     "Layr-Labs/eigenda",
+    "microsoft/hcsshim",
     "open-telemetry/opentelemetry-collector-releases",
     "openshift/library",
+    "opentofu/registry",
     "phiat/claude-esp",
     "prehisle/relay-pulse",
     "raystack/meteor",
-    "skenetechnologies/skene"
+    "skenetechnologies/skene",
+    "terraform-linters/tflint-ruleset-aws",
+    "terraform-linters/tflint-ruleset-azurerm"
   ]
 }

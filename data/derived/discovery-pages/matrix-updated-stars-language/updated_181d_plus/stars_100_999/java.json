@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 6,
-    "terms": 26
+    "components": 20,
+    "concepts": 39,
+    "observations": 39,
+    "repos": 9,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "alibaba/aliyun-spring-boot",
+    "alibaba/spring-context-support",
     "apache/incubator-tuweni",
     "Byte-Lab/JCoz",
     "dirs-dev/directories-jvm",
     "dropbox/mypy-PyCharm-plugin",
     "findbugsproject/findbugs",
+    "GiviMAD/whisper-jni",
     "googleapis/gapic-generator"
   ]
 }

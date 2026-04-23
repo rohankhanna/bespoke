@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 7,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 1,
+    "terms": 6
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "rust",
+    "star_bucket": "stars_10000_99999",
+    "updated_bucket": "updated_61_90d"
+  },
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "repo_ids": [
+    "sharkdp/hyperfine"
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
-    "concepts": 34,
-    "observations": 34,
+    "components": 18,
+    "concepts": 37,
+    "observations": 37,
     "repos": 4,
-    "terms": 34
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "agricidaniel/claude-cybersecurity",
     "aporthq/aport-agent-guardrails",
-    "ChainSafe/forest-iac",
-    "conda-forge/poppler-feedstock",
+    "containers/automation",
     "Digidai/product-manager-skills"
   ]
 }

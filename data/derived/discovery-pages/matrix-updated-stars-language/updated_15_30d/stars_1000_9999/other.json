@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 81,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 9,
-    "terms": 30
+    "components": 167,
+    "concepts": 116,
+    "observations": 116,
+    "repos": 23,
+    "terms": 120
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,30 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "airblade/vim-gitgutter",
+    "arviz-devs/arviz",
     "bbatsov/prelude",
+    "castwide/solargraph",
+    "CocoaPods/Xcodeproj",
+    "compose-spec/compose-spec",
+    "ctrlpvim/ctrlp.vim",
     "dart-lang/http",
+    "folke/tokyonight.nvim",
     "gpu-mode/Triton-Puzzles",
     "haleclipse/claudix",
     "hrsh7th/nvim-cmp",
+    "ipfs/specs",
+    "ipld/ipld",
+    "jpsim/Yams",
     "luarocks/luarocks",
     "manzaltu/claude-code-ide.el",
+    "mattn/vim-lsp-settings",
+    "OmniSharp/omnisharp-roslyn",
+    "rom1504/clip-retrieval",
     "steipete/peekaboo",
+    "swiftbar/SwiftBar",
     "zarazhangrui/codebase-to-course"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 30,
-    "concepts": 79,
-    "observations": 79,
-    "repos": 9,
-    "terms": 78
+    "components": 39,
+    "concepts": 88,
+    "observations": 88,
+    "repos": 11,
+    "terms": 87
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
+    "agent-sh/audit-project",
     "agent-sh/can-i-help",
     "agent-sh/drift-detect",
     "agent-sh/enhance",
@@ -22,6 +23,7 @@
     "agent-sh/onboard",
     "agent-sh/perf",
     "agent-sh/repo-intel",
-    "agent-sh/sync-docs"
+    "agent-sh/sync-docs",
+    "istanbuljs/schema"
   ]
 }

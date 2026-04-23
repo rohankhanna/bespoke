@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 2,
-    "terms": 0
+    "components": 231,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 20,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,27 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "A11yance/axobject-query",
+    "bchr02/node-pre-gyp-github",
     "brombal/just-install",
-    "standard/brackets-standard"
+    "brunch/sass-brunch",
+    "calvinmetcalf/chacha20poly1305",
+    "Comfy-Org/ComfyUI_legacy_frontend",
+    "electron-userland/electron-installer-redhat",
+    "electron-userland/electron-installer-snap",
+    "graphql/defer-stream-wg",
+    "infofarmer/eslint-plugin-jsx-a11y",
+    "intel/iot-js-api",
+    "ltdrdata/comfyui-connection-helper",
+    "morrys/offline-examples",
+    "songquanpeng/blog",
+    "standard/brackets-standard",
+    "standard/standard-packages",
+    "taylorhakes/setAsap",
+    "testdouble/quibble",
+    "TritonDataCenter/node-extsprintf",
+    "TritonDataCenter/node-getopt"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 19,
-    "concepts": 44,
-    "observations": 44,
-    "repos": 11,
-    "terms": 43
+    "components": 62,
+    "concepts": 134,
+    "observations": 134,
+    "repos": 24,
+    "terms": 132
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,30 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "albumentations-team/albumentations",
+    "allenai/allennlp",
     "apple/ml-stable-diffusion",
+    "coqui-ai/TTS",
+    "facebookresearch/detr",
+    "facebookresearch/fairseq",
     "fxsjy/jieba",
     "haotian-liu/llava",
+    "IDEA-Research/GroundingDINO",
+    "junyanz/pytorch-CycleGAN-and-pix2pix",
     "karpathy/minGPT",
     "kkroening/ffmpeg-python",
+    "lm-sys/FastChat",
     "meta-llama/llama",
+    "microsoft/cascadia-code",
     "microsoft/LoRA",
     "mkdocs/mkdocs",
     "nvbn/thefuck",
+    "open-mmlab/mmdetection",
+    "openai/gpt-2",
+    "OpenMOSS/MOSS",
+    "pytorch/examples",
     "rsms/inter",
     "waditu/tushare"
   ]

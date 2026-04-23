@@ -1,0 +1,24 @@
+{
+  "counts": {
+    "components": 36,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 6,
+    "terms": 27
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "go",
+    "star_bucket": "stars_10_99",
+    "updated_bucket": "updated_0_1d"
+  },
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "repo_ids": [
+    "aspect-build/aspect-gazelle",
+    "aws-controllers-k8s/code-generator",
+    "aws/aws-network-policy-agent",
+    "containers/container-libs",
+    "ipshipyard/p2p-forge",
+    "kubernetes-sigs/verify-conformance"
+  ]
+}

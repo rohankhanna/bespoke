@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 280,
-    "concepts": 19,
-    "observations": 20,
+    "components": 252,
+    "concepts": 29,
+    "observations": 30,
     "repos": 12,
-    "terms": 49
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,18 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "abaplint/transpiler",
     "almogdepaz/wolfpack",
     "dokploy/cli",
     "hashintel/labs",
-    "huangguang1999/ccstatusline-zh",
     "jkheadley/instar",
-    "llamastack/llama-stack-client-typescript",
-    "lobehub/lobe-lint",
     "overseedai/viwo",
-    "sgcarstrends/sgcarstrends",
+    "patrickkabwe/create-nitro-module",
+    "Shougo/dpp-ext-installer",
     "slopus/slopus.github.io",
+    "wighawag/rocketh",
     "ylsssq926/relic.skill",
     "zuplo/docs"
   ]

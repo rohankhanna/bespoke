@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 50,
-    "concepts": 7,
-    "observations": 7,
-    "repos": 7,
-    "terms": 8
+    "components": 365,
+    "concepts": 92,
+    "observations": 92,
+    "repos": 33,
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,40 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "88250/wide",
+    "A11yance/aria-query",
+    "airbnb/babel-plugin-dynamic-import-webpack",
+    "amebalabs/Esse",
+    "atlassian/cz-lerna-changelog",
+    "atlassian/lerna-semantic-release",
+    "atom/ide-java",
     "bartolli/claude-code-typescript-hooks",
     "chrisvoncsefalvay/claude-d3js-skill",
+    "chromium/hterm",
+    "cplee/github-actions-demo",
+    "denysdovhan/robbyrussell-node",
+    "dethcrypto/eth-sdk",
+    "electron-userland/electron-installer-debian",
+    "ethereum/tests",
     "fimeg/networkchronicles",
+    "foliojs/brotli.js",
+    "gajus/babel-plugin-graphql-tag",
     "grahama1970/claude-code-mcp-enhanced",
+    "haoqunjiang/vite-jest",
+    "joaomoreno/gulp-atom-electron",
     "kingler/n8n_agent",
+    "Level/abstract-leveldown",
+    "loganfsmyth/babel-plugin-transform-decorators-legacy",
+    "micromatch/anymatch",
+    "mysticatea/eslint-plugin-node",
+    "prebuild/node-gyp-build",
+    "prebuild/prebuildify",
+    "Raynos/http-framework",
+    "songquanpeng/gin-template",
     "sql-js/react-sqljs-demo",
+    "standard/eslint-config-standard-jsx",
     "standard/standardx"
   ]
 }

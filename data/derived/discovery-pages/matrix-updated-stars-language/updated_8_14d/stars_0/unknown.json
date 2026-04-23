@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 3,
-    "observations": 3,
-    "repos": 3,
-    "terms": 3
+    "components": 2,
+    "concepts": 4,
+    "observations": 4,
+    "repos": 4,
+    "terms": 4
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "aaronrsun/spec-kit-issue",
     "danielrosehill/AI-Memory-Planning-0426",
+    "ublacklist/store-assets",
     "wencuecryforme/mysoul.skill"
   ]
 }

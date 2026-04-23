@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 44,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 5,
-    "terms": 33
+    "concepts": 20,
+    "observations": 20,
+    "repos": 7,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
-    "Azure/terraform-provider-azapi",
-    "celestiaorg/celestia-node",
-    "hashicorp/terraform-provider-scaffolding-framework",
-    "microsoft/hcsshim",
-    "opentofu/registry"
+    "docker/model-runner",
+    "ethereum/hive",
+    "kubernetes/metrics",
+    "labring/aiproxy",
+    "openshift/enhancements",
+    "ossf/osv-schema",
+    "prometheus/common"
   ]
 }

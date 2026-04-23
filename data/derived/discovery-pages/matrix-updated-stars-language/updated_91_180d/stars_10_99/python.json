@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 14,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 7,
-    "terms": 16
+    "components": 17,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 11,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "alexmojaki/stack_data",
+    "BeayemX/GitViper",
+    "bentoml/BentoLMDeploy",
     "biocypher/project-template",
     "ichard26/diff-shades",
     "lmgame-org/GRL",
     "marcindulak/stt-mcp-server-linux",
+    "MINT-SJTU/STI-Bench",
     "modelscope/ms-enclave",
     "okuvshynov/cubestat",
     "wirasm/dylan"

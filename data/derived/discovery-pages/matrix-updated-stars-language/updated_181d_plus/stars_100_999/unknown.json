@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 11,
-    "terms": 17
+    "components": 8,
+    "concepts": 62,
+    "observations": 62,
+    "repos": 41,
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,48 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "0russwest0/Awesome-Agent-RL",
+    "agnostic-apollo/Android-Docs",
+    "antonbabenko/serverless.tf",
+    "aws/apprunner-roadmap",
     "aws/aws-app-mesh-roadmap",
+    "aws/aws-proton-public-roadmap",
     "babel/notes",
     "babel/proposals",
+    "bevyengine/rfcs",
+    "ByteDance-Seed/Seed-Coder",
+    "ByteDance-Seed/Seed-Thinking-v1.5",
+    "cavedweller509/LMDeploy-Jetson",
+    "cha0ran/fd-zh",
     "ChatGPTNextWeb/NextChat-Awesome-Plugins",
+    "coqui-ai/TTS-papers",
     "doc-analysis/ReadingBank",
     "doc-analysis/XFUND",
+    "EleutherAI/polyglot",
     "google-research-datasets/conceptual-12m",
+    "helm/hub",
+    "jakubfoglar/raveo",
+    "jbenet/random-ideas",
     "klaus2m5/6502_65c02_functional_tests",
     "knownsec/404starlink-project",
     "litter-coder/midjourney-proxy-plus",
-    "rust-secure-code/safety-dance"
+    "microsoft/containerregistry",
+    "microsoft/vscode-discussions",
+    "multiformats/cid",
+    "multiformats/multibase",
+    "multiformats/multiformats",
+    "notaryproject/specifications",
+    "opencontainers/artifacts",
+    "openxla/community",
+    "quchangle1/LLM-Tool-Survey",
+    "react-native-community/RNNewArchitectureLibraries",
+    "rust-secure-code/safety-dance",
+    "sentinel-group/sentinel-awesome",
+    "standard/awesome-standard",
+    "tesseract-ocr/langdata",
+    "tesseract-ocr/tessdata_fast",
+    "yarnpkg/rfcs"
   ]
 }

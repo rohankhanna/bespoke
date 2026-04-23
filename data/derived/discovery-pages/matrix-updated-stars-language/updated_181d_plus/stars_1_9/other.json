@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 362,
-    "concepts": 3,
-    "observations": 3,
-    "repos": 11,
-    "terms": 11
+    "components": 375,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 23,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,28 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "albertoCaroM/completion-tmux",
     "apnadkarni/tcl-libgit2",
     "aratz-lasa/ex_multiaddr",
+    "AyushExel/vision-retrieval",
+    "cbarrete/completion-vcard",
     "cdeust/ai-prd-builder",
     "changjiashuai/kotlin-multiaddr",
+    "changjiashuai/kotlin-multibase",
+    "deathbeam/difftool.nvim",
+    "dwyl/dart_multihash",
     "funcmike/swift-coz",
+    "jb55/ln-ws-proxy",
+    "kristijanhusak/completion-tags",
     "lazychanger/docker-kunlun-mirror",
+    "LLaVA-VL/llava-interactive",
     "mhdawson/node-sqlite3",
+    "pwnwriter/PTN11",
+    "rhysd/ss",
     "rzykov/metabase",
+    "tfsec/tfsec-example-project",
     "viperjuice/flutter-structurizr",
     "yeslogic/corpus",
     "zscott/pane"

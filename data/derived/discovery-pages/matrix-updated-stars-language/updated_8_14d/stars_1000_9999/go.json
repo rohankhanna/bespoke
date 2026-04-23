@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 67,
-    "observations": 67,
-    "repos": 10,
-    "terms": 65
+    "components": 75,
+    "concepts": 101,
+    "observations": 101,
+    "repos": 14,
+    "terms": 101
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,21 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "1Password/for-open-source",
     "alexellis/arkade",
+    "appleboy/gorush",
     "awslabs/eks-node-viewer",
     "bazelbuild/bazelisk",
     "bensadeh/circumflex",
+    "bufbuild/protovalidate",
     "charmbracelet/harmonica",
+    "gobackup/gobackup",
     "golang/mobile",
     "gotestyourself/gotestsum",
-    "mvdan/sh",
+    "hashicorp/raft",
+    "maypok86/otter",
     "opencontainers/distribution-spec"
   ]
 }

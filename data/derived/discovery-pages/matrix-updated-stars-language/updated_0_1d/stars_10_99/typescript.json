@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 7,
-    "observations": 8,
-    "repos": 2,
-    "terms": 7
+    "components": 101,
+    "concepts": 19,
+    "observations": 20,
+    "repos": 3,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
-    "hashintel/labs",
-    "slopus/slopus.github.io"
+    "Kastalien-Research/thoughtbox",
+    "llamastack/llama-stack-client-typescript",
+    "TrigenSoftware/simple-release"
   ]
 }

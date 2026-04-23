@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 95,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 8
+    "components": 192,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 5,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
-    "eyaltoledano/claude-task-master"
+    "acornjs/acorn",
+    "debug-js/debug",
+    "eyaltoledano/claude-task-master",
+    "hapijs/hapi",
+    "markdown-it/markdown-it"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 51,
-    "concepts": 12,
-    "observations": 12,
+    "components": 62,
+    "concepts": 15,
+    "observations": 15,
     "repos": 2,
-    "terms": 12
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "bmad-code-org/bmad-module-creative-intelligence-suite",
-    "coderaiser/supertape"
+    "hectorm/chafa-wasm"
   ]
 }

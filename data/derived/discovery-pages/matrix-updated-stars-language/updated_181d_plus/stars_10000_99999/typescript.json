@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 62,
-    "concepts": 18,
-    "observations": 19,
-    "repos": 1,
-    "terms": 18
+    "components": 153,
+    "concepts": 34,
+    "observations": 35,
+    "repos": 4,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "fuergaosi233/wechat-chatgpt",
+    "ReactiveX/rxjs",
+    "web3/web3.js",
     "winfunc/opcode"
   ]
 }

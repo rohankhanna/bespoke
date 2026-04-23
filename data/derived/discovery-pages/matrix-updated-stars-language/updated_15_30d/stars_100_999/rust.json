@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 30,
-    "concepts": 18,
-    "observations": 19,
-    "repos": 5,
-    "terms": 18
+    "components": 64,
+    "concepts": 52,
+    "observations": 53,
+    "repos": 11,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "cedar-policy/cedar-examples",
     "ctz/graviola",
     "dfrg/swash",
     "DoumanAsh/xxhash-rust",
-    "rust-lang/crater"
+    "drahnr/cargo-spellcheck",
+    "dtolnay/trybuild",
+    "mitsuhiko/similar-asserts",
+    "Nugine/simd",
+    "rust-lang/crater",
+    "rust-nvml/nvml-wrapper",
+    "sparsemat/sprs"
   ]
 }

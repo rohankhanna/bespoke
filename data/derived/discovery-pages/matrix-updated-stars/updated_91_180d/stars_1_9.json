@@ -1,33 +1,51 @@
 {
   "counts": {
-    "components": 65,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 16,
-    "terms": 28
+    "components": 108,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 34,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "3swordman/tree-sitter-toon",
+    "aiagenta2z/onekey_mcp_router",
     "arustydev/pre-commit-hooks",
+    "behnamazimi/inquirer-checkbox-plus-plus",
+    "buttercannfly/AIPex",
+    "ca-ruz/bumpit",
+    "codeGROOVE-dev/retry",
     "danielrosehill/Agent-SDK-Env-Setup",
+    "danielrosehill/Agentic-Context-Development-Interview-Demo",
+    "danielrosehill/AI-Agent-UN",
+    "danielrosehill/AI-Model-Manager",
+    "danielrosehill/Ai-Workspace-Planning-Notes",
     "danielrosehill/bash-alias-manager-claude",
     "danielrosehill/claude-agent-picker-pattern",
     "danielrosehill/claude-app-optimiser",
     "danielrosehill/Claude-Bug-Catcher",
     "erwin-kok/multiformat",
+    "hashberg-io/typing-validation",
+    "infiniflow/resource",
     "karpeleslab/tpl",
+    "Layr-Labs/optimism",
+    "lukasz-wronski/Antigravity-Shit-Chat",
     "nornagon/crossterm",
     "ocaml-opam/opam-rt",
     "parruda/ruby_llm",
+    "sigp/xdelta3-rs",
     "slunsford/coffee-analytics",
     "tahv/typos-gitlab-code-quality",
+    "Tencent/tencent.github.io",
     "thalesgelinger/toon.nvim",
+    "Vaishnav-Sabari-Girish/Mousefood-Programs",
+    "Vaishnav-Sabari-Girish/rust_bangalore_december_2025",
+    "Vaishnav-Sabari-Girish/rust_bangalore_oct_2025",
     "vllm-project/media-kit"
   ]
 }

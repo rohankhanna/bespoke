@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 4,
-    "terms": 13
+    "components": 186,
+    "concepts": 40,
+    "observations": 40,
+    "repos": 12,
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,19 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "actions/container-toolkit-action",
+    "AmElmo/proofshot",
     "badlogic/pi-share-hf",
     "birdofpreyru/react-native-fs",
     "evmts/tevm-monorepo",
-    "NVIDIA/OpenShell-Community"
+    "fastify/demo",
+    "GoogleCloudPlatform/wombat-dressing-room",
+    "lewislulu/llm-wiki-skill",
+    "lucasastorian/llmwiki",
+    "matepek/vscode-catch2-test-adapter",
+    "NVIDIA/OpenShell-Community",
+    "snipeship/ccflare"
   ]
 }

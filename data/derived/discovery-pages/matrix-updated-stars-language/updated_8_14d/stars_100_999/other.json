@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 47,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 6,
-    "terms": 32
+    "components": 103,
+    "concepts": 86,
+    "observations": 86,
+    "repos": 19,
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,26 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "adinhodovic/terraform-cloudflare-maintenance",
+    "basf/MolPipeline",
+    "bazel-contrib/rules_oci",
+    "DefinedNet/mobile_nebula",
+    "devcontainers/devcontainers.github.io",
+    "dgSPARSE/dgSPARSE-Lib",
     "elastic/docs",
     "ethpandaops/ethereum-helm-charts",
+    "fourmolu/fourmolu",
+    "lerocha/netflixdb",
+    "microsoft/winget-cli-restsource",
     "n8willis/opentype-shaping-documents",
+    "nvim-mini/mini.files",
+    "nvim-mini/mini.icons",
+    "open-telemetry/opentelemetry-proto",
     "openclaw/nix-openclaw",
     "paretosecurity/pareto-mac",
+    "simonmclean/triptych.nvim",
     "swiftlang/swiftly"
   ]
 }

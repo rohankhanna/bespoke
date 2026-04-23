@@ -1,19 +1,25 @@
 {
   "counts": {
-    "components": 14,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 4,
-    "terms": 26
+    "components": 47,
+    "concepts": 36,
+    "observations": 36,
+    "repos": 10,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "0xBigBoss/ghostty-web",
     "8144225309/superscalar-mcp",
+    "Bearer/homebrew-tap",
+    "cwfitzgerald/libtest-mimic",
+    "DataDog/go-cmp",
+    "DataDog/opa",
+    "kleisauke/glib",
     "musicman3/cruder",
     "musicman3/r2-d2",
     "vaporif/rvx"

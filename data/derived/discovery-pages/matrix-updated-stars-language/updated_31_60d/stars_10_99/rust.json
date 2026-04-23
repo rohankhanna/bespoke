@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 2,
-    "terms": 2
+    "components": 21,
+    "concepts": 12,
+    "observations": 12,
+    "repos": 4,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "agentclientprotocol/symposium-acp",
     "fortanix/rust-mbedtls",
-    "microsoft/tracing-etw"
+    "microsoft/tracing-etw",
+    "Vaishnav-Sabari-Girish/Hayasen"
   ]
 }

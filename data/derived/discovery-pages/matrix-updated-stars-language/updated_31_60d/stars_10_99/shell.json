@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 4,
-    "terms": 3
+    "components": 11,
+    "concepts": 3,
+    "observations": 3,
+    "repos": 7,
+    "terms": 4
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "Aedelon/claude-code-blueprint",
+    "coin-or/coinbrew",
+    "containers/image_build",
+    "graphql/composite-schemas-spec",
     "jawwadfirdousi/agent-skills",
     "nodejs/release-keys",
     "robertguss/claude-code-toolkit"

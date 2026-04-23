@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 111,
-    "concepts": 130,
-    "observations": 130,
-    "repos": 16,
-    "terms": 130
+    "components": 243,
+    "concepts": 240,
+    "observations": 242,
+    "repos": 23,
+    "terms": 240
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,30 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
-    "agronholm/anyio",
-    "AI-Hypercomputer/maxtext",
-    "alibaba/ROLL",
-    "apple/coremltools",
-    "Azure/azure-sdk-for-python",
-    "ethereum/consensus-specs",
-    "EvolvingLMMs-Lab/lmms-eval",
-    "googleapis/google-api-python-client",
-    "googleapis/google-cloud-python",
+    "AgentR1/Agent-R1",
+    "anthropics/claude-agent-sdk-python",
+    "aws-cloudformation/cfn-lint",
+    "ckan/ckan",
+    "CodeBoarding/CodeBoarding",
+    "containers/ramalama",
+    "HypothesisWorks/hypothesis",
+    "intel/auto-round",
+    "intel/neural-compressor",
+    "InternLM/lmdeploy",
     "llamastack/llama-stack",
     "LoRexxar/Kunlun-M",
-    "microsoft/LMOps",
-    "modelscope/modelscope",
-    "nix-community/NUR",
+    "ModelTC/LightLLM",
+    "ms-jpq/chadtree",
+    "NVIDIA/TransformerEngine",
+    "pdm-project/pdm",
+    "pyca/cryptography",
+    "pytorch/executorch",
+    "pytorch/tutorials",
+    "rllm-org/rllm",
     "safetensors/safetensors",
-    "strands-agents/sdk-python"
+    "sublimelsp/LSP",
+    "taylorwilsdon/google_workspace_mcp"
   ]
 }

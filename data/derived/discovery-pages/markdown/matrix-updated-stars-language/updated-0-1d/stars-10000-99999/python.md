@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · Python
 
-Generated at: `2026-04-22T07:07:02.129101+00:00`
+Generated at: `2026-04-23T09:29:29.007338+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 20
-- terms: 257
-- components: 389
-- concepts: 257
-- observations: 259
+- repos: 25
+- terms: 323
+- components: 227
+- concepts: 326
+- observations: 328
 
 ## Static behavior
 
@@ -26,48 +26,58 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [pytorch/pytorch](https://github.com/pytorch/pytorch) | 99331 | 2026-04-22T05:20:14Z | Python | Infrastructure/tooling | 12 | 13 | 12 | 12 |
-| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 49478 | 2026-04-22T05:19:13Z | Python | Infrastructure/tooling | 10 | 15 | 10 | 10 |
-| [jax-ml/jax](https://github.com/jax-ml/jax) | 35461 | 2026-04-22T04:55:30Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 5 |
-| [voxel51/fiftyone](https://github.com/voxel51/fiftyone) | 10590 | 2026-04-22T04:31:36Z | Python | Infrastructure/tooling | 23 | 18 | 23 | 23 |
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 43608 | 2026-04-22T04:02:10Z | Python | Infrastructure/tooling | 15 | 7 | 15 | 16 |
-| [langbot-app/LangBot](https://github.com/langbot-app/LangBot) | 15853 | 2026-04-22T03:30:46Z | Python | Infrastructure/tooling | 21 | 10 | 21 | 21 |
-| [aden-hive/hive](https://github.com/aden-hive/hive) | 10112 | 2026-04-22T02:23:38Z | Python | Infrastructure/tooling | 16 | 9 | 16 | 16 |
-| [huggingface/diffusers](https://github.com/huggingface/diffusers) | 33406 | 2026-04-22T00:42:53Z | Python | Infrastructure/tooling | 23 | 14 | 23 | 23 |
-| [kovidgoyal/kitty](https://github.com/kovidgoyal/kitty) | 32523 | 2026-04-21T21:25:43Z | Python | CLI | 11 | 6 | 11 | 11 |
-| [gradio-app/gradio](https://github.com/gradio-app/gradio) | 42396 | 2026-04-21T21:20:05Z | Python | Infrastructure/tooling | 17 | 142 | 17 | 17 |
-| [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) | 33901 | 2026-04-21T20:30:41Z | Python | Infrastructure/tooling | 3 | 14 | 3 | 3 |
-| [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention) | 23460 | 2026-04-21T17:21:19Z | Python | Infrastructure/tooling | 5 | 16 | 5 | 5 |
-| [verl-project/verl](https://github.com/verl-project/verl) | 20844 | 2026-04-21T14:47:09Z | Python | Infrastructure/tooling | 2 | 11 | 2 | 2 |
-| [home-assistant/core](https://github.com/home-assistant/core) | 86137 | 2026-04-21T11:27:58Z | Python | Infrastructure/tooling | 11 | 30 | 11 | 11 |
-| [cupy/cupy](https://github.com/cupy/cupy) | 10905 | 2026-04-21T11:24:11Z | Python | Infrastructure/tooling | 24 | 12 | 24 | 24 |
-| [huggingface/peft](https://github.com/huggingface/peft) | 20986 | 2026-04-21T08:54:06Z | Python | Infrastructure/tooling | 14 | 8 | 14 | 14 |
-| [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 76120 | 2026-04-21T08:40:47Z | Python | Infrastructure/tooling | 14 | 8 | 14 | 14 |
-| [Chia-Network/chia-blockchain](https://github.com/Chia-Network/chia-blockchain) | 10850 | 2026-04-21T07:56:31Z | Python | Infrastructure/tooling | 19 | 17 | 19 | 19 |
-| [pyodide/pyodide](https://github.com/pyodide/pyodide) | 14538 | 2026-04-21T07:52:06Z | Python | Infrastructure/tooling | 6 | 25 | 6 | 6 |
-| [python/cpython](https://github.com/python/cpython) | 72405 | 2026-04-21T07:49:37Z | Python | Infrastructure/tooling | 7 | 10 | 7 | 7 |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | 56326 | 2026-04-23T08:43:55Z | Python | CLI | 24 | 13 | 24 | 24 |
+| [apache/airflow](https://github.com/apache/airflow) | 45144 | 2026-04-23T07:41:33Z | Python | Infrastructure/tooling | 23 | 4 | 23 | 23 |
+| [apache/tvm](https://github.com/apache/tvm) | 13296 | 2026-04-23T06:02:51Z | Python | Infrastructure/tooling | 16 | 4 | 16 | 16 |
+| [modelscope/DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio) | 12284 | 2026-04-23T05:53:23Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 13866 | 2026-04-23T05:49:22Z | Python | Infrastructure/tooling | 22 | 4 | 22 | 22 |
+| [axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl) | 11743 | 2026-04-23T05:42:42Z | Python | Infrastructure/tooling | 9 | 12 | 9 | 9 |
+| [unslothai/unsloth](https://github.com/unslothai/unsloth) | 62522 | 2026-04-23T05:37:25Z | Python | Infrastructure/tooling | 15 | 1 | 15 | 15 |
+| [NVIDIA/TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | 13457 | 2026-04-23T05:27:24Z | Python | Infrastructure/tooling | 11 | 6 | 11 | 11 |
+| [aden-hive/hive](https://github.com/aden-hive/hive) | 10124 | 2026-04-23T04:45:33Z | Python | Infrastructure/tooling | 16 | 9 | 16 | 16 |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 43648 | 2026-04-23T04:40:04Z | Python | Infrastructure/tooling | 15 | 7 | 15 | 16 |
+| [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | 22730 | 2026-04-23T04:15:30Z | Python | Infrastructure/tooling | 12 | 13 | 12 | 12 |
+| [verl-project/verl](https://github.com/verl-project/verl) | 20883 | 2026-04-23T03:59:40Z | Python | Infrastructure/tooling | 2 | 11 | 2 | 2 |
+| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 71820 | 2026-04-23T03:50:19Z | Python | CLI | 12 | 11 | 12 | 12 |
+| [exo-explore/exo](https://github.com/exo-explore/exo) | 43950 | 2026-04-23T01:50:40Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [jax-ml/jax](https://github.com/jax-ml/jax) | 35465 | 2026-04-23T01:10:42Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 5 |
+| [NVIDIA/Megatron-LM](https://github.com/NVIDIA/Megatron-LM) | 16136 | 2026-04-23T00:25:42Z | Python | Infrastructure/tooling | 10 | 12 | 10 | 10 |
+| [camel-ai/camel](https://github.com/camel-ai/camel) | 16766 | 2026-04-22T21:15:00Z | Python | Infrastructure/tooling | 16 | 14 | 16 | 16 |
+| [huggingface/pytorch-image-models](https://github.com/huggingface/pytorch-image-models) | 36682 | 2026-04-22T21:14:36Z | Python | Infrastructure/tooling | 24 | 6 | 24 | 24 |
+| [run-llama/llama_index](https://github.com/run-llama/llama_index) | 48832 | 2026-04-22T20:14:10Z | Python | Infrastructure/tooling | 15 | 8 | 15 | 15 |
+| [huggingface/trl](https://github.com/huggingface/trl) | 18142 | 2026-04-22T19:43:29Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
+| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | 78769 | 2026-04-22T15:22:51Z | Python | Infrastructure/tooling | 16 | 5 | 16 | 16 |
+| [nodejs/node-gyp](https://github.com/nodejs/node-gyp) | 10592 | 2026-04-22T13:25:08Z | Python | Infrastructure/tooling | 8 | 25 | 8 | 8 |
+| [Comfy-Org/ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager) | 14350 | 2026-04-22T13:21:06Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [fastapi/fastapi](https://github.com/fastapi/fastapi) | 97536 | 2026-04-22T13:11:12Z | Python | Infrastructure/tooling | 22 | 16 | 25 | 25 |
+| [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | 70495 | 2026-04-22T11:44:01Z | Python | Infrastructure/tooling | 18 | 13 | 18 | 18 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [pytorch/pytorch](https://github.com/pytorch/pytorch) | 99331 | 2026-04-22T05:20:14Z | Python | Infrastructure/tooling | 12 | 13 | 12 | 12 |
-| [home-assistant/core](https://github.com/home-assistant/core) | 86137 | 2026-04-21T11:27:58Z | Python | Infrastructure/tooling | 11 | 30 | 11 | 11 |
-| [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 76120 | 2026-04-21T08:40:47Z | Python | Infrastructure/tooling | 14 | 8 | 14 | 14 |
-| [python/cpython](https://github.com/python/cpython) | 72405 | 2026-04-21T07:49:37Z | Python | Infrastructure/tooling | 7 | 10 | 7 | 7 |
-| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 49478 | 2026-04-22T05:19:13Z | Python | Infrastructure/tooling | 10 | 15 | 10 | 10 |
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 43608 | 2026-04-22T04:02:10Z | Python | Infrastructure/tooling | 15 | 7 | 15 | 16 |
-| [gradio-app/gradio](https://github.com/gradio-app/gradio) | 42396 | 2026-04-21T21:20:05Z | Python | Infrastructure/tooling | 17 | 142 | 17 | 17 |
-| [jax-ml/jax](https://github.com/jax-ml/jax) | 35461 | 2026-04-22T04:55:30Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 5 |
-| [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) | 33901 | 2026-04-21T20:30:41Z | Python | Infrastructure/tooling | 3 | 14 | 3 | 3 |
-| [huggingface/diffusers](https://github.com/huggingface/diffusers) | 33406 | 2026-04-22T00:42:53Z | Python | Infrastructure/tooling | 23 | 14 | 23 | 23 |
-| [kovidgoyal/kitty](https://github.com/kovidgoyal/kitty) | 32523 | 2026-04-21T21:25:43Z | Python | CLI | 11 | 6 | 11 | 11 |
-| [Dao-AILab/flash-attention](https://github.com/Dao-AILab/flash-attention) | 23460 | 2026-04-21T17:21:19Z | Python | Infrastructure/tooling | 5 | 16 | 5 | 5 |
-| [huggingface/peft](https://github.com/huggingface/peft) | 20986 | 2026-04-21T08:54:06Z | Python | Infrastructure/tooling | 14 | 8 | 14 | 14 |
-| [verl-project/verl](https://github.com/verl-project/verl) | 20844 | 2026-04-21T14:47:09Z | Python | Infrastructure/tooling | 2 | 11 | 2 | 2 |
-| [langbot-app/LangBot](https://github.com/langbot-app/LangBot) | 15853 | 2026-04-22T03:30:46Z | Python | Infrastructure/tooling | 21 | 10 | 21 | 21 |
-| [pyodide/pyodide](https://github.com/pyodide/pyodide) | 14538 | 2026-04-21T07:52:06Z | Python | Infrastructure/tooling | 6 | 25 | 6 | 6 |
-| [cupy/cupy](https://github.com/cupy/cupy) | 10905 | 2026-04-21T11:24:11Z | Python | Infrastructure/tooling | 24 | 12 | 24 | 24 |
-| [Chia-Network/chia-blockchain](https://github.com/Chia-Network/chia-blockchain) | 10850 | 2026-04-21T07:56:31Z | Python | Infrastructure/tooling | 19 | 17 | 19 | 19 |
-| [voxel51/fiftyone](https://github.com/voxel51/fiftyone) | 10590 | 2026-04-22T04:31:36Z | Python | Infrastructure/tooling | 23 | 18 | 23 | 23 |
-| [aden-hive/hive](https://github.com/aden-hive/hive) | 10112 | 2026-04-22T02:23:38Z | Python | Infrastructure/tooling | 16 | 9 | 16 | 16 |
+| [fastapi/fastapi](https://github.com/fastapi/fastapi) | 97536 | 2026-04-22T13:11:12Z | Python | Infrastructure/tooling | 22 | 16 | 25 | 25 |
+| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | 78769 | 2026-04-22T15:22:51Z | Python | Infrastructure/tooling | 16 | 5 | 16 | 16 |
+| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 71820 | 2026-04-23T03:50:19Z | Python | CLI | 12 | 11 | 12 | 12 |
+| [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | 70495 | 2026-04-22T11:44:01Z | Python | Infrastructure/tooling | 18 | 13 | 18 | 18 |
+| [unslothai/unsloth](https://github.com/unslothai/unsloth) | 62522 | 2026-04-23T05:37:25Z | Python | Infrastructure/tooling | 15 | 1 | 15 | 15 |
+| [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | 56326 | 2026-04-23T08:43:55Z | Python | CLI | 24 | 13 | 24 | 24 |
+| [run-llama/llama_index](https://github.com/run-llama/llama_index) | 48832 | 2026-04-22T20:14:10Z | Python | Infrastructure/tooling | 15 | 8 | 15 | 15 |
+| [apache/airflow](https://github.com/apache/airflow) | 45144 | 2026-04-23T07:41:33Z | Python | Infrastructure/tooling | 23 | 4 | 23 | 23 |
+| [exo-explore/exo](https://github.com/exo-explore/exo) | 43950 | 2026-04-23T01:50:40Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 43648 | 2026-04-23T04:40:04Z | Python | Infrastructure/tooling | 15 | 7 | 15 | 16 |
+| [huggingface/pytorch-image-models](https://github.com/huggingface/pytorch-image-models) | 36682 | 2026-04-22T21:14:36Z | Python | Infrastructure/tooling | 24 | 6 | 24 | 24 |
+| [jax-ml/jax](https://github.com/jax-ml/jax) | 35465 | 2026-04-23T01:10:42Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 5 |
+| [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | 22730 | 2026-04-23T04:15:30Z | Python | Infrastructure/tooling | 12 | 13 | 12 | 12 |
+| [verl-project/verl](https://github.com/verl-project/verl) | 20883 | 2026-04-23T03:59:40Z | Python | Infrastructure/tooling | 2 | 11 | 2 | 2 |
+| [huggingface/trl](https://github.com/huggingface/trl) | 18142 | 2026-04-22T19:43:29Z | Python | Infrastructure/tooling | 8 | 15 | 8 | 8 |
+| [camel-ai/camel](https://github.com/camel-ai/camel) | 16766 | 2026-04-22T21:15:00Z | Python | Infrastructure/tooling | 16 | 14 | 16 | 16 |
+| [NVIDIA/Megatron-LM](https://github.com/NVIDIA/Megatron-LM) | 16136 | 2026-04-23T00:25:42Z | Python | Infrastructure/tooling | 10 | 12 | 10 | 10 |
+| [Comfy-Org/ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager) | 14350 | 2026-04-22T13:21:06Z | Python | Infrastructure/tooling | 2 | 6 | 2 | 2 |
+| [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 13866 | 2026-04-23T05:49:22Z | Python | Infrastructure/tooling | 22 | 4 | 22 | 22 |
+| [NVIDIA/TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | 13457 | 2026-04-23T05:27:24Z | Python | Infrastructure/tooling | 11 | 6 | 11 | 11 |
+| [apache/tvm](https://github.com/apache/tvm) | 13296 | 2026-04-23T06:02:51Z | Python | Infrastructure/tooling | 16 | 4 | 16 | 16 |
+| [modelscope/DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio) | 12284 | 2026-04-23T05:53:23Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [axolotl-ai-cloud/axolotl](https://github.com/axolotl-ai-cloud/axolotl) | 11743 | 2026-04-23T05:42:42Z | Python | Infrastructure/tooling | 9 | 12 | 9 | 9 |
+| [nodejs/node-gyp](https://github.com/nodejs/node-gyp) | 10592 | 2026-04-22T13:25:08Z | Python | Infrastructure/tooling | 8 | 25 | 8 | 8 |
+| [aden-hive/hive](https://github.com/aden-hive/hive) | 10124 | 2026-04-23T04:45:33Z | Python | Infrastructure/tooling | 16 | 9 | 16 | 16 |

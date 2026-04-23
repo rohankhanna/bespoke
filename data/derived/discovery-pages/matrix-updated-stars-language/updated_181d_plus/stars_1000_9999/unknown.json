@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 12,
-    "terms": 18
+    "components": 2,
+    "concepts": 35,
+    "observations": 35,
+    "repos": 28,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,35 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "0nn0/terminal-mac-cheatsheet",
     "addyosmani/gemini-cli-tips",
+    "airbnb/css",
     "aws-cloudformation/cloudformation-coverage-roadmap",
+    "bincode-org/bincode",
     "Computer-Vision-in-the-Wild/CVinW_Readings",
+    "deepseek-ai/DeepSeek-V2",
     "ElricLiu/Awesome-One-Click-Deployment",
+    "github/renaming",
+    "hackergrrl/art-of-readme",
     "Homebrew/homebrew-bundle",
+    "jaydenseric/graphql-multipart-request-spec",
+    "lauridskern/open-runde",
     "llamastack/llama-stack-apps",
+    "microsoft/nodejs-guidelines",
+    "mypyc/mypyc",
+    "nytimes/covid-19-data",
     "oneredoak/claude-code-workflows",
     "openai/openai-openapi",
     "python/asyncio",
+    "reactjs/rfcs",
+    "seebye/ueberzug",
+    "styfle/awesome-online-ide",
     "tesseract-ocr/tessdata",
+    "tesseract-ocr/tessdata_best",
+    "testdouble/contributing-tests",
+    "vuejs/rfcs",
     "xaoyaoo/pywxdump"
   ]
 }

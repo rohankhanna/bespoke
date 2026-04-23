@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 2,
-    "terms": 17
+    "components": 28,
+    "concepts": 33,
+    "observations": 33,
+    "repos": 3,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "dokku/dokku",
-    "pyenv/pyenv"
+    "pyenv/pyenv",
+    "unixorn/awesome-zsh-plugins"
   ]
 }

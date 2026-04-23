@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 63,
+    "components": 72,
     "concepts": 9,
     "observations": 9,
-    "repos": 3,
+    "repos": 4,
     "terms": 9
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "Calcium-Ion/neko-api-key-tool",
+    "Mario4272/ag_bridge",
     "prebuild/prebuild",
     "prebuild/prebuild-install"
   ]

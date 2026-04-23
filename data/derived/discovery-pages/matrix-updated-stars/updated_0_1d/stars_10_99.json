@@ -1,28 +1,45 @@
 {
   "counts": {
-    "components": 101,
-    "concepts": 39,
-    "observations": 41,
-    "repos": 11,
-    "terms": 39
+    "components": 298,
+    "concepts": 132,
+    "observations": 133,
+    "repos": 28,
+    "terms": 132
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
-    "AstarVienna/ScopeSim",
-    "cedar-policy/cedar-java",
-    "containerd/project",
-    "gentoo-mirror/guru",
-    "janrueth/boring-rustls-provider",
-    "kata-containers/www.katacontainers.io",
-    "pyodide/pytest-pyodide",
-    "scipy/scipy-stubs",
-    "tracel-ai/cubek",
-    "typeshed-internal/stub_uploader",
-    "vaporif/parry-guard"
+    "3rd/config",
+    "alloy-rs/evm",
+    "amazon-ion/ion-cli",
+    "apache/arrow-dotnet",
+    "asdf-community/asdf-pdm",
+    "aspect-build/aspect-gazelle",
+    "aws-controllers-k8s/code-generator",
+    "aws-controllers-k8s/test-infra",
+    "aws/aws-network-policy-agent",
+    "boundless-xyz/kailua",
+    "BrianPugh/tamp",
+    "celo-org/celo-threshold-bls-rs",
+    "containers/container-libs",
+    "DeepLink-org/DLSlime",
+    "hashicorp/web-unified-docs",
+    "ipshipyard/p2p-forge",
+    "Kastalien-Research/thoughtbox",
+    "kubernetes-sigs/verify-conformance",
+    "llamastack/llama-stack-client-typescript",
+    "Mbed-TLS/TF-PSA-Crypto",
+    "meta-pytorch/executorch-examples",
+    "mypyc/mypy_mypyc-wheels",
+    "ocaml-tracing/ocaml-opentelemetry",
+    "OpenHands/benchmarks",
+    "ROCm/tritonBLAS",
+    "SAP/abap-file-formats",
+    "SAP/abap-file-formats-tools",
+    "TrigenSoftware/simple-release"
   ]
 }

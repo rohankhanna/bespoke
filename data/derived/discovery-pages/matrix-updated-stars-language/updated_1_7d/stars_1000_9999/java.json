@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 3,
-    "terms": 19
+    "components": 46,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 6,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "eclipse-jdtls/eclipse.jdt.ls",
+    "google/error-prone",
     "google/j2cl",
+    "open-telemetry/opentelemetry-java",
     "peergos/peergos",
     "spotbugs/spotbugs"
   ]

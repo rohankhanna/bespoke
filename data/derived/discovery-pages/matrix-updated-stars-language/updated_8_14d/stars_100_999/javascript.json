@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 81,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 5,
-    "terms": 27
+    "components": 174,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 12,
+    "terms": 73
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,19 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "actions/hello-world-javascript-action",
+    "agent-sh/agentsys",
+    "all-contributors/app",
     "bmad-code-org/bmad-module-game-dev-studio",
+    "electron/node-abi",
     "fwcd/tree-sitter-kotlin",
     "mattgodbolt/jsbeeb",
     "muratcankoylan/ralph-wiggum-marketer",
+    "nodejs/TSC",
+    "sethgammon/citadel",
+    "sindresorhus/globals",
     "stripe-samples/accept-a-payment"
   ]
 }

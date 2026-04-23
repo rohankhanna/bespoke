@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 111,
-    "concepts": 101,
-    "observations": 101,
-    "repos": 10,
-    "terms": 101
+    "components": 335,
+    "concepts": 134,
+    "observations": 134,
+    "repos": 17,
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,24 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
-    "bluealloy/revm",
+    "axodotdev/cargo-dist",
     "cargo-generate/cargo-generate",
-    "dathere/qsv",
-    "kata-containers/kata-containers",
-    "medialab/xan",
-    "rust-lang/docs.rs",
-    "rust-lang/rustfmt",
-    "rustls/rustls",
-    "tauri-apps/create-tauri-app",
-    "tracel-ai/cubecl"
+    "gfx-rs/wgpu-native",
+    "hickory-dns/hickory-dns",
+    "intentee/paddler",
+    "kika/fixedsys",
+    "matter-labs/zksync",
+    "nextest-rs/nextest",
+    "paradigmxyz/reth",
+    "rkyv/rkyv",
+    "rust-lang/crates.io",
+    "rust-lang/rust-bindgen",
+    "rust-postgres/rust-postgres",
+    "rustsec/rustsec",
+    "sigp/lighthouse",
+    "succinctlabs/sp1",
+    "wasm-bindgen/wasm-bindgen"
   ]
 }

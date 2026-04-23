@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 1
+    "components": 4,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 2,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "mebigfatguy/fb-contrib",
     "peergos/nabu"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 3,
-    "terms": 21
+    "components": 2,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 4,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "jonmosco/kube-ps1",
-    "trailofbits/claude-code-config",
-    "zdharma-continuum/zinit"
+    "matryer/xbar-plugins",
+    "nvie/git-toolbelt",
+    "trailofbits/claude-code-config"
   ]
 }

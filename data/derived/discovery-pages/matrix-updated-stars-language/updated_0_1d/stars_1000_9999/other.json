@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 87,
-    "concepts": 46,
-    "observations": 46,
-    "repos": 9,
-    "terms": 46
+    "components": 288,
+    "concepts": 236,
+    "observations": 236,
+    "repos": 25,
+    "terms": 236
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,32 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
-    "alchaincyf/huashu-design",
-    "google/flax",
-    "googleapis/googleapis",
-    "ibhagwan/fzf-lua",
-    "ocaml/ocaml",
-    "prometheus-community/helm-charts",
-    "tauri-apps/tauri-docs",
-    "TryGhost/node-sqlite3",
-    "WebAssembly/binaryen"
+    "abapGit/abapGit",
+    "all-contributors/allcontributors.org",
+    "AnswerDotAI/fastcore",
+    "apple/swift-argument-parser",
+    "chromebrew/chromebrew",
+    "community/community",
+    "connectbot/connectbot",
+    "decidim/decidim",
+    "knative/docs",
+    "kubernetes-monitoring/kubernetes-mixin",
+    "lowRISC/opentitan",
+    "LuaLS/lua-language-server",
+    "mdn/browser-compat-data",
+    "microsoft/azurelinux",
+    "microsoft/vscode-docs",
+    "mpv-android/mpv-android",
+    "NethermindEth/nethermind",
+    "ocsigen/js_of_ocaml",
+    "pagedjs/pagedjs",
+    "prometheus-operator/kube-prometheus",
+    "purcell/exec-path-from-shell",
+    "rapidsai/cugraph",
+    "ScoopInstaller/Main",
+    "stan-dev/rstan",
+    "web-platform-tests/wpt"
   ]
 }

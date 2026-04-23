@@ -1,30 +1,26 @@
 {
   "counts": {
-    "components": 564,
-    "concepts": 141,
-    "observations": 142,
-    "repos": 13,
-    "terms": 141
+    "components": 551,
+    "concepts": 119,
+    "observations": 121,
+    "repos": 9,
+    "terms": 119
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
-    "anomalyco/opencode",
-    "avelino/awesome-go",
+    "angular/angular",
     "Comfy-Org/ComfyUI",
-    "electron/electron",
     "f/prompts.chat",
-    "facebook/react",
-    "flutter/flutter",
+    "facebook/react-native",
     "ggml-org/llama.cpp",
-    "golang/go",
-    "mrdoob/three.js",
-    "tauri-apps/tauri",
-    "torvalds/linux",
-    "vercel/next.js"
+    "langchain-ai/langchain",
+    "langflow-ai/langflow",
+    "langgenius/dify",
+    "microsoft/vscode"
   ]
 }

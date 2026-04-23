@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 40,
-    "concepts": 94,
-    "observations": 94,
-    "repos": 19,
-    "terms": 97
+    "components": 61,
+    "concepts": 165,
+    "observations": 165,
+    "repos": 39,
+    "terms": 168
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "0xPolygon/polygon-edge",
     "Adminisme/ServerScan",
@@ -20,18 +20,38 @@
     "AliyunContainerService/pouch",
     "apex/log",
     "attic-labs/noms",
+    "c-bata/go-prompt",
     "charmbracelet/charm",
+    "coreos/go-iptables",
     "cortesi/modd",
     "csznet/tgState",
     "darthsim/hivemind",
     "darthsim/overmind",
     "dinedal/textql",
+    "dragonflyoss/dragonfly-archived",
     "filhodanuvem/gitql",
     "go-bindata/go-bindata",
+    "go-yaml/yaml",
+    "gobwas/glob",
+    "golang/lint",
     "golang/mock",
+    "google/crfs",
+    "igrigorik/ga-beacon",
     "k8gege/LadonGo",
+    "MariaLetta/free-gophers-pack",
     "Masterminds/sprig",
+    "mholt/archiver",
+    "minio/c2goasm",
+    "mitchellh/mapstructure",
+    "nfnt/resize",
+    "notaryproject/notary",
+    "objectbox/objectbox-go",
+    "puma/puma-dev",
+    "russross/blackfriday",
+    "streadway/amqp",
     "uswitch/kiam",
+    "vulcand/vulcand",
+    "youtube/doorman",
     "zyedidia/eget"
   ]
 }

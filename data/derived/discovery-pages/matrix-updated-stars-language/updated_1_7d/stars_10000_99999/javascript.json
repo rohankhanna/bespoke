@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 150,
-    "concepts": 34,
-    "observations": 35,
-    "repos": 6,
-    "terms": 36
+    "components": 527,
+    "concepts": 91,
+    "observations": 93,
+    "repos": 12,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,18 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "ajaxorg/ace",
     "avajs/ava",
     "bmad-code-org/bmad-method",
+    "eslint/eslint",
+    "graphql/graphql-spec",
     "jarrodwatts/claude-hud",
+    "jquery/jquery",
     "openai/codex-plugin-cc",
+    "prettier/prettier",
+    "semantic-release/semantic-release",
     "svg/svgo",
     "vercel-labs/agent-skills"
   ]

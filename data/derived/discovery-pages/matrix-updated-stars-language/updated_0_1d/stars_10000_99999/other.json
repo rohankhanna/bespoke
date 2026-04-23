@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 92,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 10,
-    "terms": 89
+    "components": 106,
+    "concepts": 133,
+    "observations": 133,
+    "repos": 14,
+    "terms": 133
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,21 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
-    "anthropics/claude-cookbooks",
-    "dart-lang/sdk",
-    "google-research/google-research",
-    "Homebrew/brew",
-    "Homebrew/homebrew-core",
-    "llvm/llvm-project",
-    "microsoft/semantic-kernel",
-    "microsoft/vcpkg",
-    "neovim/neovim",
-    "triton-lang/triton"
+    "AssemblyScript/assemblyscript",
+    "deepset-ai/haystack",
+    "dotnet/runtime",
+    "GoogleCloudPlatform/generative-ai",
+    "GoogleContainerTools/distroless",
+    "JetBrains/kotlin",
+    "JuliaLang/julia",
+    "NixOS/nixpkgs",
+    "openai/openai-cookbook",
+    "shap/shap",
+    "swiftlang/swift",
+    "triton-lang/triton",
+    "vim-airline/vim-airline",
+    "winsw/winsw"
   ]
 }

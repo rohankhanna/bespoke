@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 14,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 5,
-    "terms": 22
+    "components": 43,
+    "concepts": 48,
+    "observations": 48,
+    "repos": 14,
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,21 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "AgentR1/Claw-R1",
+    "AGI-Arena/MARS",
     "akin-ozer/cc-devops-skills",
+    "Alibaba-NLP/VRAG",
     "biocypher/biocypher",
     "facebookincubator/ptr",
     "googleapis/python-storage",
-    "ldayton/dippy"
+    "gowaylee/cchooks",
+    "HoangTheQuyen/think-better",
+    "ldayton/dippy",
+    "microsoft/XPretrain",
+    "MinimalFuture/AgentMesh",
+    "python/typing_extensions",
+    "syncthing/docs"
   ]
 }

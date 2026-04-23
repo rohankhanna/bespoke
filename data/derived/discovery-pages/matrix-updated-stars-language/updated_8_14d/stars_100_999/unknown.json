@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 9,
-    "terms": 36
+    "components": 10,
+    "concepts": 45,
+    "observations": 45,
+    "repos": 11,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
-    "adoptium/adoptium",
     "alchaincyf/elon-musk-skill",
     "alchaincyf/feynman-skill",
     "alchaincyf/munger-skill",
     "alchaincyf/naval-skill",
     "alchaincyf/steve-jobs-skill",
+    "antonbabenko/terraform-aws-devops",
     "astro-han/karpathy-llm-wiki",
     "cncf/artwork",
-    "SamurAIGPT/awesome-openclaw"
+    "pyOpenSci/software-submission",
+    "SamurAIGPT/awesome-openclaw",
+    "Uzaaft/awesome-libghostty"
   ]
 }

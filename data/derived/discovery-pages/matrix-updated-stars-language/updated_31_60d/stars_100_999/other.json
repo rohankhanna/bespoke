@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 5,
-    "terms": 2
+    "components": 133,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 14,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,21 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "ahyatt/emacs-websocket",
+    "AndrewRadev/switch.vim",
     "aws-samples/prompt-engineering-with-anthropic-claude-v-3",
+    "badges/awesome-badges",
+    "bbatsov/super-save",
+    "BKWLD/laravel-pug",
     "caddyserver/caddy-docker",
     "claytonfarr/ralph-playbook",
-    "trailofbits/eth-security-toolbox"
+    "cpp-pm/hunter",
+    "iftheshoefritz/solargraph-rails",
+    "pug-php/pug",
+    "trailofbits/eth-security-toolbox",
+    "unxsist/jet-pilot",
+    "WebAssembly/esm-integration"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 42,
-    "concepts": 7,
-    "observations": 7,
-    "repos": 2,
-    "terms": 7
+    "concepts": 10,
+    "observations": 10,
+    "repos": 3,
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "aporthq/aport-spec",
     "danielrosehill/agent-junction",
     "dreamiurg/mountaineers-assistant"
   ]

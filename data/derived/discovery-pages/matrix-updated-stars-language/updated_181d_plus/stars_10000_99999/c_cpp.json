@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1,
+    "components": 7,
     "concepts": 9,
     "observations": 9,
-    "repos": 3,
+    "repos": 5,
     "terms": 9
   },
   "facet_version": 1,
@@ -12,10 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "antimatter15/alpaca.cpp",
     "ggreer/the_silver_searcher",
     "krallin/tini",
+    "Tencent/rapidjson",
     "wg/wrk"
   ]
 }

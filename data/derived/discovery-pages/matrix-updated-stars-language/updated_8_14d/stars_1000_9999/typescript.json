@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 260,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 8,
-    "terms": 41
+    "components": 414,
+    "concepts": 88,
+    "observations": 88,
+    "repos": 16,
+    "terms": 94
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,21 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "actions/typescript-action",
+    "actions/upload-artifact",
+    "AIPexStudio/AIPex",
+    "bash-lsp/bash-language-server",
+    "blockprotocol/blockprotocol",
+    "coder/ghostty-web",
+    "ethers-io/ethers.js",
+    "getsentry/xcodebuildmcp",
     "googleapis/release-please",
     "googleapis/release-please-action",
     "Helicone/helicone",
     "heyhuynhgiabuu/proxypal",
-    "lobehub/lobe-icons",
+    "letta-ai/claude-subconscious",
     "microsoft/playwright-cli",
     "opactorai/claudable",
     "thx/resvg-js"

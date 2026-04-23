@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 15,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 1,
-    "terms": 8
+    "components": 59,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 3,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-21T07:07:17.825929+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
-    "ggml-org/llama.cpp"
+    "electron/electron",
+    "microsoft/terminal",
+    "torvalds/linux"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 14,
-    "terms": 28
+    "components": 83,
+    "concepts": 59,
+    "observations": 59,
+    "repos": 38,
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,45 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "0Delta/longdog",
+    "adamb70/mdx-breakless-lists",
     "aerobounce/Sublime-AutoClosePanel",
     "aerobounce/sublime-pretty-lua",
+    "agarthetiger/mkdocs_latest_release_plugin",
     "antonagestam/pylint-mypy-overlap",
     "asg017/sqlite-base64",
     "astronomyk/SimCADO",
+    "autodistill/autodistill-albef",
+    "autodistill/autodistill-blip",
+    "autodistill/autodistill-clip",
+    "basf/neural-fingerprint-uncertainty",
     "bentoml/BentoBark",
     "berrydev-ai/blockdoc-python",
     "biocypher/meta-graph",
     "birch-san/diffusers",
+    "brian-ogrady/astradb-multivector",
+    "BrianPugh/micropython-libs",
+    "clearbluejar/ghidra-python-vscode-skeleton",
+    "conda-incubator/conda-suggest",
+    "d0c-s4vage/lookatme.contrib.qrcode",
+    "echo-yiyiyi/cube",
+    "gadjalin/glad-fortran",
     "ghchinoy/studio-scaffold",
     "hackdays-io/toban-contribution-viewer",
+    "hashberg-io/bases",
     "ichard26/blackbench",
+    "isl-org/Next-ViT",
+    "justfoxing/jfx_bridge",
+    "mamba-org/quetz-client",
+    "mamba-org/quetz-sql-authenticator",
     "MDAnalysis/mda-xdrlib",
-    "medialab/corpora"
+    "medialab/corpora",
+    "meteoswiss-mdr/pyart",
+    "MeteoSwiss/pyrad-examples",
+    "MikeSteglich/pyCmpl3",
+    "simonw/scrape-san-mateo-fire-dispatch",
+    "songquanpeng/daily-submit"
   ]
 }

@@ -3,7 +3,7 @@
     "components": 0,
     "concepts": 6,
     "observations": 6,
-    "repos": 7,
+    "repos": 8,
     "terms": 6
   },
   "facet_version": 1,
@@ -12,14 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
     "askroundtable/expert-skills",
-    "cedar-policy/cedar-docs",
+    "bleichenbacher-daniel/Rooterberg",
     "eigenfoundation/elips",
     "flinedev/plankit",
-    "kubernetes/steering"
+    "kubernetes/steering",
+    "SeleniumHQ/selenium_manager_artifacts"
   ]
 }

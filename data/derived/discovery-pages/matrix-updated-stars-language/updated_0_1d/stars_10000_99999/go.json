@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 206,
-    "concepts": 135,
-    "observations": 135,
-    "repos": 14,
-    "terms": 135
+    "components": 245,
+    "concepts": 230,
+    "observations": 231,
+    "repos": 21,
+    "terms": 230
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,28 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
-    "cli/cli",
-    "coder/coder",
-    "containers/podman",
-    "dexidp/dex",
-    "docker/compose",
+    "caddyserver/caddy",
+    "coredns/coredns",
+    "distribution/distribution",
+    "etcd-io/etcd",
+    "ethereum/go-ethereum",
     "gastownhall/beads",
-    "go-delve/delve",
-    "golangci/golangci-lint",
-    "hashicorp/terraform",
-    "helm/helm",
-    "jesseduffield/lazygit",
+    "gastownhall/gastown",
+    "gohugoio/hugo",
+    "google/go-github",
+    "grafana/loki",
+    "ipfs/kubo",
+    "kubernetes/minikube",
     "moby/moby",
-    "opentofu/opentofu",
-    "trufflesecurity/trufflehog"
+    "mudler/LocalAI",
+    "nats-io/nats-server",
+    "opencontainers/runc",
+    "prometheus/prometheus",
+    "QuantumNous/new-api",
+    "redis/go-redis",
+    "slackhq/nebula",
+    "thanos-io/thanos"
   ]
 }

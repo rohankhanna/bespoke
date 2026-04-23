@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 146,
-    "concepts": 20,
-    "observations": 21,
-    "repos": 3,
-    "terms": 24
+    "components": 269,
+    "concepts": 30,
+    "observations": 31,
+    "repos": 9,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "agents-squads/squads-cli",
     "buddingnewinsights/proxypal",
-    "jerseycheese/narraitor"
+    "Godefroy/micdrop",
+    "huangguang1999/ccstatusline-zh",
+    "jerseycheese/narraitor",
+    "labring/fastgpt-plugin",
+    "lobehub/lobe-lint",
+    "sgcarstrends/sgcarstrends",
+    "zhayujie/cow-skill-hub"
   ]
 }

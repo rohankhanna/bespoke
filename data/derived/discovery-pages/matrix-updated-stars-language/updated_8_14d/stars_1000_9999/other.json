@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 56,
-    "concepts": 42,
-    "observations": 42,
-    "repos": 7,
-    "terms": 40
+    "components": 122,
+    "concepts": 87,
+    "observations": 87,
+    "repos": 14,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,21 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "BLAKE3-team/BLAKE3",
-    "compose-spec/compose-spec",
     "crytic/building-secure-contracts",
+    "crytic/echidna",
     "dotnet/machinelearning",
+    "grain-lang/grain",
     "itchyny/lightline.vim",
-    "mattn/vim-lsp-settings",
-    "pyenv-win/pyenv-win"
+    "licensee/licensed",
+    "nvim-lua/plenary.nvim",
+    "nvim-tree/nvim-tree.lua",
+    "nvim-tree/nvim-web-devicons",
+    "pyenv-win/pyenv-win",
+    "radian-software/straight.el",
+    "rust-lang/rust-mode",
+    "yonaskolb/XcodeGen"
   ]
 }

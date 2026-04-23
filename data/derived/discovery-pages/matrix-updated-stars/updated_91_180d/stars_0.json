@@ -1,27 +1,35 @@
 {
   "counts": {
-    "components": 55,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 10,
-    "terms": 8
+    "components": 61,
+    "concepts": 15,
+    "observations": 16,
+    "repos": 18,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "appscodelabs/liche",
+    "bgw/virtue",
     "biocypher/biocypher-cookiecutter-template",
     "bnosac/images",
     "danielrosehill/A-Better-Jobs-Platform-Notes",
     "danielrosehill/Agent-Deploy",
+    "danielrosehill/AI-Agent-Virtual-Panel-Configs",
     "danielrosehill/ai-human-attribution-adder",
     "danielrosehill/AI-Sysadmin",
+    "danielrosehill/Back-Up-Your-SaaS",
     "danielrosehill/batch-claudemd-repo-creator",
+    "danielrosehill/BTRFS-Snapper-MCP",
     "danielrosehill/Claude-Linux-Desktop-Manager",
+    "danielrosehill/Claude-Rescue",
     "eigenwallet/dfx-swiss-rs",
-    "stainless-api/tsc-multi"
+    "imandra-ai/tldrs",
+    "stainless-api/tsc-multi",
+    "wintercg/fetch"
   ]
 }

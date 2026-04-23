@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 5,
-    "terms": 8
+    "components": 23,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 8,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "google/re2",
     "jstkdng/ueberzugpp",
     "julienxx/terminal-notifier",
+    "NixOS/patchelf",
     "NVlabs/nvdiffrast",
+    "pothosware/SoapySDR",
     "rurban/smhasher",
     "tpoechtrager/osxcross"
   ]

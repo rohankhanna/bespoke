@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 4,
+    "components": 5,
     "concepts": 0,
     "observations": 0,
-    "repos": 1,
+    "repos": 3,
     "terms": 0
   },
   "facet_version": 1,
@@ -12,8 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
-    "arckoor/botan-rs"
+    "arckoor/botan-rs",
+    "beurdouche/nss-gk-api",
+    "Sovereign-Labs/reltester"
   ]
 }

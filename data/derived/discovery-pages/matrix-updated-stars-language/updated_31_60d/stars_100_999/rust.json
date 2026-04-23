@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 2,
-    "terms": 18
+    "components": 51,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 6,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "Ai00-X/ai00_server",
     "cowboy8625/rusty-rain",
-    "Kampfkarren/selene"
+    "gfx-rs/rspirv",
+    "Kampfkarren/selene",
+    "KyleMayes/clang-sys",
+    "rust-lang/rfcbot-rs"
   ]
 }

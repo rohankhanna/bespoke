@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 477,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 12,
-    "terms": 58
+    "components": 789,
+    "concepts": 113,
+    "observations": 113,
+    "repos": 29,
+    "terms": 122
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,34 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "aave/protocol-v2",
+    "adamiBs/vscode-terraform-live-graph",
+    "apache/dubbo-js",
+    "Arachnid/deterministic-deployment-proxy",
     "ariya/esprima",
     "asg017/sqlite-ecosystem",
+    "Azzedde/brainstormers",
     "connectai-e/midjourney-web",
     "Dogtiti/AutoGPT-Next-Web",
+    "dsherret/ts-nameof",
+    "electron-userland/electron-installer-dmg",
+    "firede/ts-transform-graphql-tag",
+    "fuergaosi233/openai-proxy",
+    "fwcd/vscode-kotlin",
     "helmi/claude-simone",
     "hexrcs/wiki-cli",
     "hibiken/asynqmon",
+    "Igorbek/typescript-plugin-styled-components",
+    "InternLM/OpenAOE",
     "johnlindquist/claude-hooks",
+    "kyryl-opens-ml/no-ocr",
     "lobehub/lobe-vidol",
+    "mhartington/nvim-typescript",
+    "microsoft/vscode-node-debug",
+    "morrys/wora",
+    "node-lightning/node-lightning",
     "possibilities/claude-composer",
     "relay-tools/relay-hooks",
     "TrueFiEng/Waffle"

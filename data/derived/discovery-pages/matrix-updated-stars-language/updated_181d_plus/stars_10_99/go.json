@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 28,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 10,
-    "terms": 25
+    "components": 51,
+    "concepts": 65,
+    "observations": 65,
+    "repos": 24,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,31 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "0xcafed00d/joystick",
     "1set/cronrange",
+    "3rd/syslang",
+    "ahmetb/ytdl",
+    "bgokden/veri",
     "brads3290/cclogviewer",
+    "brpaz/echozap",
     "bytegust/spm",
+    "chrismellard/docker-credential-acr-env",
+    "darkweak/go-esi",
     "dustinblackman/gomodrun",
+    "fabio42/sasqwatch",
     "filhodanuvem/polyglot",
+    "go-woo/protoc-gen-echo",
+    "google/gnostic-go-generator",
+    "kentaro-m/blackfriday-confluence",
     "Layr-Labs/eigenda-proxy",
     "malfunkt/iprange",
     "maoueh/zap-pretty",
-    "muesli/ansi"
+    "muesli/ansi",
+    "oras-project/artifacts-spec",
+    "tc-hib/winres",
+    "tianon/markdownfmt",
+    "urfave/cli-docs"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 0,
-    "concepts": 13,
-    "observations": 13,
-    "repos": 13,
-    "terms": 13
+    "concepts": 15,
+    "observations": 15,
+    "repos": 20,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "0xnu/rewsury",
     "ConnectAI-E/DingTalk-Claude",
@@ -20,12 +20,19 @@
     "ConnectAI-E/Dingtalk-Minimax",
     "coreybutler/staticassets",
     "crytic/solc",
+    "cta-wave/WMAS-deploy",
     "danielrosehill/Awesome-Linux-IDEs",
+    "ImageProcessing-ElectronicPublications/jbig2enc-minidjvu",
     "jcmorrow/seoul256-ghostty",
     "jcmorrow/seoul256-zed",
     "layr-labs/avs-vibe-developer-guide",
+    "notaryproject/.github",
+    "notaryproject/meeting-notes",
     "pandas-dev/.github",
+    "seebye/urwid-ueberzogen",
     "vega/logos",
-    "zailoxtt/ru-grok-jailbreak"
+    "warpdotdev/brand-assets",
+    "zailoxtt/ru-grok-jailbreak",
+    "zdenop/jbig2enc-samples"
   ]
 }

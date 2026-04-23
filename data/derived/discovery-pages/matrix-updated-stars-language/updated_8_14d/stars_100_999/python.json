@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 55,
-    "observations": 55,
-    "repos": 13,
-    "terms": 58
+    "components": 150,
+    "concepts": 105,
+    "observations": 105,
+    "repos": 23,
+    "terms": 105
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,30 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "aaronwong1999/hermesclaw",
     "agenmod/immortal-skill",
     "AgriciDaniel/banana-claude",
     "AgriciDaniel/claude-blog",
     "ahmedasmar/devops-claude-skills",
     "ARM-DOE/pyart",
     "bmad-code-org/bmad-builder",
+    "brainglobe/brainrender",
     "crytic/crytic-compile",
     "cubed-dev/cubed",
     "data-apis/array-api-compat",
+    "EvolvingLMMs-Lab/EASI",
+    "facebookresearch/optimizers",
     "GoogleCloudPlatform/getting-started-python",
-    "gowaylee/cchooks",
+    "huggingface/optimum-executorch",
+    "JUNJIE99/MLVU",
+    "llm-in-sandbox/llm-in-sandbox",
     "pypa/auditwheel",
-    "trailofbits/dropkit"
+    "python-hyper/uritemplate",
+    "strands-agents/agent-sop",
+    "strands-agents/samples",
+    "trailofbits/dropkit",
+    "vega/vega-datasets"
   ]
 }

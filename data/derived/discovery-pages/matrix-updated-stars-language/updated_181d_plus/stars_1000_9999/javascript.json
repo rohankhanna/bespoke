@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 342,
-    "concepts": 47,
-    "observations": 47,
-    "repos": 12,
-    "terms": 47
+    "components": 744,
+    "concepts": 136,
+    "observations": 136,
+    "repos": 36,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,43 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "28mm/blast-radius",
     "alexpinel/Dot",
     "coreybutler/node-windows",
     "cuckoosandbox/cuckoo",
+    "decaporg/gatsby-starter-decap-cms",
+    "developit/htm",
     "developit/unfetch",
+    "dlmanning/gulp-sass",
+    "frostney/react-native-create-library",
     "google/closure-library",
+    "gulp-sourcemaps/gulp-sourcemaps",
+    "gulpjs/vinyl",
     "insin/nwb",
     "iodide-project/iodide",
+    "JaneaSystems/nodejs-mobile",
+    "jaredpalmer/backpack",
+    "jonschlinkert/markdown-toc",
+    "LinusU/node-appdmg",
+    "madyankin/postcss-modules",
+    "mfncooper/mockery",
+    "micromatch/micromatch",
+    "miloyip/nativejson-benchmark",
     "mozilla/gecko-dev",
     "mozilla/source-map",
+    "nwutils/nw-sample-apps",
+    "nytimes/kyt",
+    "olado/doT",
+    "peggyrayzis/react-native-create-bridge",
     "relayjs/relay-examples",
+    "senchalabs/connect",
+    "standard-things/esm",
     "steelbrain/linter",
-    "trentm/node-bunyan"
+    "taylorhakes/promise-polyfill",
+    "testdouble/testdouble.js",
+    "trentm/node-bunyan",
+    "YuzuJS/setImmediate"
   ]
 }

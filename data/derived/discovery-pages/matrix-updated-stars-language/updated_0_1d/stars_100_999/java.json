@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 9,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 1,
+    "terms": 8
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "java",
+    "star_bucket": "stars_100_999",
+    "updated_bucket": "updated_0_1d"
+  },
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "repo_ids": [
+    "microsoft/semantic-kernel-java"
+  ]
+}

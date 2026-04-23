@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 2,
-    "terms": 0
+    "components": 29,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 11,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,18 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "andys8/git-brunch",
+    "blaine/fantastty",
+    "BuddiesOfBudgie/budgie-desktop-view",
+    "coin-or-tools/homebrew-coinor",
+    "DragonFlyBSD/DPorts",
+    "larshp/abapGitServer",
+    "notaryproject/notaryproject.dev",
+    "ocurrent/opam-health-check",
     "opencontainers/.github",
-    "revfactory/claude-code-harness"
+    "revfactory/claude-code-harness",
+    "rust-lang/crates-build-env"
   ]
 }

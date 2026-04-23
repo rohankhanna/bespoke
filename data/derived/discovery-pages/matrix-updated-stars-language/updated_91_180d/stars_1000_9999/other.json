@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 3,
-    "terms": 6
+    "components": 26,
+    "concepts": 68,
+    "observations": 68,
+    "repos": 15,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,22 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "bazelbuild/rules_docker",
+    "cask/cask",
+    "cpm-cmake/CPM.cmake",
+    "EleutherAI/pythia",
+    "fsprojects/Paket",
     "fukuball/jieba-php",
+    "gf3/dotfiles",
+    "haskell/stylish-haskell",
     "huggingface/swift-coreml-diffusers",
+    "justinmk/vim-sneak",
+    "kikito/middleclass",
+    "monaqa/dial.nvim",
+    "rails/importmap-rails",
+    "richfelker/musl-cross-make",
     "Tencent-Hunyuan/HunyuanDiT"
   ]
 }

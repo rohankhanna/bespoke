@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1412,
-    "concepts": 162,
-    "observations": 163,
-    "repos": 37,
-    "terms": 272
+    "components": 1766,
+    "concepts": 263,
+    "observations": 264,
+    "repos": 44,
+    "terms": 369
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,27 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "a-ghorbani/pocketpal-ai",
-    "ai-that-works/ai-that-works",
     "anthropics/claude-code-action",
     "archestra-ai/archestra",
     "babaohuang/GeminiProChat",
     "berty/berty",
-    "blockprotocol/blockprotocol",
+    "ChainSafe/lodestar",
+    "cloudflare/agents",
     "cloudflare/agents-starter",
+    "Comfy-Org/desktop",
+    "devcontainers/cli",
     "ding113/claude-code-hub",
+    "docker/login-action",
     "dyoshikawa/rulesync",
+    "electron/rebuild",
     "firebase/firebase-admin-node",
     "florianbruniaux/claude-code-ultimate-guide",
-    "getsentry/xcodebuildmcp",
+    "gorhom/react-native-bottom-sheet",
+    "langchain-ai/deepagentsjs",
     "langchain-ai/langgraphjs",
-    "letta-ai/claude-subconscious",
     "letta-ai/letta-code",
     "liam-hq/liam",
     "libp2p/js-libp2p",
@@ -41,15 +45,18 @@
     "nizos/tdd-guard",
     "onecli/onecli",
     "op7418/codepilot",
+    "open-telemetry/opentelemetry-js",
     "OpenAPITools/openapi-generator-cli",
     "owloops/claude-powerline",
     "piebald-ai/tweakcc",
     "pixiv/three-vrm",
-    "safe-fndn/safe-smart-account",
+    "privatenumber/esbuild-loader",
     "sirmalloc/ccstatusline",
     "stripe/ai",
     "stripe/stripe-node",
+    "typescript-language-server/typescript-language-server",
     "vega/vega-lite",
+    "wighawag/hardhat-deploy",
     "withastro/starlight"
   ]
 }

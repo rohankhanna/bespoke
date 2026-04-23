@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 5,
-    "terms": 25
+    "components": 55,
+    "concepts": 40,
+    "observations": 40,
+    "repos": 9,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "caddyserver/xcaddy",
     "charmbracelet/glamour",
     "dagger/container-use",
+    "darccio/mergo",
+    "flashbots/mev-boost",
+    "hashicorp/memberlist",
     "isaacphi/mcp-language-server",
     "opencontainers/image-spec",
     "opencontainers/runtime-spec"

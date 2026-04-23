@@ -1,33 +1,46 @@
 {
   "counts": {
-    "components": 129,
-    "concepts": 74,
-    "observations": 74,
-    "repos": 16,
-    "terms": 87
+    "components": 264,
+    "concepts": 167,
+    "observations": 167,
+    "repos": 29,
+    "terms": 177
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "abhisheknaiidu/awesome-github-profile-readme",
+    "Alibaba-NLP/DeepResearch",
+    "alibaba/Sentinel",
+    "AndyMik90/Aperant",
+    "bellard/quickjs",
     "burntsushi/ripgrep",
+    "google/leveldb",
     "huggingface/text-generation-inference",
     "humanlayer/humanlayer",
     "jart/cosmopolitan",
+    "Jiayi-Pan/TinyZero",
     "knownsec/404StarLink",
-    "kyleneideck/backgroundmusic",
+    "nikic/PHP-Parser",
+    "PaddlePaddle/PaddleDetection",
+    "powerline/powerline",
     "pugjs/pug",
+    "QwenLM/Qwen",
+    "rbenv/rbenv",
     "romkatv/powerlevel10k",
     "ryanoasis/nerd-fonts",
+    "serde-rs/serde",
     "sirupsen/logrus",
     "sorin-ionescu/prezto",
     "sql-js/sql.js",
     "superclaude-org/superclaude_framework",
     "tpope/vim-fugitive",
     "uber-go/zap",
-    "vercel/satori"
+    "vercel/satori",
+    "videojs/video.js"
   ]
 }

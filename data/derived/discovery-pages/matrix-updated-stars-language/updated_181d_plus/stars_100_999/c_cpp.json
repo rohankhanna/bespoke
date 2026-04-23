@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 43,
-    "concepts": 46,
-    "observations": 46,
-    "repos": 10,
-    "terms": 46
+    "components": 118,
+    "concepts": 122,
+    "observations": 124,
+    "repos": 29,
+    "terms": 122
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,36 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "aarnphm/whispercpp",
+    "AirGuanZ/imgui-filebrowser",
+    "alecthomas/ondir",
+    "alibaba/sentinel-cpp",
+    "ariya/FastLZ",
     "asg017/sqlite-lembed",
     "asg017/sqlite-lines",
     "BayshoreNetworks/yextend",
     "breadwallet/breadwallet-core",
     "buffer/libemu",
+    "coin-or/Bonmin",
     "Consensys/ethereum-dissectors",
+    "cornelk/llama-go",
+    "eliemichel/WebGPU-distribution",
+    "ethereum/retesteth",
+    "gfx-rs/portability",
+    "ggerganov/whisper.spm",
     "google/minja",
+    "hiroi-sora/RapidOCR-json",
+    "JaneaSystems/nodejs-mobile-cordova",
+    "JaneaSystems/nodejs-mobile-react-native",
+    "JaneaSystems/nodejs-mobile-samples",
+    "kondrak/vkQuake2",
+    "Level/leveldown",
+    "librtlsdr/librtlsdr",
     "likle/cwalk",
+    "p7zip-project/p7zip",
+    "serde-rs/json-benchmark",
     "vixie/cron"
   ]
 }

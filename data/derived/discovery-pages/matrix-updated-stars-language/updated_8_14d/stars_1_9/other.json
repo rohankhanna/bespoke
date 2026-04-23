@@ -3,7 +3,7 @@
     "components": 0,
     "concepts": 0,
     "observations": 0,
-    "repos": 3,
+    "repos": 2,
     "terms": 0
   },
   "facet_version": 1,
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
     "dp111/6502timing",
-    "joinwell52-ai/joinwell52",
-    "marcindulak/learning-api-styles-gen-ai-experiments"
+    "joinwell52-ai/joinwell52"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 47,
-    "concepts": 16,
-    "observations": 16,
-    "repos": 10,
-    "terms": 16
+    "components": 55,
+    "concepts": 54,
+    "observations": 54,
+    "repos": 19,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,23 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "altercation/solarized",
     "Chanzhaoyu/chatgpt-web",
     "CompVis/latent-diffusion",
     "CompVis/stable-diffusion",
     "diff-usion/Awesome-Diffusion-Models",
     "facebookresearch/segment-anything",
+    "fivethirtyeight/data",
+    "IDEA-Research/Grounded-Segment-Anything",
     "karpathy/llm.c",
+    "mahmoud/awesome-python-applications",
+    "microsoft/dotnet",
+    "neonbjb/tortoise-tts",
+    "preservim/nerdtree",
+    "salesforce/LAVIS",
+    "srush/GPU-Puzzles",
     "suno-ai/bark",
     "tpope/vim-pathogen",
     "vim-syntastic/syntastic",

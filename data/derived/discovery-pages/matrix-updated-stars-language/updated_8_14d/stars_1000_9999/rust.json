@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 39,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 5,
-    "terms": 28
+    "components": 94,
+    "concepts": 78,
+    "observations": 78,
+    "repos": 13,
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,20 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
-    "crossterm-rs/crossterm",
+    "bvaisvil/zenith",
+    "Canop/bacon",
+    "EmbarkStudios/cargo-deny",
+    "GuillaumeGomez/sysinfo",
     "linebender/resvg",
+    "mitsuhiko/similar",
     "pop-os/cosmic-text",
+    "rust-cli/confy",
     "rust-windowing/winit",
-    "tauri-apps/wry"
+    "serde-rs/json",
+    "tauri-apps/wry",
+    "uuid-rs/uuid",
+    "wasm-bindgen/wasm-pack"
   ]
 }

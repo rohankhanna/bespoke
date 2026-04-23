@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3198,
-    "concepts": 133,
-    "observations": 134,
-    "repos": 12,
-    "terms": 133
+    "components": 1402,
+    "concepts": 116,
+    "observations": 116,
+    "repos": 14,
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,21 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
-    "babel/babel",
-    "CherryHQ/cherry-studio",
-    "DefinitelyTyped/DefinitelyTyped",
-    "elastic/kibana",
-    "expo/expo",
-    "graphql/graphiql",
-    "labring/FastGPT",
+    "ChromeDevTools/chrome-devtools-mcp",
+    "cline/cline",
+    "conventional-changelog/commitlint",
+    "google/brotli",
+    "grafana/grafana",
+    "graphql/graphql-js",
+    "jupyterlab/jupyterlab",
     "langchain-ai/langchainjs",
     "lobehub/lobehub",
-    "typescript-eslint/typescript-eslint",
+    "react-navigation/react-navigation",
+    "renovatebot/renovate",
+    "sass/sass",
     "vercel-labs/skills",
-    "vitejs/vite"
+    "vuejs/core"
   ]
 }

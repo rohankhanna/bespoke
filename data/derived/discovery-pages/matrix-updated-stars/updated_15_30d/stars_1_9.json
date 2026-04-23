@@ -1,38 +1,49 @@
 {
   "counts": {
-    "components": 61,
-    "concepts": 47,
-    "observations": 47,
-    "repos": 21,
-    "terms": 46
+    "components": 124,
+    "concepts": 78,
+    "observations": 78,
+    "repos": 32,
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
-    "aaronrsun/spec-kit-checkpoint",
+    "0ghny/shellx",
     "abraxas-365/claudio-codex",
-    "Adam-Boesky/astro_SPLASH",
+    "agenmod/okr-skill",
     "agent-sh/ship",
-    "alexellis/gha-bump",
     "alibaizhanov/openclaw-mengram",
     "archestra-ai/terraform-provider-archestra",
     "axolotl-ai-cloud/ml-cross-entropy",
     "azure/homebrew-bicep",
+    "brody2consult/react-native-init-func",
     "danielrosehill/Agent-Handover-Demo",
     "danielrosehill/Agents-Index",
     "danielrosehill/AI-Decision-Eval-Projects",
+    "danielrosehill/Architectural-Plans-Index",
     "danielrosehill/claude-code-sysadmin-workspaces-index",
     "danielrosehill/claude-slash-commands",
+    "DataDog/trivy",
     "dnvt/burn-speech-training",
     "ethpandaops/cbt",
+    "ethpandaops/checkpoint-sync-health-checks",
+    "graphql/community-wg",
+    "justinfx/olric-nats-plugin",
     "KabakaWilliam/trajectorykit",
     "langchain-ai/.github",
     "ldayton/parable",
     "ldayton/Tongues",
-    "serpro69/claude-in-docker"
+    "Level/read-stream",
+    "marcindulak/learning-api-styles-gen-ai-experiments",
+    "Mbed-TLS/mbedtls-framework",
+    "microsoft/LinuxTracepoints-Net",
+    "oscard0m/ts-transformer-remove-named-export",
+    "serpro69/claude-in-docker",
+    "WebAssembly/compact-import-section"
   ]
 }

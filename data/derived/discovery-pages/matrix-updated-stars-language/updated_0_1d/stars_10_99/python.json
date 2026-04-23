@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 30,
-    "concepts": 20,
-    "observations": 22,
-    "repos": 4,
-    "terms": 20
+    "components": 12,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 3,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
-    "AstarVienna/ScopeSim",
-    "pyodide/pytest-pyodide",
-    "scipy/scipy-stubs",
-    "typeshed-internal/stub_uploader"
+    "aws-controllers-k8s/test-infra",
+    "OpenHands/benchmarks",
+    "ROCm/tritonBLAS"
   ]
 }

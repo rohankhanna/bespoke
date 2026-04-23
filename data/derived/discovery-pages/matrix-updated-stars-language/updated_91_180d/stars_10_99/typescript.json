@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 28,
+    "concepts": 4,
+    "observations": 4,
+    "repos": 1,
+    "terms": 4
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "typescript",
+    "star_bucket": "stars_10_99",
+    "updated_bucket": "updated_91_180d"
+  },
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
+  "repo_ids": [
+    "abaplint/abaplint-sci-server"
+  ]
+}

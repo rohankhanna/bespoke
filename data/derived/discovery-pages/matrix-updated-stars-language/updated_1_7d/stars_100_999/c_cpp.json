@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 38,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 2,
-    "terms": 11
+    "components": 78,
+    "concepts": 55,
+    "observations": 55,
+    "repos": 11,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "ampl/mp",
+    "coin-or/Cbc",
+    "freebsd/kyua",
+    "google/jpegli",
+    "hajimes/mmh3",
+    "lxqt/qterminal",
+    "lxqt/qtermwidget",
     "microsoft/vcpkg-tool",
-    "mybigday/llama.rn"
+    "mybigday/llama.rn",
+    "powturbo/TurboBench",
+    "ROCm/composable_kernel"
   ]
 }

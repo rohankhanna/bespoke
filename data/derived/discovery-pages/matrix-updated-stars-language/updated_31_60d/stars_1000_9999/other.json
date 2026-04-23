@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 5,
-    "terms": 32
+    "components": 67,
+    "concepts": 76,
+    "observations": 76,
+    "repos": 12,
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "analysis-tools-dev/dynamic-analysis",
+    "apache/casbin-Casbin.NET",
+    "bbatsov/crux",
+    "clux/muslrust",
     "container-storage-interface/spec",
+    "dimitri/el-get",
+    "flycheck/flycheck",
     "folke/snacks.nvim",
     "jpanther/congo",
+    "lightning/bolts",
     "salesforce/BLIP",
     "steipete/imsg"
   ]

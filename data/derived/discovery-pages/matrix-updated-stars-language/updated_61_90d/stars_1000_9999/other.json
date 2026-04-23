@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 3,
-    "terms": 12
+    "components": 29,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 6,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "3rd/image.nvim",
+    "amebalabs/TRex",
     "greggh/claude-code.nvim",
+    "onsails/lspkind.nvim",
     "parruda/swarm",
     "touchlab/droidconkotlin"
   ]

@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100,000 to 999,999 stars · Python
 
-Generated at: `2026-04-22T07:07:02.129101+00:00`
+Generated at: `2026-04-23T09:29:29.007338+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 10
-- components: 6
-- concepts: 10
-- observations: 10
+- repos: 3
+- terms: 41
+- components: 32
+- concepts: 41
+- observations: 41
 
 ## Static behavior
 
@@ -26,10 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 109561 | 2026-04-22T05:08:25Z | Python | Infrastructure/tooling | 10 | 6 | 10 | 10 |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 109721 | 2026-04-23T05:52:16Z | Python | Infrastructure/tooling | 10 | 6 | 10 | 10 |
+| [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 147278 | 2026-04-23T03:36:55Z | Python | Infrastructure/tooling | 11 | 16 | 11 | 11 |
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 134569 | 2026-04-23T02:42:38Z | Python | Infrastructure/tooling | 20 | 10 | 20 | 20 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 109561 | 2026-04-22T05:08:25Z | Python | Infrastructure/tooling | 10 | 6 | 10 | 10 |
+| [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 147278 | 2026-04-23T03:36:55Z | Python | Infrastructure/tooling | 11 | 16 | 11 | 11 |
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 134569 | 2026-04-23T02:42:38Z | Python | Infrastructure/tooling | 20 | 10 | 20 | 20 |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 109721 | 2026-04-23T05:52:16Z | Python | Infrastructure/tooling | 10 | 6 | 10 | 10 |

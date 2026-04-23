@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 21,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 5,
-    "terms": 10
+    "components": 49,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 13,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,20 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-22T07:07:02.129101+00:00",
+  "generated_at": "2026-04-23T09:29:29.007338+00:00",
   "repo_ids": [
+    "antosha417/nvim-lsp-file-operations",
+    "atomontage/xterm-color",
     "coin-or/CyLP",
     "com-lihaoyi/cask",
     "FiloSottile/homebrew-musl-cross",
+    "HerringtonDarkholme/yats.vim",
+    "igor-makarov/xcake",
+    "jayli/vim-easycomplete",
     "layr-labs/eigenlayer-middleware",
+    "ocaml-wasm/wasm_of_ocaml",
+    "simonw/datasette-lite",
+    "stevearc/resession.nvim",
     "thinkdepthai/Deep_Research"
   ]
 }
